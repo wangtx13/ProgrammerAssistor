@@ -79,7 +79,7 @@ public class PreProcessServlet extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
-            
+
             out.println("<html lang=\"en\">");
             out.println("<head>"
                     + "<meta charset=\"utf-8\">"
@@ -104,7 +104,7 @@ public class PreProcessServlet extends HttpServlet {
                     + "</div>"
                     + "<div id=\"navbar\" class=\"navbar-collapse collapse\">"
                     + "<ul class=\"nav navbar-nav\">"
-                    + "<li class=\"active\">"
+                    + "<li>"
                     + "<a href=\"home.html\">Home</a>"
                     + "</li>"
                     + "<li>"
@@ -121,9 +121,13 @@ public class PreProcessServlet extends HttpServlet {
                     + "</div>");
             out.println("<div class=\"container marketing\">");
             out.println("<div class=\"row featurette files\" id=\"fileList\">");
-            out.println("<h1 class=\"fileHead\"> Uploaded Files:</h1>");
-            
-            
+            out.println("<h1 class=\"fileHead\"> Successful Uploading!</h1>");
+            out.println("<h3>MALLET import data directory: </h3>");
+            out.println("<p>");
+            out.println(inputRootFilePath);
+            out.println("</p>");
+             out.println("<h3>Uploaded Files: </h3>");
+
             // 检查有一个文件上传请求
             isMultipart = ServletFileUpload.isMultipartContent(request);
 
@@ -159,14 +163,10 @@ public class PreProcessServlet extends HttpServlet {
 //                    boolean isInMemory = fi.isInMemory();
 //                    long sizeInBytes = fi.getSize();
                         // 写入文件 
-                        file = new File(inputRootFilePath + randomString(5) + "-"
+                        file = new File(inputRootFilePath + randomString(10) + "-"
                                 + fileName.substring(fileName.lastIndexOf("/") + 1));
                         fi.write(file);
-                        
-                        out.println("<h3>MALLET import data directory: </h3>");
-                        out.println("<p>");
-                        out.println(inputRootFilePath);
-                        out.println("</h3>");
+
                         out.println("<p>");
                         out.println(fileName);
                         out.println("</p>");
@@ -212,7 +212,7 @@ public class PreProcessServlet extends HttpServlet {
             out.println("<script src=\"./js/bootstrap.min.js\"></script>");
             out.println("<script src=\"./js/docs.min.js\"></script>");
             out.println("<script src=\"./js/ie10-viewport-bug-workaround.js\"></script>");
-            out.println("<script src=\"./js/home.js\"></script>"); 
+            out.println("<script src=\"./js/home.js\"></script>");
             out.println("</body>");
             out.println("</html>");
 
