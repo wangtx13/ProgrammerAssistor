@@ -1,0 +1,3551 @@
+0 fire 30:73 27:25 33:12 35:2
+1 property 25:104 35:100 42:42 36:35 9:25 6:20 23:7 37:6 20:6 11:6
+2 change 35:83 39:50 17:41 23:28 36:19 6:19 28:18 33:11 22:4
+3 event 8:441 5:190 24:175 30:141 22:136 25:88 11:56 23:43 0:35 10:24 35:18 37:11 17:9 44:8 33:6
+4 case 20:7 21:5 30:4 31:2 16:2 44:1 19:1
+5 observe 38:2
+6 target 39:60 44:13 21:12 9:9 30:7 19:5
+7 firepropertychange 35:8 30:6
+8 getoldvalue 35:2 43:1 12:1
+9 getnewvalue 38:4
+10 duration 38:4 32:1
+11 statement 35:1
+12 guards 38:1
+13 cyclic 38:3
+14 task 38:19 17:19 28:11 7:3
+15 dependencies 38:4
+16 disconnect 39:8 23:5 17:4
+17 track 23:100 42:8 4:6 8:3 21:2
+18 figure 27:978 28:976 17:833 5:768 39:241 34:203 41:167 1:148 21:107 23:56 8:22 22:18 33:7
+19 mouse 8:515
+20 getconnection 39:10
+21 connection 39:404 17:204 5:50 28:38 8:12
+22 canconnect 39:52
+23 connect 39:72 27:18 17:18 43:13
+24 getsource 39:4
+25 source 5:16 44:10 16:7 11:7 39:6 20:6 0:3
+26 getowner 39:9 11:6
+27 owner 39:35 23:32 1:29 36:22 18:11 0:10 33:9 26:1
+28 targetfigure 39:1
+29 getpointcount 39:6 16:2
+30 point 15:434 39:390 7:247 27:214 17:214 23:116 16:96 5:94 1:57 34:33
+31 count 40:34 28:22 20:16 31:13 37:6 11:6 36:5 34:4 16:2 15:2 10:1
+32 rectangle 7:148 17:135 27:95 5:64 36:35 34:18 41:17 23:14 22:10 12:8 4:1
+33 gethandlesize 23:5 25:2
+34 handlesize 23:6 43:2
+35 xxx 15:7 14:6 30:3 4:1 11:1
+36 messy 10:1
+37 view 11:561 2:43 22:41 28:23 5:20 37:8 23:4
+38 close 4:18 40:13 13:12 23:10 24:5 10:4 2:3 44:2
+39 editor 11:339 22:145 6:56 36:36 2:35 8:33 10:26 24:17 37:7
+40 fold 10:26
+41 defaultstate 10:13
+42 collapsed 10:13
+43 desc 10:14
+44 generated 10:13 9:4
+45 gen 10:160
+46 begin 10:49 21:6
+47 initcomponents 10:34
+48 init 37:94 10:34 43:21 42:19
+49 components 10:36 19:25 28:22 0:3
+50 end 39:151 10:64 23:43 21:33 20:24 15:12 27:11 44:10 33:10 16:7
+51 variables 10:68 38:1
+52 declaration 10:34 26:3 44:1
+53 modify 10:17 20:3
+54 search 31:8 44:3 42:2
+55 empty 20:26 41:23 31:16 4:13 37:8 42:5 30:5 34:2 18:2
+56 project 42:419 37:184 26:139 17:113 24:69
+57 aproject 42:4
+58 app 17:222 26:120 24:117 37:37 42:30 6:21 29:1
+59 projects 37:35 36:13 42:3
+60 getfile 42:6 31:2
+61 hasunsavedchanges 42:8 7:1
+62 unsaved 42:35
+63 emptyproject 42:1
+64 break 16:6 42:1
+65 set 32:246 27:74 42:68 28:68 11:66 15:56 20:55 39:51 12:42 25:34 36:24 10:21 37:20 31:20 43:13 34:12 19:12 33:11 29:11 13:10 3:7 21:6 4:6 0:5
+66 multiple 37:22 42:20 17:5 11:5 13:4
+67 open 40:61 42:53 24:20 13:10 32:6 0:3
+68 max 7:15 42:4 38:3 20:2
+69 dispose 2:10 37:7 42:6 23:3 0:3
+70 attributedfigure 27:126 41:25 17:23
+71 attributed 27:137 17:51 41:33 21:4
+72 setattribute 28:14 32:13 31:8 20:5 27:4
+73 attribute 12:302 31:191 20:163 17:148 29:121 13:116 6:104 40:94 28:94 27:84 3:74 5:40 44:4
+74 key 12:193 8:105 28:82 9:48 20:43 23:33 6:16 44:10 3:7 24:6
+75 newvalue 42:30 14:29 28:15 11:14 27:13 35:11 18:9 37:7
+76 prefs 4:72 36:15 24:1 6:1
+77 getboolean 4:1
+78 prefsprefix 4:6
+79 prefix 44:32 4:6 31:2
+80 isfloating 4:2
+81 floating 21:18 17:18 4:12 11:1 28:1
+82 maketoolbarfloat 4:2
+83 make 43:6 21:6 15:5 13:3
+84 tool 8:427 17:194 4:77 11:73 6:65 21:38 36:37 27:36 5:27 37:21
+85 bar 4:74 6:64 36:35 37:12
+86 work 43:11 18:6 41:3 4:2 2:2 37:1
+87 basictoolbarui 4:2
+88 basic 15:115 27:101 28:62 34:61 12:28 23:15 20:5
+89 ui 4:3 2:1 0:1
+90 toolbar 4:19 37:11 36:9
+91 getui 4:1
+92 window 4:55 0:7 35:3
+93 swingutilities 4:3
+94 utilities 4:4 9:1
+95 getwindowancestor 4:2
+96 ancestor 4:18 6:5
+97 instanceof 25:4 4:3 33:1
+98 frame 4:28 0:26 17:5
+99 setfloating 4:1
+100 getint 4:4
+101 floatingx 4:2
+102 floatingy 4:2
+103 setlocation 23:5 32:3 4:1
+104 location 27:27 39:26 38:21 17:20 23:14 4:8
+105 tofront 4:3
+106 front 34:47 17:17 22:5 4:3
+107 fixme 14:16 28:13 12:9 4:3 15:1
+108 reflection 4:1
+109 hold 4:1
+110 defaultmdiapplication 17:14 37:12 9:1
+111 default 17:162 37:74 11:64 25:63 13:52 2:41 31:40 20:38 12:37 40:32 18:32 23:16 6:15 44:14 39:13 34:13 24:10 0:10 27:9 3:8
+112 application 37:486 17:115 26:112 42:87 24:51
+113 cache 36:2 21:2
+114 textfigure 21:50 17:19 33:1
+115 text 21:396 17:92 27:36 40:30 41:26 2:25 13:16 43:12 0:10 38:3 20:2 12:2
+116 layout 19:204 28:38 21:7 6:1
+117 grow 12:10 21:8 39:4 7:3 30:1
+118 pixels 30:2
+119 antialiasing 30:2 10:2
+120 account 30:3 28:3
+121 check 22:9 21:6 4:6 25:4 37:3 20:3 11:3 44:2 30:2 16:2
+122 arrangement 29:20 32:15 36:2
+123 jinternalframes 18:1
+124 internal 32:9 4:6 3:6 6:4 16:2 2:1
+125 frames 18:14 6:4
+126 arrange 6:7 29:5 18:4 17:2
+127 windows 36:2 18:2 2:2 7:1
+128 equal 18:9 20:4 19:4 43:2 34:1
+129 size 21:70 18:27 30:21 19:20 26:16 1:15 36:12 28:8 16:7 9:3
+130 rest 7:4 44:2 18:2
+131 tiled 18:2
+132 column 36:6 19:4 18:3
+133 height 18:33 12:17 38:10 7:8 41:7 27:7 19:5
+134 setfillcolor 30:3
+135 fill 27:59 12:52 2:9 30:6 20:4 41:3
+136 color 12:127 27:57 4:29 25:24 38:1
+137 white 12:5
+138 setstrokecolor 12:3
+139 stroke 12:205 29:48 27:22 6:9
+140 black 12:8
+141 drawing 11:584 34:310 17:274 5:141 22:89 6:81 2:46 30:28 25:10 8:8 14:4
+142 shape 12:28 27:27 15:19 30:6 7:5 41:1
+143 bounds 27:125 28:103 21:48 15:30 23:29 30:28 39:17 31:14 22:14 34:13 5:13 17:6
+144 attributes 41:62 12:57 3:41 31:25 6:24 22:19 36:18 8:11 30:7 13:4 20:3
+145 editing 30:11 14:3 26:2 8:1
+146 connecting 30:11
+147 composite 28:226 17:129 33:38 41:36 19:17 22:13 30:8 18:6
+148 figures 17:181 34:149 22:49 39:31 30:31 38:27 27:27 41:14 8:3 33:1
+149 cloning 30:10 28:5 27:1
+150 handling 30:11 39:5 10:5
+151 drawstring 28:1
+152 draw 17:2174 27:224 14:123 23:111 22:76 8:69 12:41 41:39 5:39 43:28 38:27 1:24 29:6 25:5 11:1
+153 tostring 14:17 23:11 38:9 20:5
+154 getchildcount 28:15
+155 child 28:154 31:107 20:35 40:11 17:10 13:4
+156 getbounds 21:25 27:24 28:17 15:9 39:8 30:3
+157 bezierfigure 15:55 28:44 17:40 14:1
+158 bezier 15:337 17:108 28:35 39:16 1:10 7:4
+159 getchildren 20:13 28:8 31:5 26:2
+160 children 28:64 20:48 31:44 34:15 17:10 41:9
+161 isclosed 15:8 16:2
+162 closed 15:14 20:6 13:5 29:3 4:2 0:1 16:1
+163 url 32:5 9:2 12:1
+164 touri 9:1
+165 exist 9:1
+166 catch 44:4 9:2
+167 throwable 3:28 24:3 9:1
+168 printstacktrace 3:10
+169 print 3:34 20:8 13:7 37:3
+170 stack 3:19 9:4
+171 trace 3:10 15:2
+172 resourcebundleutil 9:34 36:12 35:5 32:1
+173 resource 9:67 36:24 35:8
+174 bundle 9:71 36:11 35:9 17:2 4:1
+175 resourcebundle 9:27 1:2
+176 getbundle 9:5
+177 basename 9:6
+178 base 9:14 4:4 32:2
+179 uimanager 10:6 9:2
+180 manager 33:31 36:28 19:9 17:9 10:6 9:3
+181 getlookandfeel 9:2
+182 feel 10:12 0:8 37:6 9:5
+183 getid 9:2
+184 missingresourceexception 9:5
+185 missing 3:17 8:14 9:12 20:9
+186 button 36:72 9:32 6:25 4:21 22:13 0:8 25:7 17:6
+187 setaccelerator 9:2
+188 getacc 9:4
+189 acc 9:5
+190 argument 9:13 29:7 40:6 19:6 13:4 8:2
+191 action 24:786 22:641 17:365 6:201 26:157 42:75 9:11 12:8 38:4 36:1 35:1 5:1 25:1
+192 putvalue 24:9 9:3
+193 put 24:18 3:13 42:5 20:3 23:2 9:2
+194 mnemonic 9:12
+195 getmnem 9:4
+196 mnem 9:6
+197 locale 1:16 9:12 33:2
+198 laflocale 9:2
+199 laf 9:2
+200 getlanguage 9:1
+201 language 9:1
+202 getcountry 9:1
+203 country 9:1
+204 net 26:402 43:29 32:21 3:12 37:8 13:4
+205 roydesign 35:1
+206 desired 10:7 38:2
+207 automaticaly 10:6
+208 thing 10:6
+209 display 0:20 39:10 28:9 10:6 4:6 23:4 21:1
+210 copyright 37:14 26:6 10:6 31:1
+211 info 25:118 43:42 10:16
+212 loading 10:6
+213 data 3:113 18:54 26:41 20:36 31:32 27:28 32:25 43:22 44:19 33:12 10:12 13:5 9:1
+214 strings 10:12 20:7 21:1
+215 split 15:15 22:9 10:6 32:5 9:5 5:4
+216 getappletinfo 43:18 10:6
+217 applet 43:225 10:6 37:2
+218 load 24:23 10:10 36:2 5:1
+219 worker 35:36 26:28 10:6 17:1
+220 thread 35:36 37:13 26:10 10:6
+221 quaqua 1:1 4:1
+222 cast 1:1
+223 graphics 2:199 27:154 23:36 12:28 38:12 34:12 8:6 5:2
+224 easy 38:1
+225 access 44:10 28:6 7:1
+226 insets 38:104 21:27 19:15 1:12 28:5 35:4
+227 image 43:60 38:45 25:12 41:5 9:5 27:3
+228 optimisation 1:2
+229 directly 38:4 27:3
+230 fits 38:2
+231 component 0:88 43:47 4:46 37:28 11:23 19:17 2:17 42:14 38:11 18:6 12:5 15:2
+232 remove 35:113 34:92 28:78 5:22 31:14 20:12 30:10 37:1
+233 width 12:40 18:30 21:16 38:13 27:9 41:7 19:4 7:3 33:1
+234 adjust 8:4 39:2 1:1
+235 small 28:1
+236 math 16:10 38:2 21:2 42:1
+237 left 7:19 38:13 19:8 32:4 6:4
+238 top 38:19 7:8 5:7 34:6 19:5 4:4
+239 bottom 38:18 7:8 19:3
+240 leads 38:1
+241 fillrect 38:1
+242 rect 17:17 39:11 41:10 23:9 38:3 2:1
+243 edges 19:3 38:1
+244 north 1:52 22:13 6:6
+245 south 1:37 22:19 32:15
+246 west 1:53 22:15 6:4
+247 east 1:50 22:13 6:7
+248 center 4:8 7:7 1:6 39:5 29:5 16:5 31:1
+249 issignificant 33:8
+250 significant 33:14 36:2 32:2
+251 getview 11:30 21:7
+252 clearselection 11:7
+253 clear 4:22 42:12 24:8 11:5 34:3
+254 selection 11:131 8:45 2:24 22:18 6:17 0:17
+255 setcursor 11:8
+256 cursor 11:41 23:22 26:2
+257 getpredefinedcursor 4:1
+258 predefined 11:1
+259 crosshair 11:1
+260 localize 14:3
+261 label 1:35 21:24 36:13 5:12 4:2
+262 ctr 16:22
+263 getcenter 15:5
+264 chopped 16:2
+265 cx 16:6
+266 cy 16:6
+267 len 16:21
+268 points 16:30 9:23 15:20 41:18 1:13 2:12 20:2 6:1
+269 edge 7:16 4:4 6:2
+270 validatepath 29:3 15:1 27:1
+271 validate 27:16 29:10 15:2 10:2
+272 path 15:230 17:52 16:43 26:39 41:30 29:12
+273 pathiterator 7:3
+274 iterator 31:22 20:18 15:12 34:4
+275 generalpath 15:13 16:8
+276 general 15:16 16:15 40:10
+277 getpathiterator 15:7
+278 affinetransform 27:27 15:26 11:5 33:4 39:1 38:1
+279 affine 15:33 27:25 33:3 11:3
+280 transform 27:90 15:82 33:24 11:13 29:4
+281 coords 16:13
+282 type 29:83 0:55 30:51 31:18 44:13 14:5 36:3 18:1
+283 currentsegment 16:2
+284 current 40:145 13:71 6:47 23:30 11:26 37:25 3:24 32:16 35:12 9:7 42:5 20:4 16:3 15:2 28:1
+285 segment 15:36 16:33 5:8 2:2
+286 prevx 16:4
+287 prev 16:8
+288 prevy 16:4
+289 isdone 15:1
+290 chop 39:180 16:19 17:5
+291 geom 7:159 27:126 39:115 17:76 15:72 1:41 34:37 16:21 5:21 36:15 22:4 21:1
+292 intersect 16:9 34:4 5:3
+293 cl 16:9
+294 length 16:31 20:9 1:7 30:1
+295 node 15:107 40:28 26:28 38:9 21:3 16:2
+296 found 44:11 32:10 31:5 11:5 16:3 18:2
+297 pick 22:8 16:6 3:6
+298 closest 39:2 16:2
+299 vertex 16:2 15:1
+300 cp 16:5
+301 determine 27:11 0:4 21:2 16:2 15:1
+302 compute 16:6 9:5 35:3 4:3 12:1
+303 relative 1:84 16:8 26:6 15:6 43:1
+304 line 3:131 28:116 16:95 17:77 31:47 1:32 20:23 15:14 12:10 35:3
+305 pos 16:4
+306 seglen 16:2
+307 seg 16:27
+308 works 14:3 7:1
+309 straight 15:3
+310 lines 16:4 15:4 3:1
+311 quadto 7:5
+312 cubicto 16:1
+313 lineto 7:3 1:1
+314 element 26:270 31:261 3:249 40:231 20:136 13:127 6:34
+315 gettagname 40:13
+316 tag 40:57 13:18 44:5 32:5 20:4 12:1
+317 equals 31:13 2:10 18:8 42:2
+318 tagname 40:20 13:8
+319 throw 43:9 44:3 40:2
+320 illegalargumentexception 29:7 40:6 13:4 19:3
+321 illegal 29:7 44:6 40:6 13:4 19:3
+322 attempt 40:2 9:2
+323 wrong 3:17 40:2 7:1
+324 geometry 33:14 27:10 5:8 40:5
+325 getgeometry 33:1
+326 xmlexception 26:19 3:17 44:3
+327 xml 26:616 3:289 20:155 31:146 6:70 44:64 32:56 40:39 13:33 18:9
+328 don 44:11 4:7
+329 cdata 44:7 20:3 4:1
+330 namespace 31:117 44:39
+331 skip 20:14 32:2
+332 whitespace 20:21 29:9
+333 patch 44:6
+334 randelshofer 44:6 7:3 37:1
+335 read 41:109 35:47 32:23 40:15 20:14 3:12 44:10 42:6 6:4 28:3
+336 dtd 3:20 44:2 16:1
+337 allowed 28:5 44:3 18:1
+338 attributekeys 29:113 17:27 11:2
+339 keys 29:111 17:34
+340 entitie 29:4 10:2
+341 sets 32:83 27:37 11:23 39:18 42:14 31:12 15:12 4:9 10:7 3:6 19:5 34:4 13:4
+342 views 11:20
+343 note 8:16 13:7 12:4 0:3 30:2 18:2
+344 create 4:123 27:62 37:43 30:25 42:18 31:15 8:15 12:10 23:9 44:7 20:7 13:6 21:5
+345 collection 34:84 11:42 27:34 6:33 30:20 22:16 1:9 37:6 23:5 2:3
+346 avoid 36:2 30:1
+347 problems 30:1
+348 caused 30:1
+349 connected 39:21 38:3 27:1
+350 notify 30:66 34:43 28:22 35:14 6:10
+351 listeners 42:67 30:59 28:13 38:6
+352 registered 30:75 7:2
+353 interest 30:70
+354 guaranteed 30:22
+355 process 30:22 3:14 44:13 21:1
+356 notifying 30:22
+357 interested 30:23 2:1
+358 lazily 30:23
+359 bean 25:237 17:29 10:25 37:12 34:7
+360 descriptor 25:60 10:21
+361 information 25:16 10:16 0:12 6:1
+362 obtained 25:16 10:16
+363 introspection 10:16
+364 beandescriptor 10:17 25:8
+365 headerend 10:16
+366 add 6:208 34:91 13:90 28:48 33:28 10:25 37:18 15:13 35:9 44:7 31:6 23:6 20:5 0:3 18:1
+367 customizing 10:21 25:8
+368 properties 10:20 31:10 25:10 32:5 44:4 3:4 2:2 17:1
+369 events 28:25 27:22 10:14 0:14 34:12 33:7 25:4 8:4 17:1
+370 iconsdef 10:8
+371 icons 10:16 25:12
+372 def 10:8
+373 idx 10:8
+374 superclass 10:13
+375 beaninfo 25:32 10:4
+376 separator 29:8 28:8 36:4
+377 outlinestroke 15:1
+378 outline 12:10 7:4
+379 basicstroke 12:12
+380 outlinewidth 12:3
+381 cap 12:6 16:1
+382 join 15:12 12:6 26:3 5:2
+383 miterlimit 12:3
+384 miter 12:12
+385 limit 12:12 16:1
+386 dashes 12:9 0:1 6:1
+387 dashphase 7:2
+388 dash 12:8
+389 phase 12:6
+390 flattened 15:2
+391 extended 12:2 4:2
+392 outher 7:1
+393 support 35:6 36:5 25:5 7:4 39:2 33:1
+394 segments 15:18 5:2
+395 corners 12:3 1:1
+396 previous 16:1 36:1
+397 thick 7:1
+398 duplicate 2:14 24:8
+399 nodes 15:5 40:1
+400 handle 23:519 17:231 11:82 8:34 27:28 1:27 28:24 26:4
+401 middle 12:1 29:1
+402 bp 12:3
+403 increments 7:1
+404 endpoint 15:1
+405 needed 16:1 7:1 19:1
+406 ddx 12:2
+407 ddy 12:2
+408 corner 4:3 7:2 6:1 1:1
+409 redundant 22:2
+410 groupaction 22:18 40:5 12:1
+411 group 22:38 41:30 17:25 36:24
+412 setenabled 42:18 11:11
+413 enabled 42:106 11:18 22:8 12:7
+414 getselectioncount 11:7
+415 disallow 38:2
+416 connections 39:8 38:5 8:4
+417 dependent 1:8 38:7 8:4
+418 external 3:22 26:4 6:4 42:1 16:1
+419 update 42:30 22:15 39:13 28:8 25:5 30:2
+420 created 8:25 21:23 37:14 44:6 9:5 0:4 3:1
+421 drawn 38:19 21:5 23:2 16:2
+422 overlaid 21:6
+423 fdamage 21:2
+424 damage 21:8
+425 standarddrawingview 21:2
+426 standard 37:5 1:5 6:4 7:3 21:1 28:1
+427 overlay 21:32 4:8
+428 jtextfield 21:2 0:2
+429 field 24:37 7:10 3:9 22:8 17:7 21:5 0:5 44:2 31:2 20:2
+430 scrolled 21:2
+431 checkdamage 21:6
+432 box 39:69 28:14 1:12 43:10 27:9 21:8 6:3 23:2
+433 drawingtoview 2:8 11:5
+434 nchars 21:2
+435 chars 32:4 21:2
+436 gettextcolumns 21:9
+437 columns 19:26 21:13
+438 dimension 18:90 2:30 21:18 36:14 26:14 28:6 12:1
+439 textfield 21:2
+440 getpreferredsize 21:19 34:7 16:1
+441 preferred 21:24 19:18 28:16 43:7 11:2 16:1
+442 createdfigure 21:9 8:5 26:2
+443 getdrawing 11:27
+444 addtoselection 11:9 6:4
+445 fireundoableedithappened 30:13 22:3
+446 undoable 33:175 34:47 30:32 6:6 37:1
+447 edit 33:393 34:57 17:45 30:36 8:16 21:6
+448 happened 34:13 30:10 22:6
+449 creationedit 11:2 5:1
+450 creation 8:30 11:18 4:17 37:1
+451 firetooldone 30:3
+452 typingtarget 21:2
+453 typing 21:2
+454 willchange 28:14 41:3 16:2
+455 undo 33:344 26:29 30:8 38:1
+456 setundoactivity 21:3
+457 activity 21:3
+458 changed 5:106 17:21 28:16 22:5 7:5
+459 move 22:78 15:22 1:11 32:4 8:2 2:2 21:1
+460 sheet 0:230 17:35
+461 user 39:24 8:20 0:16 37:9 7:9 4:5 33:3
+462 moves 27:10 15:5 38:1
+463 stay 39:2 30:1
+464 centered 29:2 30:1 1:1
+465 title 0:4 42:3 41:2 21:2 20:1
+466 moved 8:36 28:6 39:5
+467 forget 0:1
+468 shift 30:4 36:1
+469 back 34:41 32:15 22:14 17:13 20:4 8:3
+470 place 39:7 2:4 16:2
+471 opened 37:8 30:5 24:4 35:2 6:1
+472 visible 38:54 32:10 42:4 39:4 29:1
+473 fully 4:1
+474 dialog 0:48 6:1
+475 remember 30:1
+476 position 23:66 1:25 38:9 2:6 36:3
+477 jframe 4:5 36:2
+478 setresizable 0:2
+479 resizable 23:1 30:1
+480 quaquautilities 32:1
+481 setwindowalpha 0:1
+482 alpha 9:5 16:3 23:1
+483 reinserted 30:3
+484 addwindowlistener 0:1
+485 listener 8:196 5:171 34:130 35:128 24:110 0:104 22:74 23:71 6:57 11:51 36:25
+486 windowadapter 4:1
+487 adapter 0:1
+488 windowclosed 30:1
+489 windowevent 0:1
+490 evt 8:75 24:23 30:9 22:8 11:7
+491 focus 36:10 35:10 24:6 30:5 17:1
+492 initial 0:18
+493 ugly 30:1
+494 dirty 30:2 28:1
+495 hack 4:1
+496 joptionpane 0:61
+497 option 0:119
+498 pane 0:82 36:56 43:28 4:4
+499 selectinitialvalue 30:2
+500 select 32:20 8:11 22:9 24:7 2:7
+501 call 8:11 34:10 39:4 35:3 31:2 15:1 16:1
+502 mayhem 32:1
+503 override 27:12 43:8 20:2 14:1 21:1
+504 encapsulation 28:5 30:1
+505 reset 0:1 18:1
+506 ensure 0:1 15:1
+507 closing 0:2
+508 properly 28:2 0:2
+509 defaultcloseoperation 0:1
+510 operation 27:27 36:3 13:2
+511 selecting 0:1
+512 svc 15:2
+513 circle 23:2 40:1 17:1
+514 presented 41:3 2:3 39:1 14:1
+515 svgellipse 41:11 26:6 27:1
+516 ellipse 17:34 39:22 41:20
+517 polyline 15:18 5:1
+518 polygon 16:12 15:6
+519 elements 21:24 40:22 31:9 20:5 3:5
+520 svgpath 41:17 26:14 17:4 2:2
+521 silently 0:2
+522 abort 0:1
+523 reviewed 0:1
+524 filechooser 0:5 24:4 21:4
+525 chooser 42:60 0:32 17:26 22:9 4:9
+526 showsavedialog 0:3
+527 show 0:51 37:7 36:1
+528 save 24:49 32:24 42:20 17:17 13:6 10:5 0:4 9:3
+529 exit 24:12 17:11 2:2
+530 aborted 0:1
+531 haspermanentfocus 10:1
+532 permanent 23:1
+533 setrenderinghint 10:3
+534 rendering 10:9
+535 hint 39:8 10:3 15:2
+536 renderinghints 10:6
+537 hints 10:6
+538 antialias 10:2
+539 control 15:83 17:9 32:7 44:4 23:2 7:1
+540 pure 30:1
+541 rainbow 10:3 36:1
+542 setcolor 12:4
+543 hsbtorgb 30:1
+544 bto 10:1
+545 coordinate 15:16 21:10 28:3
+546 gray 10:1
+547 background 25:8 43:2 10:2
+548 area 5:66 17:65 21:40 8:27 11:20 27:18 36:6 29:3 41:1
+549 negative 7:5 36:3 13:1 18:1
+550 coordinates 11:31 2:7 15:5 30:3 29:1
+551 repaint 30:3 35:1
+552 message 0:134 34:20 3:18
+553 validatehandles 10:2
+554 handles 27:109 11:45 28:42 4:30 1:21 23:20 30:3
+555 gethandle 10:1 40:1 5:1
+556 secondaryhandleowner 15:1 36:1
+557 secondary 23:13 11:10 4:3
+558 getframe 35:1
+559 setextendedstate 4:1
+560 state 42:48 27:15 22:13 11:12 20:8 33:1
+561 getextendedstate 4:1
+562 iconified 4:1
+563 requestfocus 35:8 30:1
+564 request 5:34 35:10 11:9 30:3
+565 jrootpane 4:1
+566 root 43:7 31:2 9:2 4:2
+567 rp 4:4
+568 getrootpane 4:1
+569 getcomponent 37:8 25:7 4:4
+570 getparent 31:5 4:2
+571 parent 0:66 40:15 3:14 32:7 19:7 13:5 31:4 36:1
+572 jinternalframe 4:5
+573 toolkit 4:2
+574 getdefaulttoolkit 4:1
+575 beep 4:1
+576 care 44:2 4:2
+577 handlesizes 1:1
+578 won 2:1 20:1
+579 overlap 1:1 16:1
+580 boxhandlekit 1:16 6:3
+581 kit 1:15 24:14 15:1
+582 null 0:2 10:1
+583 mouselocation 21:3
+584 getendpoint 39:8 27:5 16:1
+585 setstroke 12:2
+586 drawline 12:4
+587 ungroupaction 22:23 33:1
+588 ungroup 22:39
+589 digitized 15:10
+590 squared 9:5
+591 fit 9:12 30:6 4:1
+592 curves 15:7
+593 unit 9:4
+594 tangent 9:5
+595 vectors 9:3
+596 endpoints 9:2
+597 fitted 9:5
+598 curve 9:24 30:7 19:1
+599 parameter 43:46 3:23 0:21 44:15 9:13 18:10 38:3 21:3
+600 values 29:45 24:32 7:26 18:16 20:12 22:6 44:5 4:5 37:4 25:4 13:4 0:4 23:3 3:2 31:1
+601 improved 9:3
+602 maximum 32:4 9:3
+603 fitting 9:5 24:1 15:1
+604 error 0:8 9:4 21:1 14:1
+605 input 40:180 41:44 35:32 0:19 32:18 39:15 20:13 28:6 9:6 17:4 44:2
+606 output 13:151 41:76 26:54 6:45 9:3
+607 number 19:43 3:39 40:30 21:17 31:11 38:9 20:9 34:7 28:5 9:5 1:5 0:5
+608 subset 9:2
+609 iterating 9:4
+610 times 19:8 9:2
+611 vector 31:17 26:6 20:6 9:4 1:4 44:3 22:1
+612 splitpoint 9:2
+613 heuristic 9:3
+614 region 2:8 9:6 30:3
+615 parameterize 9:2
+616 find 5:108 27:48 39:30 30:19 34:16 9:3
+617 deviation 9:2
+618 large 9:2
+619 reparameterization 7:2
+620 iteration 9:2
+621 failed 9:2
+622 recursively 9:2
+623 precomputed 9:1
+624 rhs 7:1
+625 eqn 16:6 7:1
+626 pts 7:3 41:1
+627 matrix 27:3 9:2
+628 determinants 9:2
+629 matrices 9:2
+630 utility 15:2 7:1
+631 variable 17:79 26:63 15:9 1:4
+632 ctl 9:1
+633 dot 9:2
+634 finally 9:1
+635 derive 9:1
+636 wu 9:2
+637 barsky 9:2
+638 coincident 16:3 9:1
+639 divide 9:1
+640 subsequent 4:5
+641 newtonraphsonrootfind 7:1
+642 newton 9:1
+643 raphson 9:1
+644 positioned 9:2
+645 distance 12:9 7:9 1:8 16:5
+646 evaluated 9:1
+647 generate 9:3
+648 vertices 9:2 24:1
+649 local 32:3 9:1
+650 copy 4:9 22:8 2:7 7:5 34:4 38:2 32:2
+651 array 9:1 30:1
+652 triangle 39:35 23:25 17:13 12:3 9:1 2:1
+653 computation 9:1
+654 parameterization 9:1
+655 graphicsgems 15:1
+656 gems 9:2
+657 library 9:2
+658 andrew 9:1
+659 glassner 9:2
+660 academic 9:1
+661 press 15:1
+662 selectareatracker 8:11 32:4 43:1
+663 tracker 8:50 17:20
+664 mousemoved 8:32
+665 getx 8:1
+666 gety 8:1
+667 hashtable 20:5 26:3 3:2
+668 leaf 31:6 37:4
+669 svg 26:138 17:54 41:23 43:4 37:1 25:1
+670 tiny 12:2
+671 colors 12:15
+672 moveto 15:4 8:2 21:1
+673 curveto 7:2 4:1
+674 working 7:2 38:1
+675 style 21:4
+676 individual 7:1 19:1
+677 document 40:76 13:69 6:33 37:12 2:3
+678 painting 12:1
+679 inherit 13:1
+680 means 23:2 19:2 12:1 33:1 0:1
+681 takes 28:5 7:1
+682 computed 21:3
+683 digits 7:1
+684 hex 25:1
+685 addattribute 13:71 6:42 44:5
+686 anchor 23:89 39:28 27:26 7:21 29:16 16:5
+687 start 39:195 23:54 32:22 27:17 7:12 44:10 37:8 12:5 16:2 33:1
+688 accesscontrolexception 44:4
+689 super 8:12 28:6 17:3 33:2
+690 getchildrenfronttoback 28:5
+691 isvisible 38:16 41:1
+692 clone 27:79 4:36 38:17 15:10
+693 redo 33:103 17:22 36:19 42:6
+694 mousepressed 8:50
+695 pressed 8:71 16:1
+696 colorrect 12:1 36:1
+697 red 12:2
+698 storable 41:88 39:31 27:28 34:6 6:5
+699 correct 7:1
+700 diamondfigure 17:21 27:9
+701 diamond 17:25 39:19 27:15 5:1
+702 growy 12:2
+703 getstroketotalwidth 12:4
+704 total 12:8 16:3 19:1
+705 sqrt 16:3
+706 growx 12:1
+707 overlapping 12:1
+708 opposite 15:2 7:1
+709 calculate 19:11 4:5
+710 angle 7:35 16:11 6:8 17:2
+711 quadrant 7:1
+712 dermine 12:1
+713 intersection 7:5 38:4
+714 proper 7:1
+715 send 34:8 32:6 7:1 30:1
+716 connector 39:592 17:36 6:6
+717 findconnector 27:20 5:14 39:2
+718 connectionfigure 39:155 1:16 5:3
+719 prototype 8:24 39:21 13:18 27:16 44:4 22:4
+720 choptriangleconnector 39:17
+721 findcompatibleconnector 27:21 30:9
+722 compatible 27:37 11:12 30:10 20:4 12:1
+723 isstart 39:5
+724 unconfiguring 4:2
+725 menus 37:15 4:5
+726 leak 4:2
+727 memory 4:2
+728 jmenubar 4:5 37:2
+729 menu 43:58 4:20 37:13 36:10 33:6 9:6 27:5
+730 mb 4:2
+731 getname 40:9 20:9 37:8 31:6 13:3
+732 awkard 35:10
+733 getinsets 21:12 27:1
+734 getvalue 14:6 40:4 35:4 31:1
+735 setvalue 14:3
+736 propagate 42:3 5:2
+737 independently 15:1
+738 percentage 16:3
+739 relativeposition 1:3
+740 segpoint 16:11
+741 npoints 16:5
+742 getpoints 16:1
+743 switch 8:2 16:1 21:1 11:1
+744 getstartpoint 39:12 16:1
+745 totallength 16:3
+746 seglength 16:10
+747 relativeprogress 16:7
+748 progress 33:24 16:8
+749 segmin 16:4
+750 min 16:6 20:2
+751 ddouble 18:48 17:45 30:15 21:13 36:9 28:2
+752 labeldim 16:5
+753 dim 16:5
+754 dir 16:2
+755 atan 16:4
+756 cos 16:2
+757 sin 16:2
+758 interprete 44:2
+759 buffer 20:9 32:7 17:5
+760 extends 14:1
+761 serializable 14:191 29:7
+762 undomanager 33:9 36:4
+763 undoableedit 33:85 30:14
+764 werner 7:3 42:1
+765 replaced 31:5
+766 collections 40:2 20:2
+767 removed 5:51 34:42 28:21 20:5 33:2 4:2
+768 deprecated 31:5
+769 added 5:57 34:21 38:18 3:17 28:9 6:8 33:7 13:4 4:3 19:2 20:1
+770 createelement 31:12 4:10 20:6
+771 getintattribute 20:13 25:3 40:1
+772 defaultvalue 31:24 40:20 13:20 20:19 18:14
+773 getbooleanattribute 20:3 31:2
+774 writer 20:40 13:30 26:16 3:6
+775 writeencoded 20:2 1:1
+776 write 41:147 13:18 20:10 42:5
+777 encoded 20:4 17:2
+778 encode 20:2
+779 unicode 20:2
+780 characters 41:10 29:7 32:5 21:4 6:4 20:3 43:1
+781 compilers 20:1
+782 braindead 20:1
+783 require 20:1
+784 clause 20:1
+785 startinglinenr 20:9
+786 starting 20:9 12:2
+787 nr 3:80 31:30 20:17
+788 suxx 20:3
+789 happen 10:1 14:1
+790 initcause 19:1
+791 requires 37:1
+792 jdk 19:9 18:3
+793 scale 11:31 15:12 23:9
+794 fractional 14:3 26:1
+795 setclosed 15:5
+796 caps 15:6 39:2 2:1 16:1
+797 gettext 40:22 21:13
+798 assume 21:1
+799 styledtext 21:2
+800 styled 21:2
+801 attributedcharacteriterator 21:1
+802 character 20:38 32:10 35:3
+803 tabs 21:7
+804 tabcount 21:1
+805 tab 21:15
+806 tablocations 21:2
+807 locations 21:4
+808 entry 25:4 21:2
+809 offset 20:22 12:3 23:2
+810 convenience 15:17 28:13 9:10 21:4 37:3
+811 lay 19:3
+812 occur 11:2 21:1
+813 largest 19:5
+814 ascent 21:1
+815 textlayouts 15:1
+816 layouts 1:4 21:2
+817 stored 27:12 35:2 21:1
+818 list 30:77 28:38 37:32 36:20 41:10 1:10 31:7 20:7 40:5 44:2
+819 horizontal 19:25 22:10 29:3 12:3
+820 positions 21:3 1:3
+821 parallel 16:4 35:3 18:2
+822 linecontainstext 21:2
+823 stop 20:5 37:2 35:2 32:2
+824 iterate 20:24 31:10 34:4
+825 implement 39:4 34:3 15:2
+826 setview 11:11
+827 drawingview 11:177 17:40 22:17
+828 sethandledetaillevel 11:6
+829 detail 27:46 11:17 32:2
+830 level 27:44 11:23 34:13 32:6 20:2
+831 gethandledetaillevel 11:6
+832 commented 39:2
+833 connectors 39:21 27:19 38:8 2:4
+834 order 29:28 34:20 8:8 38:4 35:3 1:3 36:2
+835 reconnection 28:1
+836 getfigure 39:4 14:2 36:1
+837 getstartfigure 39:8
+838 getendfigure 39:8
+839 setstartconnector 39:6 32:3
+840 setendconnector 39:9
+841 liner 1:59 39:46
+842 getbezierpathlayouter 39:2
+843 layouter 19:74 28:67 21:1
+844 getattribute 40:55 31:27 28:12 20:9
+845 setbezierpathlayouter 30:1
+846 lays 19:10 23:1
+847 called 27:58 8:20 44:15 26:12 35:9 2:9 39:5 3:5 7:4 20:2 6:1
+848 recalculated 28:1
+849 layoutconnection 39:1
+850 getstartconnector 39:18
+851 getendconnector 39:18
+852 bpl 39:3
+853 lineout 39:16 1:15
+854 findstart 39:12
+855 basicsetstartpoint 15:4
+856 findend 39:10 30:2
+857 basicsetendpoint 15:4
+858 handleconnect 28:6
+859 handledisconnect 28:5 14:1
+860 shares 37:7
+861 persistence 39:1
+862 basicsetpoint 15:6
+863 index 28:50 15:49 31:37 25:36 40:32 34:9 35:6
+864 instantiated 16:1
+865 doug 16:3
+866 lea 16:3
+867 polygonfigure 16:3
+868 http 16:4
+869 vision 16:4
+870 dai 16:4
+871 ed 16:4
+872 ac 16:4
+873 uk 16:4
+874 andrewfg 16:4
+875 faq 16:4
+876 html 16:4
+877 eq 16:3
+878 ab 16:12
+879 cd 16:3
+880 ya 16:35
+881 yc 16:23
+882 xd 16:12
+883 xc 16:23
+884 xa 16:35
+885 yd 16:12
+886 xb 16:22
+887 yb 16:22
+888 xi 16:4
+889 yi 16:4
+890 perpendicular 12:10 16:2
+891 projection 16:2 33:1
+892 backward 16:1
+893 extension 21:19 16:2 6:1
+894 ahead 16:1
+895 numerator 16:1
+896 directional 16:1
+897 snum 16:2
+898 hashmap 20:35 28:18 36:8
+899 hash 20:35 28:20 36:17 18:11
+900 map 20:36 28:34 36:15 12:15 8:11 17:10
+901 xmlelement 26:140 20:54 31:13 44:1
+902 nanoxml 26:398 3:13 20:10 31:4
+903 nano 26:52 40:44 6:19 13:10 20:3 31:2 32:1
+904 comments 35:2
+905 rotate 23:16 35:4 17:2
+906 pi 44:4 23:1
+907 outer 16:4 36:3
+908 radius 16:25 17:17 23:10 36:2
+909 easier 7:1
+910 interned 10:6 36:3
+911 dispatching 35:4 10:2 5:2
+912 handlers 10:2
+913 nice 16:1
+914 step 23:42
+915 outermost 15:3 43:2 16:1 36:1
+916 public 16:1
+917 scalerotate 16:1
+918 originalpolygon 16:5
+919 original 28:7 16:5 23:1
+920 angles 16:1
+921 lengths 16:1
+922 anchorlen 16:3
+923 newlen 16:2
+924 ratio 16:2
+925 anchorangle 16:2
+926 newangle 16:2
+927 rotation 23:16 38:2
+928 xs 16:3
+929 ys 16:3
+930 xpoints 16:1
+931 ypoints 16:1
+932 setinternalpolygon 20:1
+933 getpresentationfigure 28:2 40:1
+934 presentation 28:60 33:54 26:2
+935 gethandles 28:1
+936 constants 29:29 36:6 0:1
+937 zoompopupbutton 36:2
+938 zoom 22:29 36:5
+939 popup 36:32 25:14 26:13 27:5
+940 setpreferredsize 36:2
+941 strokedashespopupbutton 36:1
+942 setcolumncount 36:3
+943 mac 43:1
+944 os 43:1
+945 font 21:51 30:21 36:18 34:17 12:9 1:9 23:6 18:1
+946 exclusion 36:2
+947 xp 36:1
+948 professional 36:1
+949 submenu 43:6 38:2
+950 setfont 36:2
+951 jpopupbutton 36:13 26:8
+952 item 43:41 33:6 4:5
+953 itemfont 36:2
+954 performaction 10:2
+955 showpopup 10:2
+956 types 18:9 44:4 6:1 3:1
+957 give 39:3 44:1
+958 targetmethod 9:5
+959 special 44:3 20:3 0:2 4:1
+960 treatment 44:2
+961 parameterless 18:12 9:1
+962 regular 44:3 29:1
+963 supposed 43:9 44:1
+964 produce 9:1
+965 false 44:1
+966 convert 11:3 9:1
+967 kind 25:12 0:5
+968 helper 44:1 33:1
+969 ez 44:1
+970 arguments 9:4 37:2
+971 result 20:13 44:12 25:8
+972 runtimeexception 3:2 30:1
+973 runtime 28:7 3:2
+974 targetmethodname 9:2
+975 getclass 9:1
+976 gr 12:4 38:2 11:2
+977 bug 2:1
+978 apples 12:1
+979 mrj 2:1
+980 drawrect 2:1
+981 geticonwidth 12:11
+982 icon 12:133 25:65 0:36 6:4
+983 geticonheight 12:11
+984 iscombinablewith 23:22 38:8
+985 combinable 23:23 38:9
+986 beziernodehandle 15:13 23:11
+987 getbezierfigure 15:5 23:1
+988 getnodecount 15:4
+989 componentresized 4:4
+990 resized 4:4
+991 componentevent 4:9
+992 putint 18:2
+993 getwidth 18:6
+994 getheight 18:6
+995 firetoolstarted 30:3
+996 started 23:42 3:14 11:9 31:6 37:2 30:1
+997 abstractaction 24:53 22:32
+998 labels 36:11 9:5 1:5 37:3
+999 getstring 9:3
+1000 editselectsamemnem 24:1
+1001 linkedlist 36:10 41:3 37:3
+1002 linked 36:12 41:3 4:1 18:1
+1003 addall 34:5 6:3
+1004 createhandles 27:43 4:23 30:1
+1005 detaillevel 27:31 36:1
+1006 concurrent 42:3 36:2 37:1
+1007 modification 36:1
+1008 hashset 36:6
+1009 delete 2:19 24:7 30:1
+1010 gethitbounds 30:1
+1011 hit 34:15 15:12 27:6 12:4 30:3
+1012 fall 14:1
+1013 widths 14:1
+1014 ignore 21:17 34:7 20:5 43:4 3:4
+1015 pattern 21:4
+1016 defs 21:2
+1017 script 21:2
+1018 filter 21:23 6:1
+1019 radialgradient 21:2
+1020 radial 21:2
+1021 gradient 21:3
+1022 lineargradient 21:1
+1023 linear 21:1
+1024 svgutil 26:16 41:3 40:1
+1025 readattributes 41:19 35:9
+1026 jdialog 0:4
+1027 palettes 37:4 40:2
+1028 settitle 0:2 41:1
+1029 tb 37:5 6:4
+1030 viewtodrawing 11:13 29:2
+1031 includes 38:8
+1032 anedit 33:19
+1033 compositetransformedit 33:17 26:3
+1034 tx 27:30 33:8
+1035 concatenate 33:1
+1036 die 33:3
+1037 mo 4:2
+1038 putaction 37:7 3:5
+1039 maximizeaction 24:12
+1040 maximize 24:12
+1041 minimizeaction 24:12
+1042 minimize 24:12
+1043 palettehandler 4:1 28:1
+1044 palette 4:42 26:21 35:1
+1045 handler 4:38 36:22 23:14 17:10 26:1
+1046 setjmenubar 4:1
+1047 createmenubar 4:4 37:3
+1048 undoableeditevent 34:5 33:3
+1049 listenerlist 30:50 1:5 36:3
+1050 getlistenerlist 30:1
+1051 undoableeditlistener 34:23 35:6 6:5
+1052 undoableedithappened 34:10 42:3
+1053 shouldn 35:1
+1054 cloneable 14:140 22:5
+1055 table 20:8 38:2
+1056 menuitem 10:2
+1057 setborderpainted 10:1
+1058 border 38:81 4:3
+1059 painted 38:6
+1060 setborder 38:1
+1061 paint 12:18 38:4 2:3
+1062 exceptions 43:9
+1063 textholder 21:82 17:6 37:1
+1064 holder 21:85 38:4
+1065 getcreatedfigure 21:5 5:3 8:1
+1066 beginedit 21:4 15:1
+1067 mousedragged 8:28
+1068 dragged 8:30
+1069 mouseevent 8:128
+1070 textarea 21:1
+1071 addactionlistener 21:3 6:1
+1072 attributename 3:15 41:4
+1073 attributevalue 3:13
+1074 elementname 3:13
+1075 setfile 42:6
+1076 markchangesassaved 42:4 22:2
+1077 mark 42:4 8:2
+1078 saved 24:10 42:6 5:2 35:1
+1079 multiopenid 42:4
+1080 multi 42:4
+1081 getapplication 42:6 17:3 43:1
+1082 documents 42:2 26:2
+1083 getmultipleopenid 42:4 17:1 22:1
+1084 setmultipleopenid 42:5 26:1
+1085 messsage 42:1
+1086 connectionfigures 39:5 35:1
+1087 reached 16:4 20:2
+1088 ixmlvalidator 3:31 26:11
+1089 validator 3:72 26:42 44:12 18:2
+1090 setparameterentityresolver 3:5 32:3
+1091 entity 3:141 26:54 20:17 6:9
+1092 resolver 3:116 26:41
+1093 ixmlentityresolver 3:31 26:14 6:1
+1094 getparameterentityresolver 3:6 28:2
+1095 parsedtd 3:8
+1096 parse 20:51 3:42 26:8
+1097 publicid 32:16 3:16
+1098 ixmlreader 32:22 3:21 26:18 35:1
+1099 reader 32:111 3:83 20:43 26:29 44:26 40:10 6:5
+1100 entityresolver 3:16
+1101 elementstarted 3:8
+1102 systemid 3:84 31:22 32:12
+1103 linenr 3:74 31:16
+1104 elementended 3:8
+1105 ended 3:14 6:1
+1106 attributeadded 3:5 6:3
+1107 elementattributesprocessed 3:13
+1108 processed 3:23 4:2
+1109 extraattributes 3:9
+1110 extra 3:12
+1111 pcdataadded 3:8
+1112 implementing 28:13 14:12 7:8 35:5 5:5 3:5 1:3 13:1
+1113 classes 7:15 14:10 35:4 20:4 3:4 40:3 11:3 5:3 39:2 32:1 13:1
+1114 nonvalidator 26:19 3:7
+1115 validatorplugin 26:19 3:9
+1116 plugin 3:13 26:11 29:6
+1117 parses 3:18 20:8
+1118 responsible 3:3
+1119 reading 3:9 20:2
+1120 full 31:69 3:5 12:3
+1121 validated 3:10
+1122 pcdata 26:16 31:15 3:15 20:6
+1123 encountered 26:11 44:10 3:10 6:3
+1124 beans 25:90 35:23 36:19 37:12 34:5 24:3
+1125 abstractbean 37:13 35:10 34:7 6:4 11:1 3:1
+1126 defaultapplicationmodel 37:31 17:17
+1127 model 37:132 26:49 2:8
+1128 samples 26:270 17:110 43:28 41:16 37:5 25:3 28:2 2:1
+1129 pert 26:121 43:38 37:12 38:11 13:2
+1130 pertapplicationmodel 37:8 26:7
+1131 initapplication 37:13
+1132 defaultdrawingeditor 11:18 17:15 37:4
+1133 getsharededitor 40:4 37:4
+1134 shared 37:14 36:12 40:4
+1135 initproject 37:21
+1136 createtoolbars 37:21
+1137 bars 37:23
+1138 pr 37:12
+1139 createmenus 37:13
+1140 io 14:217 41:147 40:51 32:49 20:41 42:39 13:39 3:13 22:9 29:6
+1141 applicationmodel 37:46 26:10
+1142 serialized 14:171
+1143 form 14:162 24:9 43:6
+1144 creates 14:227 26:122 17:121 23:30 8:30 4:26 1:24 6:22 31:16 20:16 37:11 44:10 13:9 32:7
+1145 instance 14:167 17:134 26:47 8:30 23:22 1:22 24:15 13:3 0:3 5:1
+1146 toolbars 37:20 25:8
+1147 subclasses 14:43 8:10 27:8
+1148 description 27:183 34:128 37:58 23:55 5:41 41:37 13:28 8:20 21:19 42:13 39:6 19:1
+1149 copied 27:205 34:113 37:61 5:59 23:57 41:33 13:27 8:14 42:9
+1150 depending 42:12 2:10 37:5
+1151 invoked 37:21 42:7 11:5 0:4
+1152 ixmlelement 31:104 26:44 44:1
+1153 createpcdataelement 31:3 40:1 12:1
+1154 fullname 31:33
+1155 getfullname 31:4 26:1
+1156 getnamespace 31:5
+1157 setname 32:10 31:6 37:2
+1158 addchild 20:4 31:3 6:3
+1159 removechild 28:6 35:5 20:4 31:3 33:1
+1160 removechildatindex 31:3 35:2
+1161 iteratechildren 20:19 31:3 43:2
+1162 isleaf 31:3 15:1 26:1
+1163 haschildren 31:3 8:2
+1164 getchildrencount 31:5
+1165 arraylist 31:7 36:5 20:3 15:3
+1166 getchildatindex 31:5
+1167 arrayindexoutofboundsexception 31:4
+1168 getfirstchildnamed 31:10
+1169 named 31:28 6:2
+1170 getchildrennamed 31:10
+1171 getattributecount 31:5
+1172 getattributetype 31:10
+1173 getattributenamespace 31:5
+1174 removeattribute 35:8 31:6 20:6 12:3 28:1
+1175 iterateattributenames 31:3 42:2
+1176 names 20:37 31:5 44:3 29:2
+1177 hasattribute 28:11 31:6
+1178 getattributes 28:15 31:5
+1179 getattributesinnamespace 31:5
+1180 getsystemid 31:10 32:4
+1181 getlinenr 31:12 20:10 32:4
+1182 getcontent 20:8 31:6
+1183 content 31:31 20:21 26:10 18:3
+1184 setcontent 32:5 31:3
+1185 rawelement 31:6
+1186 raw 31:6
+1187 equalsxmlelement 31:3 2:2
+1188 elt 20:3 31:2
+1189 stdxmlbuilder 26:14 44:6 31:2 6:1
+1190 std 26:40 32:27 44:13 31:3
+1191 builder 44:59 26:40 31:2
+1192 defined 27:13 9:6 1:6 18:4 44:2 31:2
+1193 constant 29:45 24:29 7:11 22:9 25:4 20:3 44:2 31:2
+1194 starts 32:13 31:13 44:10 37:2
+1195 uri 31:25 44:18
+1196 including 31:2
+1197 eventual 31:2
+1198 short 31:2
+1199 clears 4:9 42:7 31:2 11:2
+1200 adds 6:83 13:56 34:27 28:17 37:7 23:4 20:3 31:2 9:1 0:1
+1201 removes 35:42 34:28 28:25 15:9 31:8 20:2 23:1 33:1 0:1
+1202 located 31:3 14:3 35:2 23:2
+1203 enumeration 20:16 31:8 12:2
+1204 specific 11:12 27:7 40:4 31:4
+1205 searches 31:8
+1206 java 40:6 31:2
+1207 unknown 27:7 31:6 20:3 15:1
+1208 combination 31:2
+1209 sections 44:2 31:2 20:1
+1210 retrieved 20:3 31:2
+1211 unnamed 31:2
+1212 possibly 43:2 31:2 6:2
+1213 compare 31:4 38:2 4:1
+1214 xmlparserfactory 44:4 26:4 4:4
+1215 parser 44:66 26:53 17:3
+1216 factory 13:69 26:24 6:24 40:19 4:19 2:16 44:4 8:3 18:1
+1217 class 44:6 17:2
+1218 ixmlparser 44:22 26:8 40:2
+1219 createdefaultxmlparser 44:2 4:2
+1220 classnotfoundexception 44:6
+1221 instantiationexception 44:6
+1222 instantiation 44:6
+1223 illegalaccessexception 44:6
+1224 ixmlbuilder 44:20 26:11 37:2 6:2
+1225 createxmlparser 44:1 39:1
+1226 classname 44:2
+1227 toolbarprefshandler 4:15
+1228 jtoolbar 6:39 36:17 4:13 37:3
+1229 preferences 4:45 36:7
+1230 componenthidden 4:3
+1231 hidden 4:6 0:4
+1232 componentmoved 4:3
+1233 componentshown 4:3
+1234 shown 0:7 21:6 4:5
+1235 ancestoradded 4:3
+1236 ancestorevent 6:3 4:3
+1237 ancestormoved 4:3
+1238 ancestorremoved 4:3
+1239 componentlistener 4:7
+1240 eventlistener 24:36 22:32 23:19 8:18 5:9 34:3
+1241 ancestorlistener 4:5
+1242 implements 14:37 41:9 8:9 3:7 1:6 40:3 34:3 13:3 35:2
+1243 container 43:42 19:41 11:24 37:3 28:1 21:1 2:1
+1244 jcomponent 43:17 14:4 11:3
+1245 jpanel 43:14 36:10
+1246 panel 43:81 36:23 25:12 17:3 42:1
+1247 abstractproject 42:30 26:28
+1248 drawproject 17:14 42:9
+1249 drawingeditor 11:128 22:76 6:57 2:25 8:16
+1250 geteditor 43:20 22:3 30:1
+1251 seteditor 32:7 42:4 22:3
+1252 sethasunsavedchanges 42:11 32:3
+1253 ioexception 41:156 40:38 20:33 13:30 32:29 42:21 18:4
+1254 setdrawingeditor 42:8
+1255 getdrawingeditor 43:8
+1256 jfilechooser 42:22 0:17 40:5
+1257 createopenchooser 42:9 4:5
+1258 createsavechooser 42:9 4:5
+1259 imageobserver 43:19
+1260 observer 43:19
+1261 menucontainer 43:19
+1262 accessibility 43:19
+1263 accessible 43:22 18:6
+1264 initializes 43:18 37:12 20:11 18:7 32:6 3:3 42:2 23:2
+1265 writes 13:28 41:7 42:6 20:6 23:1
+1266 reads 35:17 40:11 20:9 3:8 42:4 32:2 38:1
+1267 abstractapplication 37:31 17:24
+1268 defaultosxapplication 17:16 37:12 24:3 40:1
+1269 aboutaction 24:11
+1270 preferencesaction 24:1
+1271 services 33:1
+1272 hide 37:7 28:7 0:3
+1273 quit 37:1
+1274 exitaction 17:13 24:7
+1275 newaction 24:7 26:4
+1276 openaction 24:13
+1277 recent 24:25 37:21 17:19
+1278 closeaction 24:7 4:4
+1279 saveaction 24:12 32:7
+1280 saveasaction 24:7 32:4
+1281 revert 37:2
+1282 reverttosavedaction 37:1
+1283 page 37:2
+1284 setup 37:2
+1285 printpagesetupaction 37:1
+1286 printaction 37:1
+1287 undoaction 42:14 36:3
+1288 redoaction 42:14 35:3
+1289 cut 24:10 2:8 4:6 11:2
+1290 cutaction 24:9 4:4
+1291 copyaction 22:8 4:4 6:1
+1292 paste 24:14 2:10
+1293 pasteaction 24:13
+1294 deleteaction 24:7 2:4
+1295 selectallaction 24:6 32:4 38:1
+1296 launch 37:13 1:5
+1297 args 37:8 14:7 43:4
+1298 initlookandfeel 37:6
+1299 initapplicationactions 37:6
+1300 actions 37:40 17:27 36:20 43:10 27:9
+1301 initprojectactions 37:14
+1302 addpalette 6:2 4:2
+1303 removepalette 37:2 35:2
+1304 getcurrentproject 40:6 37:5 14:1
+1305 setcurrentproject 37:3 32:3
+1306 initscreenmenubar 42:2
+1307 screen 37:3 4:3 6:1
+1308 initpalettes 37:2
+1309 paletteactions 37:2
+1310 addstandardactionsto 37:3 6:3
+1311 issharingtoolsamongprojects 37:10
+1312 sharing 37:10
+1313 tools 37:15 11:13 15:3
+1314 configure 37:21 9:10
+1315 inited 37:5
+1316 alternatively 37:5
+1317 configured 37:5
+1318 setter 37:11 18:10 17:1
+1319 launches 37:5 1:1
+1320 typically 28:11 37:5 25:4
+1321 dispatcher 35:9 37:4 41:1
+1322 shows 37:7 0:5 32:3
+1323 hides 37:5 7:2
+1324 attached 39:10 37:1
+1325 osxapplication 37:5
+1326 mdiapplication 37:5
+1327 share 37:5
+1328 instances 37:5 38:1
+1329 bound 42:7 37:7 11:5
+1330 represented 37:5
+1331 attributekey 12:113 28:64 17:24 6:8 15:1
+1332 drawapplet 43:21
+1333 constructor 17:239 26:132 6:21 7:8 19:1
+1334 netapplet 43:17
+1335 pertapplet 43:15 26:2
+1336 mainx 43:2
+1337 svgapplet 43:17
+1338 makeacceptable 21:2
+1339 acceptable 21:2
+1340 extensionfilefilter 21:9 26:5
+1341 appends 9:3 37:2 21:2 11:1
+1342 filename 21:6 32:3
+1343 marks 42:2 8:1
+1344 mask 15:11 26:6 7:5 6:1
+1345 bezierpath 15:97 17:51 27:1
+1346 describe 15:2
+1347 addition 14:2 43:1
+1348 effect 15:4 0:3 12:2 34:1
+1349 maximizes 8:1
+1350 mdidesktoppane 32:7 22:4 17:4 36:1
+1351 didesktop 32:8 8:5 36:2 40:1 24:1
+1352 gui 26:73 19:8 0:8 36:2 11:1 18:1
+1353 jdesktoppane 43:3 19:2
+1354 desktop 43:4 37:3 4:3 13:2
+1355 supports 8:1
+1356 mdi 26:1
+1357 functionality 24:3 28:1 37:1
+1358 invocations 19:1
+1359 reflect 20:8 8:3
+1360 minimizes 17:1
+1361 minimumlayoutsize 19:3
+1362 minimum 19:21 26:1
+1363 verticalgridlayout 19:27 17:11
+1364 vertical 19:60 17:16 22:7 29:4 24:1
+1365 grid 19:49 11:36 38:31
+1366 determines 0:13 19:5
+1367 misc 17:1 29:1
+1368 xmlvalidationexception 3:34 26:19
+1369 validation 3:40 26:21
+1370 missingattribute 3:2
+1371 missingelement 3:2
+1372 missingpcdata 3:2
+1373 mouseclicked 8:19
+1374 clicked 8:19
+1375 abstracttool 8:89 17:28 39:1
+1376 beziertool 8:15 17:14
+1377 delegationselectiontool 8:14 2:5 0:3
+1378 delegation 8:14 17:5 2:3
+1379 handletracker 8:24 2:1
+1380 selectiontool 8:27 17:11
+1381 bidirectionalconnectiontool 17:21 5:12 8:5
+1382 bidirectional 17:20 5:11 8:7
+1383 connectiontool 17:33 5:15 8:7
+1384 creationtool 8:26 4:15 17:4 9:1
+1385 dragtracker 8:9 2:5
+1386 drag 8:12 2:4 26:3 17:1
+1387 texttool 8:10 17:6 21:4
+1388 mouseentered 8:13
+1389 entered 8:15
+1390 mouseexited 8:11
+1391 exited 8:11
+1392 manipulates 8:4
+1393 context 43:15 34:15 20:5 8:5 32:3 11:1
+1394 mouselistener 8:63
+1395 textareatool 8:8 15:5 2:2
+1396 edited 21:8
+1397 mousereleased 8:49
+1398 released 8:69
+1399 connects 39:10 8:4
+1400 moveaction 22:54
+1401 moveby 15:2
+1402 movehandle 26:12 23:11
+1403 owning 26:1
+1404 locator 1:195 17:36 23:20 36:2 39:1
+1405 movetobackaction 22:10 32:1
+1406 movetofrontaction 22:9 28:1
+1407 tofrontaction 24:1
+1408 abstractselectedaction 22:51 17:4
+1409 selected 22:73 2:41 11:19 17:14 0:3
+1410 selectsameaction 22:6 32:5
+1411 actionperformed 24:45 6:41 22:17 37:3
+1412 performed 24:44 6:43 22:16 19:9 37:2 42:1
+1413 actionevent 6:46 24:34 22:15
+1414 selectsame 22:2
+1415 actionlistener 24:54 22:33 35:1
+1416 startbuilding 44:3 32:2
+1417 building 44:8 26:4
+1418 newprocessinginstruction 44:3 26:2
+1419 processing 44:19 26:7 11:1
+1420 instruction 44:8 26:4
+1421 startelement 44:7 32:2
+1422 nsprefix 44:24
+1423 ns 44:40
+1424 nsuri 44:16
+1425 endelement 44:5 2:2
+1426 addpcdata 44:3 6:2
+1427 getresult 44:6 21:2
+1428 parsing 20:10 44:6
+1429 occurred 3:17 32:13 44:8 36:7 26:3
+1430 reserved 13:2 3:1 37:1
+1431 reported 44:1
+1432 retrieve 20:9 44:3
+1433 identify 44:8 11:2 0:1
+1434 elemnt 44:2 2:2
+1435 supplied 44:2 7:1 43:1
+1436 boundaries 44:2 38:1
+1437 skipped 3:2 20:1
+1438 entities 20:20 44:2
+1439 resolved 3:5 20:2
+1440 run 35:6 4:5 9:2
+1441 construct 35:17 12:9 18:1
+1442 finished 35:10 34:1
+1443 runnable 35:20 21:4 4:1
+1444 calls 35:7 34:5 11:4 6:3
+1445 produced 35:4 40:3 32:2
+1446 hasn 35:3 21:3
+1447 constructed 40:3 35:3
+1448 abstractlinedecoration 16:17 17:14
+1449 decoration 16:39 17:31 36:7 12:4 11:1
+1450 arrowtip 16:8 6:7 17:5
+1451 arrow 16:13 6:10 43:2 17:2 1:2 9:1 11:1
+1452 tip 16:19 17:11 6:10 9:7
+1453 outerradius 16:3
+1454 innerradius 16:3
+1455 isfilled 16:6
+1456 filled 16:7 15:5 29:3
+1457 isstroked 16:5 37:1
+1458 stroked 16:8 12:7 4:1
+1459 issolid 16:6
+1460 solid 16:7 32:1
+1461 getdecoratorpath 16:5 9:3
+1462 decorator 27:42 17:39 16:22 1:16 2:2
+1463 getdecoratorpathradius 16:5 26:3
+1464 dominput 40:86 41:57 35:33
+1465 dom 40:301 41:248 13:244 6:92 39:38 2:15 34:11 27:5 28:4 36:2
+1466 domoutput 13:115 41:83 6:11 26:7
+1467 linedecoration 16:11 17:4 11:1
+1468 domstorable 41:90 39:28 27:15 34:7 6:3
+1469 constructs 39:6 6:5 5:5 16:3 2:2 18:1
+1470 hook 16:6 8:6 12:1 21:1
+1471 calculates 16:6 40:2
+1472 generalpathtip 25:7 16:7
+1473 generalpathlinedecoration 26:1
+1474 genericlistener 9:10
+1475 generic 9:10
+1476 anonymous 31:1
+1477 geometric 26:1
+1478 geometryedit 26:6 33:5
+1479 swingworker 26:11 35:4
+1480 single 36:6 25:5 7:3 17:2 19:1
+1481 reversedlist 35:10 17:2
+1482 reversed 35:10 11:2
+1483 keystroke 9:8
+1484 getaction 25:4 42:3 37:3
+1485 getactions 27:6 31:3
+1486 abstractfigure 27:108 17:71 28:26 41:4
+1487 getaddedfigure 17:2 8:2
+1488 getanchor 39:7 25:1 21:1
+1489 abstractconnector 39:43 17:7 6:5
+1490 stickychopconnector 17:12 39:11
+1491 sticky 26:14 39:9
+1492 getangle 39:2
+1493 drawliveconnectapplet 43:13
+1494 live 43:25 19:1
+1495 svgliveconnectapplet 43:13
+1496 abstractapplicationaction 24:26 26:3
+1497 abstractprojectaction 24:32 42:18 25:2
+1498 belongs 42:2 26:1
+1499 getarcheight 9:1 30:1
+1500 arc 41:3 9:2 32:1
+1501 roundrectanglefigure 17:21 41:17
+1502 round 17:29 39:16 41:11 23:9 35:6
+1503 getarcwidth 43:1 27:1
+1504 getarrangement 32:3 21:2
+1505 arrangeable 29:21 32:13 6:5 36:3
+1506 abstractattributedcompositefigure 17:29 41:21
+1507 abstractcompositefigure 28:53 17:45 41:25
+1508 figureevent 5:112 26:6 11:1
+1509 graphicalcompositefigure 28:29 17:29
+1510 graphical 28:49 26:26
+1511 javaxdominput 40:27
+1512 nanoxmldominput 40:27 26:2
+1513 nanoxmllitedominput 40:27
+1514 lite 40:22 26:17 6:11 13:6
+1515 getattributekey 12:6
+1516 getattributename 3:2
+1517 violated 29:4 21:1 15:1
+1518 getattributevalue 25:1 3:1
+1519 getbaseclass 9:2
+1520 getbeandescriptor 25:16
+1521 jpopupbuttonbeaninfo 25:14
+1522 beandescriptors 25:8
+1523 descriptors 25:104
+1524 defaultdrawingviewbeaninfo 25:11 2:3
+1525 drawingpanelbeaninfo 25:10 2:3 17:1
+1526 svgpanelbeaninfo 25:8 26:5 17:1
+1527 beziercontrolpointhandle 15:13 23:8
+1528 getbezierpath 15:7
+1529 lineconnectionfigure 28:35 17:32
+1530 api 26:2 15:2
+1531 lineconnection 1:2 17:1 27:1
+1532 trianglefigure 17:18 27:10 23:10 39:2
+1533 getborderinsets 38:3
+1534 imagebevelborder 38:16
+1535 bevel 38:19
+1536 abstracthandle 23:77 17:36
+1537 ellipsefigure 17:12 27:8 2:6 41:3
+1538 logical 27:37 44:8 26:7 28:3 7:2
+1539 logcal 25:1 29:1
+1540 bounding 27:16 21:4 23:2
+1541 labeledlineconnectionfigure 17:33 28:14 33:1
+1542 labeled 17:26 28:22
+1543 locatorconnector 1:14 39:6
+1544 rectanglefigure 17:12 27:10 35:6
+1545 textareafigure 21:23 17:23
+1546 svgimage 17:15 27:6 41:2
+1547 getbuilder 44:3 38:1 25:1
+1548 structure 44:9 26:6
+1549 stdxmlparser 26:22 44:5
+1550 getcappedpath 40:1 15:1
+1551 capped 15:5 29:1
+1552 cappedpath 15:2
+1553 ends 39:3
+1554 prevent 37:3 16:2 15:2 19:1 34:1
+1555 getchangingdepth 38:2
+1556 changing 28:6 17:3 15:1 39:1
+1557 depth 38:4 4:1
+1558 getchild 28:8
+1559 compositefigure 28:110 22:18 19:17 16:1
+1560 unchangeable 28:4
+1561 getcolor 15:2
+1562 getcolumncount 43:2
+1563 getcolumns 18:2
+1564 getcompatiblehandles 11:5
+1565 defaultdrawingview 17:48 2:13 11:11 36:7 21:1
+1566 defaultappletapplication 37:9 26:4 2:4
+1567 defaultsdiapplication 17:17 37:9
+1568 visual 42:2 15:1
+1569 changeconnectionhandle 23:27 17:19 0:1
+1570 connectionhandle 17:12 23:8
+1571 getconnectortarget 12:1 27:1
+1572 getconstrainer 11:5
+1573 constrainer 11:44 38:36 2:3
+1574 getcontainer 11:5
+1575 getcontrolpoint 15:2
+1576 getcopyright 37:6 40:4
+1577 getcourtingconnection 26:1 34:1
+1578 courting 38:5 12:2
+1579 getcursor 23:12 40:7 28:3
+1580 closehandle 23:9 17:7 2:1
+1581 fontsizehandle 23:13 5:5 26:1 17:1
+1582 nullhandle 23:11 26:5
+1583 getdata 43:12
+1584 getdecomposition 28:9
+1585 decomposition 28:8 31:1
+1586 decompositon 28:4
+1587 parts 28:3 17:1
+1588 getdecorationradius 16:3 40:2
+1589 getdecorator 38:5
+1590 getdefault 18:1 1:1 19:1
+1591 localeutil 1:8 22:1 12:1
+1592 getdefaultattribute 11:5
+1593 getdefaulteventindex 25:16
+1594 commonly 25:16
+1595 human 25:15 21:3 18:1 20:1
+1596 getdefaultpropertyindex 25:16
+1597 initially 25:8
+1598 chosen 25:8
+1599 getdefaultvalue 28:7
+1600 getdelegate 3:2
+1601 delegate 3:7 26:3 38:1
+1602 getdependencies 28:2
+1603 taskfigure 17:16 38:13 28:8
+1604 getdescription 21:4 41:1
+1605 svgdrawing 41:8 26:8 5:3
+1606 getdimension 40:2
+1607 getdimensionvalue 40:2
+1608 getdomfactory 11:2
+1609 getdoubleattribute 20:11 40:3
+1610 getdrawbounds 28:12 23:3 16:3
+1611 abstracteditoraction 17:10 22:7
+1612 abstractviewaction 22:9 11:6 6:3 31:1 17:1 30:1
+1613 drawingevent 5:13 17:9
+1614 drawingpanel 36:11 43:7 2:4
+1615 netpanel 43:13
+1616 pertpanel 43:13
+1617 svgpanel 43:12 39:1 36:1
+1618 netproject 26:18 42:6
+1619 pertproject 26:15 42:9
+1620 svgproject 26:13 42:8
+1621 getdrawingtoviewtransform 11:5
+1622 getdrawingviews 11:5
+1623 getduration 38:2
+1624 attributetoggler 22:8 6:6
+1625 toggler 22:7 6:7
+1626 getelementcount 40:22
+1627 getelementname 38:1 3:1
+1628 getemptydrawingmessage 11:2
+1629 getencoding 25:1 32:1
+1630 encoding 32:6 28:2
+1631 stdxmlreader 32:19 26:14
+1632 scans 32:11 20:8 26:3
+1633 getentity 3:5
+1634 xmlentityresolver 26:10 3:5
+1635 getenumname 13:3 26:2
+1636 enum 29:149 4:5
+1637 defaultdomfactory 17:13 13:13
+1638 domfactory 13:26 40:19 6:4 2:4 36:2
+1639 getenumvalue 13:3 26:2
+1640 geteventsetdescriptors 25:20
+1641 eventsetdescriptors 25:11 9:1
+1642 getexception 17:1 3:1
+1643 encapsulated 28:24 3:5 43:3
+1644 getextensions 21:2
+1645 extensions 21:9
+1646 unmodifiable 28:8 21:1
+1647 getfigurecount 34:3 26:2
+1648 abstractdrawing 17:17 34:16 6:6 35:5
+1649 getfiguredrawbounds 27:27 40:14
+1650 nodefigure 26:13 21:9
+1651 getfigures 34:6 40:4
+1652 defaultdrawing 17:18 5:11 34:9
+1653 quadtreedrawing 30:19 17:18
+1654 quad 30:40 17:19 16:1
+1655 tree 30:36 17:23 44:1
+1656 getfiguresfronttoback 5:5 26:3
+1657 getfilechooser 31:1 0:1
+1658 sheetevent 0:19 32:2 17:1
+1659 getfillcolor 21:11 12:1
+1660 svgtext 29:15 41:13 17:12
+1661 getfocusedview 11:5
+1662 focused 11:9
+1663 getfont 21:10
+1664 getfontrendercontext 34:4 43:3
+1665 render 34:16 26:7 36:4
+1666 leyout 34:4 26:2
+1667 getfontsize 21:8
+1668 getfontstyle 12:2
+1669 getformatted 9:4
+1670 formatted 9:3 11:1 29:1
+1671 handleevent 11:20 18:2
+1672 gridconstrainer 38:17 21:1
+1673 precision 18:7 38:1 0:1
+1674 gethgap 19:2
+1675 hgap 19:10
+1676 gap 19:17
+1677 geticon 25:16
+1678 represent 25:8 0:1
+1679 toolboxes 25:8
+1680 coloricon 12:6 4:4 7:1
+1681 linedecorationicon 12:7 19:3 21:1
+1682 strokeicon 12:11
+1683 getimageicon 9:2
+1684 getinheritedattribute 40:13
+1685 inherited 40:13
+1686 getinputvalue 9:1 0:1
+1687 abstractlayouter 19:10 6:4
+1688 floatingtextfield 17:9 21:6 35:3
+1689 getinteger 12:2
+1690 getinvalidatedarea 5:4 21:3 38:1
+1691 invalidated 5:48 11:37 8:3
+1692 toolevent 11:28
+1693 getkey 40:1 18:1
+1694 getkeystroke 9:3 38:1
+1695 getlabelfor 21:12
+1696 labelfigure 5:12 1:8 21:5 12:1
+1697 getlabels 33:2
+1698 undoredomanager 33:27 36:9 17:9
+1699 getlafbundle 9:4
+1700 subclass 23:8 25:5 17:4 9:3
+1701 getlayer 38:17
+1702 layer 38:54 5:2
+1703 dependencyfigure 28:15 17:8 33:1
+1704 dependency 17:17 38:11 28:5
+1705 getlayouter 28:8
+1706 algorithm 28:32 7:6 19:4
+1707 xmlparseexception 20:37 3:15 26:2
+1708 stream 32:82 26:18 13:12 40:7 28:6
+1709 getliner 39:5
+1710 getlocation 23:10 40:8
+1711 bezierscalehandle 23:10 15:7
+1712 changeconnectionendhandle 23:8 17:7 4:2
+1713 changeconnectionstarthandle 39:12 23:5
+1714 locatorhandle 23:19 1:6 9:2
+1715 rotatehandle 23:9 17:8
+1716 getlocationondrawing 18:1 23:1
+1717 getlock 34:4 26:3
+1718 lock 34:6 11:5
+1719 synchronizes 31:1 34:1
+1720 threads 17:1 34:1
+1721 acting 31:1 34:1
+1722 synchronize 21:2
+1723 race 43:1 34:1
+1724 conditions 40:1 34:1
+1725 getmask 26:1 15:1
+1726 getmethoddescriptors 25:16
+1727 methoddescriptors 25:11 21:1
+1728 getmnemonic 11:1 9:1
+1729 getmodel 37:3 40:2
+1730 getnode 15:2
+1731 getopenchooser 35:3 40:2
+1732 getoption 31:1 14:1
+1733 getoptionpane 40:1 0:1
+1734 getoutermostpoint 43:1 28:1
+1735 getpalettes 9:1 37:1
+1736 osxpalettehandler 4:7 40:5 28:1
+1737 getpane 31:1 0:1
+1738 getparameter 43:20
+1739 getparameterinfo 43:18
+1740 getparameters 39:2
+1741 getpath 18:2
+1742 getperpendiculardrawgrowth 21:2
+1743 growth 12:6
+1744 shrink 12:6 31:1
+1745 getperpendicularfillgrowth 12:2
+1746 getperpendicularhitgrowth 21:1 12:1
+1747 detections 21:2
+1748 getpoint 39:6
+1749 getpointonpath 15:4
+1750 getpopupmenu 43:2
+1751 getpredecessors 38:2
+1752 predecessors 28:2
+1753 predecessor 38:2
+1754 perttasks 40:2 38:2
+1755 tasks 28:9
+1756 pertdependency 28:4
+1757 getpreferredmenuitemsize 43:2 38:1
+1758 palettemenuitemui 43:11
+1759 side 7:9 40:2 39:1 34:1
+1760 translation 11:2
+1761 floatingtextarea 21:11 17:8 30:2
+1762 separatorlinefigure 28:9 32:3
+1763 renders 28:4 17:2
+1764 getpresentationname 33:29 25:4
+1765 attributechangeedit 33:5 6:4 26:2
+1766 restoredataedit 33:11 35:2
+1767 restore 27:45 40:16 35:14 33:8 6:1
+1768 setboundsedit 33:9 32:4
+1769 transformedit 33:10 23:7
+1770 compositeedit 33:20 4:10 26:7 8:1
+1771 getprojectclass 40:1 37:1
+1772 getpropertydescriptors 25:24
+1773 propertydescriptors 25:12
+1774 getprototype 13:7 40:6 8:2
+1775 written 13:8 20:3 11:1
+1776 javaxdomoutput 6:12 13:11 26:4
+1777 nanoxmldomoutput 26:13 6:9 13:6
+1778 nanoxmllitedomoutput 6:12 26:11 13:5
+1779 getpublicid 32:3 26:2
+1780 getreader 44:3 21:2
+1781 retrieves 44:4 26:4
+1782 getredoaction 38:1 33:1
+1783 getredopresentationname 33:6
+1784 getrelativelabelpoint 40:1 1:1
+1785 bezierlabellocator 15:10 1:7 41:1
+1786 provided 1:18 27:14 40:9 34:7 35:5 39:4 13:4 6:3 18:2 9:2 23:1 24:1
+1787 getrelativepoint 15:2
+1788 getresolver 44:3 18:2
+1789 getrestoredata 27:16 40:8 17:3
+1790 basictransform 27:64 15:20
+1791 applied 27:11 21:1
+1792 getrows 40:1 19:1
+1793 rows 19:41
+1794 getsavechooser 42:3 40:2
+1795 getscalefactor 11:9
+1796 factor 11:29 12:14 32:5
+1797 getselectedfigures 11:5
+1798 figureselection 11:6
+1799 getselectionbounds 15:1 22:1
+1800 alignaction 22:65 6:25
+1801 align 22:79 6:31
+1802 drawapplicationmodel 37:7 2:4 17:3
+1803 netapplicationmodel 37:9 26:6
+1804 svgapplicationmodel 37:9 26:6
+1805 getsize 18:7 36:2
+1806 unaffected 39:2
+1807 getstarttime 31:1 28:1
+1808 time 39:5 38:2 9:2
+1809 getstreamlevel 32:3 40:2
+1810 streams 43:2 32:2
+1811 getstringattribute 20:11 43:3
+1812 getstroke 12:6
+1813 getstrokemiterlimitfactor 12:4
+1814 computing 12:2
+1815 widht 21:2
+1816 getstyles 15:2
+1817 styles 41:2 40:1
+1818 getsuccessors 18:1 32:1
+1819 successors 28:2
+1820 gettabsize 21:8
+1821 expand 21:5
+1822 gettarget 39:6 17:2
+1823 gettargetconnector 21:2 5:2
+1824 gettargetfigure 39:5 31:3
+1825 contents 26:17 13:9 2:7 18:6 28:2 21:2 5:2
+1826 gettextcolor 21:12
+1827 gettextlayout 21:2
+1828 gettip 9:2
+1829 gettitle 40:1 34:1
+1830 gettool 21:14 11:10
+1831 specialized 21:11 27:4
+1832 gettools 11:5
+1833 gettooltip 38:4 41:1
+1834 tooltip 38:5 9:5
+1835 gettransferdata 18:6
+1836 transfer 18:12
+1837 dataflavor 18:16
+1838 flavor 18:50
+1839 datatransfer 18:36 26:6
+1840 compositetransferable 17:8 18:5 37:1
+1841 transferable 18:33 26:10 4:1
+1842 represents 18:4 43:2 3:1
+1843 transferred 18:6
+1844 xmltransferable 18:14
+1845 gettransferdataflavors 18:6
+1846 flavors 18:9 25:7
+1847 indicating 18:6 7:4 0:1
+1848 gettransform 12:2 21:1 26:1
+1849 getundoaction 33:2
+1850 getundopresentationname 33:6
+1851 getvalidator 44:3 40:2
+1852 validates 44:4 26:4
+1853 focusaction 17:6 24:4
+1854 runnableworker 35:9 9:2
+1855 getversion 37:6 25:2 26:1 11:1
+1856 getvgap 19:2
+1857 vgap 19:10
+1858 active 11:14
+1859 figureselectionevent 5:9 32:5 22:5
+1860 fills 6:4 21:1
+1861 purpose 40:4 39:3
+1862 presenting 28:2
+1863 constrains 38:2 26:1 3:1 4:1
+1864 falls 25:1
+1865 groupfigure 39:9 41:6
+1866 groups 9:1
+1867 groupfigures 22:6 40:4
+1868 combineaction 22:12
+1869 combine 22:7 4:5 17:1
+1870 splitaction 22:7 26:5
+1871 resizes 43:1 7:1
+1872 horizontally 19:3 22:1
+1873 vertically 43:3 15:2 1:1
+1874 growstroke 12:10
+1875 hierarchies 14:25
+1876 activate 8:23 6:8
+1877 deactivate 8:36 2:13 11:1
+1878 createfigure 8:4 4:4
+1879 addpointtofigure 8:2
+1880 newpoint 15:1
+1881 finishcreation 8:3 5:2
+1882 finish 8:3 30:2
+1883 keylistener 8:29 23:20
+1884 mousemotionlistener 8:32
+1885 motion 8:36
+1886 direct 14:43 8:4 38:2 2:1
+1887 pathtool 26:7 8:7
+1888 activates 8:8 24:1
+1889 switches 8:18
+1890 reinitialize 8:8
+1891 valid 20:24 8:8 32:5 36:1
+1892 present 8:9 7:3
+1893 accept 8:9 21:2
+1894 activation 8:8
+1895 deactivates 8:10 2:1
+1896 clean 8:9 5:1
+1897 switched 8:10
+1898 subclassers 8:10 12:1
+1899 abstractcollection 30:2 15:1
+1900 abstractlist 30:3 15:1
+1901 addpoint 15:1 6:1
+1902 coord 15:7
+1903 invalidatepath 15:3 41:1
+1904 invalidate 27:23 38:17 23:3 11:2 30:1
+1905 togeneralpath 15:2
+1906 outlinecontains 7:2
+1907 tolerance 15:6 7:5
+1908 intersects 15:7 30:3
+1909 flatness 15:3
+1910 setto 15:3 11:1
+1911 indexofoutermostnode 15:2 42:1
+1912 findsegment 15:4
+1913 joinsegments 15:2
+1914 splitsegment 7:1 11:1
+1915 topolygonarray 15:2
+1916 iterable 30:2
+1917 randomaccess 15:1
+1918 random 7:1
+1919 adding 7:2 6:2
+1920 recomputes 15:1 29:1
+1921 invalid 38:6 20:4 3:4 15:3 6:2 29:1
+1922 converts 11:12 7:5 2:3 32:2
+1923 tested 7:1
+1924 test 11:2 4:2 7:1
+1925 deep 15:2
+1926 transforms 15:8 27:7
+1927 transformation 27:17
+1928 crosses 7:4 39:2
+1929 nearest 7:2
+1930 furthest 15:2
+1931 joins 15:6
+1932 hits 15:6 5:4
+1933 joined 15:4
+1934 splits 15:6
+1935 img 38:3
+1936 borderinsets 38:3
+1937 imageinsets 38:2
+1938 fillcontentarea 38:1
+1939 isborderopaque 38:3
+1940 opaque 38:5
+1941 paintborder 38:3
+1942 applies 12:5 6:4 38:1
+1943 paints 14:1 17:1
+1944 addstorableclass 29:2
+1945 addstorable 13:1 6:1
+1946 addenumclass 13:1 29:1
+1947 addenum 29:2
+1948 createenum 13:3 12:2
+1949 drawfigurefactory 13:7 2:4
+1950 netfactory 13:6 26:3
+1951 pertfactory 13:8 26:3
+1952 svgfigurefactory 13:9
+1953 linefigure 28:26
+1954 removenotify 34:31 35:9
+1955 checks 27:19 39:14 4:10 3:2 18:1
+1956 constrain 39:8 7:5
+1957 provide 39:6 8:5 25:4 37:1
+1958 early 39:3
+1959 feedback 28:3
+1960 disconnection 28:4
+1961 ordering 38:5
+1962 inside 5:19 27:11 4:4 29:3 28:3 30:2
+1963 higher 38:5
+1964 lower 38:5 21:3
+1965 determined 0:16 38:6 19:2
+1966 sequence 38:3 33:2 14:2 42:1 39:1
+1967 figurelistener 5:119 23:18 35:3 6:2
+1968 figurechanged 5:33
+1969 replace 33:17 38:5
+1970 informs 28:29 11:19 41:4
+1971 inform 28:13
+1972 figurelisteners 28:13 30:1
+1973 setdrawing 11:8 32:5
+1974 adddefaultcreationbuttonsto 6:3 14:1
+1975 buttons 6:21 37:3
+1976 drawingactions 36:3 11:2
+1977 selectionactions 11:3 8:2
+1978 editablecomponent 11:12 2:10
+1979 editable 11:18 21:9 25:8 2:7 38:3
+1980 selectall 11:7 2:1
+1981 copies 2:6 4:2
+1982 clipboard 2:19 18:18 4:5
+1983 cuts 2:6 4:2
+1984 deletes 2:8
+1985 caret 2:8
+1986 pastes 2:8
+1987 duplicates 2:7
+1988 selects 11:5 2:1
+1989 osxtogglepaletteaction 24:7 26:4
+1990 toggle 24:38 23:20 11:14
+1991 setpalette 24:1 12:1
+1992 alignfigures 22:15 6:5
+1993 selectedfigures 22:8
+1994 selectionbounds 22:7
+1995 enclosing 22:11 29:8 12:1 15:1
+1996 updateproject 42:8
+1997 oldvalue 42:6 35:6 14:3
+1998 installprojectlisteners 42:14
+1999 install 42:25 4:8 0:1
+2000 uninstallprojectlisteners 42:14
+2001 uninstall 42:20 43:1
+2002 updateenabled 42:2
+2003 isenabled 42:21 11:5
+2004 exportaction 24:8 2:5
+2005 export 24:11 2:6
+2006 projectpropertyaction 42:8 36:7
+2007 savebeforeaction 24:20 32:5
+2008 toggleprojectpropertyaction 42:9 23:6
+2009 updates 42:10 39:6 33:1
+2010 installs 42:31 4:4 11:3 0:1
+2011 depends 42:4
+2012 enables 42:2 32:2
+2013 disables 24:4 0:2
+2014 enable 42:5
+2015 disable 42:8
+2016 trackend 23:28
+2017 modifiersex 23:46
+2018 modifiers 23:46
+2019 trackstart 23:28
+2020 trackstep 23:28
+2021 draws 2:23 23:12 38:6 39:5 34:5 8:4 16:2
+2022 tracks 23:44
+2023 interaction 23:79 8:2 11:1
+2024 setdrawingactions 36:2
+2025 setfigureactions 36:1 0:1
+2026 handlepopupmenu 8:2
+2027 showpopupmenu 8:1 26:1
+2028 handledoubleclick 8:2
+2029 click 28:32 23:21 34:8 36:1
+2030 toollistener 11:13 8:12 17:7
+2031 trigger 8:4
+2032 activated 8:2
+2033 overriden 8:3 23:1
+2034 specialised 8:4
+2035 behaviour 8:4 4:1
+2036 prototypeclassname 8:5
+2037 findsource 5:4
+2038 findtarget 5:4
+2039 findconnection 5:4
+2040 trackconnectors 23:2 5:2
+2041 findconnectionstart 5:4
+2042 figureareainvalidated 5:23
+2043 figureadded 5:28
+2044 figureremoved 5:28
+2045 figurerequestremove 5:25 35:1
+2046 figureattributechanged 5:25
+2047 mousedown 5:2
+2048 cloned 5:3
+2049 finds 5:34 34:14 39:6 15:2 7:1
+2050 connectable 5:10
+2051 existing 23:5 25:4 5:4
+2052 repainted 5:14 6:4 11:3
+2053 requests 5:11 19:1
+2054 setvisible 39:7
+2055 basicsetbounds 27:19 15:17 28:10
+2056 restoreto 27:15 35:11 14:1
+2057 restoredata 27:2
+2058 basicsetattribute 28:21
+2059 isinteractive 38:6
+2060 interactive 38:7 39:1
+2061 isstartconnector 27:4
+2062 setconnectorsvisible 38:3 26:2
+2063 courtingconnection 38:1 36:1
+2064 isconnectorsvisible 38:6
+2065 findfigureinside 30:9 34:8 28:4
+2066 remap 28:16 35:4
+2067 oldtonew 28:8
+2068 addnotify 34:19 28:14 6:10 0:2
+2069 requestremove 38:3 35:2
+2070 handledrop 28:5
+2071 drop 24:7 38:5 26:5 28:2
+2072 droppedfigures 34:4
+2073 dropped 38:6 7:1
+2074 handlemouseclick 28:20 27:1
+2075 addfigurelistener 38:3 6:2
+2076 removefigurelistener 38:3 35:2
+2077 addundoableeditlistener 34:7 6:5
+2078 removeundoableeditlistener 34:7 35:5
+2079 setdecorator 34:3 32:2
+2080 superinterfaces 14:11 5:5 21:1
+2081 subinterfaces 38:2
+2082 svgfigure 41:32 43:3
+2083 borderrectanglefigure 38:9 15:4
+2084 listfigure 28:10 1:5
+2085 svggroup 41:12 26:6 18:1 4:1
+2086 svgline 41:9 28:5 32:4
+2087 svgrect 41:12 32:4 38:1
+2088 invisible 39:6
+2089 fires 34:10 37:9 33:2 26:1
+2090 adjusting 27:11
+2091 decorations 38:2
+2092 include 25:4 34:2
+2093 dimensions 19:6 27:5 23:1
+2094 restores 27:10 28:2
+2095 previously 27:11 11:4
+2096 transformations 39:1
+2097 arithmethics 28:1
+2098 inherently 38:1
+2099 lossy 38:1
+2100 operations 24:2 33:1 28:1
+2101 recommended 34:1
+2102 lossless 11:1
+2103 match 29:7 40:4 13:4 20:2 27:1
+2104 transformed 27:1
+2105 semantics 27:21
+2106 affected 28:2
+2107 fired 27:7 25:4
+2108 firing 28:25
+2109 typesafe 28:5
+2110 convention 42:7 28:4 41:1
+2111 manipulate 27:14 26:4
+2112 interact 38:2
+2113 contained 28:16 39:9 27:5 23:2
+2114 testing 27:10 32:2
+2115 entries 27:6 20:1 28:1
+2116 interpreted 27:3
+2117 separators 27:3
+2118 part 34:27 27:16 37:8 42:1
+2119 optionally 38:2
+2120 considered 34:3
+2121 clones 28:4
+2122 providing 28:2 18:2 5:1
+2123 maps 34:3
+2124 remapped 27:3
+2125 pairs 28:1
+2126 invoking 38:1
+2127 areainvalidated 11:13 6:6
+2128 snap 38:2
+2129 consumed 27:6
+2130 obj 18:32
+2131 nosuchmethodexception 18:22
+2132 stringparameter 18:2
+2133 invokestatic 18:9 24:1
+2134 clazz 18:15
+2135 invokegetter 18:8
+2136 getter 18:24 36:3 37:1
+2137 invokestaticgetter 18:2
+2138 invokeifexists 18:8
+2139 method 18:2
+2140 mymainclass 37:1
+2141 defaultadiapplication 37:1
+2142 myappliciation 35:1
+2143 appliciation 37:1
+2144 setversion 37:2 32:1
+2145 setcopyright 37:2 0:1
+2146 rights 37:1
+2147 setprojectclassname 37:3 32:2
+2148 myapplication 35:1
+2149 myproject 37:1
+2150 setmodel 37:4 32:2
+2151 createproject 37:9 4:1
+2152 addpropertychangelistener 35:9 6:9
+2153 propertychangelistener 35:27 36:13 6:8
+2154 removepropertychangelistener 35:18
+2155 recentfiles 37:6 35:4
+2156 files 37:21 42:10 35:6 36:1
+2157 addrecentfile 37:3 6:2
+2158 clearrecentfiles 37:5
+2159 configures 27:26 37:2 22:2 4:1
+2160 stops 37:2 21:1 20:1
+2161 saving 42:3
+2162 stopped 37:2
+2163 documentcount 37:5
+2164 setapplication 37:8 26:2
+2165 users 35:4 9:1
+2166 removing 37:3 2:1
+2167 disposing 37:3 26:1
+2168 invocation 37:6 38:3
+2169 consists 37:3 39:1
+2170 sequential 37:6
+2171 act 37:3 6:3
+2172 disabled 35:3
+2173 perform 42:4 41:2
+2174 recently 35:3
+2175 immutable 37:2
+2176 zoomaction 22:13
+2177 scalefactor 22:5 36:2
+2178 abstractbutton 22:11 36:8 9:5
+2179 doit 24:10 2:4
+2180 abstractundoableedit 33:47
+2181 oldgeometry 33:2
+2182 newgeometry 33:1 7:1
+2183 cannotundoexception 33:18
+2184 cannotredoexception 33:14
+2185 drawfill 27:24 2:13
+2186 drawstroke 27:24 2:13
+2187 calling 27:26 20:4
+2188 basicgetbounds 23:20 15:9
+2189 propertychangesupport 36:2 35:2
+2190 propertysupport 36:4 35:2
+2191 propertyname 35:10 42:6
+2192 createselectionactions 4:5 37:1
+2193 propertyvalue 42:3
+2194 propertyclass 42:2
+2195 chopboxconnector 39:45
+2196 chopbezierconnector 39:15
+2197 chopdiamondconnector 39:21
+2198 chopellipseconnector 39:15
+2199 choproundrectconnector 39:15
+2200 updateanchor 39:9
+2201 manually 39:3
+2202 tests 39:4 4:4 1:4 7:3 23:2
+2203 leave 14:1
+2204 basicadd 28:21 34:16
+2205 removeallchildren 28:8
+2206 basicremove 34:20 28:10
+2207 basicremovechild 28:8
+2208 basicremoveallchildren 28:8
+2209 setlayouter 28:5 32:3
+2210 accesses 28:10
+2211 arranges 28:10 32:2 6:2
+2212 strategy 28:5
+2213 define 28:5 1:4
+2214 laid 28:7 1:3
+2215 relation 28:5 1:4
+2216 layouting 28:3
+2217 delegated 28:13
+2218 plugged 28:5
+2219 good 28:5
+2220 idea 28:3 39:2
+2221 initialize 28:5 0:2
+2222 recreated 28:5
+2223 restored 28:5
+2224 storableinput 28:5
+2225 locate 1:31
+2226 abstractlocator 1:12 6:4
+2227 bezierpointlocator 1:12 15:5
+2228 fontsizelocator 1:7 5:4
+2229 relativedecoratorlocator 1:20 35:6
+2230 relativelocator 1:25 35:3
+2231 locates 1:20
+2232 setdefault 1:3
+2233 setprojectclass 14:1 17:1
+2234 startup 37:1 0:1
+2235 performance 14:1 32:1
+2236 suit 37:1 19:1
+2237 puts 7:7 13:3 42:2 37:2
+2238 updateconnection 28:6 42:3
+2239 connectssame 39:5
+2240 setstartpoint 39:4 26:1
+2241 setendpoint 39:5
+2242 setpoint 39:4 26:3
+2243 setliner 39:3 32:2
+2244 das 39:3
+2245 cases 39:4
+2246 lineouting 39:2
+2247 scrollpanelayout 36:5
+2248 scroll 36:50
+2249 placardscrollpanelayout 36:20
+2250 placard 36:17 26:3
+2251 uiresource 36:10
+2252 layoutmanager 19:9 36:1
+2253 plaf 43:8 36:2
+2254 scrollpaneconstants 36:2
+2255 finalize 3:20 30:10
+2256 insertchild 31:1 37:1
+2257 insert 26:2 31:1
+2258 cleans 30:10 3:10
+2259 destroyed 30:10 3:10
+2260 inserts 31:1 6:1 33:1 38:1
+2261 existingend 23:3
+2262 targetend 23:3
+2263 disconnects 23:5 2:3
+2264 describing 25:16 3:2
+2265 preconditions 20:54
+2266 postconditions 20:28
+2267 horizontallayouter 19:10 11:1
+2268 calculatelayout 19:7 37:2
+2269 subelements 19:5
+2270 calculated 19:4
+2271 outputstream 26:4 13:4
+2272 safely 1:1
+2273 savechanges 32:2 24:2
+2274 savechangesandreviewnext 32:1 24:1
+2275 review 24:7 26:3 35:1
+2276 savechooser 42:3
+2277 savetofile 32:3 24:3
+2278 savetofileandreviewnext 32:1 24:1
+2279 scandata 32:1 44:1
+2280 scan 20:11 32:10
+2281 scanelement 21:1 20:1
+2282 scanidentifier 32:2
+2283 identifier 20:24 29:7 32:6
+2284 stringbuffer 32:6 20:6 33:1 35:1
+2285 scanpcdata 32:2
+2286 scansometag 32:2
+2287 scanstring 32:2
+2288 delimited 1:1 20:1
+2289 scanwhitespace 32:2 20:2
+2290 selectionchanged 32:5 22:4 11:1
+2291 applyattributesaction 22:6 6:6
+2292 apply 6:11 22:8 12:6 32:1
+2293 colorchooseraction 4:11 22:10
+2294 defaultattributeaction 2:14 22:13
+2295 pickattributesaction 26:7 22:5
+2296 figureselectionlistener 11:16 30:1
+2297 sendtoback 34:7 32:5
+2298 sends 34:23 32:3
+2299 sendtofront 32:1 34:1
+2300 setaction 36:2
+2301 setallsize 32:4
+2302 setangle 39:2
+2303 setanimated 0:2
+2304 animated 0:3 43:2
+2305 jsheet 0:45 17:19 32:2
+2306 transition 42:3 0:2
+2307 setarc 32:1 41:1
+2308 setarrangement 32:5
+2309 modifies 32:3 20:3 7:1
+2310 setattributeenabled 12:6
+2311 setattributes 12:4
+2312 setbaseclass 32:1 9:1
+2313 setbounds 32:4 39:2 21:2
+2314 sizes 43:1 17:1
+2315 setbuilder 44:3 32:2
+2316 setcolumns 19:2
+2317 setconnection 39:6
+2318 setconnecttodecorator 1:1 39:1
+2319 setconstrainer 11:5
+2320 setcontrolpoint 29:1 15:1
+2321 setcreatedfigure 12:1 8:1
+2322 setdata 43:6 32:6
+2323 setdefaultattribute 11:5
+2324 setdefaults 15:1 18:1
+2325 defaults 43:4 41:1
+2326 setdelegate 0:1 3:1
+2327 setdescription 1:1 34:1
+2328 setdoctype 13:10 26:1
+2329 doctype 13:20
+2330 setdomfactory 32:1 5:1
+2331 setdoubleattribute 20:4 17:1
+2332 setdrawdecoratorfirst 11:2
+2333 setduration 17:1 38:1
+2334 seteditable 21:2 12:1 32:1
+2335 setemptydrawingmessage 26:1 34:1
+2336 purposes 39:3 18:2 32:1
+2337 setfilled 1:1 16:1
+2338 setfontrendercontext 34:3 32:2
+2339 fontrendercontext 34:5 36:3 17:1
+2340 setfontsize 21:7 12:1
+2341 setgridvisible 42:3 11:1
+2342 sethassignificantedits 0:1 35:1
+2343 edits 33:15 17:6
+2344 sethgap 26:1 19:1
+2345 setintattribute 20:4 0:1
+2346 setinteractive 32:1 30:1
+2347 setitemfont 43:2
+2348 setlabelfor 21:2
+2349 setlocale 43:1 33:1
+2350 setmask 26:1 15:1
+2351 setnode 1:1 15:1
+2352 setowner 39:2
+2353 setpath 19:1 40:1
+2354 setpopupmenu 36:2
+2355 jpopupmenu 36:3 32:1
+2356 setpresentationfigure 32:1 29:1
+2357 setpublicid 32:5
+2358 setquadratic 39:2
+2359 quadratic 27:4 26:4 1:2
+2360 setreader 44:3 43:2
+2361 setresolver 44:3 17:2
+2362 setrows 19:3
+2363 setscalefactor 11:6 32:3
+2364 setshowing 42:5
+2365 showing 42:19
+2366 setsignificant 32:1 33:1
+2367 setsize 18:8 36:2 32:2
+2368 setsolid 32:1 16:1
+2369 setstroked 42:1 16:1
+2370 setsystemid 32:5
+2371 settargetfigure 32:2 23:2
+2372 settext 21:7 32:3
+2373 settool 11:4 32:1
+2374 settoolbar 1:1 14:1
+2375 toggletoolbaraction 4:10 11:1
+2376 settracker 13:1 11:1
+2377 setvalidator 44:3 42:2
+2378 setverbose 19:1 2:1
+2379 verbose 33:2 32:1
+2380 setvertical 19:2
+2381 setvgap 19:2
+2382 shadow 12:8 23:4
+2383 blackens 32:1 12:1
+2384 casting 12:2 9:2
+2385 amount 13:5 14:2
+2386 sheetlistener 0:39 24:1 35:1
+2387 showconfirmsheet 0:7 32:1
+2388 confirm 0:8
+2389 brings 0:20 34:4
+2390 options 0:18 38:6
+2391 cancel 0:7
+2392 choices 0:9
+2393 optiontype 0:16 32:1
+2394 messagetype 0:27
+2395 showinputsheet 0:8
+2396 question 0:12
+2397 requesting 11:7 0:5
+2398 parented 0:6
+2399 parentcomponent 0:46
+2400 prompts 0:2
+2401 selections 0:3
+2402 showmessagesheet 0:10
+2403 displays 0:12 6:1
+2404 displaying 0:2
+2405 showopensheet 0:2
+2406 showoptionsheet 32:1 0:1
+2407 choice 0:2
+2408 initialvalue 0:4
+2409 showsavesheet 0:2
+2410 showsheet 0:4
+2411 custom 0:4
+2412 approve 0:7
+2413 skipcomment 17:1 20:1
+2414 comment 13:17 6:8 20:3 26:1
+2415 skips 26:2 20:2
+2416 skipspecialtag 32:2
+2417 slantedliner 1:11 26:4 32:3
+2418 slanted 1:17 12:1
+2419 sort 34:5 32:3
+2420 sorted 34:2 13:1
+2421 sorting 36:2 43:1 5:1
+2422 orphaned 34:3 15:1
+2423 southeast 1:7 32:1
+2424 southwest 32:4 1:4
+2425 splitpathsaction 36:1
+2426 paths 12:4 28:1
+2427 startnewstream 32:10
+2428 concrete 26:2
+2429 core 17:1 20:1
+2430 parsed 20:8 26:1 43:1
+2431 inputstream 40:6 32:4
+2432 choping 26:3
+2433 centers 4:2 21:1
+2434 detecting 32:2
+2435 stringreader 19:1 32:1
+2436 multiplication 32:1 12:1
+2437 doubles 12:2
+2438 placement 29:25 6:3
+2439 superbasicsetbounds 32:1 28:1
+2440 supportedattributemap 0:1 12:1
+2441 supported 18:14 25:4 26:2 12:2
+2442 supportedattributes 21:2
+2443 presents 32:1
+2444 bezierfigures 27:2 42:1
+2445 textanchor 29:15
+2446 svgutils 39:1
+2447 utils 17:1
+2448 related 26:4
+2449 dedicated 41:2 36:1
+2450 syntaxerror 32:2
+2451 syntax 32:4
+2452 occured 20:12 32:1
+2453 trianglerotationhandler 23:15 37:1
+2454 abstractfigures 27:2
+2455 chops 41:2 4:2
+2456 rectangular 28:2
+2457 writeattributes 41:25
+2458 isempty 41:15 38:8
+2459 reasons 41:8 42:2
+2460 jbutton 36:8
+2461 actionarea 36:2
+2462 isvertical 19:3 36:2 43:1
+2463 jmenu 6:2
+2464 jmenuitem 36:2 9:2
+2465 addseparator 14:1 6:1
+2466 popupmenu 36:2
+2467 itemselectable 43:1
+2468 selectable 14:1
+2469 swingconstants 36:1
+2470 jtoolbarmenu 36:2
+2471 createoverlay 21:4 4:4
+2472 removeactionlistener 35:2
+2473 cols 19:14 21:3
+2474 endoverlay 21:4
+2475 findview 11:3 5:2
+2476 applydefaultattributesto 11:5
+2477 registers 11:2
+2478 unregisters 11:2
+2479 forwards 11:3
+2480 moation 34:2
+2481 keyboard 11:2
+2482 received 11:3 33:2 42:1
+2483 addleadhandles 6:3 23:1
+2484 unfilled 23:2
+2485 rectangles 23:2
+2486 drawtext 27:8 2:5
+2487 locatorlayouter 1:7 19:4
+2488 verticallayouter 19:11
+2489 layoutlocator 19:3
+2490 layoutcontainer 19:7
+2491 encapsulates 1:2
+2492 inset 38:14 12:1 35:1
+2493 square 1:4 20:1
+2494 linecontainspoint 7:3 1:3
+2495 decorate 36:1
+2496 poly 19:1
+2497 elbowliner 1:14
+2498 elbow 1:14
+2499 loadaction 24:12
+2500 loads 19:1
+2501 loadrecentaction 24:10 1:2
+2502 wrapper 1:2
+2503 overcome 1:1
+2504 security 1:1
+2505 restriction 19:1
+2506 preventing 1:1
+2507 applets 1:1
+2508 locators 19:1
+2509 delegating 28:1
+2510 lostownership 18:6
+2511 lost 18:6
+2512 ownership 18:6
+2513 notifies 18:2
+2514 longer 18:5
+2515 mid 29:1
+2516 valueof 29:14
+2517 comparable 29:7
+2518 inthe 29:21
+2519 declared 29:21
+2520 iterateover 29:7
+2521 declare 29:7
+2522 anenum 29:7
+2523 extraneous 29:7
+2524 permitted 29:7
+2525 constantwith 29:7
+2526 isgridvisible 38:2 11:2
+2527 filefilter 21:7
+2528 pathname 21:2
+2529 readable 13:3 21:2 20:1
+2530 converted 21:2
+2531 editcopy 2:5
+2532 editcut 2:5
+2533 editdelete 2:5
+2534 editduplicate 2:5
+2535 editpaste 2:5
+2536 editscrollcontainer 21:2
+2537 scrolling 21:2
+2538 editwidget 21:1 11:1
+2539 widget 21:2
+2540 actual 21:2
+2541 orthogonal 21:1
+2542 inprogress 33:9
+2543 endedit 21:4
+2544 enumerateattributenames 20:22
+2545 enumerate 20:30
+2546 enumerates 20:4
+2547 execute 42:5
+2548 executes 42:2 2:2
+2549 executor 42:5
+2550 exits 2:1
+2551 letting 2:1
+2552 expectedinput 20:2
+2553 expected 20:5
+2554 exporttofile 21:2
+2555 filters 26:1
+2556 openelement 40:36 13:8
+2557 closeelement 13:11 4:8 40:7
+2558 readobject 40:16 35:6 38:1
+2559 opens 40:32 32:2
+2560 makes 40:24
+2561 closes 4:10 40:4 13:4
+2562 updatestarttime 38:1 33:1
+2563 adddependency 38:1 33:1
+2564 removedependency 38:1 1:1
+2565 isdependentof 38:2
+2566 indirect 38:2
+2567 passed 38:5 26:3 0:3 42:2
+2568 cycle 2:3 38:1
+2569 isconnecttodecorator 39:1 38:1 36:1
+2570 findpoint 39:1 5:1
+2571 updatestartlocation 39:1 26:1
+2572 updateendlocation 39:1 26:1
+2573 internally 14:1
+2574 resurrect 39:1
+2575 storableoutput 39:1
+2576 distinguish 42:2 39:1
+2577 improve 39:2 30:1
+2578 results 39:2
+2579 openrecentaction 24:13
+2580 openfile 24:6
+2581 fileopened 24:4 30:3 5:1
+2582 newpresentationfigure 28:4
+2583 basicsetpresentationfigurebounds 34:2
+2584 drawfigure 27:15 2:8
+2585 drawpresentationfigure 7:1 17:1
+2586 applyattributesto 12:3 6:3
+2587 mechanism 28:1
+2588 clients 28:1
+2589 displaybox 27:1
+2590 stroketotalwidth 28:1
+2591 paintcomponent 2:3
+2592 painticon 12:13
+2593 colorattributeicon 12:10 4:2
+2594 parameterentityresolver 3:2
+2595 lets 44:4
+2596 parsechararray 26:2 20:2
+2597 char 20:21 26:8 32:4 9:4 2:4
+2598 parsefromreader 20:3 7:2
+2599 parsestring 26:4 20:4
+2600 scribble 3:1 34:1
+2601 pickattributes 12:1 22:1
+2602 pointtoangle 7:4
+2603 polartopoint 7:4
+2604 polar 7:8
+2605 preferencesutil 4:10
+2606 preferredlayoutsize 19:3
+2607 printwriter 3:6 20:2 13:2
+2608 indents 26:2 20:2
+2609 prints 36:2 13:2
+2610 dumps 3:6
+2611 printstream 3:2
+2612 err 3:2
+2613 processattlist 3:2
+2614 att 3:2
+2615 processes 3:23 15:1
+2616 attlist 3:2
+2617 processattribute 44:2
+2618 processcdata 7:1 3:1
+2619 section 3:10 40:1 20:1
+2620 processconditionalsection 3:2
+2621 conditional 3:4
+2622 processdoctype 3:2
+2623 doc 3:1 44:1
+2624 processelement 3:4
+2625 processentity 3:2
+2626 processignoresection 43:1 3:1
+2627 processpi 3:2
+2628 processspecialtag 44:2
+2629 bang 44:2
+2630 space 19:3
+2631 prototypical 3:1 39:1
+2632 addedit 33:23 6:3
+2633 replaceedit 33:17
+2634 isinprogress 33:5 4:3
+2635 canundo 33:9
+2636 canredo 33:7 17:2
+2637 generally 33:1
+2638 configurejcheckboxmenuitem 43:1 22:1
+2639 jcheckboxmenuitem 22:8
+2640 mi 9:2
+2641 unconfigurejcheckboxmenuitem 22:2
+2642 unconfigure 22:2
+2643 radio 22:1 17:1
+2644 unconfigures 22:2
+2645 xmlwriter 13:9 26:7
+2646 prettyprint 13:6
+2647 pretty 13:6
+2648 indent 13:6 20:2
+2649 collapseemptyelements 13:1
+2650 collapse 13:1
+2651 spaces 13:5
+2652 inserted 13:3
+2653 constrainpoint 7:5 4:4
+2654 constrained 7:4
+2655 eventobject 5:10 0:2
+2656 invalidatedarea 5:9 36:4 8:1
+2657 str 41:4 32:4 20:3
+2658 topathdata 41:1 38:1
+2659 frompathdata 15:2
+2660 assigns 41:2
+2661 zoomeditoraction 22:13
+2662 updateallviews 22:1 36:1
+2663 doublestroke 12:12 17:4 29:1
+2664 innerwidth 12:2
+2665 createstrokedshape 12:6 26:1
+2666 tracestroke 12:1 4:1
+2667 relativex 1:3
+2668 relativey 1:3
+2669 northeast 1:8
+2670 northwest 1:8
+2671 applyattributes 22:2
+2672 newconnection 39:3
+2673 newtarget 23:1
+2674 reverts 23:1
+2675 isnullvalueallowed 18:3
+2676 basicset 28:2
+2677 hashcode 18:9
+2678 isassignable 12:1 18:1
+2679 assignable 18:1 42:1
+2680 writepoints 41:7
+2681 readpoints 41:7
+2682 redrawn 27:6 28:1
+2683 addedgehandles 1:1 6:1
+2684 addboxhandles 6:2
+2685 ateofofcurrentstream 32:3 6:2
+2686 ateof 32:3 6:2
+2687 unread 32:3 22:3 20:1
+2688 ch 32:4 20:3
+2689 openstream 32:3 40:2
+2690 malformedurlexception 32:10
+2691 malformed 32:10
+2692 filenotfoundexception 32:8
+2693 isinternalentity 32:4
+2694 pushes 42:3 32:3
+2695 push 32:3
+2696 refers 32:3
+2697 opening 32:3
+2698 temporary 32:4
+2699 exhausted 32:4
+2700 resolving 3:3 32:1
+2701 isfigureselected 5:3 37:2
+2702 checkfigure 11:2
+2703 removefromselection 11:4 41:1
+2704 toggleselection 11:5
+2705 findhandle 5:5
+2706 findfigure 5:12 11:1
+2707 findfigures 5:13
+2708 findfigureswithin 5:13
+2709 addmouselistener 8:3
+2710 removemouselistener 11:1 35:1
+2711 addkeylistener 11:2
+2712 removekeylistener 35:2
+2713 addmousemotionlistener 11:1 6:1
+2714 removemousemotionlistener 35:2
+2715 addfigureselectionlistener 11:3 6:2
+2716 fsl 11:8
+2717 removefigureselectionlistener 35:3 11:2
+2718 isn 38:2 11:2
+2719 pasted 11:2
+2720 lie 5:8 34:6
+2721 getactiveview 11:2
+2722 anymore 11:2 7:1
+2723 framework 11:4 40:3
+2724 arrangeaction 29:5 6:5 17:2
+2725 id 29:4 17:2
+2726 cascade 29:2 9:1
+2727 jlayeredpane 18:1
+2728 layered 43:1
+2729 tileframesvertically 18:2
+2730 tile 18:2
+2731 arrangeframesvertically 32:1 6:1
+2732 arrangeframeshorizontally 43:1 6:1
+2733 efficiently 32:2 6:2
+2734 preference 4:5 18:4 36:1
+2735 keeping 19:2 6:2
+2736 maximal 32:2 33:1 17:1
+2737 yield 38:4 36:4
+2738 subtracted 38:4
+2739 required 25:4 38:1
+2740 fields 18:3
+2741 representation 18:12 15:4 3:1
+2742 intended 18:2
+2743 debugging 18:2
+2744 format 18:2
+2745 vary 18:2
+2746 implementations 18:2 22:1
+2747 jscrollpane 36:10
+2748 jtextarea 21:1
+2749 holding 21:1
+2750 preferredsize 36:2
+2751 keypressed 8:16
+2752 keyevent 8:30
+2753 keyreleased 8:16
+2754 keytyped 8:16
+2755 typed 8:16
+2756 newtracker 8:1
+2757 createhandletracker 11:2
+2758 createdragtracker 8:1 26:1
+2759 createareatracker 8:1 4:1
+2760 toolstarted 8:5 23:3
+2761 tooldone 11:8
+2762 starteds 11:3 4:1
+2763 interacting 11:4
+2764 reviewchanges 11:2
+2765 reviewnext 24:1 35:1
+2766 filesaved 30:3 24:3
+2767 unsavedproject 24:3
+2768 filesavedandreviewnext 24:2
+2769 doexit 24:2
+2770 cell 38:2
+2771 drawcaps 15:1 2:1
+2772 basicsetbezierpath 15:2
+2773 invalidatecappedpath 15:2
+2774 addnode 15:2 6:2
+2775 basicaddnode 15:4
+2776 basicsetnode 15:5
+2777 findnode 15:2
+2778 removeallnodes 15:1 35:1
+2779 removenode 41:2
+2780 basicjoinsegments 15:4
+2781 basicsplitsegment 15:4
+2782 basicremovenode 15:2
+2783 basicremoveallnodes 15:2
+2784 setting 15:4 19:1
+2785 eventlistenerlist 30:5 36:3
+2786 adddrawinglistener 34:3 6:2
+2787 drawinglistener 11:16 34:4 35:1 2:1
+2788 removedrawinglistener 34:3 35:2
+2789 removeall 34:3 35:2
+2790 toberemoved 34:2
+2791 basicaddall 34:9
+2792 basicremoveall 34:7
+2793 tobeorphaned 34:2
+2794 indexof 34:5 37:3
+2795 fireareainvalidated 30:12
+2796 dirtyregion 30:1
+2797 firefigureadded 30:4
+2798 firefigureremoved 30:4
+2799 frc 34:2
+2800 undooable 34:2 26:1
+2801 reinssets 34:3
+2802 temporarily 34:17
+2803 basicremoveed 34:3
+2804 removeed 34:3
+2805 firesfigureadded 34:2 6:1 35:1
+2806 reinserts 34:7
+2807 notification 30:50
+2808 windingrule 29:14
+2809 winding 29:20
+2810 rule 29:20
+2811 odd 29:2
+2812 determining 29:2
+2813 interior 29:2
+2814 japplet 43:15
+2815 rootpanecontainer 43:7
+2816 src 11:2
+2817 pis 44:1
+2818 handled 44:1
+2819 strokeplacement 29:15
+2820 sid 29:2
+2821 clearaction 24:7 4:3
+2822 installframeprefshandler 4:2
+2823 installpaletteprefshandler 4:4
+2824 installinternalframeprefshandler 4:2
+2825 installtoolbarprefshandler 4:2
+2826 runs 4:4
+2827 storing 4:4
+2828 retrieving 4:4 20:2
+2829 intenal 4:2
+2830 borderlayout 4:3
+2831 figurelayercomparator 38:5 30:2 40:1
+2832 comparator 38:9 5:2
+2833 manipulation 23:1
+2834 handlelistener 11:19 6:3 23:1
+2835 handlemulticaster 23:18
+2836 multicaster 23:18
+2837 handlerequestremove 11:5
+2838 handlerequestsecondaryhandles 11:5
+2839 interactions 28:1
+2840 hassignificantedits 33:2 31:1
+2841 discardalledits 33:6
+2842 discard 33:5 2:2 16:1
+2843 direction 7:7 2:6 27:3 3:1 12:1
+2844 ty 27:4
+2845 dx 22:1 15:1 36:1
+2846 dy 22:2 15:1
+2847 duplicateaction 24:7 2:3
+2848 addhandlelistener 23:3 6:2
+2849 removehandlelistener 23:3 35:2
+2850 trackdoubleclick 23:11
+2851 viewtransformchanged 23:3 29:2
+2852 createsecondaryhandles 23:6 4:3
+2853 roundrectradiushandle 23:12 35:3
+2854 invalidates 23:2 17:1
+2855 refreshed 23:2
+2856 disposes 23:3
+2857 resources 42:5 2:3 23:2 41:1
+2858 aquired 23:3
+2859 tracked 23:1
+2860 saveas 24:1 16:1
+2861 success 24:1
+2862 failure 14:1
+2863 attributeaction 22:14 6:13
+2864 compatibletextaction 22:2
+2865 changeattributes 12:1 4:1
+2866 alter 1:3
+2867 lined 1:3
+2868 openchooser 42:2 40:1
+2869 openexternalentity 7:1 3:1
+2870 optionselected 0:2
+2871 defines 17:6
+2872 oriented 7:3
+2873 applications 7:2
+2874 scratchover 40:1
+2875 editors 26:2
+2876 userinterface 34:1
+2877 defining 7:1
+2878 performing 26:1
+2879 relatedto 40:1
+2880 dimensional 26:1
+2881 leveraging 7:2 24:1
+2882 sample 40:2
+2883 showcasing 7:1
+2884 capabilities 7:1
+2885 simple 25:36 7:1
+2886 network 7:2
+2887 diagram 40:1
+2888 diagrams 7:3
+2889 program 40:1
+2890 evaluation 0:1
+2891 technique 26:1
+2892 figurs 24:1
+2893 limited 7:1
+2894 scalable 7:1
+2895 mobile 40:2
+2896 drawings 7:2
+2897 shapes 7:1 28:1
+2898 models 24:2
+2899 orientation 29:25 4:1
+2900 specifies 24:2 1:2
+2901 origin 7:2 21:1
+2902 osxdropondockaction 24:10
+2903 dock 24:11
+2904 bitmask 7:8
+2905 lies 7:8
+2906 outcode 7:4
+2907 computes 7:4
+2908 binary 7:4 20:2
+2909 ovalangletopoint 7:4
+2910 oval 7:8
+2911 corresponds 7:6 6:2
+2912 addcomment 13:7 6:4
+2913 addtext 13:7 6:4
+2914 writeobject 13:11 17:1
+2915 consecutives 13:4
+2916 texts 13:4
+2917 merged 13:4
+2918 reduce 13:4
+2919 writing 13:4
+2920 unexpected 3:16 42:12 20:1
+2921 errortype 3:2 33:1
+2922 msg 3:13
+2923 validity 3:1
+2924 offending 3:3
+2925 createdrawingactions 37:2 4:2
+2926 automatically 23:1
+2927 rearranges 4:1
+2928 allocated 17:1
+2929 breaking 4:1
+2930 word 4:1
+2931 lf 23:1
+2932 crlf 11:1
+2933 sequences 23:1
+2934 separate 4:1
+2935 paragraphs 17:1
+2936 formatting 17:1
+2937 alignment 6:2 18:1
+2938 distributed 23:1
+2939 intervals 38:1
+2940 tabsize 15:1
+2941 togglegridaction 11:16 26:1
+2942 togglevisibleaction 24:5 23:3
+2943 toggles 29:2
+2944 mode 17:1
+2945 toolbarbuttonfactory 6:18 4:5 17:4
+2946 object 18:2
+2947 apex 23:1
+2948 places 4:2
+2949 based 11:1
+2950 radiushandle 23:1
+2951 abstractfigurelistener 5:11 6:4
+2952 fileexported 24:2
+2953 exported 5:1 14:1
+2954 filereader 20:2 26:1 32:1
+2955 findchild 5:1 41:1
+2956 findchildindex 5:2
+2957 findconnectablefigure 5:2
+2958 findconnectiontarget 5:1 23:1
+2959 findcontains 30:2
+2960 quadtree 30:16 36:3 35:2
+2961 findfigureexcept 5:16
+2962 descends 5:4
+2963 findinside 30:2
+2964 findintersects 30:4
+2965 fireattributechanged 30:2
+2966 firefigurechanged 30:5 27:2
+2967 firefigurerequestremove 30:2
+2968 firehandlerequestremove 5:2
+2969 firehandlerequestsecondaryhandles 30:2
+2970 fireoptionselected 5:3 0:3
+2971 fireselectionchanged 11:2
+2972 fireviewtransformchanged 5:2
+2973 fitbeziercurve 5:1 7:1
+2974 fitcurve 9:2 5:2
+2975 overlays 5:1
+2976 bold 5:1 12:1
+2977 face 12:2
+2978 italic 11:1 12:1
+2979 underlined 5:1 12:1
+2980 updateenabledstate 22:16 42:3
+2981 cangroup 22:3 4:2
+2982 ungroupfigures 22:10
+2983 clearrecentfilesaction 42:8 4:5
+2984 installapplicationlisteners 24:5
+2985 uninstallapplicationlisteners 42:5
+2986 isstartdecoration 16:1
+2987 simplebeaninfo 25:36
+2988 propertydescriptor 25:16
+2989 eventsetdescriptor 25:8
+2990 methoddescriptor 25:4
+2991 iconkind 25:8
+2992 automatic 25:16
+2993 analysis 25:16
+2994 indexed 25:12
+2995 belong 25:4
+2996 indexedpropertydescriptor 25:8
+2997 client 25:4 20:2
+2998 kinds 25:4
+2999 images 25:4
+3000 gifs 25:4
+3001 fs 25:4
+3002 future 25:4
+3003 formats 25:4
+3004 aren 25:4
+3005 mono 25:16
+3006 choses 25:4
+3007 recommend 25:8
+3008 supporting 25:4
+3009 transparent 25:4
+3010 rendered 25:4 14:2
+3011 requested 25:8 18:8
+3012 representing 25:4
+3013 suitable 25:4
+3014 decorationradius 16:3
+3015 onconstrainer 11:3
+3016 offconstrainer 24:2 36:1
+3017 imageicon 12:4
+3018 imagelocation 14:1
+3019 built 44:2
+3020 oldrestoredata 33:1 7:1
+3021 isworking 2:1 18:1
+3022 isactive 30:1 22:1
+3023 addtoollistener 8:3 6:2
+3024 removetoollistener 8:4 26:1
+3025 updatecursor 30:1 22:1
+3026 prevents 11:1
+3027 currentview 8:1
+3028 mouseenter 8:1
+3029 enter 2:1
+3030 wrapprojectcomponent 37:1 13:1
+3031 wrap 41:2 37:2
+3032 toolbaractions 37:3
+3033 eventually 37:1
+3034 wraps 35:2 9:1
+3035 additional 37:1 29:1
+3036 displayed 0:27 37:4 19:1
+3037 baseclass 9:5
+3038 configureaction 9:4
+3039 configurebutton 9:4
+3040 configuretoolbarbutton 9:4
+3041 configuremenu 9:1 4:1
+3042 resoucebundleutil 9:1 35:1
+3043 resouce 9:1 28:1
+3044 metal 9:1
+3045 prepended 9:1
+3046 modal 0:1
+3047 addselectiontoolto 6:6
+3048 addtoolto 6:2
+3049 labelkey 6:2
+3050 addzoombuttonsto 6:2
+3051 createzoombutton 4:4
+3052 addattributesbuttonsto 6:2
+3053 addcolorbuttonsto 6:2
+3054 addcolorbuttonto 6:2
+3055 colormap 6:2
+3056 columncount 36:2
+3057 addstrokebuttonsto 6:2
+3058 addstrokewidthbuttonto 6:2
+3059 addstrokedecorationbuttonto 6:2
+3060 addstrokedashesbuttonto 6:2
+3061 addstroketypebuttonto 6:2
+3062 addstrokeplacementbuttonto 36:2
+3063 addfontbuttonsto 6:2
+3064 addalignmentbuttonsto 6:2
+3065 createtogglegridbutton 36:2 4:2
+3066 prior 6:2
+3067 linkedhashmap 6:1
+3068 underfill 29:15
+3069 behavior 29:1
+3070 life 2:3
+3071 recognizes 38:1
+3072 clicks 2:1
+3073 triggers 2:1
+3074 deletenextchar 2:2
+3075 defaulteditorkit 24:11
+3076 deletenextcharaction 12:1 24:1
+3077 midpoints 2:1
+3078 sending 43:1 14:1
+3079 functions 2:1 33:1
+3080 discards 17:1 33:1
+3081 rid 37:2 2:2
+3082 distancefromline 2:1 7:1
+3083 made 26:3 9:1
+3084 persistent 36:2 2:1
+3085 drawbackground 2:2
+3086 drawchildren 12:2
+3087 drawcircle 2:1 30:1
+3088 drawconnectors 27:6 2:4
+3089 drawdecorator 2:1 30:1
+3090 drawdiamond 2:1 30:1
+3091 drawdrawing 2:2
+3092 drawgrid 2:2
+3093 drawhandles 2:2
+3094 coordinating 2:1
+3095 participate 43:1
+3096 drawingchangelisteners 12:1
+3097 listens 2:1
+3098 drawrectangle 17:1 5:1
+3099 drawtool 2:2
+3100 componentui 4:1
+3101 buttonui 43:1
+3102 menuitemui 43:1
+3103 basicmenuitemui 43:5
+3104 installdefaults 43:3
+3105 checkicon 12:1
+3106 arrowicon 43:1
+3107 defaulttexticongap 43:1
+3108 slantsize 1:1 36:1
+3109 slant 4:2
+3110 responsiveness 30:1
+3111 patched 26:2
+3112 nanoxmllite 1:1
+3113 compilable 26:2
+3114 advantage 1:2
+3115 major 20:9 1:2
+3116 version 20:4 40:2
+3117 minor 20:5 26:2
+3118 nonundoableedit 33:6 1:2 26:1 4:1
+3119 definitions 43:1
+3120 doesn 20:14 26:1
+3121 owned 40:1 18:1
+3122 master 8:1 2:1
+3123 canungroup 22:5
+3124 units 12:4 7:3
+3125 changeattribute 22:3 4:1
+3126 reconnect 4:3
+3127 factors 22:1
+3128 common 15:2
+3129 changingdepth 11:2 5:1
+3130 increase 34:1 4:1 36:1
+3131 decrease 38:3
+3132 checkcdata 39:1 20:1
+3133 append 17:1 20:1
+3134 buf 20:7 33:1
+3135 checkliteral 12:1 20:1
+3136 literal 20:12 4:2
+3137 chopping 26:2
+3138 vertica 4:1
+3139 combinepathsaction 26:1
+3140 basically 39:1
+3141 compoundedit 33:26
+3142 compound 33:27
+3143 slightly 39:1
+3144 composed 17:2 36:1
+3145 controlpointindex 15:2
+3146 countchildren 20:15 37:1
+3147 convenient 4:2
+3148 listenermethod 9:6 17:1
+3149 targetobject 9:1 4:1
+3150 createconnection 4:1 23:1
+3151 createcontainer 37:2
+3152 similar 20:2 4:2
+3153 createpath 15:1 8:1
+3154 currentelements 4:1 37:1
+3155 undoes 33:5
+3156 undoorredo 33:3
+3157 redoes 33:5
+3158 unexpectedattribute 3:2
+3159 unexpectedelement 3:2
+3160 unexpectedendofdata 33:1 20:1
+3161 unexpectedpcdata 3:2
+3162 uninstallsheet 22:1 0:1
+3163 uninstalls 22:1 0:1
+3164 unknownentity 20:2
+3165 unreadchar 33:1 20:1
+3166 updateapplicationenabled 42:2
+3167 updatebounds 23:2
+3168 updatedecoratorbounds 22:1 39:1
+3169 stroketype 29:14
+3170 stroking 29:2
+3171 allowcdata 44:4
+3172 defaultnamespace 44:4
+3173 namespaces 44:6
+3174 attrnames 44:2
+3175 attr 20:8 44:6
+3176 attrvalues 44:2
+3177 attrtypes 44:2
+3178 assumes 5:1
+3179 reimpleted 30:1
+3180 isattributeenabled 38:2 12:2
+3181 addlayoutcomponent 19:2 6:1
+3182 comp 19:4
+3183 removelayoutcomponent 19:2 35:1
+3184 row 19:4
+3185 meaning 19:4
+3186 gaps 19:3
+3187 constructors 19:1
+3188 defer 19:1
+3189 affect 19:1
+3190 padding 19:4
+3191 subcomponents 19:2
+3192 reshapes 19:1
+3193 satisfy 19:1
+3194 constraints 19:1
+3195 dividing 19:1
+3196 free 19:2
+3197 sized 19:1
+3198 portions 19:1
+3199 minus 19:1
+3200 dolayout 19:1
+3201 presentationfigure 28:2
+3202 textaction 24:5
+3203 isshowing 42:7
+3204 consume 42:3
+3205 crucial 42:3
+3206 responsivenes 42:3
+3207 addproject 42:2
+3208 removeproject 42:2
+3209 execution 42:2
+3210 perfomred 42:2
+3211 sequentially 42:2
+3212 runnables 42:2
+3213 multiply 35:2
+3214 ispressed 5:1 38:1
+3215 newstartconnector 8:1
+3216 newendconnector 8:1
+3217 newcreatedfigure 8:1
+3218 unsupportedflavorexception 18:4
+3219 unsupported 18:4
+3220 isdataflavorsupported 18:6
+3221 clipboardowner 18:6
+3222 getrepresentationclass 18:2
+3223 ordered 18:2
+3224 richly 18:2
+3225 descriptive 18:4
+3226 wjether 18:2
+3227 charsread 32:2
+3228 oldanchor 33:2
+3229 oldlead 33:2
+3230 newanchor 33:2
+3231 newlead 33:2
+3232 acts 22:6 6:3
+3233 managing 6:1
+3234 accepts 33:2
+3235 indexofnextadd 33:3 6:2
+3236 addexternalentity 3:3 6:2
+3237 addinternalentity 6:3 3:2
+3238 addmovehandles 6:1 1:1
+3239 addsheetlistener 24:1 0:1
+3240 aligns 6:1
+3241 angletopoint 7:2 6:2
+3242 lifecycle 6:1
+3243 attributedefaultvalues 11:1 3:1
+3244 basicclone 28:2
+3245 basiccreateproject 17:1 37:1
+3246 basicsetattributeonchildren 34:1 41:1
+3247 basicsetendconnector 34:2
+3248 basicsetstartconnector 15:2
+3249 ensures 28:2
+3250 updated 20:8 28:2
+3251 algorithms 1:1
+3252 arbitrary 34:1
+3253 construction 20:4 15:1
+3254 consisting 15:1
+3255 cubic 15:2 9:1
+3256 bordercomponent 38:2
+3257 borderrectangle 15:1
+3258 doublefigure 34:1
+3259 bringtofront 34:10
+3260 bring 34:8 17:2
+3261 zooms 22:1
+3262 reportparams 3:2
+3263 report 3:2
+3264 params 3:3
+3265 appended 20:5 3:1
+3266 resolves 26:2 20:2
+3267 thrown 20:5
+3268 occures 26:1
+3269 formed 26:2
+3270 transfering 20:1
+3271 byte 18:2
+3272 xmlreader 3:6
+3273 isexternalentity 3:3 38:2
+3274 crop 16:2
+3275 reverse 35:3 39:1
+3276 undoorredoinprogress 35:1 28:1
+3277 ignores 33:4
+3278 incoming 33:3 36:2
+3279 undone 35:1 28:1
+3280 mimetype 18:1
+3281 mime 18:1
+3282 humanpresentablename 18:1
+3283 presentable 18:1
+3284 layoutable 19:2
+3285 invalidatebounds 28:5
+3286 newlayouter 28:4
+3287 ischangingcount 28:2
+3288 skipleadingwhitespace 20:11
+3289 leading 20:15
+3290 ignorecase 20:5
+3291 fillbasicconversiontable 20:4
+3292 conversion 20:8
+3293 encodeunicodecharacters 20:1
+3294 valueset 20:27
+3295 defaultkey 20:18
+3296 allowliterals 20:4
+3297 literals 20:6
+3298 allowliteralnumbers 20:4
+3299 numbers 20:6
+3300 truevalue 20:5
+3301 falsevalue 20:5
+3302 bracketlevel 20:2
+3303 bracket 20:2
+3304 readchar 20:1 28:1
+3305 resolveentity 20:1 35:1
+3306 resolve 20:1 33:1
+3307 invalidvalueset 20:1 38:1
+3308 invalidvalue 20:2
+3309 charset 20:4
+3310 iter 20:3
+3311 getattributenames 20:1
+3312 hasnext 20:1
+3313 subclassing 20:3
+3314 receiver 20:10
+3315 equivalent 20:4
+3316 enumeratepropertynames 20:6
+3317 trailing 20:4
+3318 amp 20:2 0:2
+3319 lt 20:13
+3320 apos 20:1
+3321 safe 20:1
+3322 mapping 20:12
+3323 keyset 20:8
+3324 scanning 20:5
+3325 scanned 20:9
+3326 indentation 20:1
+3327 delimiters 20:1
+3328 delimiter 20:1
+3329 brackets 32:1
+3330 complete 20:1
+3331 checked 20:1
+3332 whichever 20:1
+3333 pathprototype 41:2
+3334 bezierprototype 8:2
+3335 reorganize 7:2
+3336 piecewise 9:1
+3337 approximates 9:1
+3338 routine 9:1
+3339 drawbeziercurve 9:1
+3340 outputs 9:1
+3341 degree 15:1
+3342 function 9:1
+3343 ascii 9:1
+3344 detection 34:12
+3345 detect 34:3
+3346 descend 34:9
+3347 isfractionalmetrics 38:2
+3348 metrics 38:2
+3349 istextantialiased 38:2
+3350 antialiased 38:2
+3351 initlabels 37:2
+3352 installsheet 26:1 0:1
+3353 interrupt 38:1 35:1
+3354 interrupts 17:1 35:1
+3355 invalidatedimension 38:1 5:1
+3356 invalidattributevalue 26:1 3:1
+3357 sides 4:1 39:1
+3358 isanimated 42:2 0:1
+3359 ischanging 38:2
+3360 isdrawdecoratorfirst 38:3
+3361 iseditable 21:5 38:3
+3362 isquadratic 27:2 18:1
+3363 isshowassheet 4:1 0:1
+3364 insignificant 16:1 37:1
+3365 maintains 18:1 33:1
+3366 references 38:1
+3367 keepcolinear 15:2
+3368 colinear 8:1 14:1
+3369 parentelementname 3:8
+3370 missingelementname 3:2
+3371 unexpectedelementname 3:2
+3372 validationerror 3:2
+3373 viewchanged 33:1 29:1
+3374 px 7:3
+3375 py 7:3
+3376 range 35:4 7:4
+3377 fx 7:2
+3378 fy 7:2
+3379 codes 7:2
+3380 constains 35:2 7:2
+3381 larger 7:3
+3382 decreases 7:1
+3383 resulting 7:1
+3384 expansion 16:2
+3385 affects 41:1 30:1 28:1
+3386 wrapdesktoppane 41:1 37:1
+3387 wrapped 41:1 37:1
+3388 writebounds 41:1 21:1
+3389 writeliner 41:2
+3390 included 18:2
+3391 completeness 18:2
+3392 validators 19:1
+3393 fillcolor 14:1
+3394 multiplied 12:1
+3395 double 12:1
+3396 grown 12:3
+3397 shrunk 12:3
+3398 newtext 27:2
+3399 textlayout 41:1
+3400 readbounds 41:1 40:1
+3401 demo 8:2
+3402 jlabel 36:3
+3403 mybuttonaction 9:2
+3404 buttonaction 36:1
+3405 mymouseentered 9:2
+3406 dynamic 9:1
+3407 loaded 4:1
+3408 dynamically 4:1
+3409 listenerinterface 21:1
+3410 listenermethodname 4:1
+3411 constructing 35:1
+3412 interrupted 35:1
+3413 force 35:1
+3414 readliner 41:2
+3415 specfies 35:2
+3416 removesheetlistener 35:1 0:1
+3417 accessing 35:1
+3418 reverseconnection 35:1 28:1
+3419 newtargetfigure 23:1
+3420 optionpane 0:1
+3421 inputvalue 0:3
+3422 newend 39:3
+3423 newstart 39:3
+3424 normal 15:1
+3425 polylinehandles 14:1
+3426 changeconnectionhandles 15:1
+3427 keywoard 39:2
+3428 template 16:1
+3429 selectedpropertyvalue 24:2
+3430 deselectedpropertyvalue 42:1 36:1
+3431 deselected 42:2
+3432 changedarea 38:1
+3433 newfigures 28:2
+3434 getexportchooser 14:1
+3435 accessory 24:2
+3436 encapsulatedexception 4:1
+3437 unmodifiabledocuments 3:1
+3438 multipleopenid 33:1
+3439 projectclass 36:1
+3440 projectclassname 36:1
+3441 parentframe 36:1
+3442 scrollpane 36:9
+3443 desktoppane 36:1
+3444 currentproject 36:3
+3445 applicationlistener 36:3
+3446 projectlistener 36:3
+3447 oldfocusowner 36:5
+3448 windowlistener 11:1
+3449 windowhandler 36:1
+3450 parameterclass 36:2
+3451 settername 38:2
+3452 gettername 36:2
+3453 redoactionpropertylistener 36:2
+3454 propertyhandler 36:1
+3455 forbiddenattributes 36:3
+3456 forbidden 36:5
+3457 drawbounds 36:2
+3458 childhandler 36:4
+3459 isstatepersistent 36:1
+3460 needssorting 36:2
+3461 defaultattributes 36:1
+3462 activeview 36:1
+3463 focusedview 37:1
+3464 focuslistener 33:1
+3465 focushandler 36:1
+3466 dirtyfigures 4:1
+3467 selectionhandles 36:1
+3468 secondaryhandles 7:1
+3469 handlesarevalid 38:1
+3470 translate 38:1
+3471 emptydrawinglabel 42:1
+3472 buttongroup 36:12
+3473 presentationfigurehandler 36:2
+3474 startconnector 36:1
+3475 endconnector 36:1
+3476 connectionhandler 36:2
+3477 newrestoredata 36:1
+3478 roundrectangle 36:1
+3479 roundrect 22:1
+3480 propertychangehandler 36:3
+3481 eventhandler 36:2
+3482 ownermovementhandler 36:1
+3483 movement 15:1
+3484 shiftbacklocation 36:1
+3485 oldlocation 33:1
+3486 isinstalled 36:1
+3487 installed 36:2
+3488 mdidesktopmanager 24:1
+3489 toolbuttongroup 36:10
+3490 sharededitor 36:4
+3491 attributestoolbar 36:4
+3492 creationtoolbar 36:4
+3493 loadbutton 36:2
+3494 savebutton 36:2
+3495 visibleconstrainer 36:2
+3496 invisibleconstrainer 36:2
+3497 togglegridbutton 31:1
+3498 starttime 36:1
+3499 presentationname 33:3
+3500 isverbose 11:1
+3501 invariants 36:1
+3502 cached 36:2
+3503 graphically 36:1
+3504 pointiness 36:1
+3505 performs 36:1
+3506 compositefigures 22:1
+3507 sum 36:1
+3508 accessed 3:1
+3509 compositemoveedit 36:1
+3510 speed 33:1
+3511 movements 38:1
+3512 undoing 36:4
+3513 redoing 36:4
+3514 derived 36:1
+3515 efficiency 36:1
+3516 flag 36:3
+3517 initialselectionvalue 0:6
+3518 selectionvalues 0:4
+3519 approvebuttontext 0:2
+3520 windowconstants 0:1
+3521 immediately 0:1
+3522 sheetevents 0:13
+3523 param 0:13
+3524 designating 0:7
+3525 primarily 0:6
+3526 supply 0:3
+3527 pluggable 0:3
+3528 warning 0:8
+3529 plain 0:8
+3530 initialized 0:1
+3531 choose 43:1
+3532 implies 0:1
+3533 prompt 0:1
+3534 decide 0:1
+3535 jcombobox 0:1
+3536 combo 0:1
+3537 jlist 0:1
+3538 notified 0:3
+3539 dismissed 0:3
+3540 helps 0:1
+3541 meaningful 0:1
+3542 appears 0:2
+3543 approvebutton 0:1
+3544 ce 33:3
+3545 fireundoableeditevent 33:2
+3546 compounded 33:1
+3547 getpresentationame 33:5
+3548 presentatio 33:5
+3549 chance 33:2
+3550 refuses 33:1

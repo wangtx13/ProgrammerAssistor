@@ -121,10 +121,9 @@ public class PreProcessServlet extends HttpServlet {
                     + "</div>");
             out.println("<div class=\"container marketing\">");
             out.println("<div class=\"row featurette files\" id=\"fileList\">");
-            out.println("<h1 class=\"fileHead\"> Successful Uploading!</h1>");
             out.println("<h3>MALLET import data directory: </h3>");
             out.println("<p>");
-            out.println(inputRootFilePath);
+            out.println("./output/PreProcess-" + timeStampStr);
             out.println("</p>");
              out.println("<h3>Uploaded Files: </h3>");
 
@@ -187,6 +186,8 @@ public class PreProcessServlet extends HttpServlet {
 //                        out.println("</p>");
                     }
                 }
+                
+                out.println("<h1 class=\"fileHead\"> Successful Uploading!</h1>");
 
             } catch (FileUploadException e) {
                 // TODO Auto-generated catch block  
@@ -197,7 +198,7 @@ public class PreProcessServlet extends HttpServlet {
 
             }
 
-            PreProcess.preProcess(inputRootFilePath, ifGeneral, libraryTypeCondition);
+            PreProcess.preProcess(inputRootFilePath, timeStampStr, ifGeneral, libraryTypeCondition);
 
             out.println("</div>");
             out.println("<hr class=\"featurette-divider\">");

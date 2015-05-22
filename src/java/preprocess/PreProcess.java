@@ -39,15 +39,12 @@ public class PreProcess {
     
     /**
      * @param inputRootFilePath
+     * @param timeStampStr
      * @param ifGeneral
      * @param libraryTypeCondition
      * @param args the command line arguments
      */
-    public static void preProcess(String inputRootFilePath, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
-        //Add timestamp to folder name
-        Timestamp ts = new Timestamp(System.currentTimeMillis()); 
-        DateFormat sdf = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss-SSS");
-        String timeStampStr = sdf.format(ts);
+    public static void preProcess(String inputRootFilePath,String timeStampStr, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
         
         //Create a new folder
         String folderPath = "/Users/apple/NetBeansProjects/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
