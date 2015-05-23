@@ -4,6 +4,10 @@
         <servlet-name>PreProcessServlet</servlet-name>
         <servlet-class>servlet.PreProcessServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>GenerateViewServlet</servlet-name>
+        <servlet-class>servlet.GenerateViewServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PreProcessServlet</servlet-name>
         <url-pattern>/PreProcessServlet</url-pattern>
@@ -15,6 +19,10 @@
             /Applications/NetBeans/glassfish-4.0/data/
         </param-value>
     </context-param>
+    <servlet-mapping>
+        <servlet-name>GenerateViewServlet</servlet-name>
+        <url-pattern>/GenerateViewServlet</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30

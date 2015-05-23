@@ -187,7 +187,7 @@ public class PreProcessServlet extends HttpServlet {
                     }
                 }
                 
-                out.println("<h1 class=\"fileHead\"> Successful Uploading!</h1>");
+                out.println("<h1 id = \"success\" class=\"fileHead\"> Successful Uploading!</h1>");
 
             } catch (FileUploadException e) {
                 // TODO Auto-generated catch block  
