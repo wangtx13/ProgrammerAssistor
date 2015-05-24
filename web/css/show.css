@@ -104,9 +104,15 @@ body {
 
 .processButton {
     font-size: 18px;
-    
 }
 
+.show_error {
+    color: red;
+}
+
+.show_divider {
+    margin: 100px 0;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

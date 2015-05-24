@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-
-text {
-  font: 10px sans-serif;
-}
-
-</style>
-<body>
-<script src="./js/d3.v3.min.js"></script>
-<script>
 
 var diameter = 960,
     format = d3.format(",d"),
@@ -61,5 +49,3 @@ function classes(root) {
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");
-
-</script>

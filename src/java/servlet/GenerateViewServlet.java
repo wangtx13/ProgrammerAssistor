@@ -5,13 +5,26 @@
  */
 package servlet;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javabean.StylesBean;
+import javabean.Topics;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.apache.commons.lang3.math.NumberUtils;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import processshow.GenerateDataForView;
+import processshow.GenerateTable;
 
 /**
  *
@@ -31,39 +44,67 @@ public class GenerateViewServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-//        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
+
+        String topic_keys_file_path = request.getParameter("topicKeys");
+        String word_counts_file_path = request.getParameter("wordCounts");
+        String view_styles = request.getParameter("viewStyle");
+
+        File topic_keys_file = new File(topic_keys_file_path);
+        File word_count_file = new File(word_counts_file_path);
+        if (!topic_keys_file.exists() || !word_count_file.exists()) {
+            request.getRequestDispatcher("./error.jsp").forward(request, response);
+        } else {
+
+            JSONObject namAndSizeJson = 
+                    GenerateDataForView.generateDataForView(topic_keys_file_path, word_counts_file_path);
+
+            request.setAttribute("namAndSizeJson", namAndSizeJson);
             
-            String topic_keys_file = request.getParameter("topicKeys");
-            String word_counts_file = request.getParameter("wordCounts");
-            String view_styles = request.getParameter("viewStyle");
-            
-//            out.println("<!DOCTYPE html>");
-//            out.println("<html>");
-//            out.println("<head>");
-//            out.println("<title>Servlet GenerateViewServlet</title>");            
-//            out.println("</head>");
-//            out.println("<body>");
-//            out.println("<h1>Servlet GenerateViewServlet at " + request.getContextPath() + "</h1>");
-//            out.println(topic_keys_file);
-//            out.println(word_counts_file);
-//            out.println(view_styles);
-//            out.println("</body>");
-//            out.println("</html>");
-//            
-            
-            
-            StylesBean stylesBean = new StylesBean();
-            stylesBean.setTopic_state(topic_keys_file);
-            stylesBean.setWord_count(word_counts_file);
-            stylesBean.setView_style(view_styles);
-//            
-            request.setAttribute("styles", stylesBean);
-            request.getRequestDispatcher("./style_table.jsp").forward(request, response);
-//        }
+            try {
+                try (
+                        InputStream topicsIn = new FileInputStream(topic_keys_file_path);
+                        BufferedReader topicsReader = new BufferedReader(new InputStreamReader(topicsIn))) {
+
+                    JSONObject json = new JSONObject();
+                    JSONArray children = new JSONArray();
+                    json.put("parent", children);
+
+                    String topicsLine = "";
+                    while ((topicsLine = topicsReader.readLine()) != null) {
+                        JSONObject topicGroup = new JSONObject();
+                        JSONArray topicArray = new JSONArray();
+                        topicGroup.put("children", topicArray);
+
+                        String[] topics = topicsLine.split("\\s");
+                        for (int i = 0; i < topics.length; ++i) {
+                            if (topics.length > 2) {
+                                if (!NumberUtils.isNumber(topics[i])) {
+                                    JSONObject topic = new JSONObject();
+                                    topic.put("name", topics[i]);
+                                    topicArray.put(topic);
+                                }
+                            }
+                        }
+                        children.put(topicGroup);
+                    }
+
+                    request.setAttribute("topicsJson", json.toString());
+                }
+
+            } catch (IOException ex) {
+                System.out.println("IOException: " + ex);
+            }
+            if (view_styles.equals("Table")) {
+                request.getRequestDispatcher("./style_table.jsp").forward(request, response);
+            } else if (view_styles.equals("Topics Frequency")) {
+                request.getRequestDispatcher("style_frequency.jsp").forward(request, response);
+            } else if (view_styles.equals("Bubble Chart")) {
+                request.getRequestDispatcher("style_bubble.jsp").forward(request, response);
+            }
+        }
     }
 
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+// <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
      *

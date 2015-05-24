@@ -26,13 +26,13 @@ import org.json.JSONArray;
  *
  * @author apple
  */
-public class GenerateTopicsJson {
+public class GenerateDataForView {
 
-    public static void generateFilesForView(String topicCountFilePath, String topicsFilePath) {
+    public static JSONObject generateDataForView(String topicKeysFilePath, String wordCountFilePath) {
+        JSONObject json = new JSONObject();
+        
         try {
-//            String topicCountFilePath = "/Users/apple/NetBeansProjects/TopicModelingTools/test/word_top.txt";
-//            String topicsFilePath = "/Users/apple/NetBeansProjects/TopicModelingTools/test/topic_keys.txt";
-            String outputJsonPath = "/Users/apple/NetBeansProjects/TopicModelingTools/test.json";
+            String outputJsonPath = "/Users/apple/NetBeansProjects/ProgrammerAssistor/Web/topics.json";
             File outputJson = new File(outputJsonPath);
             if (outputJson.createNewFile()) {
                 System.out.println(outputJson.getName() + "create successful...");
@@ -41,9 +41,9 @@ public class GenerateTopicsJson {
             Map<String, Integer> topicMap = new HashMap<>();
 
             try (
-                    InputStream countIn = new FileInputStream(topicCountFilePath);
+                    InputStream countIn = new FileInputStream(wordCountFilePath);
                     BufferedReader countReader = new BufferedReader(new InputStreamReader(countIn));
-                    InputStream topicsIn = new FileInputStream(topicsFilePath);
+                    InputStream topicsIn = new FileInputStream(topicKeysFilePath);
                     BufferedReader topicsReader = new BufferedReader(new InputStreamReader(topicsIn));
                     BufferedWriter writer = new BufferedWriter(new FileWriter(outputJson))) {
 
@@ -58,12 +58,9 @@ public class GenerateTopicsJson {
                     }
 
                     topicMap.put(topics[1], count);
-//                    System.out.print("in:" + topics[1] + " " + count);
-//                    System.out.println();
 
                 }
                 
-                JSONObject json = new JSONObject();
                 json.put("name", "topics");
                 
                 JSONArray children = new JSONArray();
@@ -93,12 +90,14 @@ public class GenerateTopicsJson {
                 }
                 
                 json.write(writer);
+               
                 
             }            
 
         } catch (IOException ex) {
-            Logger.getLogger(GenerateTopicsJson.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(GenerateDataForView.class.getName()).log(Level.SEVERE, null, ex);
         }
+        return json;
     }
 
     public static String randomString(int length) {
