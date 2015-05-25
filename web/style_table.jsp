@@ -47,8 +47,8 @@
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li><a href="home.html">Home </a></li>
-                                <li><a href="#about">Help </a></li>
-                                <li><a href="#contact">About </a></li>
+                                <li><a href="help.html">Help </a></li>
+                                <li><a href="about.html">About </a></li>
 
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Styles <span class="caret"></span></a>

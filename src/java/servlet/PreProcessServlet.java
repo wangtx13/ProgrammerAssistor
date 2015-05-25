@@ -108,10 +108,10 @@ public class PreProcessServlet extends HttpServlet {
                     + "<a href=\"home.html\">Home </a>"
                     + "</li>"
                     + "<li>"
-                    + "<a href=\"#about\">Help </a>"
+                    + "<a href=\"help.html\">Help </a>"
                     + "</li>"
                     + "<li>"
-                    + "<a href=\"#contact\">About </a>"
+                    + "<a href=\"about.html\">About </a>"
                     + "</li>"
                     + "<li>"
                     + "<a href=\"show.html\">Show </a>"
@@ -128,7 +128,7 @@ public class PreProcessServlet extends HttpServlet {
             out.println("<p>");
             out.println("./output/PreProcess-" + timeStampStr);
             out.println("</p>");
-             out.println("<h3>Uploaded Files: </h3>");
+            out.println("<h3>Uploaded Files: </h3>");
 
             // 检查有一个文件上传请求
             isMultipart = ServletFileUpload.isMultipartContent(request);
