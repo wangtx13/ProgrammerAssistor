@@ -118,6 +118,17 @@
                 </table>
             </div>
 
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+
+            <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>2015 @Tianxia, Wang</p>
+            </footer>
+
 
         </div><!-- /.container -->
 

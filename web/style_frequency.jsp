@@ -127,20 +127,30 @@
                             ++index;
                             String key = it.next().getKey();
                             int value = it.next().getValue();
-                        
+
                     %>
-                     <tr>
+                    <tr>
                         <td><%=index%></td>
                         <td><%=key%></td>
                         <td><%=value%></td>
                     </tr>
-                    
+
                     <%
                         }
                     %>
 
                 </table>
             </div>
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+
+            <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>2015 @Tianxia, Wang</p>
+            </footer>
 
 
         </div><!-- /.container -->
