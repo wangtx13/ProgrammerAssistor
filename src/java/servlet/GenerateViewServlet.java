@@ -23,8 +23,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import processshow.GenerateDataForView;
-import processshow.GenerateTable;
+import processview.GenerateDataForView;
+import processview.GenerateTable;
 
 /**
  *
@@ -58,7 +58,7 @@ public class GenerateViewServlet extends HttpServlet {
             JSONObject namAndSizeJson = 
                     GenerateDataForView.generateDataForView(topic_keys_file_path, word_counts_file_path);
 
-            request.setAttribute("namAndSizeJson", namAndSizeJson);
+            request.setAttribute("sizeJson", namAndSizeJson.toString());
             
             try {
                 try (
@@ -97,9 +97,9 @@ public class GenerateViewServlet extends HttpServlet {
             if (view_styles.equals("Table")) {
                 request.getRequestDispatcher("./style_table.jsp").forward(request, response);
             } else if (view_styles.equals("Topics Frequency")) {
-                request.getRequestDispatcher("style_frequency.jsp").forward(request, response);
+                request.getRequestDispatcher("./style_frequency.jsp").forward(request, response);
             } else if (view_styles.equals("Bubble Chart")) {
-                request.getRequestDispatcher("style_bubble.jsp").forward(request, response);
+                request.getRequestDispatcher("./style_bubble.jsp").forward(request, response);
             }
         }
     }

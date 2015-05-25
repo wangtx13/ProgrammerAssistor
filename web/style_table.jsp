@@ -53,9 +53,9 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Styles <span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <li><a href="style_table.jsp">Table</a></li>
-                                        <li><a href="style_frequency.jsp">Topics Frequency</a></li>
-                                        <li><a href="style_bubble.jsp">Bubble Chart</a></li>
+                                        <li><a href="#">Table</a></li>
+                                        <li><a href="show_frequency.jsp?topicKeys=<%= request.getParameter("topicKeys")%>&wordCounts=<%= request.getParameter("wordCounts")%>">Topics Frequency</a></li>
+                                        <li><a href="style_bubble.jsp?topicKeys=<%= request.getParameter("topicKeys")%>&wordCounts=<%= request.getParameter("wordCounts")%>">Bubble Chart</a></li>
                                     </ul>
                                 </li>
 
