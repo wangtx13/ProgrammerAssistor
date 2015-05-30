@@ -51,12 +51,13 @@ public class GenerateDataForView {
                 while ((countLine = countReader.readLine()) != null) {
                     String[] topics = countLine.split("\t| ");
                     int count = 0;
-                    for (String topic : topics) {
-                        if (topic.contains(":")) {
-                            count++;
-                        }
+                    for(int i = 0; i < topics.length; ++i) {
+                        if(topics[i].contains(":")) {
+                            String[] label = topics[i].split(":");
+                            count = count + Integer.parseInt(label[1]);
+                        }                      
                     }
-
+ 
                     topicMap.put(topics[1], count);
 
                 }
