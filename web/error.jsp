@@ -58,12 +58,7 @@
 
             <!-- START THE FEATURETTES -->
             <div class="row featurette show_divider">
-                <h3 class="show_error">ERROR!</h3>
-                <br/>
-                <p>Below folders aren't exist:</p>
-                <p>${styles.topic_state}</p>
-                <p>${styles.word_count}</p>
-                <br/>
+                <h3 class="show_error">Ops...WRONG PATH!!</h3>                
                 <p class="illustrate">Please come <a href="show.html">back</a> to Show page and input valid paths.</p>
             </div>
 
