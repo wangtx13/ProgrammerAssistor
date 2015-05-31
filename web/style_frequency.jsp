@@ -125,8 +125,9 @@
                         );
                         for (Iterator<Map.Entry<String, Integer>> it = list.iterator(); it.hasNext();) {
                             ++index;
-                            String key = it.next().getKey();
-                            int value = it.next().getValue();
+                            Map.Entry<String, Integer> eachMap = it.next();
+                            String key = eachMap.getKey();
+                            int value = eachMap.getValue();
 
                     %>
                     <tr>

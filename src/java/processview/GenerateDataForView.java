@@ -27,9 +27,22 @@ import static utility.Tools.randomString;
  * @author apple
  */
 public class GenerateDataForView {
+    
+    private String topicKeysFilePath;
+    private String wordCountFilePath;
+    private JSONObject json;
 
-    public static JSONObject generateDataForView(String topicKeysFilePath, String wordCountFilePath) {
-        JSONObject json = new JSONObject();
+    public GenerateDataForView(String topicKeysFilePath, String wordCountFilePath) {
+        this.topicKeysFilePath = topicKeysFilePath;
+        this.wordCountFilePath = wordCountFilePath;
+        json = new JSONObject();
+    }
+
+    public JSONObject getJson() {
+        return json;
+    }
+
+    public void generateDataForView() {
         
         try {
             String outputJsonPath = "/Users/apple/NetBeansProjects/ProgrammerAssistor/Web/topics.json";
@@ -98,7 +111,6 @@ public class GenerateDataForView {
         } catch (IOException ex) {
             Logger.getLogger(GenerateDataForView.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return json;
     }
 
     // public static String randomString(int length) {

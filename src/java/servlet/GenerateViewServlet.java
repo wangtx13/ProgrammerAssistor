@@ -49,8 +49,9 @@ public class GenerateViewServlet extends HttpServlet {
             request.getRequestDispatcher("./error.jsp").forward(request, response);
         } else {
 
-            JSONObject namAndSizeJson = 
-                    GenerateDataForView.generateDataForView(topic_keys_file_path, word_counts_file_path);
+            GenerateDataForView generateDataTool = new GenerateDataForView(topic_keys_file_path, word_counts_file_path);
+            generateDataTool.generateDataForView();
+            JSONObject namAndSizeJson = generateDataTool.getJson();
 
             request.setAttribute("sizeJson", namAndSizeJson.toString());
             

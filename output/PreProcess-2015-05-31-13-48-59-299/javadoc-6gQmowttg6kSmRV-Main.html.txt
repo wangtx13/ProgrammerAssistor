@@ -1,1 +1,0 @@
-samples draw args creates a new instance 

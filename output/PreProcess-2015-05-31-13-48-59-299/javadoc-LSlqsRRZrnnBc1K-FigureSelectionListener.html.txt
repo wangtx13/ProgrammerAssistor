@@ -1,1 +1,0 @@
-figureselectionlistener figure selection listener selectionchanged selection changed figureselectionevent figure selection event evt all superinterfaces eventlistener event listener figureselectionlistener figure selection listener eventlistener event listener 
