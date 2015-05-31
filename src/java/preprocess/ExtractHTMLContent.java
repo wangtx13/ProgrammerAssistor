@@ -24,11 +24,23 @@ import org.jsoup.Jsoup;
 
 /**
  *
- * @author yaohucaizi
+ * @author apple
  */
 public class ExtractHTMLContent {
 
-    public static void extractHTMLContent(File inputFile, File outputFile, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+    private File inputFile;
+    private File outputFile;
+    private boolean ifGeneral;
+    private Map<String, Boolean> libraryTypeCondition;
+
+    public ExtractHTMLContent(File inputFile, File outputFile, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+        this.inputFile = inputFile;
+        this.outputFile = outputFile;
+        this.ifGeneral = ifGeneral;
+        this.libraryTypeCondition = libraryTypeCondition;
+    }
+
+    public void extractHTMLContent() {
         String content = "";
         String line = null;
         StringBuffer extractResult = new StringBuffer();
@@ -69,7 +81,8 @@ public class ExtractHTMLContent {
 
                 }
                 
-                extractResult = ParseWords.parseAllWords(extractResult, ifGeneral, libraryTypeCondition);
+                ParseWords parseWordsTool = new ParseWords(extractResult, ifGeneral, libraryTypeCondition);
+                extractResult = parseWordsTool.parseAllWords();
                 writer.write(extractResult.toString());
                 writer.flush();
             }

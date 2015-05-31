@@ -15,12 +15,12 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.commons.lang3.math.NumberUtils;
-import org.json.JSONObject;
 import org.json.JSONArray;
+import org.json.JSONObject;
+import static utility.Tools.randomString;
 
 /**
  *
@@ -101,15 +101,15 @@ public class GenerateDataForView {
         return json;
     }
 
-    public static String randomString(int length) {
-        String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        Random random = new Random();
-        StringBuffer buf = new StringBuffer();
-        for (int i = 0; i < length; i++) {
-            int num = random.nextInt(62);
-            buf.append(str.charAt(num));
-        }
-        return buf.toString();
-    }
+    // public static String randomString(int length) {
+    //     String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    //     Random random = new Random();
+    //     StringBuffer buf = new StringBuffer();
+    //     for (int i = 0; i < length; i++) {
+    //         int num = random.nextInt(62);
+    //         buf.append(str.charAt(num));
+    //     }
+    //     return buf.toString();
+    // }
 
 }

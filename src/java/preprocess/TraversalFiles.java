@@ -58,8 +58,8 @@ public class TraversalFiles {
                         } 
                         
                         //extract comments
-                        ParseJavaFile parseJavaFile = new ParseJavaFile();
-                        parseJavaFile.extractComments(f, extractedCommentsFile, ifGeneral, libraryTypeCondition);                   
+                        ParseJavaFile parseJavaFile = new ParseJavaFile(f, extractedCommentsFile, ifGeneral, libraryTypeCondition);
+                        parseJavaFile.extractComments();                   
                     } catch (IOException ex) {
                         Logger.getLogger(TraversalFiles.class.getName()).log(Level.SEVERE, null, ex);
                     }
@@ -85,7 +85,8 @@ public class TraversalFiles {
                         } 
                         
                         //extract useful javadoc
-                        ExtractHTMLContent.extractHTMLContent(f, usefulJavadocFile, ifGeneral, libraryTypeCondition);
+                        ExtractHTMLContent extractJavadoc = new ExtractHTMLContent(f, usefulJavadocFile, ifGeneral, libraryTypeCondition);
+                        extractJavadoc.extractHTMLContent();
                     } catch (IOException ex) {
                         Logger.getLogger(TraversalFiles.class.getName()).log(Level.SEVERE, null, ex);
                     }

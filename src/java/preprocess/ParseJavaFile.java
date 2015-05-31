@@ -30,13 +30,22 @@ import org.eclipse.jdt.core.dom.LineComment;
  */
 public class ParseJavaFile {
 
-    public ParseJavaFile() {
+    private File inputFile; 
+    private File outputFile; 
+    private boolean ifGeneral;
+    private Map<String, Boolean> libraryTypeCondition;
+
+    public ParseJavaFile(File inputFile, File outputFile, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+        this.inputFile = inputFile;
+        this.outputFile = outputFile;
+        this.ifGeneral = ifGeneral;
+        this.libraryTypeCondition = libraryTypeCondition;
     }
 
-    public void extractComments(File inputFile, File outputFile, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+    public void extractComments() {
         try {
             String converted = readFileToString(inputFile.getPath());
-            parse(converted, outputFile, ifGeneral, libraryTypeCondition);
+            parse(converted);
 
         } catch (IOException ex) {
             Logger.getLogger(ParseJavaFile.class.getName()).log(Level.SEVERE, null, ex);
@@ -44,7 +53,7 @@ public class ParseJavaFile {
     }
 
     // use ASTParse to parse string
-    private void parse(final String str, File outputFile, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+    private void parse(final String str) {
         ASTParser parser = ASTParser.newParser(AST.JLS3);
         parser.setSource(str.toCharArray());
         parser.setKind(ASTParser.K_COMPILATION_UNIT);
@@ -59,8 +68,9 @@ public class ParseJavaFile {
             allComments.append(commentVisitor.getAllComments().toString());
         }
 
-        allComments = ParseWords.parseAllWords(allComments, ifGeneral, libraryTypeCondition);
-        writeToFile(allComments.toString(), outputFile);
+        ParseWords parseWords = new ParseWords(allComments, ifGeneral, libraryTypeCondition);
+        allComments = parseWords.parseAllWords();
+        writeToFile(allComments.toString());
     }
 
     // read file content into a string
@@ -82,7 +92,7 @@ public class ParseJavaFile {
 
     }
 
-    private void writeToFile(String words, File outputFile) {
+    private void writeToFile(String words) {
         try {
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile.getPath()))) {
                 writer.write(words);

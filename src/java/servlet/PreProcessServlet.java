@@ -15,7 +15,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -25,7 +24,8 @@ import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import preprocess.PreProcess;
-
+import static utility.Tools.createDir;
+import static utility.Tools.randomString;
 /**
  *
  * @author apple
@@ -165,7 +165,7 @@ public class PreProcessServlet extends HttpServlet {
 //                    boolean isInMemory = fi.isInMemory();
 //                    long sizeInBytes = fi.getSize();
                         // 写入文件 
-                        file = new File(inputRootFilePath + randomString(10) + "-"
+                        file = new File(inputRootFilePath + randomString(15) + "-"
                                 + fileName.substring(fileName.lastIndexOf("/") + 1));
                         fi.write(file);
 
@@ -202,7 +202,8 @@ public class PreProcessServlet extends HttpServlet {
 
             }
 
-            PreProcess.preProcess(inputRootFilePath, timeStampStr, ifGeneral, libraryTypeCondition);
+            PreProcess preProcessTool = new PreProcess(inputRootFilePath, timeStampStr, ifGeneral, libraryTypeCondition);
+            preProcessTool.preProcess();
 
             out.println("</div>");
             out.println("<hr class=\"featurette-divider\">");
@@ -263,33 +264,33 @@ public class PreProcessServlet extends HttpServlet {
         return "Short description";
     }// </editor-fold>
 
-    public static boolean createDir(String dirPath) {
-        File dir = new File(dirPath);
-        if (dir.exists()) {
-            System.out.println("The folder has existed");
-            return false;
-        }
-        if (!dirPath.endsWith(File.separator)) {
-            dirPath = dirPath + File.separator;
-        }
-        if (dir.mkdirs()) {
-            System.out.println("create successful: " + dirPath);
-            return true;
-        } else {
-            System.out.println("create fail...");
-            return false;
-        }
-    }
+    // public static boolean createDir(String dirPath) {
+    //     File dir = new File(dirPath);
+    //     if (dir.exists()) {
+    //         System.out.println("The folder has existed");
+    //         return false;
+    //     }
+    //     if (!dirPath.endsWith(File.separator)) {
+    //         dirPath = dirPath + File.separator;
+    //     }
+    //     if (dir.mkdirs()) {
+    //         System.out.println("create successful: " + dirPath);
+    //         return true;
+    //     } else {
+    //         System.out.println("create fail...");
+    //         return false;
+    //     }
+    // }
 
-    public static String randomString(int length) {
-        String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        Random random = new Random();
-        StringBuffer buf = new StringBuffer();
-        for (int i = 0; i < length; i++) {
-            int num = random.nextInt(62);
-            buf.append(str.charAt(num));
-        }
-        return buf.toString();
-    }
+    // public static String randomString(int length) {
+    //     String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    //     Random random = new Random();
+    //     StringBuffer buf = new StringBuffer();
+    //     for (int i = 0; i < length; i++) {
+    //         int num = random.nextInt(62);
+    //         buf.append(str.charAt(num));
+    //     }
+    //     return buf.toString();
+    // }
 
 }

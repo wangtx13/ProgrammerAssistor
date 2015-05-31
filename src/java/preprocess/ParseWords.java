@@ -17,7 +17,17 @@ import java.util.regex.Pattern;
  */
 public class ParseWords {
 
-    public static StringBuffer parseAllWords(StringBuffer originalWords, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+    private StringBuffer originalWords;
+    private boolean ifGeneral;
+    private Map<String, Boolean> libraryTypeCondition;
+
+    public ParseWords(StringBuffer originalWords, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+        this.originalWords = originalWords;
+        this.ifGeneral = ifGeneral;
+        this.libraryTypeCondition = libraryTypeCondition;
+    }
+
+    public StringBuffer parseAllWords() {
         StringBuffer outputWords = new StringBuffer();
 
         /*分隔符：空格、引号"、左小括号(、右小括号)、左中括号[、有中括号]、点.、&、冒号:、分号;、换行符号\r\n、逗号*/
@@ -30,7 +40,7 @@ public class ParseWords {
                 if (splitWords.length > 1) {
                     String parsedWords = removeStopWords(word.toLowerCase());
                     if(parsedWords != null)
-                        parsedWords = removeClassLibrary(parsedWords.toLowerCase(), ifGeneral, libraryTypeCondition);
+                        parsedWords = removeClassLibrary(parsedWords.toLowerCase());
                     if (parsedWords != null) {
                         outputWords.append(word.toLowerCase());
                         outputWords.append(" ");
@@ -40,7 +50,7 @@ public class ParseWords {
                 for (String aSplitWord : splitWords) {
                     String parsedWords = removeStopWords(aSplitWord);
                     if(parsedWords != null)
-                        parsedWords = removeClassLibrary(parsedWords.toLowerCase(), ifGeneral, libraryTypeCondition);
+                        parsedWords = removeClassLibrary(parsedWords.toLowerCase());
                     if (parsedWords != null) {
                         outputWords.append(parsedWords);
                         outputWords.append(" ");
@@ -52,7 +62,7 @@ public class ParseWords {
         return outputWords;
     }
 
-    public static String[] splitCamelWords(String word) {
+    private String[] splitCamelWords(String word) {
         if (!word.contains("_")) {
             /*XML、DOM、JHotDraw、ID不分割*/
             word = word.replace("XML", "Xml");
@@ -107,7 +117,7 @@ public class ParseWords {
         }
     }
 
-    public static String removeStopWords(String word) {
+    private String removeStopWords(String word) {
         String stopList = "abstract array boolean br class code dd ddouble dl "
                 + "don double dt error exception exist exists extends false file "
                 + "final float gt id implementation implemented import int "
@@ -127,7 +137,7 @@ public class ParseWords {
         return word;
     }
     
-    public static String removeClassLibrary(String word, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+    private String removeClassLibrary(String word) {
 
         String stopList_common = "util lang";
         boolean general = ifGeneral;

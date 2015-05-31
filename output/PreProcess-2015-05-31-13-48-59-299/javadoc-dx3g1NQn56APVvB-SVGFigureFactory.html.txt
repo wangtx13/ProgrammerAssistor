@@ -1,0 +1,1 @@
+xml defaultdomfactory default dom factory samples svg svgfigurefactory s v g figure factory svgfigurefactory s v g figure factory svgfigurefactory s v g figure factory all domfactory dom factory svgfigurefactory s v g figure factory defaultdomfactory default dom factory creates a new instance 

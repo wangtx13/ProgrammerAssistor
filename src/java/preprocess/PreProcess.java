@@ -7,11 +7,9 @@
 package preprocess;
 
 import java.io.File;
-import java.sql.Timestamp;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Map;
+import static utility.Tools.createDir;
 
 /**
  *
@@ -19,22 +17,34 @@ import java.util.Map;
  */
 public class PreProcess {
     
-    public static boolean createDir(String dirPath) {
-        File dir = new File(dirPath);
-        if(dir.exists()) {
-            System.out.println("The folder has existed");
-            return false;
-        }
-        if(!dirPath.endsWith(File.separator)) {
-            dirPath = dirPath + File.separator;
-        }
-        if(dir.mkdirs()) {
-            System.out.println("create successful: " + dirPath);
-            return true;
-        } else {
-            System.out.println("create fail...");
-            return false;
-        }
+    // public static boolean createDir(String dirPath) {
+    //     File dir = new File(dirPath);
+    //     if(dir.exists()) {
+    //         System.out.println("The folder has existed");
+    //         return false;
+    //     }
+    //     if(!dirPath.endsWith(File.separator)) {
+    //         dirPath = dirPath + File.separator;
+    //     }
+    //     if(dir.mkdirs()) {
+    //         System.out.println("create successful: " + dirPath);
+    //         return true;
+    //     } else {
+    //         System.out.println("create fail...");
+    //         return false;
+    //     }
+    // }
+
+    private String inputRootFilePath;
+    private String timeStampStr;
+    private boolean ifGeneral;
+    private Map<String, Boolean> libraryTypeCondition;
+
+    public PreProcess(String inputRootFilePath,String timeStampStr, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+        this.inputRootFilePath = inputRootFilePath;
+        this.timeStampStr = timeStampStr;
+        this.ifGeneral = ifGeneral;
+        this.libraryTypeCondition = libraryTypeCondition;
     }
     
     /**
@@ -44,7 +54,7 @@ public class PreProcess {
      * @param libraryTypeCondition
      * @param args the command line arguments
      */
-    public static void preProcess(String inputRootFilePath,String timeStampStr, boolean ifGeneral, Map<String, Boolean> libraryTypeCondition) {
+    public void preProcess() {
         
         //Create a new folder
         String folderPath = "/Users/apple/NetBeansProjects/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
