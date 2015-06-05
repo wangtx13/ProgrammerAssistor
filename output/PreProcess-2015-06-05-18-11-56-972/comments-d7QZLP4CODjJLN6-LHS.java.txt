@@ -1,0 +1,8 @@
+/*
+		type = variable v a r i a b l e 
+		this varname var name = varname var name 
+		this namespace name space = namespace name space 
+*/ set the variable in namespace according to localvar local var flag this should probably be in reflect /*
+			if instanceof hashtable 
+				 hashtable put propname prop name val 
+			*/ /*map*/ pass along target 

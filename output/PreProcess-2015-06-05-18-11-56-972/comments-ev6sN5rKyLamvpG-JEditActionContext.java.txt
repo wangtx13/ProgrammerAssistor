@@ -1,0 +1,1 @@
+{{{ invokeaction action }}} {{{ addactionset add action set /* is it already there? */ /* save it for plugin unloading time */ }}} {{{ removeactionset remove action set }}} {{{ getactionsets get action sets }}} {{{ getaction get action }}} {{{ getactionsetforaction get action set for action }}} {{{ getactionnames get action names }}} {{{ members }}} {{{ members }}} 

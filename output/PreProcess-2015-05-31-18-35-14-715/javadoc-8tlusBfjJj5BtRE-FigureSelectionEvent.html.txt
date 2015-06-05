@@ -1,0 +1,1 @@
+eventobject event draw figureselectionevent figure selection event figureselectionevent figure selection event figureselectionevent figure selection event drawingview drawing view source drawingview drawing view getview get view all io serializable figureselectionevent figure selection event eventobject event see also serialized form creates a new instance 

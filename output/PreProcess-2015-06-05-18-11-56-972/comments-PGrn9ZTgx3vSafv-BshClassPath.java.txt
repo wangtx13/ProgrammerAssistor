@@ -1,0 +1,32 @@
+constructors end constructors mutators before triggering classpath mapping initialization check for explicitly set sources e g generated classes these would take priority over any found in the classpath anyway trigger possible mapping if we are the top path and haven't been initialized before inform the listeners we are going to do expensive map initialize components initialize ourself take care to remove dups wish we had an ordered set collection /*
+		note /*
+		 note we could probably do away with the unqualified name table
+		in favor of a second name source
+	*/ add component names add ours /*
+		else if isclassfilename is name name 
+			map looseclass loose name url 
+		*/ out classes i + + source add to map add to classsource source map don't replace previously set found earlier in classpath or explicitly set via setclasssource set source /*
+	public setnamecompletionincludeunqnames set name completion include unq names b {
+		if namecompletionincludesunqnames name completion includes unq names != b {
+			namecompletionincludesunqnames {
+			name completion includes unq names = b 
+			namespacechanged 
+			name space changed 
+		}
+	}
+*/ begin stuff /* 
+						remove 
+						 remove absolute topdir portion of path and leave 
+						package part 
+					*/ name indexof index of '$' == 1 top level we take care to get the canonical path first deals with relative paths for it's bootstrap loader but jarclassloader j a r loader doesn't garbage collected rtjar = getproperty get property home + /lib/rt jar /*
+			note /*
+			 note we should implement this for consistency however our
+			bshclassloader our
+			 bsh loader can natively load from a jar j a r because it is a
+			urlclassloader a
+			 u r l loader so it may be better to allow it to do it 
+		*/ /*
+		note /*
+		 note we could probably do away with the unqualified name table
+		in favor of a second name source
+	*/ list toarray to new 0 

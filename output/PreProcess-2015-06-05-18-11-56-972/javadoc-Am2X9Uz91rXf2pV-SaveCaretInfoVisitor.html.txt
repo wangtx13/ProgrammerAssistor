@@ -1,0 +1,1 @@
+savecaretinfovisitorextends save caret info visitorextends jeditvisitoradapter j edit visitor adapter savecaretinfovisitor save caret info visitor visit editpane edit pane editpane edit pane all jeditvisitor j edit visitor specified by visit in jeditvisitor j edit visitor visit in jeditvisitoradapter j edit visitor adapter editpane edit pane the visited edit pane 

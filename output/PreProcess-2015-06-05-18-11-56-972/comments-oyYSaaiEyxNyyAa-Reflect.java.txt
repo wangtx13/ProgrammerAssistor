@@ -1,0 +1,39 @@
+/*
+	note /*
+	 note this is messy the and field resolution need to be
+	rewritten various in here catch nosuchmethod no such or nosuchfield
+	exceptions  no such field
+	exceptions during their searches these should be rewritten to avoid
+	having to catch the exceptions lookups are now cached at a high 
+	level so they are less important however the logic is messy 
+*/ bsh scripted /*delcaredonly*/ /*delcared only*/ plain find the map types to assignable forms need to keep this fast /*rhs*/ /*lhstype*/ /*lhs type*/ unwrap any primitives /*onlystatic*/ /*onlystatic*/ no field try property acces /*onlystatic*/ i guess this is when we pass it as an argument? setting locally /*staticonly*/ /*static only*/ not a field try property access shouldn't happen /*
+		note /*
+		 note this and resolveexpectedjavafield resolve expected field should be rewritten
+		to invert this logic so that no exceptions need to be caught
+		unecessarily this is just a temporary impl 
+		@return the field or if not found
+	*/ /*
+		note /*
+		 note this should really just throw nosuchfieldexception no such field need
+		to change related signatures and 
+	*/ getfield get field finds only and in etc /*
+		this /*
+		 this should be rewritten to use getfields get fields and avoid catching
+		exceptions during the search 
+	*/ quick check catches fields include those in now on with the hunt not found fall through to next lookup previously cached searching for the may itself be a priviledged action this is the first time we've seen this set accessibility note even if it's a we may have found it in a non /*ignore*/ if succeeded cache the resolved /*candidates*/ the in an add of the current to the vector in case be careful to only add from a and to use getmethods get instead of getdeclaredmethods get declared this addresses secure environments does the or implement interfaces? do we have a superclass? don't etc find the constructor there are no inherited constructors to worry about /*ignore*/ /*
+ this should parallel findmostspecificmethod find most specific 
+		the 
+		 the only reason it can't be combined is that and constructor
+		don't  constructor
+		don't have a common for their signatures
+ */ copy signatures into for findmostspecificmethod find most specific /*
+	 note two which are equally specific should not be allowed by
+	 the compiler in this case beanshell bean shell currently chooses the first
+	 one it finds we could add a test for this case here i believe by
+	 adding another issignatureassignable is signature assignable in the other direction between
+	 the target and best match if the assignment works both ways then
+	 neither is more specific and they are ambiguous i'll leave this test
+	 out for now because i'm not sure how much another test would impact
+	 performance selection is now cached at a high level so a few
+	 friendly extraneous tests shouldn't be a problem 
+	*/ if idealmatch ideal match fits targetmatch target match and this is the first match or targetmatch target match is more specific than the best match make it the new best match /* fall through */ we don't know the right hand side of the assignment yet has at least one setter of the right name? /*bcm*/ /*bcm*/ /*bcm*/ /*shouldn't happen*/ why so cute? add interpereter and namespace to args list we're looking for a but found an instance 

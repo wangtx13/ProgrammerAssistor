@@ -1,0 +1,29 @@
+/*
+ if this type of this implements it directly this 
+ else try complain that we don't have the proxy mechanism 
+ */ /*
+ i wish access were limited to children and not also
+ scope i want this to be a singleton by various
+ children 
+ */ initcallstack init call stack namespace callstack one will be created for us /*declaringinterpreter*/ /*declaring interpreter*/ /*declaredonly*/ /*declared only*/ /*
+ invokemethod here is generally used by outside to callback
+ into the bsh interpreter e g when we are acting as an interface
+ for a scripted listener etc in this case there is no real call stack
+ so we make a default one starting with the special javacode j a v a c o d e namespace
+ and our namespace as the next 
+ */ /*
+ wrap nulls 
+ this is a bit of a cludge to address a deficiency in the class
+ generator whereby it does not wrap nulls on delegate see
+  see
+ generator if we fix that then we can remove this 
+ just have to generate the there 
+ */ find the bsh leave /*
+ no scripted of that name 
+ implement the required part of the protocol 
+ hashcode hash 
+ equals 
+ tostring to 
+ if these were not handled by scripted we must provide
+ a default impl 
+ */ a default tostring to that shows the we implement a default hashcode hash a default equals testing for equality with the this reference look for a default handler in the namespace note this duplicates that in namespace name space getcommand get command is that ok? /*leave null*/ call script name args these are necessary to let us test synchronization from scripts 

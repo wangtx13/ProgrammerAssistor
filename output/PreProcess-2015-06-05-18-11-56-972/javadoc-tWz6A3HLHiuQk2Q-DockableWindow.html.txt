@@ -1,0 +1,1 @@
+dockablewindow dockable window move newposition new position all known implementing classes registerviewer register viewer vfsbrowser v f s browser since jedit j edit 4 3pre11 newposition new position the docking position to which the window is moving since jedit j edit 4 3pre11 

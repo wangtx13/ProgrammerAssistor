@@ -1,0 +1,1 @@
+bshclasspath bsh path jarclasssourceextends jar sourceextends bshclasspath bsh path classsource source net url u r l geturl get u r l byte getcode get classname name tostring to enclosing bshclasspath bsh path tostring to in 

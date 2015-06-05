@@ -1,0 +1,1 @@
+order of body and condition is swapped for do / while has body else just for side effects no body? 

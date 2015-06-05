@@ -1,0 +1,1 @@
+{{{ elastictabstopstabexpander elastic tabstops tab expander }}} {{{ nexttabstop next tab stop keep minimum tab size of textarea text area tabsize tab size }}} {{{ gettabsize get tab size colblockline col block line linelength line length = textarea text area painter getfontmetrics get font metrics stringwidth width str }}} 

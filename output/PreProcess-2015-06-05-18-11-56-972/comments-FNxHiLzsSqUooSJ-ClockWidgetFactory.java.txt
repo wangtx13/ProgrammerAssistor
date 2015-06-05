@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ getwidget get widget }}} {{{ clockwidget clock widget }}} {{{ clock {{{ clock constructor }}} {{{ addnotify add notify }}} {{{ removenotify remove notify }}} {{{ gettooltiptext get tool tip text }}} {{{ gettooltiplocation get tool tip location }}} {{{ actionperformed action performed }}} {{{ members {{{ gettime get time }}} {{{ update }}} }}} }}} 

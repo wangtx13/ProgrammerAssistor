@@ -1,0 +1,2 @@
+{{{ imports }}} {{{ vfsfilenamefield v f s name field constructor enable tab t a b pressed for completion instead of focas traversal }}} {{{ processkeyevent process key event 				browser getbrowserview get browser view gettable get table processkeyevent process key event evt fix for bug #765507 we don't type complete in save dialog boxes press tab t a b to do an explicit complete }}} {{{ members {{{ docomplete do complete /* until the very last path component we only complete on
+			directories */ }}} {{{ docomplete do complete }}} {{{ gotoparent go to parent }}} }}} 

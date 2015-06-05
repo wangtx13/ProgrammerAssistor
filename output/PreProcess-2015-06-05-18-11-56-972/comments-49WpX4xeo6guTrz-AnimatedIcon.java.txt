@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ animatedicon animated icon constructor }}} {{{ getframes get frames }}} {{{ geticon get icon }}} {{{ getrate get rate }}} {{{ setframes set frames }}} {{{ seticon set icon }}} {{{ setrate set rate }}} {{{ start }}} {{{ stop }}} {{{ members }}} {{{ animator }}} 

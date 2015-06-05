@@ -1,0 +1,11 @@
+make a hash of the hashcodes in order to cache them ? unwrap target if the declares that it the ex it will be delivered if not it will be wrapped in an undeclaredthrowable undeclared throwable ease debugging xthis x this this refers to the enclosing instance /*
+ if equals is not explicitly defined we must override the
+ default by the this protocol for scripted
+ to support xthis x this equals must test for equality with
+ the generated proxy not the scripted bsh this 
+ otherwise callers from outside in will not see a the
+ proxy as equal to itself 
+ */ /*leave null*/ /*
+ if tostring to is not explicitly defined override the default
+ to show the proxy 
+ */ /*leave null*/ xthis x this this refers to the enclosing instance 

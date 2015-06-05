@@ -1,0 +1,1 @@
+registers register @deprecatedjava @ deprecatedjava tostring to @deprecatedvoid @ deprecatedvoid setvalue set value value datatransfer transferable gettransferable get transferable settransferable set transferable datatransfer transferable transferable all known implementing classes registers clipboardregister clipboard register enclosing registers tostring to in 

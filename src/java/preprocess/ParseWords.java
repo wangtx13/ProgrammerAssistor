@@ -141,7 +141,6 @@ public class ParseWords {
 
         String stopList_common = "util lang";
         boolean general = ifGeneral;
-        System.out.println();
         String stopList_draw = "javax swing awt org jhotdraw";
         boolean draw = libraryTypeCondition.get("Drawing");
 

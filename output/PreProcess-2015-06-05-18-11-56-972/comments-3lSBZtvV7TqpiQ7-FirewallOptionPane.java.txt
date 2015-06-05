@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ firewalloptionpane firewall option pane constructor }}} {{{ _init checkbox proxy host proxy port proxy username proxy password no proxy for checkbox proxy host proxy port }}} {{{ _save }}} {{{ members }}} {{{ actionhandler action handler }}} 

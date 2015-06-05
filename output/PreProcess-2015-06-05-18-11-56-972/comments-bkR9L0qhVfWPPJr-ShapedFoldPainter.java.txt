@@ -1,0 +1,1 @@
+{{{ shapedfoldpainter shaped fold painter {{{ paintfoldend paint fold end }}} {{{ paintfoldmiddle paint fold middle }}} {{{ paintfoldstart paint fold start }}} }}} 

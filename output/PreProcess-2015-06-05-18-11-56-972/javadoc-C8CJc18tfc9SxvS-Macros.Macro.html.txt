@@ -1,0 +1,1 @@
+macros macroextends editaction edit action macro macros handler handler name label path macros handler gethandler get handler getpath get path view view getcode get macronametolabel macro name to label macroname macro name enclosing macros since jedit j edit 2 2pre4 specified by in editaction edit action view the view getcode get in editaction edit action 

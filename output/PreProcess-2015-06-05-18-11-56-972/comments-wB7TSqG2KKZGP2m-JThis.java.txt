@@ -1,0 +1,1 @@
+all core a w t listeners all listeners in event as of 1 1 handleevent handle event gets all events /*squeltch*/ send to specific event handler /*squeltch*/ listener listener /*squeltch*/ 

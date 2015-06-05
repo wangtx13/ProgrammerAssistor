@@ -1,0 +1,1 @@
+bshclasspath bsh path generatedclasssourceextends generated sourceextends bshclasspath bsh path classsource source byte getcode get classname name enclosing bshclasspath bsh path 

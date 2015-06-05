@@ -1,0 +1,1 @@
+hypersearchresult hyper search result occurextends start end text position startpos start pos text position endpos end pos hypersearchresult hyper search result occur next enclosing hypersearchresult hyper search result 

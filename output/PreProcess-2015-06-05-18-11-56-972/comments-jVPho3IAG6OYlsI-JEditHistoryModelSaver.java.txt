@@ -1,0 +1,2 @@
+{{{ load try loading with utf u t f 8 and fallback to the default encoding to load a history which was made by an old as well pass the decoder explicitly to report a decode as an instead of replacing with \xfffd \x f f f d it seems to be made by an old of jedit j edit log log log debug d e b u g historymodel history model fnf }}} {{{ save /* to avoid data loss only do this if the above
+			 * completed successfully */ }}} {{{ members {{{ loadfromreader load from reader }}} }}} 

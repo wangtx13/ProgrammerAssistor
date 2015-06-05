@@ -1,0 +1,24 @@
+{{{ imports }}} {{{ browserview browser view constructor }}} {{{ focusonfileview focus on view }}} {{{ removenotify remove notify }}} {{{ getselectedfiles get selected files }}} {{{ selectnone select none }}} {{{ saveexpansionstate save expansion state }}} {{{ clearexpansionstate clear expansion state }}} {{{ loaddirectory load directory }}} {{{ loaddirectory load directory }}} {{{ directoryloaded directory loaded {{{ if reloading root update parent directory list create a directoryentry directory entry manually instead of using _vfs _getfile since so many vfs's v f s's have broken implementations of this /*parentlist /*parent list insertelementat insert element at new vfsfile v f s 
+					_vfs getfilename get name parent 
+					parent parent 
+					vfsfile 
+					 v f s directory d i r e c t o r y 
+					0l 
+					0 l 0 */ }}} }}} {{{ updatefileview update view }}} {{{ maybereloaddirectory maybe reload directory because this is called for *every* vfs v f s update we don't want to scan the tree all the time so we use the following algorithm to determine if the path might be part of the tree if the path starts with the browser's current directory we do the tree scan if the browser's directory is 'favorites ' we have to do the tree scan as every path can appear under the favorites list if the browser's directory is 'roots ' and path is on the local filesystem do a tree scan }}} {{{ propertieschanged properties changed }}} {{{ getbrowser get browser }}} {{{ gettable get table }}} {{{ getparentdirectorylist get parent directory list }}} {{{ members {{{ instance variables }}} {{{ showfilepopup show popup for the parent directory right click on the click we select the clicked item but when the popup goes away we select the currently showing directory we use swingutilities utilities invokelater later so that the action is executed before the popup is hidden }}} }}} {{{ inner classes {{{ parentdirectoryrenderer parent directory renderer }}} {{{ parentmousehandler parent mouse handler }}} {{{ tablekeylistener table key listener }}} {{{ tablemousehandler table mouse handler {{{ mouseclicked mouse clicked }}} {{{ mousepressed mouse pressed /* nothing */ }}} {{{ mousereleased mouse released }}} }}} }}} basically the same handling as in parentmousehandler#mousereleased parent mouse handler#mouse released /* these actions don't work because they look at the entrytable entry table for the current selected
+ * 	item we need actions that look at the parentdirectorylist parent directory list item instead 
+ * 					
+				case keyevent key event vk_delete 
+					evt consume 
+					ea = ac getaction get action vfs browser delete 
+					ac invokeaction action evt ea 
+					break 
+				case keyevent key event ctrl_mask | keyevent key event vk_n 
+					evt consume 
+					ea = ac getaction get action vfs browser new 
+					ac invokeaction action evt ea 
+					break 
+				case keyevent key event vk_insert 
+					evt consume 
+					ea = ac getaction get action vfs browser new directory 
+					ac invokeaction action evt ea 
+					break */ 

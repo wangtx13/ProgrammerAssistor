@@ -1,0 +1,1 @@
+segmentbufferextends segment bufferextends text segment segmentbuffer segment buffer capacity append char ch append char text off len all charsequence char sequence cloneable text characteriterator character iterator 

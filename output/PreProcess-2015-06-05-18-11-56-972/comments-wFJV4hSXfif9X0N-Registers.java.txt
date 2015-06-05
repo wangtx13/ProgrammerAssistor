@@ -1,0 +1,38 @@
+{{{ imports }}} {{{ copy }}} {{{ cut }}} {{{ append }}} {{{ paste /*
+		 commented because it must not use jedit j edit 
+		 need to rewrite a property manager that is independant
+		string independant
+		 mime = preferreddataflavor preferred data flavor getmimetype get mime type 
+		int i = mime indexof index of ' ' 
+		if i != 1 
+		{
+			mime = mime substring 0 i 
+		}
+		string 
+		}
+		 mode = jedit j edit getproperty get property mime2mode +mime 
+		if mode != 
+		{
+			mode 
+		{
+			 mode _mode = modeprovider mode provider instance getmode get mode mode 
+			if _mode != 
+			{
+				applymode 
+			{
+				apply mode _mode buffer 
+			}
+		} */ /* vertical paste */ /* regular paste */ }}} {{{ applymode apply mode }}} {{{ gettextfromtransferable get text from transferable }}} {{{ getregister get register }}} {{{ setregister set register }}} {{{ clearregister clear register }}} {{{ getregisters get registers }}} {{{ getregisternamestring get register name }}} {{{ saveregisters save registers }}} {{{ setlistener set listener }}} {{{ setsaver set saver }}} {{{ isloading is loading }}} {{{ setloading set loading }}} {{{ members {{{ touchregister touch register }}} {{{ loadregisters load registers }}} {{{ loadregisters load registers some versions the clipboard contents using the native line separator so have to convert it here broken eclipse workaround! 24 febuary 2004 remove trailing \n }}} }}} {{{ inner classes {{{ register }}} {{{ clipboardregister clipboard register /*
+						this /*
+						 this is to debug clipboard problems 
+
+						apparently 
+
+						 apparently jedit j edit is unable to copy text from clipbard into the current
+						text buffer if the clipboard was filles using the command
+							echo test | xselection clipboard c l i p b o a r d 
+						under linux however it seems that does not offer any
+						data flavor for this clipboard content under j2re j2 r e 1 5 0_06 b05 
+						thus 
+						 thus copying from clipboard seems to be plainly impossible 
+					*/ }}} {{{ debuglistdataflavors debug list data flavors }}} {{{ defaultregister default register }}} }}} 

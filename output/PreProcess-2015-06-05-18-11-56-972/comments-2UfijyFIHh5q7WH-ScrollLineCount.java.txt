@@ -1,0 +1,1 @@
+{{{ scrolllinecount scroll line count constructor }}} {{{ reset }}} process next visible line process next visible line 

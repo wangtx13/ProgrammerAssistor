@@ -1,0 +1,10 @@
+{{{ imports }}} {{{ setinterval set interval }}} {{{ stop }}} {{{ actionperformed action performed might come in handy useful some time /* runtime runtime = runtime getruntime get runtime 
+		int freememory free memory = runtime freememory free memory / 1024 
+		int totalmemory total memory = runtime totalmemory total memory / 1024 
+		int usedmemory used memory = totalmemory total memory freememory free memory 
+
+		log 
+
+		 log log log debug d e b u g this heap + usedmemory used memory + kb / 
+			+ totalmemory total memory + kb + usedmemory used memory * 100 / totalmemory total memory 
+			+ % */ save list of open files flush log }}} {{{ members }}} 

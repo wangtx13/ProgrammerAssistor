@@ -1,0 +1,1 @@
+jcheckboxlist j check box list entryextends entry value entry checked value ischecked is checked getvalue get value enclosing jcheckboxlist j check box list 

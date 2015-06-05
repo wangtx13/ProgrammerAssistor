@@ -1,0 +1,77 @@
+/*
+	note /*
+	 note this is because we may test == primitive in places 
+	if 
+	 if we need to change that search for those tests 
+*/ /*
+	static hashtable primitivetowrapper primitive to wrapper = new hashtable 
+	static hashtable wrappertoprimitive wrapper to primitive = new hashtable 
+	static {
+		primitivetowrapper {
+		primitive to wrapper put type t y p e 
+		primitivetowrapper 
+		primitive to wrapper put byte type t y p e byte 
+		primitivetowrapper 
+		primitive to wrapper put short type t y p e short 
+		primitivetowrapper 
+		primitive to wrapper put character type t y p e character 
+		primitivetowrapper 
+		primitive to wrapper put type t y p e 
+		primitivetowrapper 
+		primitive to wrapper put type t y p e 
+		primitivetowrapper 
+		primitive to wrapper put type t y p e 
+		primitivetowrapper 
+		primitive to wrapper put type t y p e 
+		wrappertoprimitive 
+		wrapper to primitive put type t y p e 
+		wrappertoprimitive 
+		wrapper to primitive put byte byte type t y p e 
+		wrappertoprimitive 
+		wrapper to primitive put short short type t y p e 
+		wrappertoprimitive 
+		wrapper to primitive put character character type t y p e 
+		wrappertoprimitive 
+		wrapper to primitive put type t y p e 
+		wrappertoprimitive 
+		wrapper to primitive put type t y p e 
+		wrappertoprimitive 
+		wrapper to primitive put type t y p e 
+		wrappertoprimitive 
+		wrapper to primitive put type t y p e 
+	}
+	*/ /*
+ n u l l means no value 
+ this ia a placeholder for primitive value 
+ */ to prevent invocation with that isn't a primitive wrapper n u l l as type we currently use type to indicate loose typing throughout bsh special primitive types keep track of the original types unwrap primitives if both original args were primitives a primitive result else it was mixed wrapper/primitive the wrapper type is for result the primitive covering both and types arithmetic bitwise covering both and types arithmetic bitwise covering both and types arithmetic can't shift floating point values covering both and types arithmetic can't shift floats ++ and must be cast back the original type promote character to number type for these purposes arbitrary map voids to nulls for the outside world unwrap primitives /*
+ unwrap primitive wrappers to their wrapper values 
+		e g primitive 42 becomes 42 
+		@see #unwrap 
+ */ /*
+ */ non primitive get appropriate flavor of zero /*fromtype*/ /*from type*/ /*fromvalue*/ /*from value*/ /*checkonly*/ /*check only*/ /*
+		cast /*
+		 cast or check a cast of a primitive type to another type 
+		normally 
+		 normally both types are primitive e g numeric but a value
+		 no type may be cast to any type 
+		<p/>
+
+		@param totype to type is the target type of the cast it is normally a
+		java primitive type t y p e but in the case of a cast can be any object
+		type 
+
+		@param fromtype from type is the primitive type t y p e type of the primitive to be
+		cast or to indicate that the fromvalue from value was or 
+
+		@param fromvalue from value is optionally the value to be converted if
+		checkonly  if
+		check only is fromvalue from value must be if checkonly check only is 
+		fromvalue 
+		from value must be non primitive n u l l is of course valid 
+	*/ /*
+			lots /*
+			 lots of preconditions checked here 
+			once 
+			 once things are running smoothly we might comment these out
+			 that's what assertions are for 
+		*/ can't cast to anything unwrap primitive fromvalue from value to its wrapper value etc trying to cast to primitive type? fall through trying to cast primitive to an type primitive n u l l can be cast to any type can only cast to do numeric cast only allow legal assignment unless we're a cast c a s t operation first promote char to number type to avoid duplicating 

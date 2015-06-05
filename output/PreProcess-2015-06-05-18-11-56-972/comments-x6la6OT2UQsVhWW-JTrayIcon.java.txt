@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ jtrayicon j tray icon constructor }}} {{{ getmenu get menu }}} {{{ setmenu set menu }}} {{{ mymouselistener my mouse listener }}} {{{ mypopupmenulistener my popup menu listener }}} 

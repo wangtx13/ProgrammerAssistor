@@ -1,0 +1,6 @@
+first node is the expression on which to sync do the actual synchronization /*filter*/ /*filter*/ /*
+				evaluate /*
+				 evaluate block in two passes 
+				first 
+				 first do declarations then do everything else 
+			*/ filter nodes statement or embedded block evaluated a statement make sure we put the namespace back when we leave 

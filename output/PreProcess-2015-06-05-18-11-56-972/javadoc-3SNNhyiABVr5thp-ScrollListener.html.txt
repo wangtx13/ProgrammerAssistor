@@ -1,0 +1,1 @@
+scrolllistenerextends scroll listenerextends eventlistener event listener scrolledvertically scrolled vertically textarea text area textarea text area scrolledhorizontally scrolled horizontally textarea text area textarea text area all superinterfaces eventlistener event listener since jedit j edit 3 2pre2 

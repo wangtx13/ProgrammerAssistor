@@ -1,0 +1,1 @@
+{{{ segmentbuffer segment buffer constructor }}} {{{ append }}} {{{ append }}} {{{ members {{{ ensurecapacity ensure capacity }}} }}} 

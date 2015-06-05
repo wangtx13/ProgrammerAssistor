@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ getprintjob get print job format setorientation set orientation pageformat page format portrait p o r t r a i t }}} {{{ pagesetup page setup }}} {{{ print }}} {{{ getpageformat get page format }}} {{{ members }}} 

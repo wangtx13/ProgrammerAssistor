@@ -1,0 +1,1 @@
+bufferprinter1_4extends bufferprinter1_4 pagesetup page setup view view print view view buffer buffer selection print pageformat page format getpageformat get page format 

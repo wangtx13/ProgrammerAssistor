@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ jeditswingtrayicon j edit tray icon constructor }}} {{{ settrayiconargs set tray icon args }}} {{{ mymouseadapter my mouse adapter {{{ skipwindow skip window }}} }}} {{{ myactionlistener my action listener }}} 

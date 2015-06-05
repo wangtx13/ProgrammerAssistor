@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ enhancedcheckboxmenuitem enhanced check box menu item constructor }}} {{{ getpreferredsize get preferred size }}} {{{ paint /* xxx x x x magic number */ }}} {{{ members {{{ instance variables }}} }}} {{{ model }}} {{{ mousehandler mouse handler }}} 

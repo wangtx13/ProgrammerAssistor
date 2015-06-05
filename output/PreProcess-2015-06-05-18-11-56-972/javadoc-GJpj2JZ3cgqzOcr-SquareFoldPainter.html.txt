@@ -1,0 +1,1 @@
+squarefoldpainterextends square fold painterextends shapedfoldpainter shaped fold painter squarefoldpainter square fold painter paintfoldshape paint fold shape graphics2d graphics2 d gfx top bottom all foldpainter fold painter specified by paintfoldshape paint fold shape in shapedfoldpainter shaped fold painter 

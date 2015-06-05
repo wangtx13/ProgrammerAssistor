@@ -1,0 +1,1 @@
+{{{ combinedoptions combined options {{{ members bufferoptionpane buffer option pane bufferoptions buffer options }}} {{{ combinedoptions combined options constructors	 }}} {{{ _init title = jedit j edit getproperty get property options title settitle set title title addoptionpane add option pane new bufferoptionpane buffer option pane }}} }}} 

@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ tipoftheday tip of the day constructor }}} {{{ ok }}} {{{ cancel }}} {{{ members {{{ instance variables }}} {{{ nexttip next tip so that we don't see the same tip again if the user clicks 'next ' next tip' }}} }}} {{{ actionhandler action handler }}} 

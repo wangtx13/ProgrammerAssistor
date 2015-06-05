@@ -1,0 +1,12 @@
+{{{ imports }}} {{{ helpviewer help viewer constructor }}} {{{ helpviewer help viewer constructor }}} {{{ helpviewer help viewer constructor what to do? toolbar tool bar setfloatable set floatable }}} {{{ gotourl goto u r l the toc t o c pane looks up user's guide urls u r ls relative to the doc directory reset default cursor so that the hand cursor doesn't stick around /* don't show loading msg because we won't
+				 receive a propertychanged property changed */ /* call setpage set page asynchronously because it can block when
+			 one can't connect to host 
+			 calling setpage set page outside from the edt e d t violates
+			 the single tread rule of but it's an experienced workaround
+			 see merge request #2984022 fix blocking helpviewer
+			  help viewer
+			 https sourceforge net/tracker/?func=detail aid=2984022 group_id=588 atid=1235750
+			 for discussion 
+			 once jedit j edit sets jdk j d k 7 as dependency all this should be
+			 reverted to synchronous 
+			 */ select the appropriate tree node }}} {{{ getcurrentscrollposition get current scroll position }}} {{{ getcurrentpage get current page }}} {{{ dispose }}} {{{ handlepluginupdate handle plugin update }}} {{{ getbaseurl get base u r l }}} {{{ getshorturl get short u r l }}} {{{ historyupdated history updated }}} {{{ getcomponent get component }}} {{{ members {{{ instance members }}} {{{ queuetocreload queue t o c reload }}} }}} {{{ inner classes {{{ actionhandler action handler {{{ actionperformed action performed }}} }}} {{{ linkhandler link handler {{{ hyperlinkupdate hyperlink update }}} }}} {{{ propertychangehandler property change handler }}} {{{ keyhandler key handler }}} {{{ mousehandler mouse handler }}} }}} 

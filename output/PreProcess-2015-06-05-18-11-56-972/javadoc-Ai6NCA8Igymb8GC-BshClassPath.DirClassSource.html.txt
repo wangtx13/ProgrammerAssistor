@@ -1,0 +1,1 @@
+bshclasspath bsh path dirclasssourceextends dir sourceextends bshclasspath bsh path classsource source io getdir get dir tostring to byte getcode get classname name byte readbytesfromfile read bytes from io base classname name enclosing bshclasspath bsh path tostring to in 

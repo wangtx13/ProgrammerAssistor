@@ -1,0 +1,6 @@
+{{{ imports }}} {{{ linemanager line manager constructor }}} {{{ getlinecount get line count }}} {{{ getlineofoffset get line of offset /*
+		 * performance optimization assumption is that this method
+		 * is called many times for the same line 
+		 * not optimizing the first line is intentional 
+		 * profiling proves this is the right approach #3528212 
+		 */ }}} {{{ getlineendoffset get line end offset }}} {{{ getfoldlevel get fold level }}} {{{ setfoldlevel set fold level also sets 'fold level valid' flag limitations }}} {{{ setfirstinvalidfoldlevel set first invalid fold level }}} {{{ getfirstinvalidfoldlevel get first invalid fold level }}} {{{ getlinecontext get line context }}} {{{ setlinecontext set line context }}} {{{ setfirstinvalidlinecontext set first invalid line context }}} {{{ getfirstinvalidlinecontext get first invalid line context }}} {{{ _contentinserted }}} {{{ contentinserted content inserted {{{ update line info and line context arrays movegap move gap 1 0 contentinserted content inserted }}} }}} {{{ contentremoved content removed {{{ update line info and line context arrays movegap move gap 1 0 contentremoved content removed }}} }}} {{{ members {{{ instance variables }}} {{{ setlineendoffset set line end offset }}} {{{ movegap move gap if newgapline new gap line >= gapline gap line }}} }}} 

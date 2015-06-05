@@ -1,0 +1,1 @@
+namesource name source getallnames get all names addnamesourcelistener add name source listener namesource name source listener listener all known implementing classes bshclasspath bsh path externalnamespace external name space namespace name space 

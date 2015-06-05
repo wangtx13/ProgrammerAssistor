@@ -1,0 +1,1 @@
+registerchangedextends register changedextends ebmessage e b message registerchanged register changed ebcomponent e b component source char name char getregistername get register name getregistervalue get register value paramstring since jedit j edit 4 3pre1 source the message source paramstring in ebmessage e b message 

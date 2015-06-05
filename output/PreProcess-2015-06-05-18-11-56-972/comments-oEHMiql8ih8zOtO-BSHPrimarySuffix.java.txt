@@ -1,0 +1,43 @@
+/*
+		perform /*
+		 perform a suffix operation on the given and the 
+		new value 
+		<p>
+
+		obj will be a node when suffix evaluation begins allowing us to
+		interpret it contextually e g for thereafter it will be 
+		an value or lhs l h s as determined by tolhs to l h s 
+		<p>
+		
+		we 
+		<p>
+		
+		 we must handle the tolhs to l h s case at each point here 
+		<p>
+	*/ handle suffix operation prefix must be a bshtype b s h type /*
+			evaluate /*
+			 evaluate our prefix if it needs evaluating first 
+			if 
+			 if this is the first evaluation our prefix mayb be a node 
+			 directly from the primaryprefix primary prefix eval it to an 
+			if 
+			 if it's an lhs l h s resolve to a value 
+
+			note 
+
+			 note the ambiguous name construct is now necessary where the node 
+			may be an ambiguous name if this becomes common we might want to 
+			make a nodetoobject node to or something the point is 
+			that we can't just eval we need to direct the evaluation to 
+			the context sensitive type of result namely etc 
+		*/ /*
+		field /*
+		 field access length on or a invocation
+		must invocation
+		 must handle tolhs to l h s case for each 
+	*/ length on field access invocation lhs l h s or non lhs l h s evaluation can both encounter calls todo t o d o note this try/catch block is copied from bshmethodinvocation b s h invocation we need to factor out this common functionality and make sure we handle all cases e g property style access etc maybe move this to reflect ? /*
+					try /*
+					 try to squeltch the native stack trace if the exception
+					was caused by a reflective call back into the bsh interpreter
+					 e g eval or source 
+				*/ property style access to hashtable or map /*key*/ 

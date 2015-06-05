@@ -1,0 +1,1 @@
+bshiterator bsh iterator next hasnext has next all known implementing classes collectioniterator collection iterator collectionmanager collection manager basicbshiterator basic bsh iterator see also getbshiterator get bsh iterator the next the next 

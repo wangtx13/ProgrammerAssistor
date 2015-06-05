@@ -1,0 +1,41 @@
+/*
+	note /*
+	 note this incorrectly caches the structure it needs to
+	be cleared when the classloader changes 
+*/ /* 
+		this 
+		 this is the namespace in which the is set 
+		it 
+		 it is a back reference for the node which needs to execute under this 
+		namespace it is not necessary to declare this transient because 
+		we can only be saved as part of our namespace anyway currently 
+	*/ begin components arguments scripted body for a bshobject bsh that delegates to a real end components /*
+		create /*
+		 create a bshmethod bsh that delegates to a real upon invocation 
+		this 
+		 this is used to represent imported 
+	*/ /*paramnames*/ /*param names*/ /*method block*/ /*declaringnamespace*/ /*declaring name space*/ /*modifiers*/ /*
+		note /*
+		 note bshmethod needs to re evaluate arg types here
+		this here
+		 this is broken 
+	*/ /*
+		note /*
+		 note bshmethod needs to re evaluate the type here 
+		this 
+		 this is broken 
+	*/ /*isnative*/ /*is native*/ is this a syncrhonized method? the lock is our declaring namespace's this reference the method's 'super' or in the case of a it's the instance ??? if callstack cardinality number of args mismatch /*
+			 look for help string
+			try {
+				 should check for namespace here
+				string here
+				 help = 
+					 declaringnamespace declaring name space get 
+					 bsh help +name interpreter 
+
+				interpreter help 
+				return primitive v oid 
+			} catch e {
+				throw eval error
+			}
+		*/ make the local namespace for the invocation should we do this for both cases above? set the in the local namespace set typed variable types getassignableform get assignable form argvalues arg values i paramtypes types i /*modifiers*/ set untyped variable untyped getassignable get assignable would catch this for typed push the new namespace on the call stack the block overriding namespace with localnamespace local name space /*override*/ save the callstack including the called just for mess get back to caller namespace body can only use 'return' statment type control retcontrol ret control returnpoint point is the node of the statement check for explicit of value from type retcontrol ret control returnpoint point is the node of the statement if type as the value type is a types getassignableform get assignable form ret returntype type point to statement point if we had one else it was implicit return? what's the case here? 

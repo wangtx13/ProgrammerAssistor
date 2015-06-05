@@ -1,0 +1,1 @@
+{{{ syntaxstyle syntax style constructor }}} {{{ getforegroundcolor get foreground color }}} {{{ getbackgroundcolor get background color }}} {{{ getfont get font }}} {{{ members }}} 

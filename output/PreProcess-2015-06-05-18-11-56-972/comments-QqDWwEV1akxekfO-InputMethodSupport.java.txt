@@ -1,0 +1,7 @@
+{{{ imports }}} the owner the composed text layout which was built from last inputmethodevent input event the x offset to the caret in the composed text last committed information to support cancellatestcommittedtext cancel latest committed text {{{ utilities compute value of gettextlocation get text location from x y }}} {{{ textareaextension text area extension the hight and baseline are taken from painter's fontmetrics font metrics instead of textlayout text layout so that the composed text is rendered at the same position with text in the textarea text area }}} {{{ implements inputmethodrequests input requests location of composed text location of selected text cleare last committed information to prevent accidental match }}} {{{ implements inputmethodlistener input listener also updates caret adjust visiblity /* cancel horizontal adjustment for composed text 
+			 fixme f i x m e 
+			 the horizontal offset may be beyond the max
+			 value of owner's horizontal scroll bar 
+			*/ /* invalidate one more line below the caret because
+		 the underline for composed text goes beyond the caret
+		 line in some font settings */ }}} 

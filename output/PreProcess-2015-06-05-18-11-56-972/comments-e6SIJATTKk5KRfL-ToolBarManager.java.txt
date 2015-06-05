@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ toolbarmanager tool bar manager constructor }}} {{{ addtoolbar add tool bar }}} {{{ removetoolbar remove tool bar }}} {{{ members {{{ instance variables }}} {{{ addtoolbar add tool bar see if we should place this toolbar before any others place the toolbar at the bottom of the group }}} {{{ removetoolbar remove tool bar }}} }}} {{{ entry }}} 

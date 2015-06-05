@@ -1,0 +1,23 @@
+/*
+ * abstracteditaction edit action base for editaction
+  edit action
+ * tabsize=4 tab size=4 indentsize=4 indent size=4 notabs=false no tabs=false 
+ * folding=explicit collapsefolds=1 collapse folds=1 
+ *
+ * this program is free software you can redistribute it and/or
+ * modify it under the terms of the gnu g n u general license
+  license
+ * as published by the free software foundation either 2
+ * of the license or any later 
+ *
+ * this program is distributed in the hope that it will be useful 
+ * but without w i t h o u t any a n y warranty w a r r a n t y without even the implied warranty of
+ * merchantability m e r c h a n t a b i l i t y or fitness f i t n e s s for f o r a particular p a r t i c u l a r purpose p u r p o s e see the
+ * gnu g n u general license for more details 
+ *
+ * you should have received a copy of the gnu g n u general license
+  license
+ * along with this program if not write to the free software
+  software
+ * foundation inc 59 temple place suite 330 boston ma m a 02111 1307 usa u s a 
+ */ {{{ members }}} {{{ editaction edit action constructors }}} {{{ getname get name }}} {{{ setname set name }}} {{{ }}} {{{ tostring to }}} 

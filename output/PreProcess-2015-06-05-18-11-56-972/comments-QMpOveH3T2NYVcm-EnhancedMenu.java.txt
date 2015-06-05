@@ -1,0 +1,3 @@
+{{{ imports }}} {{{ enhancedmenu enhanced menu constructor }}} {{{ enhancedmenu enhanced menu constructor }}} {{{ enhancedmenu enhanced menu constructor }}} {{{ menuselected menu selected }}} {{{ init }}} {{{ members {{{ finalize }}} }}} {{{ editbusstub edit bus stub /* enhancedmenu enhanced menu has a reference to editbusstub edit bus stub but not the other
+	 * way around so when the enhancedmenu enhanced menu is being garbage collected
+	 * its finalize removes the editbusstub edit bus stub from the edit bus */ while this might be questionable some menus depend on properties }}} 

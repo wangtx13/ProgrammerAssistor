@@ -1,0 +1,1 @@
+/* don't apply this rule if the current line is empty */ /* check if the previous line is empty */ 

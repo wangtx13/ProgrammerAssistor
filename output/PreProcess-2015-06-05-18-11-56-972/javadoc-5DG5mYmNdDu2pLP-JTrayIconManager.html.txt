@@ -1,0 +1,1 @@
+jtrayiconmanagerextends j tray icon managerextends jtrayiconmanager j tray icon manager settrayiconargs set tray icon args restore userdir user dir args addtrayicon add tray icon removetrayicon remove tray icon since jedit j edit 4 5pre1 

@@ -1,0 +1,1 @@
+bufferhistory buffer history entryextends path caret selection encoding mode entry path caret selection encoding mode selection getselection get selection tostring to enclosing bufferhistory buffer history tostring to in 

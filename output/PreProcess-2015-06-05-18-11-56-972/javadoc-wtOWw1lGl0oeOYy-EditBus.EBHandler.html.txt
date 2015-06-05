@@ -1,0 +1,1 @@
+@retention @ retention value=runtime value= r u n t i m e @target @ target value={type value={ t y p e method} m e t h o d} @interface editbus edit bus ebhandler e b handler exact since jedit j edit 4 3pre19 default 

@@ -1,0 +1,1 @@
+fields constructors /*if c == type t y p e */ case 'l' ' l' accessors conversion to type descriptors case a r r a y case o b j e c t direct conversion from classes to type descriptors without intermediate type /*if d == type t y p e */ corresponding size and opcodes case a r r a y case o b j e c t case a r r a y case o b j e c t 

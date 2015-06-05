@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ mirrorlist mirror list constructor }}} {{{ getxml get xml }}} {{{ getmirrors get mirrors }}} {{{ members {{{ readxml read xml }}} {{{ downloadxml download xml }}} {{{ add }}} {{{ finished }}} }}} {{{ inner classes {{{ mirror }}} {{{ mirrorcompare mirror compare }}} }}} 

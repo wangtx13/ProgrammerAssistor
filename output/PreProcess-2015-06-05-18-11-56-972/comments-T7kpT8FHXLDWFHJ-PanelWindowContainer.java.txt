@@ -1,0 +1,12 @@
+{{{ imports }}} {{{ panelwindowcontainer panel window container constructor {{{ button box setup jdk j d k 1 4 workaround }}} }}} {{{ getdockablewindowmanager get dockable window manager }}} {{{ register {{{ create button }}} }}} {{{ unregister }}} {{{ remove }}} {{{ showmostrecent show most recent }}} {{{ show we didn't have a component previously so create a border removing last component so remove border }}} {{{ isvisible is visible }}} {{{ getcurrent get current }}} {{{ getdimension get dimension }}} {{{ getposition get position }}} {{{ getdockables get dockables }}} {{{ members {{{ save }}} {{{ setdimension set dimension }}} {{{ sortdockables sort dockables }}} {{{ getwrappeddimension get wrapped dimension }}} }}} {{{ members remember the most recent dockable }}} {{{ inner classes {{{ dockablewindowcompare dockable window compare }}} {{{ actionhandler action handler }}} {{{ menumousehandler menu mouse handler }}} {{{ dockborder dock border {{{ dockborder dock border constructor }}} {{{ paintborder paint border }}} {{{ getborderinsets get border insets }}} {{{ isborderopaque is border opaque }}} {{{ painthorizborder paint horiz border }}} {{{ paintvertborder paint vert border }}} {{{ updatecolors update colors }}} }}} {{{ rotatedtexticon rotated text icon {{{ rotatedtexticon rotated text icon constructor height = glyphs getlogicalbounds get logical bounds getheight get height }}} {{{ geticonwidth get icon width }}} {{{ geticonheight get icon height }}} {{{ painticon paint icon {{{ no rotation }}} {{{ clockwise rotation }}} {{{ counterclockwise rotation }}} }}} {{{ members }}} }}} {{{ buttonlayout button layout {{{ addlayoutcomponent add layout component }}} {{{ removelayoutcomponent remove layout component }}} {{{ getwrappeddimension get wrapped dimension }}} {{{ preferredlayoutsize preferred layout size nothing 'cept close box }}} {{{ minimumlayoutsize minimum layout size }}} {{{ layoutcontainer layout container /* if y + rowheight row height != parent getheight get height 
+				{
+					parent setsize set size 
+						parent getwidth get width 
+						y + rowheight row height 
+					 jcomponent j component parent revalidate 
+				} */ /* if x + colwidth col width != parent getwidth get width 
+				{
+					parent setsize set size x + colwidth col width 
+						parent getheight get height 
+					 jcomponent j component parent revalidate 
+				} */ }}} {{{ preferredlayoutsizelr preferred layout size l r }}} {{{ preferredlayoutsizetb preferred layout size t b }}} }}} }}} 

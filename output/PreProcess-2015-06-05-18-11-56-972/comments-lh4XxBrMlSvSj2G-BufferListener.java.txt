@@ -1,0 +1,1 @@
+{{{ foldlevelchanged fold level changed }}} {{{ contentinserted content inserted }}} {{{ contentremoved content removed }}} {{{ precontentinserted pre content inserted }}} {{{ precontentremoved pre content removed }}} {{{ transactioncomplete transaction complete }}} {{{ foldhandlerchanged fold handler changed }}} {{{ foldhandlerchanged fold handler changed }}} 

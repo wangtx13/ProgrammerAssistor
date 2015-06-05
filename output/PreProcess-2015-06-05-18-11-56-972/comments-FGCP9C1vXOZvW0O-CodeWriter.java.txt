@@ -1,0 +1,239 @@
+fields for the control flow graph analysis algorithm used to compute the maximum stack size a control flow graph contains one node per basic block and one edge per jump from one basic block to another each node i e each basic block is represented by the label that corresponds to the first instruction of this basic block each node also stores the list of its successors in the graph as a linked list of edge fields to optimize the creation of {@link edge edge} by using a pool of reusable the shared pool is a linked list of edge linked to each other by their {@link edge#poolnext} edge#pool next} field each time a codewriter writer needs to allocate an edge it removes the first edge of the pool and adds it to a list of edge after the end of the control flow analysis algorithm the edge in the list of the codewriter writer are added back to the pool by appending this list to the pool list in order to do this in constant time both head and tail of the list are stored in this codewriter writer initializer /* to generate the above string
+
+ na n a = 0 not applicable unused opcode or variable size opcode 
+
+ b = new {
+ 0 nop n o p visitinsn
+ visit insn
+ 1 aconst_null 
+ 1 iconst_m1 
+ 1 iconst_0 
+ 1 iconst_1 
+ 1 iconst_2 
+ 1 iconst_3 
+ 1 iconst_4 
+ 1 iconst_5 
+ 2 lconst_0 
+ 2 lconst_1 
+ 1 fconst_0 
+ 1 fconst_1 
+ 1 fconst_2 
+ 2 dconst_0 
+ 2 dconst_1 
+ 1 bipush b i p u s h visitintinsn
+ visit insn
+ 1 sipush s i p u s h 
+ 1 ldc l d c visitldcinsn
+ visit ldc insn
+ na n a ldc_w 
+ na n a ldc2_w 
+ 1 iload i l o a d visitvarinsn
+ visit var insn
+ 2 lload l l o a d 
+ 1 fload f l o a d 
+ 2 dload d l o a d 
+ 1 aload a l o a d 
+ na n a iload_0 
+ na n a iload_1 
+ na n a iload_2 
+ na n a iload_3 
+ na n a lload_0 
+ na n a lload_1 
+ na n a lload_2 
+ na n a lload_3 
+ na n a fload_0 
+ na n a fload_1 
+ na n a fload_2 
+ na n a fload_3 
+ na n a dload_0 
+ na n a dload_1 
+ na n a dload_2 
+ na n a dload_3 
+ na n a aload_0 
+ na n a aload_1 
+ na n a aload_2 
+ na n a aload_3 
+ 1 iaload i a l o a d visitinsn
+ visit insn
+ 0 laload l a l o a d 
+ 1 faload f a l o a d 
+ 0 daload d a l o a d 
+ 1 aaload a a l o a d 
+ 1 baload b a l o a d 
+ 1 caload c a l o a d 
+ 1 saload s a l o a d 
+ 1 istore i s t o r e visitvarinsn
+ visit var insn
+ 2 lstore l s t o r e 
+ 1 fstore f s t o r e 
+ 2 dstore d s t o r e 
+ 1 astore a s t o r e 
+ na n a istore_0 
+ na n a istore_1 
+ na n a istore_2 
+ na n a istore_3 
+ na n a lstore_0 
+ na n a lstore_1 
+ na n a lstore_2 
+ na n a lstore_3 
+ na n a fstore_0 
+ na n a fstore_1 
+ na n a fstore_2 
+ na n a fstore_3 
+ na n a dstore_0 
+ na n a dstore_1 
+ na n a dstore_2 
+ na n a dstore_3 
+ na n a astore_0 
+ na n a astore_1 
+ na n a astore_2 
+ na n a astore_3 
+ 3 iastore i a s t o r e visitinsn
+ visit insn
+ 4 lastore l a s t o r e 
+ 3 fastore f a s t o r e 
+ 4 dastore d a s t o r e 
+ 3 aastore a a s t o r e 
+ 3 bastore b a s t o r e 
+ 3 castore c a s t o r e 
+ 3 sastore s a s t o r e 
+ 1 pop p o p 
+ 2 pop2 p o p2 
+ 1 dup d u p 
+ 1 dup_x1 
+ 1 dup_x2 
+ 2 dup2 d u p2 
+ 2 dup2_x1 
+ 2 dup2_x2 
+ 0 swap s w a p 
+ 1 iadd i a d d 
+ 2 ladd l a d d 
+ 1 fadd f a d d 
+ 2 dadd d a d d 
+ 1 isub i s u b 
+ 2 lsub l s u b 
+ 1 fsub f s u b 
+ 2 dsub d s u b 
+ 1 imul i m u l 
+ 2 lmul l m u l 
+ 1 fmul f m u l 
+ 2 dmul d m u l 
+ 1 idiv i v 
+ 2 ldiv l d i v 
+ 1 fdiv f d i v 
+ 2 ddiv d d i v 
+ 1 irem i r e m 
+ 2 lrem l r e m 
+ 1 frem f r e m 
+ 2 drem d r e m 
+ 0 ineg i n e g 
+ 0 lneg l n e g 
+ 0 fneg f n e g 
+ 0 dneg d n e g 
+ 1 ishl i s h l 
+ 1 lshl l s h l 
+ 1 ishr i s h r 
+ 1 lshr l s h r 
+ 1 iushr i u s h r 
+ 1 lushr l u s h r 
+ 1 iand i a n d 
+ 2 land l a n d 
+ 1 ior i o r 
+ 2 lor l o r 
+ 1 ixor i x o r 
+ 2 lxor l x o r 
+ 0 iinc i i n c visitiincinsn
+ visit iinc insn
+ 1 i2l i2 l visitinsn
+ visit insn
+ 0 i2f i2 f 
+ 1 i2d i2 d 
+ 1 l2i l2 i 
+ 1 l2f l2 f 
+ 0 l2d l2 d 
+ 0 f2i f2 i 
+ 1 f2l f2 l 
+ 1 f2d f2 d 
+ 1 d2i d2 i 
+ 0 d2l d2 l 
+ 1 d2f d2 f 
+ 0 i2b i2 b 
+ 0 i2c i2 c 
+ 0 i2s i2 s 
+ 3 lcmp l c m p 
+ 1 fcmpl f c m p l 
+ 1 fcmpg f c m p g 
+ 3 dcmpl d c m p l 
+ 3 dcmpg d c m p g 
+ 1 ifeq i f e q visitjumpinsn
+ visit jump insn
+ 1 ifne i f n e 
+ 1 iflt i f l t 
+ 1 ifge i f g e 
+ 1 ifgt i f g t 
+ 1 ifle i f l e 
+ 2 if_icmpeq 
+ 2 if_icmpne 
+ 2 if_icmplt 
+ 2 if_icmpge 
+ 2 if_icmpgt 
+ 2 if_icmple 
+ 2 if_acmpeq 
+ 2 if_acmpne 
+ 0 goto g o t o 
+ 1 jsr j s r 
+ 0 ret r e t visitvarinsn
+ visit var insn
+ 1 tableswitch t a b l e s w i t c h visitableswitchinsn
+ visi table switch insn
+ 1 lookupswitch l o o k u p s w i t c h visitlookupswitch
+ visit lookup switch
+ 1 ireturn i r e t u r n visitinsn
+ visit insn
+ 2 lreturn l r e t u r n 
+ 1 freturn f r e t u r n 
+ 2 dreturn d r e t u r n 
+ 1 areturn a r e t u r n 
+ 0 r e t u r n 
+ na n a getstatic g e t s t a t i c visitfieldinsn
+ visit field insn
+ na n a putstatic p u t s t a t i c 
+ na n a getfield g e t f i e l d 
+ na n a putfield p u t f i e l d 
+ na n a invokevirtual i n v o k e v i r t u a l visitmethodinsn
+ visit insn
+ na n a invokespecial i n v o k e s p e c i a l 
+ na n a invokestatic i n v o k e s t a t i c 
+ na n a invokeinterface i n v o k e i n t e r f a c e 
+ na n a unused u n u s e d not n o t visited
+  v i s i t e d
+ 1 new n e w visittypeinsn
+ visit type insn
+ 0 newarray n e w a r r a y visitintinsn
+ visit insn
+ 0 anewarray a n e w a r r a y visittypeinsn
+ visit type insn
+ 0 arraylength a r r a y l e n g t h visitinsn
+ visit insn
+ na n a athrow a t h r o w 
+ 0 checkcast c h e c k c a s t visittypeinsn
+ visit type insn
+ 0 instanceof i n s t a n c e o f 
+ 1 monitorenter m o n i t o r e n t e r visitinsn
+ visit insn
+ 1 monitorexit m o n i t o r e x i t 
+ na n a wide wid e not n o t visited
+  v i s i t e d
+ na n a multianewarray m u l t i a n e w a r r a y visitmultianewarrayinsn
+ visit multi a new insn
+ 1 ifnull i f n u l l visitjumpinsn
+ visit jump insn
+ 1 ifnonnull i f n o n n u l l 
+ na n a goto_w 
+ na n a jsr_w 
+ } 
+ for i = 0 i < b length ++i {
+ err print char 'e' ' e' + b i 
+ }
+ err 
+ */ constructor pushes the first block onto the stack of blocks to be visited updates maxlocals max locals of the codevisitor visitor updates current and max stack sizes if opcode == athrow a t h r o w or xreturn x r e t u r n ends current block no successor adds the instruction to the bytecode of the updates current and max stack sizes only if opcode == newarray n e w a r r a y stack size variation = 0 for bipush b i p u s h or sipush s i p u s h adds the instruction to the bytecode of the bipush b i p u s h or newarray n e w a r r a y updates current and max stack sizes no stack change but end of current block no successor xload x l o a d or xstore x s t o r e updates max locals adds the instruction to the bytecode of the /*iload_0*/ /*istore_0*/ /*wide*/ /* wid e*/ updates current and max stack sizes only if opcode == new n e w stack size variation = 0 for anewarray a n e w a r r a y checkcast c h e c k c a s t instanceof i n s t a n c e o f adds the instruction to the bytecode of the computes the stack size variation case constants putfield p u t f i e l d updates current and max stack sizes adds the instruction to the bytecode of the computes the stack size variation in order not to recompute several times this variation for the same item we use the intval val field of this item to store this variation once it has been computed more precisely this intval val field stores the sizes of the arguments and of the value corresponding to desc the above sizes have not been computed yet so we compute them and we save them in order not to recompute them in the future updates current and max stack sizes adds the instruction to the bytecode of the no stack change but end of current block with one new successor updates current stack size max stack size unchanged because stack size variation always negative in this case adds the instruction to the bytecode of the case of a backward jump with an offset < 32768 in this case we automatically replace goto g o t o with goto_w jsr j s r with jsr_w and ifxxx i fxxx <l> with ifnotxxx i f n o txxx <l'> goto_w <l> where ifnotxxx i f n o txxx is the opposite opcode of ifxxx i fxxx i e ifne i f n e for ifeq i f e q and where <l'> designates the instruction just after the goto_w goto_w jsr_w jump offset goto_w case of a backward jump with an offset >= 32768 or of a forward jump with of course an unknown offset in these cases we store the offset in 2 bytes which will be increased in resizeinstructions resize instructions if needed ends current block with one new successor begins a new current block resets the relative current and max stack sizes resolves previous forward references to label if any computes the stack size variation updates current and max stack sizes adds the instruction to the bytecode of the /*ldc2_w*/ /*ldc_w*/ updates max locals only no stack change adds the instruction to the bytecode of the /*wide*/ /* wid e*/ updates current stack size max stack size unchanged ends current block with many new successors adds the instruction to the bytecode of the updates current stack size max stack size unchanged ends current block with many new successors adds the instruction to the bytecode of the updates current stack size max stack size unchanged because stack size variation always negative or adds the instruction to the bytecode of the pushes handler block onto the stack of blocks to be visited non relative max stack size control flow analysis algorithm while the block stack is not empty pop a block from this stack update the max stack size compute the non relative begin stack size of the successors of this block and push these successors onto the stack unless they have already been pushed onto the stack note by hypothesis the {@link label#beginstacksize} label#begin stack size} of the blocks in the block stack are the non relative beginning stack sizes of these blocks pops a block from the stack computes the non relative max stack size of this block updates the global max stack size analyses the successors of the block if this successor has not already been pushed onto the stack computes the beginning stack size of this successor block pushes this successor onto the stack releases all the edge used by this codewriter writer appends the head tail list at the beginning of the pool list utility control flow analysis algorithm creates a new edge or reuses one from the shared pool removes b from the pool adds the previous edge to the list of edges used by this codewriter writer initializes the previous edge and adds it to the successor list of the currentblock current block block utility dump bytecode replaces the temporary jump opcodes introduced by label resolve utility instruction resizing used to handle goto_w and jsr_w bytecode of the indexes in b loop indexes 1st step as explained above resizing an instruction may require to resize another one which may require to resize yet another one and so on the first step of the algorithm consists in finding all the instructions that need to be resized without modifying the this is done by the following fix point algorithm parse the to find the jump instructions whose offset will need more than 2 bytes to be stored the future offset is computed from the current offset and from the number of bytes that will be inserted or removed between the source and target instructions for each such instruction adds an entry in a copy of the indexes and sizes arrays if this has not already been done in a previous iteration! if at least one entry has been added during the previous step go back to the beginning otherwise stop in fact the real algorithm is complicated by the fact that the size of tableswitch t a b l e s w i t c h and lookupswitch l o o k u p s w i t c h instructions depends on their position in the bytecode because of padding in order to ensure the convergence of the algorithm the number of bytes to be added or removed from these instructions is over estimated during the previous loop and computed exactly only after the loop is finished this requires another pass to parse the bytecode of the copy of indexes copy of sizes instructions to be resized future offset of a jump instruction 3 = loop again 2 = loop ended 1 = last pass 0 = done opcode of current instruction bytes to be added after this instruction converts temporary opcodes 202 to 217 inclusive 218 and 219 to ifeq i f e q jsr j s r inclusive ifnull i f n u l l and ifnonnull i f n o n n u l l two additional bytes will be required to replace this goto g o t o or jsr j s r instruction with a goto_w or a jsr_w five additional bytes will be required to replace this ifxxx i fxxx <l> instruction with ifnotxxx i f n o txxx <l'> goto_w <l> where ifnotxxx i f n o txxx is the opposite opcode of ifxxx i fxxx i e ifne i f n e for ifeq i f e q and where <l'> designates the instruction just after the goto_w number of bytes to be added or removed from this instruction = future number of padding bytes current number of padding byte previously over estimated variation = = 3 newoffset%4 new offset%4 3 u%4 u%4 = newoffset%4 new offset%4 + u%4 u%4 = newoffset new offset 3 over estimation of the number of bytes to be added to this instruction = 3 current number of padding bytes = 3 3 u%4 = u%4 = u 3 skips instruction like tabl_insn like tabl_insn skips instruction case classwriter writer mana_insn adds a new u insert entry in the allindexes all indexes and allsizes all sizes arrays 2nd step copies the bytecode of the into a new bytevector updates the offsets and inserts or removes bytes as requested changes temporary opcodes 202 to 217 inclusive 218 and 219 to ifeq i f e q jsr j s r inclusive ifnull i f n u l l and ifnonnull i f n o n n u l l replaces goto g o t o with goto_w jsr j s r with jsr_w and ifxxx i fxxx <l> with ifnotxxx i f n o txxx <l'> goto_w <l> where ifnotxxx i f n o txxx is the opposite opcode of ifxxx i fxxx i e ifne i f n e for ifeq i f e q and where <l'> designates the instruction just after the goto_w goto_w jsr_w jump offset goto_w newoffset new offset now computed from start of goto_w skips 0 to 3 padding bytes reads and copies instruction skips 0 to 3 padding bytes reads and copies instruction case mana_insn updates the instructions addresses in the catch local var and line number tables replaces old bytecodes with new ones the positions of the resized instructions forward jump backward jump 

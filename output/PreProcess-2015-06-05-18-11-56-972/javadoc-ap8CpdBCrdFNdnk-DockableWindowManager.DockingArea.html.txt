@@ -1,0 +1,1 @@
+dockablewindowmanager dockable window manager dockingarea docking area showmostrecent show most recent getcurrent get current show name getdockables get dockables all known implementing classes panelwindowcontainer panel window container enclosing dockablewindowmanager dockable window manager 

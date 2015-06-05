@@ -1,0 +1,11 @@
+{{{ addchild add child must add the children in sorted order }}} {{{ getchildren get children }}} {{{ getparent get parent }}} {{{ setwidth set width }}} {{{ setparent set parent }}} {{{ setlines set lines }}} {{{ getlines get lines }}} {{{ columnblock column block }}} {{{ columnblock column block }}} {{{ columnblock column block }}} {{{ getstartline get start line }}} {{{ getendline get end line }}} {{{ getcolumnwidth get column width }}} {{{ islinewithinthisblock is line within this block }}} {{{ getcontainingblock get containing block }}} {{{ getcontainingblock get containing block tabsize= tab size= 5 tabsize tab size = blockline block line gettabsize get tab size tabsize tab size = block getcolumnblock get column block line offset if tabsize<0 tab size<0 tabsize tab size }}} {{{ searchchildren search children }}} {{{ searchchildren search children /*
+	 * binary search on a sorted list searches the children for one
+	 * containing the line no line an exact match or the closest
+	 * column block just below this line use islinewithinthisblock is line within this block on the
+	 * column block by this to determine whether there was
+	 * an exact match
+	 */ no exact match found the nearest column block just below this line no exact match found the nearest column block just below this line }}} {{{ tostring to }}} {{{ throwexception throw }}} {{{ setdirtystatus set dirty status }}} {{{ updatelineno update line no things to do in this update line no in this column block update column block lines in this column block call this on all children }}} {{{ updatecolumnblocklineoffset update column block line offset }}} {{{ settabsizedirtystatus set tab size dirty status /*
+	 * tab sizes become dirty on font changes or when char is added or
+	 * deleted inside columnblock column block they become clean once they get calculated
+	 * again inside the tab expander
+	 */ }}} {{{ aretabsizesdirty are tab sizes dirty }}} 

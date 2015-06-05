@@ -1,0 +1,1 @@
+syntaxstyleextends syntax styleextends syntaxstyle syntax style color fgcolor fg color color bgcolor bg color font font color getforegroundcolor get foreground color color getbackgroundcolor get background color font getfont get font fgcolor fg color the text color bgcolor bg color the background color font the text font 

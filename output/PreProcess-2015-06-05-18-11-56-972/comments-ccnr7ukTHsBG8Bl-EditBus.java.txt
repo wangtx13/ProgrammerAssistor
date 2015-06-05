@@ -1,0 +1,4 @@
+{{{ ebhandler e b handler annotation }}} {{{ addtobus add to bus }}} {{{ addtobus add to bus }}} {{{ removefrombus remove from bus }}} {{{ removefrombus remove from bus }}} {{{ send }}} {{{ sendasync send async }}} {{{ members can't create new instances {{{ dispatch }}} {{{ sendimpl send impl }}} }}} {{{ ebmessagehandler e b message handler }}} {{{ handlerlist handler list /*
+			 * if the component implements ebcomponent e b component then add the
+			 * default handler for backwards compatibility 
+			 */ }}} {{{ sendmessage send message }}} 

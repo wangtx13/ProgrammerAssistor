@@ -1,0 +1,22 @@
+{{{ imports }}} {{{ undomanager undo manager constructor }}} {{{ setlimit set limit }}} {{{ clear }}} {{{ canundo can undo }}} {{{ undo }}} {{{ canredo can redo }}} {{{ redo }}} {{{ begincompoundedit begin compound edit }}} {{{ endcompoundedit end compound edit /* nothing done between begin/end calls */ }}} {{{ insidecompoundedit inside compound edit }}} {{{ getundoid get undo }}} {{{ contentinserted content inserted }}} {{{ contentremoved content removed use intern here as new strings are created in jeditbuffer j edit buffer remove via undomgr undo mgr contentremoved content removed gettext get text }}} {{{ resetcleardirty reset clear dirty }}} {{{ members {{{ instance variables queue of undos last is most recent first is oldest queue of redos first is most recent last is oldest }}} {{{ addedit add edit }}} {{{ getmergeedit get merge edit }}} {{{ getlastedit get last edit }}} {{{ reviseundoid revise undo /*
+	 * revises a unique undoid undo for a the undo operation that is being
+	 * created as a result of a buffer content change or that is being
+	 * used for undo/redo content changes that belong to the same undo
+	 * operation will have the same undoid undo 
+	 * 
+	 * this should be called whenever 
+	 * a buffer content change causes a new undo operation to be created 
+	 * i e whenever a content change is not included in the same undo
+	 * operation as the previous 
+	 * an undo/redo is performed 
+	 */ }}} {{{ getreplacefromremoveinsert get replace from remove insert a replace edit is a remove edit and then an insert edit don't fold a undocleardirty undo clear dirty remove edit because it's the identity is significant /* newelement new element is guaranteed to be an compound insert edit redocleardirty redo clear dirty will be an normal insert normal remove 
+			 * compound remove insert edit or compound replace edit all possible edit operations 
+			 * redocleardirty redo clear dirty cannot become equal to newelement new element because 
+			 * redocleardirty redo clear dirty will be set after the has been saved and the first new change is made which
+			 * could be an normal insert normal remove compound replace edit compound remove insert edit 
+			 * or if this is the first change in the at all 
+			 * for compound edit case it will be the last element of the compound edit 
+			 * as the first remove insert sequence of a compound edit is never compacted by above if statement 
+			 * redocleardirty redo clear dirty can never be any of the following remove insert elements as the user as no option to save the
+			 * after the first remove insert sequence because the gui g u i is blocked by the search replace all operation 
+			 */ }}} {{{ getcompressedreplacefromreplacereplace get compressed replace from replace replace a compressedreplace compressed replace edit is one to many replace edit compressed via offsets try to pack the next replace into the compressedreplace compressed replace try to create a compressed replace }}} {{{ inner classes {{{ edit {{{ undo }}} {{{ redo }}} }}} {{{ insert {{{ insert constructor }}} {{{ undo }}} {{{ redo }}} }}} {{{ remove {{{ remove constructor }}} {{{ undo }}} {{{ redo }}} }}} {{{ replace {{{ replace constructor }}} {{{ undo }}} {{{ redo }}} }}} {{{ compressedreplace compressed replace {{{ compressedreplace compressed replace constructor }}} {{{ add }}} {{{ undo }}} {{{ redo }}} }}} {{{ compoundedit compound edit {{{ undo }}} {{{ redo }}} {{{ _add }}} {{{ add try to compact a sequence of remove and insert into a replace edit to save memory for large search replace operations try to compress a sequence of replace and replace into a compressedreplace compressed replace try to compress a sequence of compressedreplace compressed replace and replace into a compressedreplace compressed replace }}} {{{ exchangelastelement exchange last element remove last exchange current last }}} }}} }}} }}} 

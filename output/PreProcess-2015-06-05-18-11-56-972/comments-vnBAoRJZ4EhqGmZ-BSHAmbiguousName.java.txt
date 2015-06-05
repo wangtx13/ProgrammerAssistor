@@ -1,0 +1,6 @@
+e printstacktrace print stack trace classpathexception path is a type of utilevalerror eval /*
+		the /*
+		 the interpretation of an ambiguous name is context sensitive 
+		we 
+		 we disallow a generic eval 
+	*/ 

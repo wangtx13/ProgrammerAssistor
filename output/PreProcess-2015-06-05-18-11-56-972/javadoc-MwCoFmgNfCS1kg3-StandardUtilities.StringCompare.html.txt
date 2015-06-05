@@ -1,0 +1,1 @@
+standardutilities standard utilities stringcompareextends compareextends objectimplements comparator stringcompare compare icase stringcompare compare compare e obj1 e obj2 all comparator enclosing standardutilities standard utilities specified by compare in comparator 

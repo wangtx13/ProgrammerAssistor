@@ -1,0 +1,5 @@
+/*
+			note /*
+			 note this could be made clearer by adding an inner for the
+			cases and an context for the child traversal 
+		*/ first label get the first label while more labels or blocks and haven't hit control if label is default or equals switchval switch val execute nodes skipping labels until a break or eval it should check to disallow continue here? skip nodes until next label binaryoperation binary operation can primitive or wrapper type 

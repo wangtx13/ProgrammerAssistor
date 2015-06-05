@@ -1,0 +1,1 @@
+hypersearchfoldernodeextends hyper search folder nodeextends hypersearchfoldernode hyper search folder node io nodefile node showfullpath show full path io getnodefile get node tostring to tostring to in 

@@ -1,0 +1,36 @@
+/*
+	note /*
+	 note great care and lots of typing were taken to insure that the
+	namespace and interpreter references are passed on the stack and not 
+	 as they were erroneously before installed in instance variables 
+	each 
+	 each of these node must be re entrable to allow for recursive 
+	situations 
+
+	the 
+
+	 the only data which should really be stored in instance vars here should 
+	be parse tree data features of the node which should never change e g 
+	the number of arguments etc 
+	
+	exceptions 
+	
+	 exceptions would be fields of simple classes that just publish
+	data produced by the last eval data that is used immediately we'll
+	try  we'll
+	try to remember to mark these as transient to highlight them 
+
+*/ simplenode simple node getparent get parent { simplenode simple node parent } /*
+		you /*
+		 you can override these two in subclasses of simplenode simple node to
+		customize the way the node appears when the tree is dumped if
+		your  if
+		your output uses more than one line you should override
+		tostring override
+		to otherwise overriding tostring to is probably all
+		you need to do 
+	*/ /*
+		override /*
+		 override this if you want to customize how the node dumps
+		out its children 
+	*/ beanshell bean shell specific stuff hereafter 

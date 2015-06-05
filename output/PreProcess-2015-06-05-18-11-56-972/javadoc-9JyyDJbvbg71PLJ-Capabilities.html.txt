@@ -1,0 +1,1 @@
+capabilitiesextends capabilities haveswing have cangenerateinterfaces can generate haveaccessibility have accessibility setaccessibility set accessibility b capabilities unavailable classexists name see also reflectmanager reflect manager capabilities unavailable 

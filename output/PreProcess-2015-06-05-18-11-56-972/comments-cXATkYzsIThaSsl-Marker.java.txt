@@ -1,0 +1,1 @@
+{{{ getshortcut get shortcut }}} {{{ getposition get position }}} {{{ members {{{ marker constructor }}} {{{ setshortcut set shortcut }}} {{{ createposition create position }}} {{{ removeposition remove position forget the cached position instance }}} {{{ setposition set position }}} }}} {{{ members }}} 

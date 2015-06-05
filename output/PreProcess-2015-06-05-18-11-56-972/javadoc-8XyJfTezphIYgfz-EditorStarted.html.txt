@@ -1,0 +1,1 @@
+editorstartedextends editor startedextends ebmessage e b message editorstarted editor started ebcomponent e b component source since jedit j edit 2 3pre2 source the message source 

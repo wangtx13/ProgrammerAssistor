@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ encodingsoptionpane encodings option pane {{{ instance variables }}} {{{ encodingsoptionpane encodings option pane constructor }}} {{{ _init /* line separator */ default encoding auto detect encoding encoding detectors fallback encodings encodings to display }}} {{{ _save }}} }}} 

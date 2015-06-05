@@ -1,0 +1,1 @@
+{{{ updateeverytime update every time }}} {{{ update we build a set of lists each list contains plugin menu items that begin with a given letter sort each letter if less than 20 items put them directly in the menu collect blocks of up to maxitems max items of consecutive letters }}} {{{ addtolettermap add to letter map }}} 

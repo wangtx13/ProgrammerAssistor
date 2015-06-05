@@ -1,0 +1,1 @@
+no installed finders do nothing see if user set a preferred service try to get the service preferred service is not found use the only one available instead open the file! 

@@ -1,0 +1,8 @@
+classexists caches info for us classexists caches info for us test basic access /*
+					note /*
+					 note do *not* change this to 
+					bshclassmanager 
+					 bsh manager plainclassforname plain for name or equivalent 
+					this 
+					 this must not touch any other bsh classes 
+				*/ 

@@ -1,0 +1,1 @@
+{{{ imports }}} {{{ plugindetailpanel plugin detail panel constructor }}} {{{ setplugin set plugin <br> instead of <br/> because sun's 5 html h t m l parser can't digest them no problem on sun's 6 jvm j v m }}} {{{ getdepends get depends }}} 

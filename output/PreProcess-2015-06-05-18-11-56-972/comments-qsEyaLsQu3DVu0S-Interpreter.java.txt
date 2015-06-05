@@ -1,0 +1,54 @@
+/* begin members */ /*
+		debug /*
+		 debug utils are so that they are reachable by that doesn't
+		necessarily have an interpreter reference e g tracing in utils 
+		in 
+		 in the future we may want to allow debug/trace to be turned on on
+		a per interpreter basis in which case we'll need to use the parent
+		reference in some way to determine the scope of the command that
+		turns it on or off 
+	*/ this should be per instance default /* end members */ /* instance data */ interpreter has no input stream use eval only interpreter has a user print prompts etc /* end instance data */ out new interpreter +this + sourcefile = +sourcefileinfo +source info now done in namespace name space automatically when root the classes which are imported by default globalnamespace global name space loaddefaultimports load default imports /*
+			create /*
+			 create the root bsh if it doesn't 
+		*/ end constructors redundant with constructor need to set the input stream reinit the parser? bsh init the shared sharedobject shared if it's not there yet bsh alias bsh help bsh cwd applets can't see sys props bsh interactive bsh evalonly eval only out run i = +interpreter workaround for jdk j d k bug 4071281 where in available too large a value this bug has been fixed in jdk j d k 1 2 /*bshclassmanager*/ /* bsh manager*/ /*onlystatic*/ /*only static*/ /*
+ we'll print our banner using eval in order to
+ exercise the parser and get the basic expression classes loaded 
+ this ameliorates the delay after typing the first statement 
+ */ init the callstack try to sync up the console this helps a little number of child nodes sanity check during development /*
+					we /*
+					 we get stuck in infinite loops here when unicode escapes
+					fail must re init the char stream reader
+					 ascii_ucodeesc_charstream 
+				*/ reinit the callstack begin source and eval /*
+		note /*
+		 note we need a form of eval that passes the callstack through 
+	*/ /*
+	can't /*
+	 can't this be combined with run ?
+	run seems to have stuff in it for interactive vs non interactive 
+	compare them side by side and see what they do differently aside from the
+	exception handling 
+	*/ /* callstack call stack callstack */ /*
+			create /*
+			 create non interactive local interpreter for this namespace
+			with source from the input stream and out/err same as
+			this interpreter 
+		*/ nodes remember from where they were sourced sanity check during development non interactive control now /*
+ throw new evalerror eval 
+					 sourced +sourcefileinfo+ +source info+ parser 
+					+ e getmessage get message debug d e b u g node callstack 
+				*/ show extra expecting info add the source info and throw again failsafe set the line as the origin of the failsafe set the line as the origin of the reinit the callstack end source and eval consoleinterface console the interpreter reflexively implements the console that it uses should clean this up by using an inner to implement the console for us end consoleinterface console /*
+		primary /*
+		 primary interpreter set and get variable methods
+		note methods
+		 note these are squeltching errors should they?
+	*/ map to primtive n u l l coming in optimization for common case /*
+			we /*
+			 we jump through some hoops here to handle arbitrary cases like
+			unset bsh foo 
+		*/ lhs assign end primary set and get /*	methods /*	 for interacting with parser */ /*	end /*	 end for interacting with parser */ default is c \windows under win98 $home $ h o m e under unix squeltch security filenotfoundexception if relative fix up to bsh cwd the canonical name is also absolute no need for getabsolutepath get absolute path here /*
+		apparently /*
+		 apparently in some environments you can't catch the security exception
+		at all e g as an applet in ie i e will probably have to work
+		around
+	*/ set transient fields ug 

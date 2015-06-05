@@ -1,0 +1,1 @@
+jtrayiconextends j tray iconextends trayicon tray icon jtrayicon j tray icon image image tooltip jpopupmenu j popup menu getmenu get menu setmenu set menu jpopupmenu j popup menu menu direct known subclasses jedittrayicon j edit tray icon since jedit j edit 4 5pre1 
