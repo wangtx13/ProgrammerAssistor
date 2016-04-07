@@ -1,1 +1,0 @@
-	system 	 out vertexmap vertex map + vertexmap vertex map 	system 	 out bitset bit set + bitset out +idx+ +mapidx+ +map idx+ +vertexmap +vertex map lookupobject lookup mapidx map idx fixme f i x m e cache not updated on changes to the clique efficient serialization garbage 

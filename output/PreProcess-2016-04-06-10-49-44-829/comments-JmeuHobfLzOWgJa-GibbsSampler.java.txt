@@ -1,1 +1,0 @@
-edu umass cs mallet users casutton timing initforgraph init for graph mdl backtracking search for a feasible assignment warning destructively modifies ret's assignment to fullassn full assn i could save and restore but i don't care 

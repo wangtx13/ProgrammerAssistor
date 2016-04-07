@@ -1,1 +1,0 @@
-i e stop training if any sub evaluator does 

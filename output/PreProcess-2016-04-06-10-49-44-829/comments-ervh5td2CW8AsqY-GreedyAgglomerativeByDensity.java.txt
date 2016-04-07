@@ -1,1 +1,0 @@
-move on to next instance to cluster 			 converged and no more instances to cluster merge and continue 

@@ -1,1 +1,0 @@
-input predicted and sequences offsets for this segment in the sequence label for the beginning and inside of this segment confidence score for this extracted segment this is a tough case b/c technically everything inside the segment is tagged correctly e g truth b i i o o pred b i o o o segment can also be incorrect if it ends prematurely part of segment 

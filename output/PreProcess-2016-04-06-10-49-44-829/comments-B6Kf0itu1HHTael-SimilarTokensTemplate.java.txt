@@ -1,5 +1,0 @@
-copied from tuiacrf t u iacrf maps featurevectorsequence feature vector sequence ==> thashmultimap<string t hash multi map< tokeninfo> token info> out adding +info1 pos+ +info2 pos /* insanely verbose
- if debug {
- err combining \n +info1 fv+ \n +info2 fv 
- }
- */ could happen if the current word has been excluded 			system 			 out combinefv combine fv 			system 			 out fv1 f v1 values +fv1 getvalues get values + indices +fv1 getindices get indices 			system 			 out fv1 f v1 +fv1 tostring to 			system 			 out fv2 f v2 values +fv2 getvalues get values + indices +fv2 getindices get indices 			system 			 out fv2 f v2 +fv2 tostring to 			system 			 out afv a f v +afv tostring to customization serialization garbage serialization garbage 

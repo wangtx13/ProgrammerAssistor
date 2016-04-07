@@ -1,1 +1,0 @@
-comparable labeling the number of non zero weight labels in this labeling not total number in the alphabet serialization 

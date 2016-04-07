@@ -1,1 +1,0 @@
-if fixed numlabels num labels just whether we have enough otherwise use the dynamic labels separator serialization garbage 1 0 == a feature vector sequence 

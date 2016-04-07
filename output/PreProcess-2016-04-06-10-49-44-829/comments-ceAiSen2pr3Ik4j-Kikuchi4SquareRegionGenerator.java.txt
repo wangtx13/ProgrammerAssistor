@@ -1,1 +1,0 @@
-first set up regions for all create region for 4 clique create 1 clique region finally create edge regions and connect to everyone else 

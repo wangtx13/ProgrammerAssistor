@@ -1,1 +1,0 @@
-train t r a i n 		clusterer 		 clusterer clusterer = new greedyagglomerative greedy agglomerative training getinstances get instances getpipe get pipe 																									eval 0 5 test t e s t evaluate e v a l u a t e merge instances that both have feature0 random noise 

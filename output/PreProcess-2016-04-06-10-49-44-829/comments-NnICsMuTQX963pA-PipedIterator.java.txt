@@ -1,1 +1,0 @@
-with the new pipe's able to act as iterators themselves this should no longer be necessary the pipeinputiterator pipe input iterator 

@@ -1,1 +1,0 @@
-are these real valued features? are the feature names given as well? what separates the name from the value? can't c a n' t be b e whitespace! w h i t e s p a c e! no feature name use token as feature serialization 

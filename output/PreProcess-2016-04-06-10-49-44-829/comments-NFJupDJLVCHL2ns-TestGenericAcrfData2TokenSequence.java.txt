@@ -1,1 +1,0 @@
-the readresolve read resolve alphabet thing doesn't kick in on first deserialization 

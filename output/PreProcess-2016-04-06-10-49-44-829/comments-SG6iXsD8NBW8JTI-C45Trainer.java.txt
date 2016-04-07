@@ -1,1 +1,0 @@
-minimum number of instances in each node stop growing the tree when any of the following is 1 we care about tree depth and maximum depth is reached 2 the entropy of the node is too small i e all instances belong to the same 3 the gain ratio of the best split available is too small xxx attend to featureselection!!! feature selection!!! 

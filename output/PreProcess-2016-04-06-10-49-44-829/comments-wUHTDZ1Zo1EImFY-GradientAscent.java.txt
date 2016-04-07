@@ -1,6 +1,0 @@
-eps is a small number to rectify the special case of converging to exactly zero function value /* tricky this is now set at gradientascent gradient ascent construction time how to set it later? 
- * what to pass as an argument here? the linemaximizer line maximizer needs the function at the time of its construction!
- setlinemaximizer set line maximizer lineoptimizer line optimizer bygradient by gradient linemaximizer line maximizer 
- {
- this linemaximizer line maximizer = linemaximizer line maximizer 
- }*/ ensure step not too large 

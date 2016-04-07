@@ -1,1 +1,0 @@
-the binary variable /* inefficient but this will seldom be called */ recursively slice in case assn includes some of the xs 

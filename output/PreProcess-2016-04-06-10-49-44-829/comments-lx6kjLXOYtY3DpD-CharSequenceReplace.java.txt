@@ -1,1 +1,0 @@
-xxx yipes this only works for unix u n i x style newlines anyone want to generalize it to windows etc? serialization 

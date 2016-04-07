@@ -1,1 +1,0 @@
-we are assuming sequences don't have zero length serialization 

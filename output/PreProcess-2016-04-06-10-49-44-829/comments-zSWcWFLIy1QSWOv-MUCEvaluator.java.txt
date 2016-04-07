@@ -1,1 +1,0 @@
-precision = \sum_i |siprime| |pofsiprime| |p ofsiprime| / \sum_i |siprime| 1 		 where siprime is a predicted cluster pofsiprime p ofsiprime is the set of clusters that contain elements of siprime recall = \sum_i |si| |pofsi| |p ofsi| / \sum_i |si| 1 		 where si is a cluster pofsi p ofsi is the set of predicted clusters that contain elements of si 

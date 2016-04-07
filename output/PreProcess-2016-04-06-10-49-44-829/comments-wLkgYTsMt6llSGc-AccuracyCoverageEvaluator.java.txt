@@ -1,1 +1,0 @@
-assumes that there are as many records as documents indexed by docs assumes that extractor at most one value 

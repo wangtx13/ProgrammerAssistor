@@ -1,1 +1,0 @@
-original new tokentext token text w= spellingfeaturespipe spelling features pipe /* crf trainwithfeatureinduction train with feature induction ilists 0 ilists 1 																		 eval 99999 																		 10 60 500 0 5 																		 new { 1 2 5 7} */ 

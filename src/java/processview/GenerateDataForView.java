@@ -46,10 +46,12 @@ public class GenerateDataForView {
     public void generateDataForView() {
         
         try {
+//            System.out.println("topics: ");
+//            System.out.println(System.getProperty("user.dir")); 
             String outputJsonPath = "/Users/wangtianxia1/Documents/github/ProgrammerAssistor/Web/topics.json";
             File outputJson = new File(outputJsonPath);
             if (outputJson.createNewFile()) {
-                System.out.println(outputJson.getName() + "create successful...");
+                System.out.println(outputJson.getName() + " create successful...");
             }
 
             Map<String, Integer> topicMap = new HashMap<>();

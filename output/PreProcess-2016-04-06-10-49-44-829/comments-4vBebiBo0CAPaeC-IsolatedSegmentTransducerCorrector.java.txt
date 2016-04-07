@@ -1,1 +1,0 @@
-_do not_ run constrained viterbi on this sequence with the constraint that this segment is tagged correctly instead simply replace the labeling of the corrected segment 

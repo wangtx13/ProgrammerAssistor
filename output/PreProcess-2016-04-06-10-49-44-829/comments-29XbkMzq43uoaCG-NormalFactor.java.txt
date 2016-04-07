@@ -1,1 +1,0 @@
-stub generate from standard normal and transform todo special case normalfactor normal factor must be normalized right now ok it's an identity factor normalfactor normal factor must be normalized right now ok it's an identity factor 

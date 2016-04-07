@@ -1,1 +1,0 @@
-step s t e p 1 create the graph create a diamond graph with random potentials step s t e p 2 compute marginals step s t e p 3 collect the results we'll just print them out 

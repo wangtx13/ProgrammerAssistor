@@ -1,1 +1,0 @@
-prepare nextindex next index pointing at the next non impossible transition these s are just to try to make this more efficient perhaps some of them will have to go away 

@@ -1,1 +1,0 @@
-support the syntax feature=0 f e a t u r e=0 000342 other_feature= 2 32423 \ ensure that the feature has a spot in the alphabet \ 

@@ -57,6 +57,8 @@ public class PreProcess {
     public void preProcess() {
         
         //Create a new folder
+//        System.out.println("lalala");
+//        System.out.println(System.getProperty("user.dir"));  
         String folderPath = "/Users/wangtianxia1/Documents/github/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
         createDir(folderPath);
            

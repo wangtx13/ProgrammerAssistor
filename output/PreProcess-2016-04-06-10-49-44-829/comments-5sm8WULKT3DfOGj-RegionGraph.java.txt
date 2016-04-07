@@ -1,1 +1,0 @@
-todo compute d p r as well slightly inefficient a recursive soln would be more efficient factors is a set so it avoids duplicates computes region graph counting numbers as defined in yedidia et al all region graphs are dags d a gs so no infinite regress horrifically inefficient 

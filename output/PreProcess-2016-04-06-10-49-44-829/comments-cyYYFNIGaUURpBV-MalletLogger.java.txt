@@ -1,1 +1,0 @@
-initialize the logging config properties to the mallet m a l l e t default config in cc mallet resources logging properties create an that allows us to reference the logging levels by a simple todo t o d o what is going on here? this is causing an setproperty set property logging config cc mallet logger defaultconfigurator default configurator 

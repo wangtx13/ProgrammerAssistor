@@ -1,1 +1,0 @@
-pad with trailing blanks if previous message was shorter than ours 

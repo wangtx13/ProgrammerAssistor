@@ -1,1 +1,0 @@
-no instances a local class! yes virginia this is legal should never happen collections always have default ctor should never happen collections always have default ctor collections 

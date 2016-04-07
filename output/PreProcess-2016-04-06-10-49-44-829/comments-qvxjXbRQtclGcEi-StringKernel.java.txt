@@ -1,1 +1,0 @@
-all words to lowercase gap penalty max length of subsequences to compare if we should cache previous kernel computations recommended! compute self kernels if not in hashmap normalize 

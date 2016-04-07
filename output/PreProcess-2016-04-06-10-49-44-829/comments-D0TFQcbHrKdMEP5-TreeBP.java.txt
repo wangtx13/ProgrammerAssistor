@@ -1,1 +1,0 @@
-pick a root arbitrarily 			sendlambdamessage 			send lambda message mdl child parent 			sendlambdamessage 			send lambda message mdl child parent 				sendpimessage 				send pi message mdl var child 				sendpimessage 				send pi message mdl var child 

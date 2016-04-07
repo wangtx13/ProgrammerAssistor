@@ -1,9 +1,0 @@
-convergence criteria current inferencing state accessors inferencer value += computefreeenergy compute free energy rg note do not use assnit assn it here before fixing variable ordering issues thisenergy this energy = product phi assnit assn it /* discretepotential discrete potential b2 = belief duplicate 
- b2 delogify 
- err belief b e l i e f +b2 
- err energy e n e r g y +product 
- */ avgenergy avg energy + entropy /*
- xxx debug
- if sender instanceof sparsemessagesender sparse message sender 
- out not n o t converged c o n v e r g e d \n +newmsg+ +new msg+ \n 
- */ 

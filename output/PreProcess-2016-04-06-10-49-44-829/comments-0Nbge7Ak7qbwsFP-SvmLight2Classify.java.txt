@@ -1,1 +1,0 @@
-process the command line options print some helpful messages for cases read classifier from gdruck@cs umass edu stop growth on the alphabets if this is not done and new features are added the feature and classifier parameter indices will not match build a new pipe read instances from the write classifications to the output 

@@ -1,1 +1,0 @@
-single node potentials handled separately now add appropriate edges to region graph add node potential to parent if necessary 

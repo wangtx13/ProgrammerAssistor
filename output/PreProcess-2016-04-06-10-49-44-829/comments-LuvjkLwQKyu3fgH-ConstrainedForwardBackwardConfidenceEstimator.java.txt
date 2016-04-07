@@ -1,1 +1,0 @@
-constrained lattice err confidence + confidence 

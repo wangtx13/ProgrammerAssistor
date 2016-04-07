@@ -1,1 +1,0 @@
-pipe the instance do a second one 

@@ -1,1 +1,0 @@
-maps between input feature indices and constraints cache of set of constrained features that fire at last featurevector feature vector provided in preprocess call cache constrained input features find examples that contain constrained input features count value due to current constraint binary constraint features 
