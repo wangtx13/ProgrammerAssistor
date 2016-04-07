@@ -1,1 +1,0 @@
-mirrorlist mirror list mirrorextends none n o n e description location country continent mirror enclosing mirrorlist mirror list see also constant field values 

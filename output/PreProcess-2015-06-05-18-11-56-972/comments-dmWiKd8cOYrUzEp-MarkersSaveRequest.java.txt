@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ constants }}} {{{ markerssaverequest markers save request constructor }}} {{{ run the entire save operation can be aborted 			setabortable 			set abortable we only save markers to vfs's v f s's that support deletion otherwise we will accumilate stale marks files }}} {{{ writemarkers write markers }}} {{{ instance variables }}} 

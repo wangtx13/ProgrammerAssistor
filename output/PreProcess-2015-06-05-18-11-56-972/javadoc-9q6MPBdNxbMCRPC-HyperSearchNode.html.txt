@@ -1,1 +1,0 @@
-hypersearchnode hyper search node buffer getbuffer get buffer view view goto go to editpane edit pane editpane edit pane all known implementing classes hypersearchfilenode hyper search node hypersearchresult hyper search result 

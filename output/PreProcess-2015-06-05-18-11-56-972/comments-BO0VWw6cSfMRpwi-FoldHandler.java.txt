@@ -1,1 +1,0 @@
-{{{ getname get name }}} {{{ getfoldlevel get fold level }}} {{{ getprecedingfoldlevels get preceding fold levels }}} {{{ equals default subclasses can extend this }}} {{{ hashcode hash }}} {{{ getfoldhandler get fold handler }}} {{{ getfoldmodes get fold modes }}} {{{ foldhandler fold handler constructor }}} {{{ tostring to }}} 

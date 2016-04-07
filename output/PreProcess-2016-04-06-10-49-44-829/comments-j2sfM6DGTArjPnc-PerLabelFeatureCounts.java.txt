@@ -1,0 +1,1 @@
+/* xxx this should use memory more sparsely!!! */ count features across all classes xxx note that this ignores uncertain labels 

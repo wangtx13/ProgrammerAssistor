@@ -1,1 +1,0 @@
-{{{ message types }}} {{{ pluginupdate plugin update constructor }}} {{{ pluginupdate plugin update constructor }}} {{{ getwhat get what }}} {{{ isexiting is exiting }}} {{{ getpluginjar get plugin j a r }}} {{{ getfile get }}} {{{ getpluginversion get plugin }}} {{{ paramstring }}} {{{ members }}} 

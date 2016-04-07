@@ -1,1 +1,0 @@
-ipropertymanager i property manager getproperty get property name all known implementing classes jedit j edit jeditpropertymanager j edit property manager since jedit j edit 4 3 name the name of the property the property or if it doesn't 

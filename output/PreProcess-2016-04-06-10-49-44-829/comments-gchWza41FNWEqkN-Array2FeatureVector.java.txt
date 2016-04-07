@@ -1,0 +1,2 @@
+'add' check if we've set the target alphabet member /*return new instance fv carrier gettarget get target carrier getname get name 
+	 carrier getsource get source this */ 

@@ -57,7 +57,7 @@ public class PreProcess {
     public void preProcess() {
         
         //Create a new folder
-        String folderPath = "/Users/apple/NetBeansProjects/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
+        String folderPath = "/Users/wangtianxia1/Documents/github/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
         createDir(folderPath);
            
         File inputRootFile = new File(inputRootFilePath);

@@ -1,0 +1,1 @@
+make sure the feature vector's feature dictionary matches what we are expecting from our data pipe and thus our notion of feature probabilities set the scores by summing wi*xi create and a classification 

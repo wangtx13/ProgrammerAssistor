@@ -1,0 +1,1 @@
+assumes that there are as many records as documents indexed by docs assumes that extractor at most one value calc precision we have an report if necessary this should be moved to the per field rather than per filler level xxx todo t o d o display name of supporting document calc 

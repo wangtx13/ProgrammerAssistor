@@ -1,1 +1,0 @@
-load it if it's one of our classes let superclass bshclassloader bsh loader urlclassloader u r l loader findclass find try to find the 

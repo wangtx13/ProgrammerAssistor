@@ -1,1 +1,0 @@
-keymap getshortcut get shortcut name setshortcut set shortcut name shortcut save since jedit j edit 5 0 name the shortcut name the action name or if there is no shortcut name the shortcut name shortcut the action name or to delete a shortcut 

@@ -16,7 +16,7 @@
         <description>Location to store uploaded file</description>
         <param-name>file-upload</param-name>
         <param-value>
-            /Applications/NetBeans/glassfish-4.0/data/
+            /Applications/NetBeans/glassfish-4.1.1/data/
         </param-value>
     </context-param>
     <servlet-mapping>

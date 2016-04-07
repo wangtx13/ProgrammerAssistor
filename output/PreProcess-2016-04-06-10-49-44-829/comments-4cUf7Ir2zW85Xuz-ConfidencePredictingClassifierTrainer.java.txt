@@ -1,0 +1,9 @@
+decisiontreetrainer decision tree trainer confidencepredictingclassifiertrainer confidence predicting classifier trainer naivebayestrainer naive bayes trainer confidencepredictingclassifiertrainer confidence predicting classifier trainer this confidencepredictingclassifiertrainer confidence predicting classifier trainer = new decisiontreetrainer decision tree trainer this confidencepredictingclassifiertrainer confidence predicting classifier trainer = new naivebayestrainer naive bayes trainer get most informative features per then combine to make new feature conjunctions /*		adaboosttrainer /*		 ada boost trainer adatrainer ada trainer = new adaboosttrainer ada boost trainer confidencepredictingclassifiertrainer confidence predicting classifier trainer 10 
+			classifier 
+			 classifier ada = adatrainer ada trainer train confidencepredictiontraining confidence prediction training 
+			system 
+			 out accuracy at predicting correct/incorrect in boosting b o o s t i n g training = + ada getaccuracy get accuracy confidencepredictiontraining confidence prediction training 
+		 */ 		print out most informative features /*		infogain /*		 info gain ig = new infogain info gain confidencepredictiontraining confidence prediction training 
+		for i = 0 i < ig numlocations num locations i++ 
+		logger info infogain info gain +ig getobjectatrank get at rank i + = +ig getvalueatrank get value at rank i 
+		 */ 		return new confidencepredictingclassifier confidence predicting classifier c ada 

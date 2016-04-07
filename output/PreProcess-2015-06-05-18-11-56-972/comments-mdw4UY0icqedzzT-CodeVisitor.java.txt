@@ -1,1 +1,0 @@
-special instructions exceptions table entries max stack size and max locals debug information 

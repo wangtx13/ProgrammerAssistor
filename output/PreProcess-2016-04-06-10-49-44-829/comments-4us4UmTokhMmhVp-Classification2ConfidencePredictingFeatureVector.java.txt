@@ -1,0 +1,71 @@
+attempts to use the confusion matrix of the training list as some prior knowledge in training 			features = propertylist property list add lv getlabelatrank get label at rank i tostring to + hasrank has rank +i 1 0 features loop through original feature vector and add each feature to propertylist property list 		features = propertylist property list add winningscore winning score winningscore winning score features 		features = propertylist property list add secondscore second score lv getvalueatrank get value at rank 1 features 		features = propertylist property list add bestlabel best label tostring to + isfirst is first 1 0 features 		features = propertylist property list add lv getlabelatrank get label at rank 1 tostring to + issecond is second 1 0 features 			 xxx this hurt performance is this correct function call? 			for loc = 0 loc < fv numlocations num locations loc++ 				features = propertylist property list add fdict lookupobject lookup loc tostring to 1 0 features features = propertylist property list add winningclassprecision winning precision confusionmatrix confusion matrix getprecision get precision lv getbestindex get best index features 			 			features = propertylist property list add confusionbetweentop2 confusion between top2 confusionmatrix confusion matrix getconfusionbetween get confusion between lv getbestindex get best index lv getindexatrank get index at rank 1 features features = propertylist property list add variance getscorevariance get score variance lv features use cutoffs of some metrics /*
+	if winningscore winning score < winningthreshold winning threshold {
+	features = propertylist property list add winningscorebelowx winning score below x 1 0 features 
+	bestscorelessthanx++ 
+	best score less than x++ 
+	if classification bestlabeliscorrect best label is correct {
+	reallywrong++ {
+	really wrong++ 
+	}
+				}			
+				if marginofvictory margin of victory < 9 
+				features = propertylist property list add marginofvictorybelow margin of victory below 9 1 0 features 
+				if getscorevariance get score variance lv < variancethreshold variance threshold {
+				features = propertylist property list add variancebelowx variance below x 1 0 features 
+				variancelessthanx++ 
+				variance less than x++ 
+				}
+				if lv getvalueatrank get value at rank 1 > secondthreshold second threshold {
+				features = propertylist property list add secondscoreabovex second score above x 1 0 features 
+				secondscoregreaterthanx++ 
+				second score greater than x++ 			 
+				}
+*/ /*
+			 all the confidence predicting features
+			features = propertylist property list add winningscore winning score winningscore winning score features 
+			
+			features = propertylist property list add bestlabel best label tostring to + isfirst is first 1 0 features 
+			features = propertylist property list add lv getlabelatrank get label at rank 1 tostring to + issecond is second 1 0 features 			
+			
+			features = propertylist property list add secondscore second score lv getvalueatrank get value at rank 1 features 
+
+			for i=0 i<lv numlocations num locations i++ {
+				features = propertylist property list add lv getlabelatrank get label at rank i tostring to + hasrank has rank +i lv getvalueatrank get value at rank i features 
+			}
+
+			if marginofvictory margin of victory < 9 
+			 	features = propertylist property list add marginofvictorybelow margin of victory below 9 1 0 features 
+
+			if winningscore winning score < winningthreshold winning threshold {
+			 	features = propertylist property list add winningscorebelowx winning score below x 1 0 features 
+				bestscorelessthanx++ 
+				best score less than x++ 
+			}
+			if getscorevariance get score variance lv < variancethreshold variance threshold {
+			 	features = propertylist property list add variancebelowx variance below x 1 0 features 
+				variancelessthanx++ 
+				variance less than x++ 
+			}
+			if lv getvalueatrank get value at rank 1 > secondthreshold second threshold {
+			 features = propertylist property list add secondscoreabovex second score above x 1 0 features 
+				secondscoregreaterthanx++ 
+				second score greater than x++ 			 
+			}
+			labelalphabet 
+			}
+			 label alphabet vocab = lv getlabelalphabet get label alphabet 
+ 			for i=0 i<vocab size i++ {
+			 	features = propertylist property list add vocab lookupobject lookup i tostring to + 'sscore 's score lv valueatlocation value at location i features 
+			}
+
+			features = propertylist property list add numfeatures num features fv numlocations num locations /fdict size features 
+
+			features = propertylist property list add bestlabel best label tostring to + isfirst is first + lv getlabelatrank get label at rank 1 tostring to + issecond is second 1 0 features 
+			
+					features = propertylist property list add marginofvictory margin of victory lv getbestvalue get best value lv getvalueatrank get value at rank 1 features 
+*/ /*
+	 xxx these features either had 0 info gain or had a negative
+	 impact on performance
+					features = propertylist property list add scorevariance score variance getscorevariance get score variance lv features 
+					features = propertylist property list add scoremean score mean getscoremean get score mean lv features 
+*/ loop through original feature vector and add each feature to propertylist property list xxx this hurt performance is this correct function call? for loc = 0 loc < fv numlocations num locations loc++ 	features = propertylist property list add fdict lookupobject lookup loc tostring to 1 0 features 

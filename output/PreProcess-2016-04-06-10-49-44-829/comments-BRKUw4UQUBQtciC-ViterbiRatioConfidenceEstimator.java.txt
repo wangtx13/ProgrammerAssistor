@@ -1,0 +1,1 @@
+viterbipathnbest viterbi path n best bestviterbis best viterbis = new viterbipathnbest viterbi path n best model sequence instance getdata get data 2 costs = bestviterbis best viterbis costnbest cost n best 

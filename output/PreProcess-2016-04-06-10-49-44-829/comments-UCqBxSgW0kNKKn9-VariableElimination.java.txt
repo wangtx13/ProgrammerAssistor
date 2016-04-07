@@ -1,0 +1,6 @@
+/* collect the potentials that include this variable */ /* here the elimination order is random */ /* note that using buckets would make this more efficient as
+			 well */ /* make a copy of potentials */ /* eliminate each node in turn */ eliminate the query variable last! /* extract marginalize over this variables */ /* add it back to the list of potentials */ /* now all the potentials that are left should contain only the
+		 * query variable unless u n l e s s the graph is disconnected so just
+		 * eliminate the query var 
+		 */ /* what we'll do is get the unnormalized marginal of an arbitrary
+		 * node then sum the marginal to get the normalization factor */ inert all work done in lookupmarginal lookup marginal serialization if seralization incompatible changes are made to these classes then smarts can be added to these for backward compatibility 

@@ -1,0 +1,1 @@
+for data subsets using cascaded setter idiom finish by training to convergence the last acrf is the one to go with checkpointing 

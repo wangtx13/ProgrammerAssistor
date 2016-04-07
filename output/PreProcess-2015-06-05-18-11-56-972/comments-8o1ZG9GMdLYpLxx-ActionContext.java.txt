@@ -1,1 +1,0 @@
-{{{ getactionsetforaction get action set for action }}} {{{ getaction get action }}} 

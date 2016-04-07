@@ -1,1 +1,0 @@
-skip cr c r eof e o f not zero read apparently test it 

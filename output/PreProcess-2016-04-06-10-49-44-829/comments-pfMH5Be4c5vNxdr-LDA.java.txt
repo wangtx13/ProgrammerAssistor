@@ -1,0 +1,45 @@
+think about support for incrementally adding more documents i think this means we might want to use featuresequence feature sequence directly we will also need to support a growing vocabulary! number of topics to be fit dirichlet alpha alpha is the distribution over topics prior on per topic multinomial distribution over words the data field of the instances is expected to hold a featuresequence feature sequence indexed by <document index sequence index> indexed by <document index topic index> indexed by <feature index topic index> indexed by <topic index> initialize with random assignments of tokens to topics and finish allocating this topics and this tokens randomly assign tokens to topics 124 5 seconds 144 8 seconds after using featuresequence feature sequence instead of tokens 121 6 seconds after putting on featuresequence feature sequence getindexatposition get index at position 106 3 seconds after avoiding lookup in inner loop with a temporary variable expand various arrays to make space for the new data the rest of this will be initialized below the rest of this will be initialized below this further populated below randomly assign tokens to topics /* perform several rounds of gibbs sampling on the documents in the given range */ /* one iteration of gibbs sampling across all documents */ loop over every word in the corpus /* one iteration of gibbs sampling across all documents */ loop over every word in the corpus /*
+	public assigntopics assign topics testtokens test tokens random r 
+	{
+		int testtopics test topics = new testtokens test tokens length 
+		int testtopiccounts test topic counts = new numtopics num topics 
+		int numtokens num tokens = matrixops matrix ops sum testtokens test tokens 
+		double topicweights topic weights = new numtopics num topics 
+		 randomly assign topics to the words and
+		 incorporate this document in the global counts
+		int topic 
+		for si = 0 si < testtokens test tokens length si++ {
+			topic = r nextint next numtopics num topics 
+			testtopics 
+			test topics si = topic analogous to this topics
+			testtopiccounts topics
+			test topic counts topic ++ analogous to this doctopiccounts
+			typetopiccounts doc topic counts
+			type topic counts testtokens test tokens si topic ++ 
+			tokenspertopic 
+			tokens per topic topic ++ 
+		}
+		 repeatedly sample topic assignments for the words in this document
+		for iterations = 0 iterations < numtokens*2 num tokens*2 iterations++ 
+			sampletopicsforonedoc 
+			sample topics for one doc testtokens test tokens testtopics test topics testtopiccounts test topic counts topicweights topic weights r 
+		 remove this document from the global counts
+		 and also fill topicweights topic weights with an unnormalized distribution over topics for whole doc
+		arrays doc
+		 arrays fill topicweights topic weights 0 0 
+		for si = 0 si < testtokens test tokens length si++ {
+			topic = testtopics test topics si 
+			typetopiccounts 
+			type topic counts testtokens test tokens si topic 
+			tokenspertopic 
+			tokens per topic topic 
+			topicweights 
+			topic weights topic ++ 
+		}
+		 normalize the distribution over topics for whole doc
+		for ti = 0 ti < numtopics num topics ti++ 
+			topicweights 
+			topic weights ti /= testtokens test tokens length 
+		return topicweights topic weights 
+	}
+*/ indexed by seq position indexed by topic index iterate over the positions words in the document remove this token from all counts build a distribution over topics for this token /doclen /doc len 1+talpha 1+t alpha is constant across all topics sample a topic assignment from this distribution put that new topic into the counts serialization recommended to use mallet/bin/vectors2topics instead should be 1100 

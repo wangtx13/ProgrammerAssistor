@@ -1,1 +1,0 @@
-{{{ stringtotoken to token }}} {{{ tokentostring token to }}} {{{ token types }}} special {{{ instance variables }}} {{{ token constructor }}} {{{ tostring to }}} 

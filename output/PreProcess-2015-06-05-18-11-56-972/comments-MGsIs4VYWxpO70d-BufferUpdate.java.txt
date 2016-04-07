@@ -1,1 +1,0 @@
-{{{ message types }}} {{{ bufferupdate buffer update constructor }}} {{{ getwhat get what }}} {{{ getbuffer get buffer }}} {{{ getview get view }}} {{{ paramstring }}} {{{ members }}} 

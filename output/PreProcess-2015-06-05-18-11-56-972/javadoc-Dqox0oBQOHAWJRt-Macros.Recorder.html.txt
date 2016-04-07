@@ -1,1 +1,0 @@
-macros recorderextends recorder view view buffer buffer temporary record record repeat recordinput record input repeat char ch overwrite recordinput record input str overwrite handlebufferupdate handle buffer update bufferupdate buffer update bmsg enclosing macros since jedit j edit 4 2pre5 since jedit j edit 4 2pre5 

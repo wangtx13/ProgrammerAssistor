@@ -1,1 +1,0 @@
-keymapfilefilterextends keymap filterextends objectimplements io filefilter filter keymapfilefilter keymap filter accept io pathname all io filefilter filter since jedit j edit 5 0 specified by accept in io filefilter filter 

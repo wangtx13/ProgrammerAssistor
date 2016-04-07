@@ -1,1 +1,0 @@
-handlerextends net urlstreamhandler u r l stream handler handler net urlconnection u r l connection openconnection open connection net url u r l url io ioexception i o specified by openconnection open connection in net urlstreamhandler u r l stream handler io ioexception i o 

@@ -1,5 +1,0 @@
-{{{ imports }}} {{{ helpindex help index constructor }}} /* {{{ helpindex help index constructor
-	public helpindex help index filelistpath list path wordindexpath word index path 
-	{
-		this 
-	} }}} */ {{{ indexeditorhelp index editor help }}} {{{ indexdirectory index directory }}} {{{ indexjar index j a r only works for jedit j edit plugins }}} {{{ indexurl index u r l }}} {{{ lookupword lookup word }}} {{{ getfile get }}} {{{ members used to mark words to ignore see constructor for the list {{{ ignoreword ignore word }}} {{{ indexstream index stream }}} {{{ addword add word }}} }}} {{{ word how much an occurrence in the title is worth the word files it occurs in }}} {{{ helpfile help }}} 

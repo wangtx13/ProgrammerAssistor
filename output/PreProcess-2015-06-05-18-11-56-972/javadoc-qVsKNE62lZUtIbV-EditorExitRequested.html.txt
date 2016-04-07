@@ -1,1 +1,0 @@
-editorexitrequestedextends editor exit requestedextends ebmessage e b message editorexitrequested editor exit requested view view view getview get view cancelexit cancel exit hasbeenexitcancelled has been exit cancelled since jedit j edit 3 1pre4 view the view from which this exit was called 

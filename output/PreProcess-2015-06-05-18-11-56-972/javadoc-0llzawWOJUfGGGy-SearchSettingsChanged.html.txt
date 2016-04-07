@@ -1,1 +1,0 @@
-searchsettingschangedextends search settings changedextends ebmessage e b message searchsettingschanged search settings changed ebcomponent e b component source since jedit j edit 2 3pre1 source the message source 

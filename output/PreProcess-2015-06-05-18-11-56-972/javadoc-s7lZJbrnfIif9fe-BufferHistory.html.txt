@@ -1,1 +1,0 @@
-bufferhistoryextends buffer historyextends bufferhistory buffer history bufferhistory buffer history entry getentry get entry path setentry set entry path caret selection selection encoding mode clear list gethistory get history load save since 4 3pre6 the buffer history list since jedit j edit 4 2pre2 

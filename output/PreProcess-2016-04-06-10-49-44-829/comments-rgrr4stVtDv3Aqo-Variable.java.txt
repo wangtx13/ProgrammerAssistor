@@ -1,0 +1,4 @@
+name of this variable /* setup default outcomes */ we're continuous /*
+ variable var = variable o 
+ getlabel get label compareto compare to var getlabel get label 
+ */ /**/ serialization garbage 

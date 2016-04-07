@@ -1,1 +1,0 @@
-editplugin edit plugin deferredextends editplugin edit plugin getclassname get name tostring to enclosing editplugin edit plugin see also jedit j edit getplugin get plugin pluginjar plugin j a r getplugin get plugin pluginjar plugin j a r activateplugin activate plugin getclassname get name in editplugin edit plugin tostring to in 

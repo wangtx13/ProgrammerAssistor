@@ -1,1 +1,0 @@
-ebpluginextends e b pluginextends editpluginimplements edit pluginimplements ebcomponent e b component ebplugin e b plugin handlemessage handle message ebmessage e b message message all ebcomponent e b component see also editbus edit bus ebcomponent e b component ebmessage e b message specified by handlemessage handle message in ebcomponent e b component message the message 

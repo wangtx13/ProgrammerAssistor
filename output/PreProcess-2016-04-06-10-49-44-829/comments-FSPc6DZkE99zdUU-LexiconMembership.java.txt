@@ -1,0 +1,1 @@
+	system 	 out name + + ignorecase ignore case ? line tolowercase to lower case intern line intern dealing with a z + a z + a z + a z + serialization 

@@ -1,1 +1,0 @@
-completionpopup completion popup candidates getsize get size isvalid is valid complete index component getcellrenderer get cell renderer jlist j list list index isselected is selected cellhasfocus cell has focus getdescription get description index enclosing completionpopup completion popup 

@@ -1,0 +1,1 @@
+check no exceptions thrown when asking for all marginals and check that at least one factors' belief has changed from the choice at zero iterations test no thrown 

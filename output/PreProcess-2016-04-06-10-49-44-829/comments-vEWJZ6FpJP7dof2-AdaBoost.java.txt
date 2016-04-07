@@ -1,0 +1,1 @@
+added by gary added by gary gather scores of all weakclassifiers weak classifiers normalize the scores 

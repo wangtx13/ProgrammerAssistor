@@ -1,7 +1,0 @@
-{{{ getproperties get properties }}} {{{ loadsystemprops load props }}} {{{ loadsiteprops load site props }}} {{{ loadlocalizationprops load localization props }}} {{{ loaduserprops load user props }}} {{{ saveuserprops save user props }}} {{{ loadpluginprops load plugin props }}} {{{ addpluginprops add plugin props }}} {{{ removepluginprops remove plugin props }}} {{{ loadpluginlocalizationprops load plugin localization props }}} {{{ addpluginlocalizationprops add plugin localization props }}} {{{ removepluginlocalizationprops remove plugin localization props }}} {{{ getproperty get property }}} {{{ setproperty set property /* if value is 
-		 * if default is unset user prop
-		 * else set user prop to 
-		 * else
-		 * if default equals value ignore
-		 * if default doesn't equal value set user
-		 */ }}} {{{ settemporaryproperty set temporary property }}} {{{ unsetproperty unset property }}} {{{ resetproperty reset property }}} {{{ members {{{ getdefaultproperty get default property }}} {{{ loadprops load props }}} {{{ loadprops load props }}} }}} 

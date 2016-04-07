@@ -1,1 +1,0 @@
-{{{ dynamicmenuchanged dynamic menu changed constructor }}} {{{ getmenuname get menu name }}} {{{ paramstring }}} {{{ members }}} 

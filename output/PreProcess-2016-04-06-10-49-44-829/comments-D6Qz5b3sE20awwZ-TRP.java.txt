@@ -1,0 +1,8 @@
+/* make sure that we've included all edges before we terminate */ accessors xxx should this be static? perhaps handle gracefully?? cas this works around what appears to be a bug in openjgraph open j graph connected sets first add all edges that haven't been used so far now add as many other edges as possible if no more trees rewind termination conditions will this need to be subclassed from outside? will such subclasses need access to the state of trp? t r p? this takes the instances of trp as a parameter so that if a trp t r p instance is cloned and the terminator copied over it will still work boy do i hate cloning xxx delta is currently ignored /*
+			if oldmessages old messages != 
+				retval = !checkforconvergence !check for convergence trp 
+			copymessages 
+			copy messages trp 
+			
+			return retval 
+			*/ runs until convergence but doesn't stop until all edges have been used at least once and always stops after 1000 iterations terminate if converged or at insanely high # of iterations and now the heart of trp t r p output messages output spanning tree now open list contains all of the nodes except the root in reverse topological order send the messages xxx could get moved up to abstractinferencer inferencer if mdlcurrent mdl current did deep copy termination condition should never happen serialization if seralization incompatible changes are made to these classes then smarts can be added to these for backward compatibility 

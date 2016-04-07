@@ -1,1 +1,0 @@
-{{{ trianglefoldhandler triangle fold handler {{{ paintfoldstart paint fold start }}} {{{ paintfoldend paint fold end }}} {{{ paintfoldmiddle paint fold middle }}} }}} 

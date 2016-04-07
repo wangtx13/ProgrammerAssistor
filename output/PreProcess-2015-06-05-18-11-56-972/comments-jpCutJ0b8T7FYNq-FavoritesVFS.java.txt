@@ -1,4 +1,0 @@
-{{{ imports }}} {{{ favoritesvfs favorites v f s constructor /* addtofavorites add to favorites which is a method
-		 * for convinience needs an instance of the
-		 * vfs v f s to pass to vfsmanager v f s manager sendvfsupdate send v f s update 
-		 * hence this hack */ }}} {{{ getparentofpath get parent of path }}} {{{ _listfiles }}} {{{ _getfile does it matter that this doesn't set the type correctly? }}} {{{ _delete }}} {{{ _delete }}} {{{ loadfavorites load favorites }}} {{{ addtofavorites add to favorites }}} {{{ savefavorites save favorites }}} {{{ getfavorites get favorites }}} {{{ members }}} {{{ favorite don't want it to show 0 bytes for size etc }}} 

@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ getwidget get widget }}} {{{ buffersetwidget buffer set widget {{{ getcomponent get component }}} {{{ update }}} {{{ propertieschanged properties changed }}} {{{ handlemessage handle message }}} }}} 

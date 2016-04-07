@@ -1,0 +1,1 @@
+8390758647439705273l 8390758647439705273 l gsc adding constructor that has an option for the data alphabet as well this avoids the data alphabet getting set to towards the end of a serialpipes serial pipes because the data alphabet might have already been set 

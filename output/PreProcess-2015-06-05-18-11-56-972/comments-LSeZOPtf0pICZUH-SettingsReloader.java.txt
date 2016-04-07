@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ handlemessage handle message }}} {{{ maybereload maybe reload on windows and macos mac o s path names are case insensitive xxx x x x does this really belong here? not in settings directory or jedit j edit home directory no need to reload anything }}} 

@@ -1,1 +1,0 @@
-hashtable implements map hashtable implements map 

@@ -1,0 +1,1 @@
+defaultvalue default value implement this by using it to reverse all the exterior serialization /* need to check for pointers */ 

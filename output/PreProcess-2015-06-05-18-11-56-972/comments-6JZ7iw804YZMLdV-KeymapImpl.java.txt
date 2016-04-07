@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ keymapimpl keymap impl constructor }}} {{{ getinputstream get input stream }}} {{{ loadproperties load properties }}} {{{ getshortcut get shortcut }}} {{{ setshortcut set shortcut }}} {{{ tostring to }}} {{{ hashcode hash }}} {{{ equals }}} {{{ save }}} 

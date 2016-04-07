@@ -1,0 +1,11 @@
+obtained from http www stat vt edu/~sundar/java/code/statfunctions edu/~sundar/java/code/ stat functions html august 2002 /* reference 
+ j d beasley and s g springer 
+ algorithm as a s 111 the percentage points of the normal distribution 
+ applied statistics
+  statistics
+ */ /* reference 
+ i d hill 
+ algorithm as a s 66 the normal integral 
+ applied statistics
+  statistics
+ */ algorithm 396 student's t quantiles by g w hill cacm c a c m 13 10 619 620 october 1970 pi/2 /* df ~= 2 */ /* df ~= 1 */ /* usual case including e g df = 1 1 */ /* asymptotic inverse expansion about normal */ /* fixme f i x m e this cutoff is machine precision dependent*/ /* taylor of e^y 1 */ algorithm a l g o r i t h m as a s 3 appl a p p l statist s t a t i s t 1968 vol v o l 17 p 189 computes p t<t =1/pi posten h 1989 american statistician 43 p 261 265 algorithm a l g o r i t h m as a s 63 appl a p p l statist s t a t i s t vol v o l 32 no n o 1 computes p beta>x algorithm a l g o r i t h m as a s 63 appl a p p l statist s t a t i s t vol v o l 32 no n o 1 computes p f>x 

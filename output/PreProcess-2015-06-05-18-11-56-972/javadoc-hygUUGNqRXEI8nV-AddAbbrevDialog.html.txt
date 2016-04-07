@@ -1,1 +1,0 @@
-addabbrevdialogextends add abbrev dialogextends jdialog j dialog addabbrevdialog add abbrev dialog view view abbrev all image imageobserver image observer menucontainer menu container io serializable accessibility accessible rootpanecontainer root pane container windowconstants window constants see also serialized form 

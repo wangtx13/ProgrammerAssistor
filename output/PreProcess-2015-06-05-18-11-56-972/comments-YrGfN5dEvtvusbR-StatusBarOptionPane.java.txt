@@ -1,9 +1,0 @@
-{{{ imports }}} {{{ statusbaroptionpane status bar option pane constructor }}} {{{ _init {{{ north }}} {{{ options panel /* foreground color */ /* background color */ /* memory foreground color */ /* memory background color */ /*
-		caret /*
-		 caret position format lineno dot virtual caretpos/bufferlength 
-		view status show caret linenumber shows line number for caret lineno 
-		view status show caret dot shows offset in line for caret dot 
-		view status show caret virtual shows virtual offset in line for caret virtual 
-		view status show caret offset shows caret offset from start of buffer caretpos 
-		view status show caret bufferlength shows length of buffer bufferlength 
-		*/ }}} {{{ widgets panel }}} {{{ create buttons }}} /}}} {{{ _save }}} {{{ members {{{ instance variables }}} {{{ updatebuttons update buttons }}} {{{ updatebuttons update buttons }}} }}} {{{ inner classes {{{ actionhandler action handler }}} {{{ listhandler list handler }}} }}} {{{ widgetselectiondialog widget selection dialog {{{ widgetselectiondialog widget selection dialog constructors {{{ south panel }}} }}} {{{ ok }}} {{{ cancel }}} {{{ getvalue get value }}} {{{ actionhandler action handler {{{ actionperformed action performed }}} }}} }}} 

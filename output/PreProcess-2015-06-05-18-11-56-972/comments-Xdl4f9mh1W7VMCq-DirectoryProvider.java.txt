@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ directoryprovider directory provider constructor }}} {{{ updateeverytime update every time }}} {{{ update {{{ actionlisteners action listeners }}} for filtering out backups skip marker files skip autosave files skip backup files skip directories if isdirectory is directory 	continue current addseparator add separator }}} {{{ members }}} 

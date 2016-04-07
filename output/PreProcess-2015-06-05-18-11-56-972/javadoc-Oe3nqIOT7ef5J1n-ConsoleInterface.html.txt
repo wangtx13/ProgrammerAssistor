@@ -1,1 +1,0 @@
-consoleinterface console io reader getin get in io printstream print stream getout get out io printstream print stream geterr get err o print o o all known implementing classes interpreter 

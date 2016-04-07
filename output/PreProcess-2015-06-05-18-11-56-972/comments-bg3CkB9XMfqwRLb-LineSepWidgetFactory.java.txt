@@ -1,1 +1,0 @@
-{{{ getwidget get widget }}} {{{ linesepwidget line sep widget {{{ linesepwidget line sep widget constructor }}} {{{ getcomponent get component }}} {{{ update }}} {{{ propertieschanged properties changed retarded gtk g t k look and feel! uimanager u i manager getfont get font label font }}} }}} 

@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ listvfsfiletransferable list v f s transferable constructor }}} {{{ gettransferdataflavors get transfer data flavors }}} {{{ isdataflavorsupported is data flavor supported }}} {{{ gettransferdata get transfer data }}} 

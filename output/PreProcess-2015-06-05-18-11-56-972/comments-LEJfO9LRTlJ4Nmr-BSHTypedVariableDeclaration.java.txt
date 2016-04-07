@@ -1,1 +1,0 @@
-type node is passed down the chain for initializers which need it under some circumstances 

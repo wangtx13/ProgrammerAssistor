@@ -1,3 +1,0 @@
-{{{ getinstance get instance }}} {{{ setinstance set instance }}} {{{ propertieschanged properties changed }}} {{{ reset }}} {{{ mutablelistmodel mutable list model {{{ getelementat get element at }}} {{{ getsize get size }}} {{{ removeelement remove element }}} {{{ insertelementat insert element at /* this is not terribly efficient but this is only
-		called by the 'paste ' paste deleted' dialog where the performance
-		is not exactly vital */ }}} }}} {{{ members {{{ changed }}} {{{ add we don't want duplicate entries in the kill ring no duplicates check for all whitespace }}} {{{ remove }}} }}} {{{ members {{{ virtualtophysicalindex virtual to physical index }}} {{{ indexof index of }}} }}} 

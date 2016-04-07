@@ -1,0 +1,15 @@
+messages from variable > factor /*
+ setup self messages for vertex potentials
+ for iterator it = mdl getverticesiterator get vertices iterator it hasnext has next {
+ variable var = variable it next 
+ factor ptl = mdl factorofvar factor of var var 
+ if ptl != {
+ if inlogspace in log space {
+ logger finer beliefpropagation belief propagation using log space 
+ setmessage set message i i new logtablefactor log table factor abstracttablefactor table factor ptl 
+ } else {
+ setmessage set message i i ptl 
+ }
+ }
+ }
+ */ err generalutils general utils classshortname short name this + send message +from+ > +to err generalutils general utils classshortname short name this + send message +from+ > +to free up memory assert product varset var set size <= 2 err sum prod message there's damping factor oldmsg old msg = messages get fromidx from idx toidx to idx serialization err max prod message err max prod message serialization }}} serialization if seralization incompatible changes are made to these classes then smarts can be added to these for backward compatibility if the inferencer was stopped early there may be no message compute using bp b p factorization prod_s p x_s ^ deg s 1 * note that below works correctly for degree 0! * prod_{c} p x_c 

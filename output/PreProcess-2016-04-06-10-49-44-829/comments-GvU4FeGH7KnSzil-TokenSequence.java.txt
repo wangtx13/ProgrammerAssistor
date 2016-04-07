@@ -1,0 +1,10 @@
+arraylist list tokens for arbitrary properties token get i {return this get i 	} gdruck this causes a compiler in eclipse helios removed support for adding other than /*
+	public add o {
+		if o instanceof token 
+			add token o 
+		else if o instanceof tokensequence token sequence 
+			add tokensequence token sequence o 
+		else
+			add new token o tostring to 
+	}
+	*/ added by fuchun peng oct 24 2003 added gmann 8/30/2006 serialization 

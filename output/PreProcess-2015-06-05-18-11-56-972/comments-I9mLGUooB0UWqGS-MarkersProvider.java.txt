@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ updateeverytime update every time }}} {{{ update current addseparator add separator }}} {{{ markersmenuitem markers menu item {{{ markersmenuitem markers menu item constructor }}} {{{ getpreferredsize get preferred size }}} {{{ paint /* xxx x x x magic number */ }}} {{{ members {{{ getshortcut get shortcut }}} {{{ initializer }}} }}} }}} 

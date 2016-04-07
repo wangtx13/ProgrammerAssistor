@@ -1,1 +1,0 @@
-{{{ constructor }}} {{{ load }}} {{{ save }}} {{{ members {{{ killringhandler kill ring handler }}} }}} 

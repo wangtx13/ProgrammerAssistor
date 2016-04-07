@@ -1,0 +1,11 @@
+/*		for i=0 i<classifications size i++ 
+		{
+			classification 
+		{
+			 classification c = classification this classifications get i 
+			labelvector 
+			 label vector distr = c getlabelvector get label vector 
+			system 
+			 out distr getbestvalue get best value 
+		}
+*/ 		system 		 out creating accuracyarray accuracy step= +step 		system 		 out numtrials= num trials= +numtrials +num trials 		system 		 out accuracy at cov +cov+ is + numcorrect/numtrials num correct/num trials get content pane set layout manager make sure we've got data in the graph add to pane center the frame get the current screen size get the frame size set x y location 

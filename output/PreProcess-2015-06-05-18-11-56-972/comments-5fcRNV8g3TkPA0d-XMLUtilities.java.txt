@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ charstoentities chars to entities control characters excluding \t \r and \n see http www w3 org/international/questions/qa org/ international/questions/qa controls the character is illegal but put a pi p i instead to make it recoverable in certain apps }}} {{{ parsexml parse xml }}} {{{ resolveentity resolve entity }}} 

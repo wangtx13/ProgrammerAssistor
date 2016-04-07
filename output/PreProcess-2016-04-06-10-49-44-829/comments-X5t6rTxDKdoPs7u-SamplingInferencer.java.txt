@@ -1,0 +1,1 @@
+could save only sufficient statistics to save on memory don't try this for large cliques serialization garbage read 

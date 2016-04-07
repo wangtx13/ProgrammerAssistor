@@ -1,0 +1,1 @@
+now that pipe's support iteration directly this should no longer be necessary? akm a k m 9/2007 pipeextendediterator pipe extended iterator arraydataandtargetiterator data and target iterator iterator2 charsequencearray2tokensequence char sequence array2 token sequence sequence { todo t o d o auto generated constructor stub } 

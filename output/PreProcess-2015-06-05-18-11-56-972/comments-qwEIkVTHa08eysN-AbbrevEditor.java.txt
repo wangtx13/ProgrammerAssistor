@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ abbreveditor abbrev editor constructor }}} {{{ getabbrev get abbrev }}} {{{ setabbrev set abbrev }}} {{{ getexpansion get expansion }}} {{{ setexpansion set expansion }}} {{{ getabbrevfield get abbrev field }}} {{{ getbeforecarettextarea get before caret text area }}} {{{ getaftercarettextarea get after caret text area }}} {{{ members }}} 

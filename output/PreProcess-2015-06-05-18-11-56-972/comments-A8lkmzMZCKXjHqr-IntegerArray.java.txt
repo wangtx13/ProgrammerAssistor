@@ -1,1 +1,0 @@
-{{{ integerarray constructor }}} {{{ integerarray constructor }}} {{{ add }}} {{{ get }}} {{{ getsize get size }}} {{{ setsize set size }}} {{{ clear }}} {{{ getarray get }}} {{{ members }}} 

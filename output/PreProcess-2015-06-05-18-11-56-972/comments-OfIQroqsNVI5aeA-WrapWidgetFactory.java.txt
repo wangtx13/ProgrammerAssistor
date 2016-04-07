@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ getwidget get widget }}} {{{ wrapwidget wrap widget retarded gtk g t k look and feel! uimanager u i manager getfont get font label font }}} 

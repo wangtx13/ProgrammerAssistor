@@ -1,0 +1,5 @@
+maximizable for 3x^2 5x + 2 /*
+	 * testbolddriver test bold driver { simplepoly simple poly poly = new simplepoly simple poly 
+	 * maximizer bygradient by gradient bold = new bolddriver bold driver bold maximize poly 
+	 * assertequals assert equals 5 0/6 0 poly params 0 1e 3 }
+	 */ testmaximizer test maximizer 

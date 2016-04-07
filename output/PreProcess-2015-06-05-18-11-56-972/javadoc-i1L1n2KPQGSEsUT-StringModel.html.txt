@@ -1,1 +1,0 @@
-stringmodelextends modelextends stringmodel model addtextlistener add text listener event textlistener text listener tl tostring to settext set text newtext new text tostring to in 

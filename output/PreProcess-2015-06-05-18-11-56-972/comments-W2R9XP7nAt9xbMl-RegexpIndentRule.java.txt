@@ -1,1 +1,0 @@
-{{{ regexpindentrule regexp indent rule constructor }}} {{{ apply }}} {{{ tostring to }}} {{{ tokenfilter token filter avoid replacing an empty token into a non empty replace any comments to a white space so that they are simply ignored replace any literals to a '0' which means a simple literal in most programming languages }}} {{{ linematches line matches }}} 

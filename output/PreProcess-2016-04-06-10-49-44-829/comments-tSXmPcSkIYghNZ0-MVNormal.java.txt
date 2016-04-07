@@ -1,0 +1,78 @@
+initialize the result note that sets all elements to 0 for each off diagonal cell l_{jk} in the result we need an index into the jth row and the kth row these are therefore both really row offsets but one corresponds to the beginning of the row th row and the other to the beginning of the column th row now the diagonal element initialize the result note that sets all elements to 0 for each off diagonal cell l_{jk} in the result we need an index into the jth row and the kth row these are therefore both really row offsets but one corresponds to the beginning of the row th row and the other to the beginning of the column th row now the diagonal element initialize vector z to standard normals nb n b using the same for z and x now solve trans l x = z using back substitution the cholesky decomp got us the precisionlowertriangular precision lower triangular triangular matrix but we really want the transpose get the sum of each row of the inverse precision matrix by solving the two triangular systems l l'x = ly = 1 l'x = y q_0 mu_0 + n q y_bar q_0 + n q assume we're dealing with a single lower triangular matrix from a cholesky decomposition so index into it as if it is the transpose off diagonal elements are the negative inner product up to the row index of the row from input and the col from the output divided by the diagonal from the input diagonal elements are the same but add 1 to the numerator out doublearraytostring to sample dimension out doublearraytostring to sqrtscalematrix sqrt scale matrix dimension 		 out doublearraytostring to lowertriangularproduct lower triangular product sample sqrtscalematrix sqrt scale matrix dimension dimension collect the sample means now the sample covariance times n spd = { 19 133825 1 180869 6 403880 				 1 180869 8 895968 1 280748 				 6 403880 1 280748 9 155951 } /*
+		int dim = 100 
+
+		double bandlower band lower = bandmatrixroot band matrix root dim 3 
+		system 
+		 out doublearraytostring to bandlower band lower dim 
+
+		double bandmatrix band matrix = lowertriangularcrossproduct lower triangular crossproduct bandlower band lower dim 
+		system 
+		 out doublearraytostring to bandmatrix band matrix dim 
+
+		long starttime start time 
+
+		starttime 
+
+		start time = currenttimemillis current time millis 
+		for i=0 i<100000 i++ {
+			bandcholesky {
+			band cholesky bandmatrix band matrix dim 
+		}
+		system 
+		}
+		 out currenttimemillis current time millis starttime start time 
+
+		starttime 
+
+		start time = currenttimemillis current time millis 
+		for i=0 i<100000 i++ {
+			cholesky bandmatrix band matrix dim 
+		}
+		system 
+		}
+		 out currenttimemillis current time millis starttime start time 
+		*/ /*
+
+		double l = {2 87527 0 0 0 0 2 4168 1 28 0 0 0 585168 2 792234 2 769609} 
+		double spd = { 19 133825 1 180869 6 403880 
+						 1 180869 8 895968 1 280748 
+						 6 403880 1 280748 9 155951 } 
+
+		double scatter = { 103 59761 16 370939 12 694755 
+							 16 37094 106 117048 4 079818 
+							 12 69476 4 079818 94 065152 } 
+
+		double priordiagonal prior diagonal = { 1 0 1 0 1 0 } 
+
+		testcholesky 
+
+		test cholesky 
+		*/ out doublearraytostring to nextwishartposterior next wishart posterior scatter 100 priordiagonal prior diagonal 10 3 new randoms 3 /*
+		long starttime start time = currenttimemillis current time millis 
+		for i=0 i<10000 i++ {
+			invertspd {
+			invert s p d spd 3 
+		}
+		system 
+		}
+		 out currenttimemillis current time millis starttime start time 
+		*/ out doublearraytostring to invertspd invert s p d spd 3 3 out doublearraytostring to nextwishart next wishart l 3 25 new randoms 3 /*
+		double precisionmatrix precision matrix = {0 98 1 0 0 0 1 0 2 13 1 0 0 0 1 0 1 01} 
+		double mean = new 3 
+
+		randoms 
+
+		 randoms random = new randoms 
+
+		for i=0 i<10 i++ {
+			double variate = nextmvnormal next m v normal mean precisionmatrix precision matrix random 
+			
+			for j=0 j<variate length j++ {
+				system {
+				 out print variate j + \t 
+			}
+			system 
+			}
+			 out 
+		}
+		*/ 

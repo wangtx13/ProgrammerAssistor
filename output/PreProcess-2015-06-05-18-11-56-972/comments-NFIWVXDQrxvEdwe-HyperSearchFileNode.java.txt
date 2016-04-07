@@ -1,1 +1,0 @@
-{{{ hypersearchfilenode hyper search node constructor }}} {{{ getbuffer get buffer }}} {{{ goto go to }}} {{{ tostring to }}} {{{ equals }}} 

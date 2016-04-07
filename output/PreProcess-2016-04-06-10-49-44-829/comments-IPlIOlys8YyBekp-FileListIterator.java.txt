@@ -1,0 +1,1 @@
+set target slot to coming from 1st group of this pattern xxx note that these are specific to unix u n i x directory delimiter characters! fix this was ^/ * / ^/ + /* pass as targetpattern target pattern to get targets */ the pipeinputiterator pipe input iterator find the common prefix index of all filenames 

@@ -1,1 +1,0 @@
-discretefilesclassloader discrete files loader classsourcemapextends source mapextends hashmap hash map classsourcemap source map put name bshclasspath bsh path classsource source source bshclasspath bsh path classsource source get name all io serializable cloneable map enclosing discretefilesclassloader discrete files loader see also serialized form 

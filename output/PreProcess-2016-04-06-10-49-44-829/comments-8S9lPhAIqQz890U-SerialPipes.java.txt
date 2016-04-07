@@ -1,0 +1,1 @@
+add pipe pipe remove i this removed because pipes should be immutable to be safe if you need an augmented pipe you can make a new serialpipes serial pipes containing this one serialization 

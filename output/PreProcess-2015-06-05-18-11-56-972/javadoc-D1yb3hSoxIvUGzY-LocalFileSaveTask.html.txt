@@ -1,1 +1,0 @@
-localfilesavetaskextends local save taskextends task localfilesavetask local save task io body charset _run all runnable progressobserver progress observer since jedit j edit 4 5pre todo t o d o add setlabel set label amp amp progressobserver progress observer specified by _run in task see also task _run 

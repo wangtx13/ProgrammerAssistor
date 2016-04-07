@@ -1,6 +1,0 @@
-do not evaluate this or super in instance space i e inside a constructor this try/catch block is replicated is bshprimarysuffix b s h primary suffix need to factor out common functionality move to reflect? /*
-				try /*
-				 try to squeltch the native stack trace if the exception
-				was caused by a reflective call back into the bsh interpreter
-				 e g eval or source 
-			*/ 

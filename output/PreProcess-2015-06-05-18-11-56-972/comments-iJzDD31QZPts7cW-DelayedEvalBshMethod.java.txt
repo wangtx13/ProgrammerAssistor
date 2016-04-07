@@ -1,8 +1,0 @@
-used for the delayed evaluation /*
-		note /*
-		 note technically i think we could get by passing in only the
-		current namespace or perhaps bshclassmanager bsh manager here instead of 
-		callstack 
-		 call stack and interpreter however let's just play it safe in case
-		of future changes anywhere you eval a node you need these 
-	*/ /*returntype*/ /*return type*/ /*paramtypes*/ /*param types*/ bshtype b s h type will cache the type for us bshformalparameters b s h formal will cache the type for us 

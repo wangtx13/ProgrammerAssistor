@@ -1,7 +1,0 @@
-the token image text of the name never changes value means no value /*
-				if /*
-				 if we have type info and the child is an initializer
-				pass it along else use the default eval style 
-				 this allows initializer to handle the problem 
-				allowing for future enhancements in loosening types there 	
-			*/ 

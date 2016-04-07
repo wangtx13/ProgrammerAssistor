@@ -1,1 +1,0 @@
-do nothing ch already contains correct character get next character get next character check the next two characters 

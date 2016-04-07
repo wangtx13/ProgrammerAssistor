@@ -1,1 +1,0 @@
-elastictabstopstabexpanderextends elastic tabstops tab expanderextends objectimplements text tabexpander tab expander elastictabstopstabexpander elastic tabstops tab expander textarea text area textarea text area nexttabstop next tab stop x taboffset tab offset all text tabexpander tab expander specified by nexttabstop next tab stop in text tabexpander tab expander 

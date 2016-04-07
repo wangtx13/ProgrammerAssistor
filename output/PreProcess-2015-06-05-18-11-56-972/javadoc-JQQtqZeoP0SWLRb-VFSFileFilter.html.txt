@@ -1,1 +1,0 @@
-vfsfilefilter v f s filter service_name accept vfsfile v f s accept url getdescription get description all known implementing classes globvfsfilefilter glob v f s filter vfsbrowser v f s browser directoriesonlyfilter directories only filter since jedit j edit 4 3pre7 

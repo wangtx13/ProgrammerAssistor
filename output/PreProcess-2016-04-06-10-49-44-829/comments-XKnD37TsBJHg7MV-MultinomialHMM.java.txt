@@ -1,0 +1,105 @@
+number of topics to be fit number of hidden states dirichlet alpha alpha is the distribution over topics prior on per topic multinomial distribution over words prior on the state state transition distributions keep track of the most times each topic is used in any document the size of the largest document rather than calculating log gammas for every state and every topic we cache log predictive distributions for every possible state and document this initializes numdocs num docs as well histogram = new 380 totaltokens total tokens = 0 histogram topiccount topic count ++ totaltokens total tokens += topiccount topic count /*
+	double runningtotal running total = 0 0 
+	for i=337 i >= 0 i {
+	 runningtotal running total += i * histogram i 
+	 out format %d\t%d\t% 3f\n i histogram i 
+			 runningtotal running total / totaltokens total tokens 
+	}
+	*/ topicloggammacache topic log gamma cache state topic = new 21 the to cache topic distributions takes an hashmap as a mask to only update the distributions for topics that have actually changed here we create a dummy count hash that has all the topics out printstatetransitions print state transitions if doc % 10000 == 0 { out printstatetransitions print state transitions } now add the new topic now restore the saved alpha parsedouble parse fields 1 /*
+ loadstatesfromfile load states from statefilename state filename ioexception i o {
+
+	int doc = 0 
+
+ state 
+
+ bufferedreader buffered reader in = new bufferedreader buffered reader new filereader reader new statefilename state filename 
+ line = 
+ while line = in readline read line != {
+
+ we assume that the sequences are in the instance list
+ in order 
+
+ state = parseint parse line 
+	 documentstates document states doc = state 
+
+	 additional bookkeeping will be performed when we load sequence ids 
+	 so states must m u s t be loaded before sequences 
+
+	 doc++ 
+	}
+	in close 
+
+	system 
+
+	 out loaded states 
+ }
+ */ we assume that the sequences are in the instance list in order /*
+	if doc % 10000 == 0 {
+	 if initializing {
+		system {
+		 out initializing doc + doc 
+	 }
+	 else {
+		system {
+		 out sampling doc + doc 
+	 }
+	}
+	*/ it's possible this document contains no words in which case it has no topics and no entry in the documenttopics document topics hash if we are in initializing mode this is meaningless but it won't hurt look at the document features topics if we're not in initializing mode reduce the topic counts of the current old state initializing the states is the same as sampling them but we only look at the previous state and we don't decrement any counts new sequence start from scratch continuation there are four cases 1 this is a singleton document 2 this is the beginning of a sequence 3 this is the end of a sequence 4 this is the middle of a sequence cached sampling distribution /*
+		 hybrid version
+
+		if count < currentstateloggammacache current state log gamma cache topic length {
+		 stateloglikelihoods state log likelihoods state += currentstateloggammacache current state log gamma cache topic count 
+		}
+		else {
+		 i = currentstateloggammacache current state log gamma cache topic length 1 
+
+		 stateloglikelihoods state log likelihoods state += 
+			currentstateloggammacache 
+			current state log gamma cache topic i 
+
+		 for i < count i++ {
+			stateloglikelihoods {
+			state log likelihoods state +=
+			 math log alpha topic + currentstatetopiccounts current state topic counts topic + i 
+		 }
+		}
+		*/ /*
+		for j=0 j < count j++ {
+		 stateloglikelihoods state log likelihoods state +=
+			math +=
+			 math log alpha topic + currentstatetopiccounts current state topic counts topic + j /
+				 alphasum alpha sum + statetopictotals state topic totals state + totaltokens total tokens 
+
+		 if isnan is na n stateloglikelihoods state log likelihoods state {
+			system {
+			 out nan na n + alpha topic + + +
+					 currentstatetopiccounts current state topic counts topic + + + 
+					 j + /\n + 
+					 + alphasum alpha sum + + + 
+					 statetopictotals state topic totals state + + + totaltokens total tokens 
+		 }
+		 
+		 totaltokens++ total tokens++ 
+		}
+		*/ cached sampling distribution /*
+	 hybrid version
+	 if doclength doc length < docloggammacache doc log gamma cache state length {
+		stateloglikelihoods {
+		state log likelihoods state = docloggammacache doc log gamma cache state doclength doc length 
+	 }
+	 else {
+		int i = docloggammacache doc log gamma cache state length 1 
+		
+		stateloglikelihoods 
+		
+		state log likelihoods state =
+		 docloggammacache doc log gamma cache state i 
+		
+		for i < doclength doc length i++ {
+		 stateloglikelihoods state log likelihoods state =
+			math =
+			 math log alphasum alpha sum + statetopictotals state topic totals state + i 
+		 
+		}
+	 }
+	 */ out samplingdistribution sampling distribution state if we're initializing the states don't bother looking at the next state 1 this is a singleton document 2 this is the beginning of a sequence 3 this is the end of a sequence 4 this is the middle of a sequence 

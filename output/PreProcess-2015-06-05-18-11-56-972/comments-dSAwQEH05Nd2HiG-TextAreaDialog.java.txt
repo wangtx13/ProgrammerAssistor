@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ textareadialog text area dialog constructor }}} {{{ textareadialog text area dialog constructor }}} {{{ textareadialog text area dialog constructor }}} {{{ textareadialog text area dialog constructor }}} {{{ init }}} {{{ ok }}} {{{ cancel }}} {{{ actionhandler action handler {{{ actionperformed action performed }}} }}} 

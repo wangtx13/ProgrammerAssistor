@@ -1,0 +1,1 @@
+this regex induced from http www ietf org/rfc/rfc2396 txt if does not have a uri u r i scheme e g or http then assume a default of and add it if the has no schema assume that it is the schema 

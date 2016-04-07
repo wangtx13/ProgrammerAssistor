@@ -1,1 +1,0 @@
-{{{ getfirstfile get first }}} {{{ getlastfile get last }}} {{{ getnextfile get next }}} {{{ getprevfile get prev }}} {{{ getfiles get files }}} {{{ getfilecount get count }}} {{{ getcode get }}} 

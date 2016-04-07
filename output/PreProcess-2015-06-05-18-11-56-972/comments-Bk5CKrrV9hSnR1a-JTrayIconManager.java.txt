@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ settrayiconargs set tray icon args }}} {{{ addtrayicon add tray icon }}} {{{ removetrayicon remove tray icon }}} 

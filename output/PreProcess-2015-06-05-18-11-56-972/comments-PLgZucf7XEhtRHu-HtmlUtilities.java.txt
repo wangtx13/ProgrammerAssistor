@@ -1,1 +1,0 @@
-{{{ section {{{ parsehighlightstyle parse highlight style }}} {{{ style2html }}} {{{ highlightstring highlight }}} {{{ appendstring2html append string2html case '\'' r = apos break maintain amount of whitespace in line }}} }}} {{{ section {{{ color2html }}} }}} 

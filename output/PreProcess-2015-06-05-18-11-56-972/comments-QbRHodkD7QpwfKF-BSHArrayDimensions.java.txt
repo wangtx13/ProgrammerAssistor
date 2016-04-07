@@ -1,9 +1,0 @@
-/*
-			child /*
-			 child is initializer evaluate it and fill in the 
-			dimensions it initialized arrays are always fully defined
-			 no undefined dimensions to worry about 
-			the 
-			 the syntax uses the undefineddimension undefined dimension count 
-			e g { 1 2 } 
-		*/ compare with number of dimensions actually created with the number specified syntax uses the undefined ones here fill in defineddimensions defined dimensions lengths evaluate the defined dimensions of the 

@@ -1,1 +1,0 @@
-errorlistdialog list dialog errorentryextends entryextends errorentry entry path messageprop message prop args errorentry entry path messageprop message prop args urgency equals o tostring to enclosing errorlistdialog list dialog since 5 0pre1 equals in tostring to in 

@@ -1,0 +1,36 @@
+variable name key ip = input position op = output position zero_cost = 0 infinite_cost = positive_infinity todo t o d o remove this because it should never be used results in nan's na n's a factory instance from which we can ask for a newsumlattice new sum lattice a factory instance from which we can ask for a newmaxlattice new max lattice todo t o d o consider a different name todo t o d o use maxlatticefactory max lattice factory instead of hardcoding todo t o d o use maxlatticefactory max lattice factory instead of hardcoding note that this is allowed to states with impossible infinity initialweights initial weights todo t o d o why could obtaining weight be a problem??? treat the costs as if they are log probabilies we will normalize them if necessary xxx not yet finished serialization of transducer gsc fixed serialization writing/reading *latticefactory * lattice factory pass negative positions for a sequence to request epsilon transitions for either input or output position 1 should be the position in the sequence after which we are trying to insert the espilon transition pass negative input position for a sequence to request epsilon transitions position 1 should be the position in the sequence after which we are trying to insert the espilon transition for generative transducers all possible transitions independent of input serialization what is this for? i've forgotten akm 11/2007 the destination state i hate that i need this there's really no other way cas serialization /* sumlogprob sum log prob 
+
+		 we need to be able to sum probabilities that are represented as
+		 weights which are log probabilities naively we would just
+		 convert them into probabilities sum them and then convert them
+		 back into weights this would be 
+
+		 sumlogprob sum log prob a b {
+		 math log math exp a + math exp b 
+		 }
+
+		 but this would fail when a or b is too negative the machine would have the
+		 resolution to represent the weight but not the resolution to
+		 represent the intermediate exponentiated weights and we
+		 would get infinity as our answer 
+
+		 what we want is a for getting the sum by exponentiating a
+		 number that is not too large we can do this with the following 
+		 starting with the equation above then 
+
+		 sumprob sum prob = log exp a + exp b 
+		 exp sumprob sum prob = exp a + exp b 
+		 exp sumprob sum prob /exp a = 1 + exp b /exp a 
+		 exp sumprob sum prob a = 1 + exp b a 
+		 sumprob sum prob a = log 1 + exp b a 
+		 sumprob sum prob = a + log 1 + exp b a 
+		 
+		 we want to make sure that b a is negative or a small positive
+		 number we can assure this by noticing that we could have
+		 equivalently derived
+
+		 sumprob sum prob = b + log 1 + exp a b 
+
+		 and we can simply select among the two alternative equations the
+		 one that would have the smallest or most negative exponent 
+	 */ 

@@ -1,1 +1,0 @@
-note no way to mutate the throwable message must maintain our own freeze the callstack for the stack trace users should not normally see this 

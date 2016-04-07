@@ -1,1 +1,0 @@
-{{{ addextension add extension }}} {{{ removeextension remove extension }}} {{{ getextensions get extensions }}} {{{ paintscreenlinerange paint screen line range }}} {{{ gettooltiptext get tool tip text }}} {{{ members {{{ paintscreenlinerange paint screen line range remove it so editor can continue functioning }}} }}} {{{ entry }}} 

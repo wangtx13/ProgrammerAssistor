@@ -1,1 +1,0 @@
-if this is a unary increment of decrement either pre or postfix then we need an lhs l h s to which to assign the result otherwise just do the unary operation for the value ++ and must be cast back the original type 

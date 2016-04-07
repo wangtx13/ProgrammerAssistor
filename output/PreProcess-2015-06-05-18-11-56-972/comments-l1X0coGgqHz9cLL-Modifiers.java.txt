@@ -1,4 +1,0 @@
-/*
-	note /*
-	 note which of these things should be checked at parse time vs run time?
-*/ /*arbitrary flag*/ could refactor these a bit volatile transient 

@@ -1,1 +1,0 @@
-markerextends char getshortcut get shortcut getposition get position since jedit j edit 3 2pre1 since jedit j edit 3 2pre1 

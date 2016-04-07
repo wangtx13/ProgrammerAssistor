@@ -1,0 +1,82 @@
+/*
+	public dirichlet m n {
+		magnitude = m 
+		partition = new n 
+
+		partition 0 = 1 0 / n 
+		for i=1 i<n i++ {
+			partition i = partition 0 
+		}
+	}
+	*/ add up the total 		for 		 for each dimension draw a sample from gamma mp_i 1 		normalize 		 normalize 		i 		 i was using a poisson but the poisson variate generator 		goes berzerk for lambda above ~500 p n 100 10 <= 0 = 7 619853e 24 		this 		 this is based on matlab by tom minka 		if z < 0 { out less than zero } + pi_squared_over_six * z /*for n=1 n<100000 n++ {
+	psi += z / n * n + z 
+	}*/ the histogram arrays are presumably allocated before we knew what went in them it is therefore likely that the largest non zero value may be much closer to the beginning than the end we don't want to iterate over a whole bunch of zeros so keep track of the last value calculate the numerator counts of 0 don't matter so start with 1 now calculate the denominator a sum over all observation lengths if the next length is sufficiently far from the previous it's faster to recalculate from scratch otherwise iterate up this looks slightly different from the previous no 1 because we're indexing differently /system / out currentvalue current value + = + currentparameter current parameter + * + numerator + / + denominator 	initialize 	 initialize the parameter sum the histogram arrays go up to the size of the largest document 	but the non zero values will almost always cluster in the low end 	we 	 we avoid looping over empty arrays by saving the index of the largest 	non zero value stringbuffer buffer out = new stringbuffer buffer out append k + + histogram k + out out calculate the denominator iterate over the histogram bayesian estimation part i calculate the individual what's the largest non zero element in the histogram? bayesian estimation part ii i i 		arrays 		 arrays start at zero so i'm sacrificing one for greater clarity 		later on 		system 		 out got mem + currenttimemillis current time millis start 		system 		 out got lengths + currenttimemillis current time millis start calculate the denominator calculate the individual since histogram 0 is for 0 /*
+	try {
+	if iteration % 25 == 0 {
+		 out distributiontostring distribution to parameterssum sum newparameters new 
+		 tofile to /newsgroups/direct/iteration + iteration 
+		 out iteration + + currenttimemillis current time millis start 
+	}
+	} catch e {
+	system {
+	 out e 
+	}
+			 */ 		system 		 out distributiontostring distribution to magnitude partition 		system 		 out got mem + currenttimemillis current time millis start 		system 		 out got lengths + currenttimemillis current time millis start 		system 		 out init + currenttimemillis current time millis start calculate the denominator calculate the individual out finished dimension + k /*
+	if k < 20 {
+		system {
+		 out partition k + = +newparameters +new k + / +magnitude 
+	}
+				 */ /*
+	try {
+	if iteration % 25 == 0 {
+		tofile {
+		to /newsgroups/digamma/iteration + iteration 
+		 out iteration + + currenttimemillis current time millis start 
+	}
+	} catch e {
+	system {
+	 out e 
+	}
+			 */ 		system 		 out distributiontostring distribution to magnitude partition 		find 		 find e p_k 's find the sum of counts in each bin 		find 		 find var p_k 's avoiding math pow 		now 		 now calculate the magnitude 		log \sum_k \alpha_k = 1/ k 1 \sum_k log e p_k 1 e p_k / var p_k 1 out distributiontostring distribution to magnitude partition 		system 		 out got mem + currenttimemillis current time millis start 		system 		 out got lengths + currenttimemillis current time millis start 		system 		 out init + currenttimemillis current time millis start 		uniform 		 uniform initialization 		arrays 		 arrays fill partition 1 0 / partition length /*
+	 if iteration % 50 == 0 {
+	system {
+	 out iteration + + magnitude 
+	}
+			 */ 		system 		 out distributiontostring distribution to magnitude partition 		system 		 out real + distributiontostring distribution to dirichlet magnitude 		dirichlet partition 		system 		 out done drawing 		system 		 out moments + time + + 		dirichlet absolutedifference absolute difference estimateddirichlet estimated dirichlet 		system 		 out leave one out + time + + 		dirichlet absolutedifference absolute difference estimateddirichlet estimated dirichlet 		the 		 the likelihood for one dcm d c m is 		gamma 		 gamma alpha_sum 	 prod gamma alpha + n_i 		prod gamma alpha gamma alpha_sum + n 		when 		 when we divide this by the product of two other dcms d c ms with the same 		alpha parameter the first term in the numerator cancels with the 		first term in the denominator then moving the remaining alpha only 		term to the numerator we get 		prod gamma alpha 	 prod gamma alpha + x_i + y_i 		gamma 		 gamma alpha_sum 	 gamma alpha_sum + x_sum + y_sum 		 		prod gamma alpha + x_i 		 prod gamma alpha + y_i 		gamma 		 gamma alpha_sum + x_sum 	 gamma alpha_sum + y_sum 		this 		 this is exactly the same as the that takes 		trove 		 trove hashmaps but with fixed size arrays 		first 		 first count up the totals 		now 		 now allocate some arrays for the sufficient statisitics 		 the number of classes that contain x elements finally run this ten times always use dir 1 1 1 1 for now /*
+
+		dirichlet /*
+
+		 dirichlet prior = new dirichlet 100 1 0 
+		double distribution 
+		int x y 
+
+		for i=0 i<50 i++ {
+
+			dirichlet {
+
+			 dirichlet nonsymmetric non symmetric = new dirichlet 100 prior nextdistribution next distribution 
+
+			 two observations from same multinomial
+			distribution = nonsymmetric non symmetric nextdistribution next distribution 
+			x = nonsymmetric non symmetric drawobservation draw observation 100 distribution 
+			y = nonsymmetric non symmetric drawobservation draw observation 100 distribution 
+
+			system 
+
+			 out print nonsymmetric non symmetric dirichletmultinomiallikelihoodratio dirichlet multinomial likelihood ratio x y + \t 
+			system 
+			 out print ewenslikelihoodratio ewens likelihood ratio x y 1 + \t 
+
+			 two observations from different multinomials
+
+			x = nonsymmetric non symmetric drawobservation draw observation 100 
+			y = nonsymmetric non symmetric drawobservation draw observation 100 
+
+			system 
+
+			 out print ewenslikelihoodratio ewens likelihood ratio x y 0 1 + \t 
+			system 
+			 out nonsymmetric non symmetric dirichletmultinomiallikelihoodratio dirichlet multinomial likelihood ratio x y 		
+		}
+
+		*/ 			if alphas i < 0 			for j = 0 j < alphas length j++ 			system 			 out dict lookupsymbol lookup symbol j tostring to + = + alphas j out randomdirichlet random dirichlet alphasum alpha sum = +alphasum +alpha sum xxx assert that it is the right and size xxx fix this to set sum by variance matching new dirichlet alphas 

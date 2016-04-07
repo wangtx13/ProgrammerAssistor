@@ -1,6 +1,0 @@
-type is either a name or a primitive type args is either constructor arguments or dimensions look for scripted /* force class*/ try regular /*force class*/ is an inner style allocation no need to wrap this debug is it an inner class? temporary hack to support inner classes if the obj is a non inner then the context this is not a sufficient emulation of inner classes replace this later work through to 'this' change the parent which was the to the instance we really need to check if we're a inner here first but for some reason won't show the modifier on our fake inner classes could generate a flag field /*interfaces*/ /*superclass*/ /*super class*/ /*isinterface*/ /*is interface*/ /*overridenamespace*/ /*override namespace*/ statical fields from the so that inside can refer to the fields directly e g height h e i g h t /*
-			dimensionsnode /*
-			dimensions node can either a fully intialized or v oid 
-			when v oid the prescribed dimensions defined and undefined 
-			are contained in the node 
-		*/ zeros 

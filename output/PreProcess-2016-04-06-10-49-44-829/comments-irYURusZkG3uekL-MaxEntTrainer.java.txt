@@ -1,0 +1,195 @@
+does not currently handle instances that are labeled with distributions instead of a single label exp_gain = exp gradient_gain = grad information_gain = info xxx why does testmaximizable test maximizable fail when this variance is very small? constructors c o n s t r u c t o r s classifier c l a s s i f i e r o b j e c t stores is this necessary? what is the caller is about to set the training set to something different? akm optimizable o p t i m i z a b l e o b j e c t implements value and gradient functions the prior term for l1 regularized classifiers is as part of the optimizer so don't include a prior calculation in the value and gradient functions optimizer o p t i m i z e r o b j e c t maximizes value function if the data is not set or has changed initialize the optimizable and replace the optimizer build a new optimizer if l1weight l1 weight is 0 this devolves to standard l bfgs b f g s but the may be faster orthantwiselimitedmemorybfgs orthant wise limited memory b f g s optimizable l1weight l1 weight xxx x x x since we maximize before using numiterations num iterations this doesn't work is that a bug? if so should the default numiterations num iterations be higher? 			return optimizer getiteration get iteration this will set this optimizer this optimizable only if any number of iterations is allowed run it again because in our and sam roweis' experience bfgs b f g s can still eke out more likelihood after first convergence by re running without being restricted by its gradient history testmaximizable test maximizable testvalueandgradientcurrentparameters test value and gradient current mt progress messages are on one line move on logger info maxent max ent ngetvaluecalls nget value calls +getvaluecalls +get value calls + \nmaxent \n max ent ngetvaluegradientcalls nget value gradient calls +getvaluegradientcalls +get value gradient calls /*
+	 added cjmaloof@linc cis upenn edu
+	public classifier trainwithfeatureinduction train with feature induction instancelist instance list trainingdata training data 
+			int totaliterations total iterations 
+			int numiterationsbetweenfeatureinductions num iterations between feature inductions 
+			int numfeatureinductions num feature inductions 
+			int numfeaturesperfeatureinduction num features per feature induction {
+
+		return trainwithfeatureinduction train with feature induction trainingdata training data 
+				null 
+				totaliterations 
+				total iterations 
+				numiterationsbetweenfeatureinductions 
+				num iterations between feature inductions 
+				numfeatureinductions 
+				num feature inductions 
+				numfeaturesperfeatureinduction 
+				num features per feature induction 
+				exp_gain 
+	}
+	*/ /* temporarily removed until i figure out how to handle inducefeaturesfor induce features for testdata test data 
+	public classifier trainwithfeatureinduction train with feature induction instancelist instance list trainingdata training data 
+			int totaliterations total iterations 
+			int numiterationsbetweenfeatureinductions num iterations between feature inductions 
+			int numfeatureinductions num feature inductions 
+			int numfeaturesperfeatureinduction num features per feature induction 
+			string 
+			 gainname gain name {
+
+		 xxx x x x this ought to be a parameter except that setting it to can
+		 crash training jump too small 
+		boolean saveparametersduringfi save during f i = 
+		alphabet 
+		 alphabet inputalphabet input alphabet = trainingdata training data getdataalphabet get data alphabet 
+		alphabet 
+		 alphabet outputalphabet output alphabet = trainingdata training data gettargetalphabet get target alphabet 
+		int trainingiteration training iteration = 0 
+		int numlabels num labels = outputalphabet output alphabet size 
+		maxent 
+		 max ent maxent = getclassifier get classifier 
+
+		 initialize feature selection
+		featureselection selection
+		 feature selection globalfs global f s = trainingdata training data getfeatureselection get feature selection 
+		if globalfs global f s == {
+			 mask out all features some will be added later by featureinducer feature inducer inducefeaturesfor induce features for 
+			globalfs 
+			global f s = new featureselection feature selection trainingdata training data getdataalphabet get data alphabet 
+			trainingdata 
+			training data setfeatureselection set feature selection globalfs global f s 
+		}
+		 if validationdata validation data != validationdata validation data setfeatureselection set feature selection globalfs global f s 
+		 if testingdata testing data != testingdata testing data setfeatureselection set feature selection globalfs global f s 
+		getoptimizer 
+		get optimizer trainingdata training data this will initialize this me so getclassifier get classifier below works
+		maxent setfeatureselection set feature selection globalfs global f s 
+
+		 run feature induction
+		for featureinductioniteration feature induction iteration = 0 	featureinductioniteration 	feature induction iteration < numfeatureinductions num feature inductions 	featureinductioniteration++ 	feature induction iteration++ {
+
+			 print out some feature information
+			logger info feature induction iteration +featureinductioniteration +feature induction iteration 
+
+			 train the model a little bit we don't care whether it converges we
+			 execute all feature induction iterations no matter what 
+			if featureinductioniteration feature induction iteration != 0 {
+				 don't train until we have added some features
+				setnumiterations features
+				set num iterations numiterationsbetweenfeatureinductions num iterations between feature inductions 
+				train trainingdata training data 
+			}
+			trainingiteration 
+			}
+			training iteration += numiterationsbetweenfeatureinductions num iterations between feature inductions 
+
+			logger info starting feature induction with + 1+inputalphabet 1+input alphabet size +
+					 features over +numlabels+ +num labels+ labels 
+
+			 create the list of tokens
+			instancelist tokens
+			 instance list errorinstances instances = new instancelist instance list trainingdata training data getdataalphabet get data alphabet 
+					trainingdata 
+					training data gettargetalphabet get target alphabet 
+
+			 this errorinstances instances featureselection feature selection will get examined by featureinducer feature inducer 
+			 so it can know how to add new singleton features
+			errorinstances features
+			error instances setfeatureselection set feature selection globalfs global f s 
+			list 
+			 list errorlabelvectors label vectors = new arraylist list these are length 1 vectors
+			for i = 0 i < trainingdata training data size i++ {
+				instance {
+				 instance instance = trainingdata training data get i 
+				featurevector 
+				 feature vector inputvector input vector = featurevector feature vector instance getdata get data 
+				label 
+				 label truelabel label = label instance gettarget get target 
+
+				 having trained using just the current features see how we classify
+				 the training data now 
+				classification 
+				 classification classification = maxent classify instance 
+				if !classification bestlabeliscorrect best label is correct {
+					errorinstances {
+					error instances add inputvector input vector truelabel label 
+					errorlabelvectors 
+					error label vectors add classification getlabelvector get label vector 
+				}
+			}
+			logger info instance list size = +errorinstances +error instances size 
+			int s = errorlabelvectors label vectors size 
+
+			labelvector 
+
+			 label vector lvs = new labelvector label vector s 
+			for i = 0 i < s i++ {
+				lvs i = labelvector label vector errorlabelvectors label vectors get i 
+			}
+
+			rankedfeaturevector 
+			}
+
+			 ranked feature vector factory gainfactory gain factory = 
+			if gainname gain name equals exp_gain 
+				gainfactory 
+				gain factory = new expgain exp gain factory lvs gaussianpriorvariance gaussian prior variance 
+			else if gainname gain name equals gradient_gain 
+				gainfactory 
+				gain factory =	new gradientgain gradient gain factory lvs 
+			else if gainname gain name equals information_gain 
+				gainfactory 
+				gain factory =	new infogain info gain factory 
+			else
+				throw new illegalargumentexception illegal argument unsupported gain name +gainname +gain name 
+
+			featureinducer 
+
+			 feature inducer klfi =
+				new featureinducer feature inducer gainfactory gain factory 
+						errorinstances 
+						error instances 
+						numfeaturesperfeatureinduction 
+						num features per feature induction 
+						2*numfeaturesperfeatureinduction 
+						2*num features per feature induction 
+						2*numfeaturesperfeatureinduction 
+						2*num features per feature induction 
+
+			 note that this adds features globally but not on a per transition basis
+			klfi inducefeaturesfor induce features for trainingdata training data 
+			if testingdata testing data != klfi inducefeaturesfor induce features for testingdata testing data 
+			logger info maxent max ent featureselection feature selection now includes +globalfs +global f s cardinality + features 
+			klfi = 
+
+			double newparameters new = new 1+inputalphabet 1+input alphabet size * outputalphabet output alphabet size 
+
+			 xxx x x x executing this block often causes an during training i don't know why 
+			if saveparametersduringfi save during f i {
+				 keep current parameter values
+				 xxx x x x this relies on the detail that the most recent features
+				 added to an alphabet get the highest indices 
+
+				 count per output label
+				int oldparamcount old count = maxent length / outputalphabet output alphabet size 
+				int newparamcount new count = 1+inputalphabet 1+input alphabet size 
+				 copy params into the proper locations
+				for i=0 i<outputalphabet i<output alphabet size i++ {
+					system {
+					 arraycopy maxent i*oldparamcount i*old count 
+							newparameters 
+							new i*newparamcount i*new count 
+							oldparamcount 
+							old count 
+				}
+				for i=0 i<oldparamcount i<old count i++ 
+					if maxent i != newparameters new i {
+						system {
+						 out maxent i + +newparameters +new i 
+						system 
+						 exit 0 
+					}
+			}
+
+			maxent = newparameters new 
+			maxent defaultfeatureindex default feature index = inputalphabet input alphabet size 
+		}
+
+		 finished feature induction
+		logger info ended with +globalfs +global f s cardinality + features 
+		setnumiterations 
+		set num iterations totaliterations total iterations trainingiteration training iteration 
+		train trainingdata training data 
+		return maxent 
+	}
+*/ 

@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ closedialog close dialog constructor }}} {{{ isok is o k }}} {{{ ok do nothing }}} {{{ cancel }}} {{{ members only set if all buffers saved/closed }}} {{{ actionhandler action handler i'm too tired to think of a better way to handle this right now }}} {{{ listhandler list handler it seems this buffer was already closed }}} 

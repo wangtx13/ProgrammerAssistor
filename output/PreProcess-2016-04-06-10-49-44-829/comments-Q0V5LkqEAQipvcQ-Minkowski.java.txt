@@ -1,0 +1,1 @@
+assert q>= 1 assert a != assert b != assert a numlocations num locations == b numlocations num locations 

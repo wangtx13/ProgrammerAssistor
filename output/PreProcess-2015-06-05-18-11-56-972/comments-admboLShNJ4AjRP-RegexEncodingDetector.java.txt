@@ -1,4 +1,0 @@
-tracking of this implicit state within matcher is required to know where is the start of replacement after calling appendreplacement append replacement /*
-		 * it doesn't make sense to read before start but
-		 * appendreplacement append replacement requires to to it 
-		 */ 

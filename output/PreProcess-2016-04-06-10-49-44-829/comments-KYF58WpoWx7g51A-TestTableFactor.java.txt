@@ -1,0 +1,1 @@
+fails variables deep cloned there's not way to get directly at the matrices ! thanks to john pate <j k pate@sms ed ac uk> 

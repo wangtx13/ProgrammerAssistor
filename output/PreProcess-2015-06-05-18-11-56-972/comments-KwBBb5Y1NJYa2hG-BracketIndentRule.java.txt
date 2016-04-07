@@ -1,1 +1,0 @@
-{{{ bracketindentrule bracket indent rule constructor }}} {{{ brackets }}} {{{ getbrackets get brackets }}} {{{ getbrackets get brackets }}} {{{ tostring to }}} {{{ linescanner line scanner rejects comments and literals accepts all others }}} 

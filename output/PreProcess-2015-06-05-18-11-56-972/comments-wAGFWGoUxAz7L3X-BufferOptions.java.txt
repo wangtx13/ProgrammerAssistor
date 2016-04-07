@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ bufferoptions buffer options constructor {{{ buttons }}} }}} {{{ ok }}} {{{ cancel }}} {{{ members {{{ actionhandler action handler {{{ actionperformed action performed }}} }}} }}} 

@@ -1,0 +1,86 @@
+constraints tells the lattice which states must emit which observations positive values say all paths must pass through this state index negative values say all paths must _not_ pass through this state index 0 means we don't care initialize to 0 include 1 extra node for start state 			throw new illegalargumentexception illegal argument could not find state + constrainedsequence constrained sequence get i + check that state labels match starttags start tags and intags in tags set additional negative constraint to ensure state after segment is not a continue tag xxx if segment length=1 this actually constrains the sequence to b tag b tag ' instead of the intended constraint of b tag i tag ' the fix below is unsafe but will have to do for now fixed f i x e d below b e l o w /*		string /*		 endtag end tag = constrainedsequence constrained sequence get requiredsegment required segment getend get end 
+				if requiredsegment required segment getend get end +2 < constraints length {
+					if requiredsegment required segment getstart get start == requiredsegment required segment getend get end { segment has length 1
+						if endtag end tag startswith starts with b {
+							endtag {
+							end tag = i + endtag end tag substring 1 endtag end tag length 
+						}
+						else if ! endtag end tag startswith starts with i || endtag end tag startswith starts with 0 
+							throw new illegalargumentexception illegal argument constrained lattice requires that states are tagged in b i o format 
+					}
+					int statei = stateindexofstring state index of endtag end tag 
+					if statei == 1 no i tag for this b tag
+						statei = stateindexofstring state index of constrainedsequence constrained sequence get requiredsegment required segment getstart get start 
+					constraints requiredsegment required segment getend get end + 2 = statei + 1 
+				}
+		 */ if 		printstates 		print states culotta constructor for constrained lattice initialize some structures xxx not very efficient when the lattice is actually sparse especially when the number of states is large and the sequence is xxx yipes this could get big something sparse might be better? xxx move this to an ivar so we can save it? but for what? commenting this out because it's a memory hog and not used right now uncomment and conditionalize under a flag if ever needed cas xis = new latticelength lattice length numstates num states numstates num states /* commenting out xis cas
+			for j = 0 j < numstates num states j++ 
+				for ip = 0 ip < latticelength lattice length ip++ 
+					xis ip i j = impossible_weight 
+			 */ forward pass ensure that at least one state has initial weight greater than infinity so we can start from there out forward pass initialweight initial weight = +initialweight +initial weight out nodes 0 i alpha= +nodes 0 i alpha check if this node is possible at this <position label> if not skip it must be in state indexed by constraints ip 1 must _not_ be in state indexed by constraints ip xxx if we end up doing this a lot we could save a list of the non ones check constraints to see if node at <ip i> can transition to destination if logger isloggable is loggable level fine f i n e out destinationnode destination node alpha < +destinationnode +destination node alpha this is an illegal transition according to our constraints so set its prob to 0 no n o alpha's are unnormalized weights set to inf destinationnode destination node alpha = 0 0 						destinationnode 						destination node alpha = impossible_weight calculate total weight of lattice this is the normalizer note actually we could sum at any ip index the choice of latticelength lattice length 1 is arbitrary out ending alpha state +i+ = +nodes latticelength lattice length 1 i alpha out ending beta state +i+ = +getstate +get state i finalweight weight weight is now an unnormalized weight of the entire lattice assert weight >= 0 weight = +weight if the sequence has infinite weight just usefully this avoids calling any incrementx increment x it also relies on the fact that the gammas and alpha and beta values are already initialized to values that reflect infinite weight xxx although perhaps not all alphas betas exactly correctly reflecting? backward pass note that skipping here based on alpha means that beta values won't be correct but since alpha is infinite anyway it shouldn't matter 							assert transitionweight transition weight >= 0 not necessarily xis ip i j = nodes ip i alpha + transitionweight transition weight + nodes ip+1 j beta weight xxx this assumes that ip == op ! out crf c r f lattice outputcounts output counts +ip+ +outputindex+ +output index+ += +p the following used to be in fst transducer does it still apply? does it still need addressing? akm culotta for constrained lattice /*
+	public lattice forwardbackward forward backward sequence inputsequence input sequence 
+	 sequence outputsequence output sequence 
+	 segment requiredsegment required segment 
+	 sequence constrainedsequence constrained sequence {
+		if constrainedsequence constrained sequence size != inputsequence input sequence size 
+			throw new illegalargumentexception illegal argument constrainedsequence constrained sequence size + constrainedsequence constrained sequence size + != inputsequence input sequence size + inputsequence input sequence size + 
+		 constraints tells the lattice which states must emit which
+		 observations positive values say all paths must pass through
+		 this state index negative values say all paths must _not_
+		 pass through this state index 0 means we don't
+		 care initialize to 0 include 1 extra node for start state 
+		int constraints = new constrainedsequence constrained sequence size + 1 
+		for c = 0 c < constraints length c++ 
+			constraints c = 0 
+		for i=requiredsegment i=required segment getstart get start i <= requiredsegment required segment getend get end i++ {
+			int si = stateindexofstring state index of constrainedsequence constrained sequence get i 
+			if si == 1 
+				logger warning could not find state + constrainedsequence constrained sequence get i + check that state labels match starttages start tages and intags in tags and that all labels are seen in training data 
+ 			throw new illegalargumentexception illegal argument could not find state + constrainedsequence constrained sequence get i + check that state labels match starttags start tags and intags in tags 
+			constraints i+1 = si + 1 
+		}
+		 set additional negative constraint to ensure state after
+		 segment is not a continue tag
+
+		 xxx if segment length=1 this actually constrains the sequence
+		 to b tag b tag ' instead of the intended constraint of b tag
+		 i tag '
+		 the fix below is unsafe but will have to do for now 
+		 fixed f i x e d below
+		/*		string  b e l o w
+		/*		 endtag end tag = constrainedsequence constrained sequence get requiredsegment required segment getend get end 
+		if requiredsegment required segment getend get end +2 < constraints length {
+			if requiredsegment required segment getstart get start == requiredsegment required segment getend get end { segment has length 1
+				if endtag end tag startswith starts with b {
+					endtag {
+					end tag = i + endtag end tag substring 1 endtag end tag length 
+				}
+				else if ! endtag end tag startswith starts with i || endtag end tag startswith starts with 0 
+					throw new illegalargumentexception illegal argument constrained lattice requires that states are tagged in b i o format 
+			}
+			int statei = stateindexofstring state index of endtag end tag 
+			if statei == 1 no i tag for this b tag
+				statei = stateindexofstring state index of constrainedsequence constrained sequence get requiredsegment required segment getstart get start 
+			constraints requiredsegment required segment getend get end + 2 = statei + 1 
+		}
+		 */ /*
+		if requiredsegment required segment getend get end + 2 < constraints length { if 
+			string 
+			 endtag end tag = requiredsegment required segment getintag get in tag tostring to 
+			int statei = stateindexofstring state index of endtag end tag 
+			if statei == 1 
+				logger fine could not find state + endtag end tag + check that state labels match starttags start tags and intags in tags 
+			else
+				constraints requiredsegment required segment getend get end + 2 = statei + 1 			
+		}
+
+		logger fine segment \n + requiredsegment required segment sequencetostring sequence to +
+				 \nconstrainedsequence \nconstrained sequence \n + constrainedsequence constrained sequence +
+		 \nconstraints \n constraints \n 
+		for i=0 i < constraints length i++ {
+			logger fine constraints i + \t 
+		}
+		logger fine 
+		return forwardbackward forward backward inputsequence input sequence outputsequence output sequence constraints 
+	}		
+*/ 

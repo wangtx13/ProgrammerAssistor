@@ -1,2 +1,0 @@
-{{{ imports }}} {{{ bufferinsertrequest buffer insert request constructor }}} {{{ run /* we don't do this in buffer insert so that
-			 we can insert multiple files at once */ }}} 

@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ pluginresurlconnection plugin res u r l connection {{{ constructor }}} {{{ connect can't find it in jedit j edit jar look for in jedithome j edit home }}} {{{ getinputstream get input stream }}} {{{ getheaderfield get header field }}} {{{ members }}} }}} 

@@ -1,1 +1,0 @@
-{{{ openbracketindentrule open bracket indent rule constructor }}} {{{ apply }}} {{{ getopenbracketcount get open bracket count }}} {{{ handlecollapse handle collapse }}} 

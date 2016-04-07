@@ -1,0 +1,1 @@
+skip the header before the first blank line nested entities should do something if !currentlabel !current label equals o { } alarm there is no tag in text check if the token is in headerpersonnames header person names append serialization 

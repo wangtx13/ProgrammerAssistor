@@ -1,0 +1,1 @@
+process the command line options load instance lists set hyperparameters display preferences initialize random number generator initialize and start the sampler output results 

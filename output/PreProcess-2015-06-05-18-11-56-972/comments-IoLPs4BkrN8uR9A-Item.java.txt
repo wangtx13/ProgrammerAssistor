@@ -1,1 +1,0 @@
-case classwriter writer field f i e l d case classwriter writer meth m e t h case classwriter writer imeth i m e t h case classwriter writer field f i e l d case classwriter writer meth m e t h case classwriter writer imeth i m e t h 

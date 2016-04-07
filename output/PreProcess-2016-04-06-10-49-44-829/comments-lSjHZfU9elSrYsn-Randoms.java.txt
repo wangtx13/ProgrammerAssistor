@@ -1,0 +1,6 @@
+generate gamma 1 1 e x =1 var x =1 /* a sample from the gamma distribution with parameter ia i a */ /* from numerical recipes in c page 292 */ gamma 1 is equivalent to exponential 1 we can sample from an exponential by inverting the cdf c d f there is no known closed form for gamma alpha != 1 this is best's algorithm see pg 410 of luc devroye's non uniform random variate generation this algorithm is constant time for alpha > 1 ie 64 * w^3 v^2 /* old uses time linear in alpha
+			 y = math log nextuniform next uniform 
+			 while nextuniform next uniform > math pow y * math exp 1 y alpha 1 
+			 y = math log nextuniform next uniform 
+			 gamma = alpha * y 
+			*/ this should no longer be necessary since randoms is now a subclass of random anyway prints the nextgamma next gamma and oldnextgamma old next gamma distributions to out for testing/comparison 

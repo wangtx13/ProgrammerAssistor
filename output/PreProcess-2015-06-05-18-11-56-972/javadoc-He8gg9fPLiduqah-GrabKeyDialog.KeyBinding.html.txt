@@ -1,1 +1,0 @@
-grabkeydialog grab key dialog keybindingextends key bindingextends actionset action set name label shortcut isprefix is prefix keybinding key binding name label shortcut isprefix is prefix isassigned is assigned enclosing grabkeydialog grab key dialog since jedit j edit 3 2pre8 

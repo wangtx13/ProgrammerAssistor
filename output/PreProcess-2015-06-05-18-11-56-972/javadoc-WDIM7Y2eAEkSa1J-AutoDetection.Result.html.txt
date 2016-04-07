@@ -1,1 +1,0 @@
-autodetection auto detection resultextends result io inputstream input stream in io ioexception i o io bufferedinputstream buffered input stream getrewindedstream get rewinded stream io ioexception i o streamisgzipped stream is gzipped getdetectedencoding get detected encoding enclosing autodetection auto detection in the stream io ioexception i o io ioexception i o 

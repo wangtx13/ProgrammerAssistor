@@ -1,0 +1,1 @@
+matrix iterates through s iterates through t ith character of s jth character of t cost normalize to 0 1 

@@ -1,1 +1,0 @@
-encodingdetector encoding detector new xmlencodingdetector xml encoding detector detectencoding detect encoding io inputstream input stream sample io ioexception i o all known implementing classes encodingwithbom encoding with b o m detector regexencodingdetector regex encoding detector xmlencodingdetector xml encoding detector since 4 3pre10 io ioexception i o 

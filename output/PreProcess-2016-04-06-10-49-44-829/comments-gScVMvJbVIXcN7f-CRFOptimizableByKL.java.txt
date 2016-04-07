@@ -1,0 +1,1 @@
+todo t o d o this shouldn't be necessary updating tasks same structure but with zero values compute value combine results incorporate prior on unlabeledweight unlabeled weight = new sumlatticedefault sum lattice default crf input expectationscopy expectations copy new incrementor gettotalweight get total weight 

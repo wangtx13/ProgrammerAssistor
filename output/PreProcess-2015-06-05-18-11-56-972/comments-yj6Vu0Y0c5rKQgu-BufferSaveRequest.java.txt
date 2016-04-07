@@ -1,9 +1,0 @@
-{{{ imports }}} {{{ buffersaverequest buffer save request constructor }}} {{{ run /* if the vfs v f s supports renaming files we first
-		 * save to #<filename>#save# then rename that
-		 * to <filename> so that if the save fails 
-		 * data will not be lost 
-		 *
-		 * as of 4 1pre7 we now call vfs gettwostagesavename get two stage save name 
-		 * instead of constructing the path directly
-		 * since some vfs's v f s's might not allow # in filenames 
-		 */ the entire save operation can be aborted this must be after the stream is created or we deadlock with sshtools s s h tools can't use buffer getname get name here because it is not changed until the save is complete the path do not ends with gz the buffer name was gz so it means it's blabla txt gz > blabla txt i remove the gz property clean up left over markers }}} {{{ members {{{ makebackup make backup only backup once per session backup failure shouldn't stop caller's activity like saving a buffer so catching the most backup failures are reported directly in _backup with lesser severity only rare cases manifest with ioexception i o like #3574500 }}} {{{ wanttwostagesave want two stage save }}} }}} 

@@ -1,1 +1,0 @@
-add reset to defaults button members the user should be able to cancel the options dialog so we need to modify the list not the actual property since the default value is not available we reset fetch default value and re set to original reset selection if user had more buttons than default 

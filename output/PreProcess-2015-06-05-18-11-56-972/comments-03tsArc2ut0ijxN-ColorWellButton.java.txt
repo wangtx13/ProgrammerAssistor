@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ colorwellbutton color well button constructor according to krisk this looks better on os o s x }}} {{{ getselectedcolor get selected color }}} {{{ setselectedcolor set selected color }}} {{{ colorwell color well }}} {{{ actionhandler action handler }}} 

@@ -1,0 +1,12 @@
+create from used by makefromlogfactorvalues make from log factor values **************************************************************************/ **************************************************************************/ that's 0 in log space logspaceonenorm logspace one norm counts rest handle the pluses does destructive divison on this assuming this has all the variables in pot /* by convention let inf + inf corresponds to 0/0 be inf */ handle the pluses /* add each element of the single of the large potential
+to the correct element in the small potential */ /* convert a single index from this distribution to
+ one for the smaller distribution */ /* whew! now add it in */ handle non occuring indices specially for default value is inf in log space /*
+ abstracttablefactor table factor ensureoperandcompatible ensure operand compatible abstracttablefactor table factor ptl 
+ {
+ if ! ptl instanceof logtablefactor log table factor {
+ new logtablefactor log table factor ptl 
+ } else {
+ ptl 
+ }
+ }
+ */ v is *not* in log space inefficient but much less prone /* get all the variables */ /* define a new potential over the neighbors of node n o d e */ abstracttablefactor table factor normalize should be refactored 

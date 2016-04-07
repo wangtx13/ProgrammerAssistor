@@ -1,1 +1,0 @@
-{{{ jeditmode j edit mode constructor }}} {{{ setproperty set property }}} {{{ unsetproperty unset property }}} {{{ getproperty get property if jedit j edit getbooleanproperty get property prefix + customsettings custom settings { } }}} {{{ init }}} {{{ loadifnecessary load if necessary }}} 

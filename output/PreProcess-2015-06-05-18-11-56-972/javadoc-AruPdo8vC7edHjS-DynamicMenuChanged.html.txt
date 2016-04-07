@@ -1,1 +1,0 @@
-dynamicmenuchangedextends dynamic menu changedextends ebmessage e b message dynamicmenuchanged dynamic menu changed name getmenuname get menu name paramstring since jedit j edit 4 2pre2 name the menu name all dynamic menus with this name will be recreated next time they are displayed paramstring in ebmessage e b message 

@@ -1,7 +1,0 @@
-/*type*/ /*type*/ check this value /*strictjava*/ todo t o d o should add isjavacastable is castable test for strictjava strict as opposed to isjavaassignable is assignable /*
-		note /*
-		 note utilevalerror eval here comes from lhs getvalue get value 
-		a 
-		 a variable can represent an lhs l h s for the case of an imported or
-		object field 
-	*/ 

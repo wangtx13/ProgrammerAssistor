@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ updateeverytime update every time }}} {{{ update {{{ actionlistener action listener }}} {{{ changelistener change listener }}} old style before jedit j edit 4 3pre18 match start of name 			menuitem 			menu item addmouselistener add mouse listener mouselistener mouse listener }}} 

@@ -1,4 +1,0 @@
-{{{ imports }}} {{{ mouseoptionpane mouse option pane constructor }}} {{{ _init /* text drag and drop */ /* non word character selection behavior */ /* middle mouse button click pastes % register */ /*
-		 * pressing ctrl while mouse actions makes them as if
-		 * selection mode were rectangular mode
-		 */ /* gutter mouse actions */ }}} {{{ _save }}} {{{ members simplified these settings a little }}} 

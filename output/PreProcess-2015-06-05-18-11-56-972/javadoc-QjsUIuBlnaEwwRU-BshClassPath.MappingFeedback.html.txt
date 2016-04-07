@@ -1,1 +1,0 @@
-bshclasspath bsh path mappingfeedback mapping feedback startclassmapping start mapping classmapping mapping msg errorwhilemapping while mapping msg endclassmapping end mapping enclosing bshclasspath bsh path 

@@ -1,0 +1,47 @@
+the training instances and their topic assignments the alphabet for the topics number of topics to be fit these values are used to encode type/topic counts as count/topic pairs in a single dirichlet alpha alpha is the distribution over topics prior on per topic multinomial distribution over words an to put the topic counts for the current document initialized locally below defined here to avoid garbage collection overhead indexed by <document index topic index> indexed by <feature index topic index> indexed by <topic index> for dirichlet estimation histogram of document sizes summed over languages histogram of document/topic counts indexed by <topic index sequence position index> was 10 	 was 50 exact power of 2 otherwise add an extra bit get the total number of occurrences of each word type /* automatic stoplist creation currently disabled
+			treeset<idsorter> disabled
+			 tree set<id sorter> sortedwords sorted words = new treeset<idsorter> tree set<id sorter> 
+			for type = 0 type < vocabularysizes vocabulary sizes language type++ {
+				sortedwords {
+				sorted words add new idsorter sorter type typetotals type totals type 
+			}
+
+			stoplists language = new hashset<integer> hash set< integer> 
+			iterator<idsorter> 
+			 iterator<id sorter> typeiterator type iterator = sortedwords sorted words iterator 
+			int totalstopwords total stopwords = 0 
+
+			while typeiterator type iterator hasnext has next totalstopwords total stopwords < numstopwords num stopwords {
+				stoplists language add typeiterator type iterator next getid 
+			}
+			*/ allocate enough space so that we never have to worry about overflows either the number of topics or the number of times the type occurs if the word is one of the numstopwords num stopwords most frequent words put it in a non sampled topic if stoplists language contains type { 	topic = 1 } the format for these arrays is the topic in the rightmost bits the count in the remaining left bits since the count is in the high bits sorting desc by the numeric value of the guarantees that higher counts will be before the lower counts start by assuming that the is either empty or is in sorted descending order here we are only adding counts so if we find an existing location with the topic we only need to ensure that it is not larger than its left neighbor /*
+							 debugging output 
+ 					if index >= currenttypetopiccounts current type topic counts length {
+							for i=0 i < currenttypetopiccounts current type topic counts length i++ {
+								system {
+								 out currenttypetopiccounts current type topic counts i topicmask topic mask + +
+												 currenttypetopiccounts current type topic counts i >> topicbits topic bits + 
+							}
+							
+							system 
+							}
+							
+							 out type + + typetotals type totals type 
+						}
+						*/ new value is 1 so we don't have to worry about sorting except by topic suffix which doesn't matter now ensure that the is still sorted by bubbling this value up /*
+			 if savemodelinterval save model interval != 0 iterations % savemodelinterval save model interval == 0 {
+			 this write new modelfilename+' model filename+' '+iterations 
+			 }
+			*/ todo t o d o this condition should also check that we have more than one sample to work with here the number of samples actually obtained is not yet tracked loop over every document in the corpus /*
+		long seconds = math round currenttimemillis current time millis starttime start time /1000 0 
+		long minutes = seconds / 60 	seconds %= 60 
+		long hours = minutes / 60 	minutes %= 60 
+		long days = hours / 24 	hours %= 24 
+		system 
+		 out print \ntotal \n total time 
+		if days != 0 { out print days out print days }
+		if hours != 0 { out print hours out print hours }
+		if minutes != 0 { out print minutes out print minutes }
+		system }
+		 out print seconds out seconds 
+		*/ the histogram starts at count 0 so if all of the tokens of the most frequent type were assigned to one topic we would need to store a maxtypecount max type count + 1 count now count the number of type/topic pairs that have each number of tokens figure out how large we need to make the observation lengths histogram now allocate it and populate it 		populate topic counts build an that densely lists the topics that have non zero counts record the total number of non zero topics initialize the smoothing only sampling bucket for topic = 0 topic < numtopics num topics topic++ smoothingonlymass smoothing only mass += alpha topic * beta / tokenspertopic tokens per topic topic + betasum beta sum initialize the cached coefficients using only smoothing cachedcoefficients cached coefficients = new numtopics num topics for topic=0 topic < numtopics num topics topic++ 	cachedcoefficients 	cached coefficients topic = alpha topic / tokenspertopic tokens per topic topic + betasum beta sum 		initialize 		 initialize the topic count/beta sampling bucket initialize cached coefficients and the topic/beta normalizing constant 	initialize the normalization constant for the b * n_{t|d} term 	update the coefficients for the non zero topics 	iterate 	 iterate over the positions words in the document 	remove 	 remove this token from all counts remove this topic's contribution to the normalizing constants decrement the local doc/topic counts maintain the dense index if we are deleting the old topic first get to the dense location associated with the old topic we know it's in there somewhere so we don't need bounds checking shift all remaining dense indices to the left decrement the global topic count totals assert tokenspertopic tokens per topic oldtopic old topic >= 0 old topic + oldtopic old topic + below 0 add the old topic's contribution back into the normalizing constants reset the cached coefficient for this topic now go over the type/topic counts decrementing where appropriate and calculating the score for each topic at the same time we're decrementing and adding up the sampling weights at the same time but decrementing may require us to reorder the topics so after we're done here look at this cell in the again shift the reduced value to the right if necessary 	make 	 make sure it actually gets set topictermcount++ topic term count++ bubble the new value up if necessary betatopiccount++ beta topic count++ smoothingonlycount++ smoothing only count++ move to the position for the new topic which may be the first empty position if this is a new topic for this word index should now be set to the position of the new topic which may be an empty cell at the end of the list inserting a new topic guaranteed to be in order w r t count if not topic bubble the increased value left if necessary todo t o d o is this appropriate throw new illegalstateexception illegal state polylingualtopicmodel polylingual topic model new topic not sampled assert newtopic new topic != 1 			put 			 put that new topic into the counts if this is a new topic for this document add the topic to the dense index first find the point where we should insert the new topic by going to the end which is the only reason we're keeping track of the number of non zero topics and working backwards 	update the coefficients for the non zero topics save the smoothing only mass to the global cache update the document topic count histogram for dirichlet estimation initialize the sorters with dummy values count up the tokens and normalize the likelihood of the model is a combination of a dirichlet multinomial for the words in each topic and a dirichlet multinomial for the topics in each document the likelihood function of a dirichlet multinomial is 	 gamma sum_i alpha_i 	 prod_i gamma alpha_i + n_i 	prod_i gamma alpha_i 	 gamma sum_i alpha_i + n_i so the log likelihood is 	loggamma 	log gamma sum_i alpha_i loggamma log gamma sum_i alpha_i + n_i + 	 sum_i loggamma log gamma alpha_i + n_i loggamma log gamma alpha_i do the documents first count up the tokens subtract the count + parameter sum term add the parameter sum term and the topics count the number of type topic pairs reuse this as a pointer serialization for historical reasons we currently only support featuresequence feature sequence data not the featurevector feature vector which is the default for the input functions provide a warning to avoid classcastexceptions cast exceptions 

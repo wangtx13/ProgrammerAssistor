@@ -1,1 +1,0 @@
-propertieschangedextends properties changedextends ebmessage e b message propertieschanged properties changed ebcomponent e b component source propertieschanged properties changed source since jedit j edit 2 2pre6 source the message source source the message source 

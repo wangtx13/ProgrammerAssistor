@@ -1,1 +1,0 @@
-{{{ message types }}} {{{ dockablewindowupdate dockable window update constructor }}} {{{ getwhat get what }}} {{{ getdockable get dockable }}} {{{ paramstring }}} {{{ members }}} 

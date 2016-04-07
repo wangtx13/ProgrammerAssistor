@@ -1,0 +1,10 @@
+junctiontreeinferencer junction tree inferencer constructor 		system 		 out v+ = +rating 		system 		 out v+ = +rating xx should refactor into collections any coll tobjectproc t proc /* iff a clique in l strictly contains c */ works like the obscure <=> operator in perl debug + mdl getindex get index next + \n must remove v from graph first because adding the edges will change the rating of other vertices given two pairs of cliques 1 if the pair o1 should be added to the tree first we add pairs that have the largest mass number of vertices in common to ensure that the clique tree satifies the running intersection property break ties by adding the sepset with the smallest cost sum of weights of connected clusters still a tie? break arbitrarily but consistently initialize pq with all possible edges and add the edges to jt that come to the top of the queue and don't cause a cycle xxx ok o k this sucks openjgraph doesn't allow adding disconnected edges to a tree so what we'll do is create a graph frist then convert it to a tree first add every clique to the graph then add n 1 edges discretefactor discrete factor ptl = createblankfactor create blank factor c jt setcpf set c p f c ptl /* debug
+ if jt isnan is na n {
+ throw new runtimeexception runtime got a nan na n 
+ }
+ */ ?? /* the graph g is the topology of the mrf m r f that corresponds to the factor graph mdl 
+ * essentially this means that we triangulate factor graphs by converting to an mrf m r f first 
+ * i could have chosen to trianglualte the factorgraph factor graph directly but i didn't for historical reasons
+ * i already had a of triangulate for mrfs m r fs not bipartite factor graphs 
+ * note that the call to mdltograph mdl to graph is perfectly valid for factorgraphs factor graphs that are also directedmodels directed models 
+ * and has the effect of moralizing in that case */ serialization if seralization incompatible changes are made to these classes then smarts can be added to these for backward compatibility junctiontreeinferencer junction tree inferencer 

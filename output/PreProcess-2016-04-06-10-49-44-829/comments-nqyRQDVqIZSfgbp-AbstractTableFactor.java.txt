@@ -1,0 +1,65 @@
+vars = new universe arrays aslist as list allvars all vars store the mapping between the order in which the variables were given and the canonically sorted order we are storing them in and set sizes /* this shouldn't be a runtime so sue me */ xxx could be dangerous! but these should never be modified / a b s t r a c t m e t h o d s / / this is inherently dangerous b/c variable ordering issues consider using setphi set phi assignment instead special function to do normalization in log space computes sum if this potential is in log space projection p r o j e c t i o n of o f indices i n d i c e s maps potentials > /* be careful about this thing however it gets shallow copied whenever
+ * a potential is duplicated so if a potential were modified e g 
+ * by expandtocontain expand to contain while this was being shared things could
+ * get ugly i think everything is all right at the moment but keep
+ * it in mind if inexplicable bugs show up in the future cas
+ */ lazily constructed /* a hash value for subsets of this potential's variable set 
+ * note that the hash value depends only on the set's membership
+ * not its order so that this hashing scheme would be unsafe
+ * for the projection cache unless potential variables were always
+ * in a canonical order which they are 
+ */ if potentials have more than 32 variables we need to use an expandable bitset but then again you probably wouldn't have enough memory to represent the potential anyway relies on variables being sorted this loop breaks if subset is not in fact a subset but that is an anyway /* for below i tried special casing this as 
+ if smallpotential small potential numvars num vars == 1 {
+
+ projection = new probs singlesize single size 
+ largedims large dims = new numvars num vars 
+ variable smallvar small var = variable smallpotential small potential varmap var map lookupobject lookup 0 
+ largedim large dim = this varmap var map lookupindex lookup index smallvar small var 
+ assert largedim large dim != 1 smallvar small var 
+
+ for largeidx large idx = 0 largeidx large idx < probs singlesize single size largeidx++ large idx++ {
+ probs singletoindices single to indices largeidx large idx largedims large dims 
+ projection largeidx large idx = largedims large dims largedim large dim 
+ }
+
+ projection 
+
+ }
+
+ but this didn't seem to make a huge performance gain */ 	private largeidxtosmall large idx to small largeidx large idx multinomialpotential multinomial potential smallpotential small potential relies on variables being sorted 	private cachedlargeidxtosmall cachedlarge idx to small largeidx large idx multinomialpotential multinomial potential smallpotential small potential special case where smallptl small ptl has only one variable here since ordering is not a problem we can use a set based hash key if smallpotential small potential varset var set size == 1 { cachedlargeidxtosmall cached large idx to small smallpotential small potential } else { computelargeidxtosmall compute large idx to small smallpotential small potential } cached of computelargeidxtosmall compute large idx to small for ptls with a single variable this is designed to work if smallpotential small potential has multiple variables but it breaks if it's called with two potentials with the same variables in different orders todo t o d o make work for multiple variables canonical ordering? perhaps throw instead perhaps throw instead perhaps throw instead /* add each element of the single of the large potential
+ to the correct element in the small potential */ /* convert a single index from this distribution to
+ one for the smaller distribution */ /* whew! now add it in */ if so expand this potential this is not pretty does destructive multiplication on this assuming this has all the variables in pot cheating does destructive divison on this assuming this has all the variables in pot xxx should an assignment /* todo t o d o fold into probs almosteqauals almost eqauals if variable ordering
+ * issues ever resolved also consider using this in all
+ * those hasconverged has converged functions 
+ */ serialization if seralization incompatible changes are made to these classes then smarts can be added to these for backward compatibility rerun initializers of transient fields check that alphabets match /*
+ tinthashset t hash set indices = new tinthashset t hash set 
+ for loc = 0 loc < ptl1 probs numlocations num locations loc++ {
+ indices add ptl1 probs indexatlocation index at location loc 
+ }
+ for loc = 0 loc < ptl2 probs numlocations num locations loc++ {
+ indices add ptl2 probs indexatlocation index at location loc 
+ }
+
+ idxs = indices toarray to 
+ arrays sort idxs 
+
+ vals = new idxs length 
+ if ptl1 instanceof logtablefactor log table factor { hack
+ for i = 0 i < idxs length i++ {
+ vals i = weight * math exp ptl1 probs singlevalue single value idxs i + 1 weight * math exp ptl2 probs singlevalue single value idxs i 
+ vals i = math log vals i 
+ }
+
+ } else {
+ for i = 0 i < idxs length i++ {
+ vals i = weight * ptl1 probs singlevalue single value idxs i + 1 weight * ptl2 probs singlevalue single value idxs i 
+ }
+ }
+
+ szs = new ptl1 probs getnumdimensions get num dimensions 
+ ptl1 probs getdimensions get dimensions szs 
+ sparsematrixn sparse matrixn m = new sparsematrixn sparse matrixn szs idxs vals 
+
+ abstracttablefactor table factor result = ptl1 createblanksubset create blank subset ptl1 varmap var map 
+ result setvalues set values m 
+ */ special case for speed 

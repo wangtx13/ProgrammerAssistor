@@ -1,1 +1,0 @@
-propertieschangingextends properties changingextends ebmessage e b message propertieschanging properties changing ebcomponent e b component source propertieschanging properties changing state state propertieschanging properties changing state getstate get state since jedit j edit 4 3pre9 source the message source state an enum describing what is happening 

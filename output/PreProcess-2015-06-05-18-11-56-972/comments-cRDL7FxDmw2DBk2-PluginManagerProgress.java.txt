@@ -1,1 +1,0 @@
-{{{ imports }}} {{{ pluginmanagerprogress plugin manager progress constructor }}} {{{ setvalue set value }}} {{{ setmaximum set maximum }}} {{{ setstatus set status }}} {{{ done }}} {{{ members {{{ instance variables progress value as of start of current task }}} {{{ actionhandler action handler }}} {{{ windowhandler window handler }}} {{{ rosterthread roster thread }}} }}} 

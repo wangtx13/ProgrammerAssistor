@@ -1,0 +1,1 @@
+if edge to vars size > 1 { err potential pruning \npre \n p r e +result+ \npost \n p o s t +pruned only prune messages to leaves err message for edge +edge+ not pruned compute amount of sparsity 

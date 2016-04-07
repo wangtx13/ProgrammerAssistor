@@ -1,0 +1,1 @@
+put all the instances through both pipes then get viterbi path experimental extract from training lists 

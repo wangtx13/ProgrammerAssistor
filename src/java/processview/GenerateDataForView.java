@@ -19,6 +19,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import static utility.Tools.randomString;
 
@@ -45,7 +46,7 @@ public class GenerateDataForView {
     public void generateDataForView() {
         
         try {
-            String outputJsonPath = "/Users/apple/NetBeansProjects/ProgrammerAssistor/Web/topics.json";
+            String outputJsonPath = "/Users/wangtianxia1/Documents/github/ProgrammerAssistor/Web/topics.json";
             File outputJson = new File(outputJsonPath);
             if (outputJson.createNewFile()) {
                 System.out.println(outputJson.getName() + "create successful...");
@@ -106,6 +107,8 @@ public class GenerateDataForView {
                 json.write(writer);
                
                 
+            } catch (JSONException ex) {
+                Logger.getLogger(GenerateDataForView.class.getName()).log(Level.SEVERE, null, ex);
             }            
 
         } catch (IOException ex) {

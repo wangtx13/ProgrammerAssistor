@@ -1,1 +1,0 @@
-these computations must be hard enough so that the compiler doesn't optimize them 

@@ -1,5 +1,0 @@
-map /*
- should we be able to iterate over maps?
- if iterateoverme iterate over me instanceof map 
- map iterateoverme iterate over me entryset entry set iterator 
- */ 

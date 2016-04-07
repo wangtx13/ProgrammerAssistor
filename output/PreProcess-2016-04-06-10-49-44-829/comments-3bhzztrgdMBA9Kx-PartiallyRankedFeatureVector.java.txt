@@ -1,0 +1,1 @@
+set the number of cells to sort making sure we don't go past the max sorting n 1 sorts the whole reinitialize and sort selection sort swap 

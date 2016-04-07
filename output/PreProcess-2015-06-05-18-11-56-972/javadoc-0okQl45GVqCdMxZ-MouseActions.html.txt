@@ -1,1 +1,0 @@
-mouseactionsextends mouse actionsextends objectimplements mouseactionsprovider mouse actions provider getactionforevent get action for event event mouseevent mouse event evt variant all mouseactionsprovider mouse actions provider specified by getactionforevent get action for event in mouseactionsprovider mouse actions provider 

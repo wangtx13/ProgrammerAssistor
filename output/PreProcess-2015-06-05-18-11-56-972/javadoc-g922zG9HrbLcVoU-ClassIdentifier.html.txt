@@ -1,1 +1,0 @@
-classidentifierextends identifierextends classidentifier identifier clas gettargetclass get target tostring to tostring to in 

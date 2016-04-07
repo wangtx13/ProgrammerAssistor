@@ -1,1 +1,0 @@
-samples svg args creates a new instance 
