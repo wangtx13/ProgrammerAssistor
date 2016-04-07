@@ -181,6 +181,9 @@ public class PreProcessServlet extends HttpServlet {
                             if (fieldValue.equals("Drawing")) {
                                 libraryTypeCondition.remove("Drawing");
                                 libraryTypeCondition.put("Drawing", true);
+                            }  else if (fieldValue.equals("Modeling")) {
+                                libraryTypeCondition.remove("Modeling");
+                                libraryTypeCondition.put("Modeling", true);
                             }
                         }
 //                        out.println("<p>");

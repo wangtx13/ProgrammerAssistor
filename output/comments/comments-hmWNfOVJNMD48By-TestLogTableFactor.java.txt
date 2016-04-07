@@ -1,0 +1,1 @@
+fails variables deep cloned there's not way to get directly at the matrices ! log 0 log 1 log 2 log 3 log 0 1 log 1 1 log 2 1 log 3 1 

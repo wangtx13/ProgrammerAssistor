@@ -1,0 +1,1 @@
+span gettext get text span intersection span r getdocument get document intersects span r issubspan is subspan span r getstartidx get start idx getendidx get end idx 所有已知实现类 labeledspan labeled span stringspan span 

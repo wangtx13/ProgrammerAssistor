@@ -1,0 +1,1 @@
+minkowskiextends objectimplements metric minkowski q metric getmetric get metric q distance sparsevector sparse vector a sparsevector sparse vector b 所有已实现的接口 metric 参数 q power of component wise absolute difference must be at least 1 指定者 distance 在接口中 metric 

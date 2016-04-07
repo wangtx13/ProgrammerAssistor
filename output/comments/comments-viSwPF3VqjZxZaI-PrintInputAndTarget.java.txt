@@ -1,0 +1,1 @@
+swapping order since data often has a newline at the end dm d m serialization 

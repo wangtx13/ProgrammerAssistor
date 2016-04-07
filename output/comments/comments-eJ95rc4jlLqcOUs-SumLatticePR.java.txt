@@ -1,0 +1,1 @@
+initialize some structures forward pass backward pass preprocess from above still applies 

@@ -1,0 +1,1 @@
+ngrampreprocessor n gram preprocessor replacementsetextends replacement setextends objectimplements io serializable replacementset replacement set addreplacement add replacement replacement replacement applyreplacements apply replacements input 所有已实现的接口 io serializable 封闭类 ngrampreprocessor n gram preprocessor 另请参阅 序列化表格 

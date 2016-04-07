@@ -1,0 +1,1 @@
+this figures taken from tom minka's lightspeed get an upper bound using a^b = exp b*log a 

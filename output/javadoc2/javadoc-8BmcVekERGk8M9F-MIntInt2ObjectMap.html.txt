@@ -1,0 +1,1 @@
+mintint2objectmapextends m int2 mapextends objectimplements io serializable mintint2objectmap m int2 map mintint2objectmap m int2 map initialcapacity initial capacity put key1 key2 value get key1 key2 tintobjectiterator t iterator curry key1 keys1 size keys2 key1 所有已实现的接口 io serializable 另请参阅 序列化表格 

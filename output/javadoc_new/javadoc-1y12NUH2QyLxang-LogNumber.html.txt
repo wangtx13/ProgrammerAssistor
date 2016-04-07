@@ -1,0 +1,1 @@
+lognumberextends log numberextends logval log val sign lognumber log number logval log val sign timesequals times equals lognumber log number other exp set logval log val sign plusequals plus equals lognumber log number other tostring to 覆盖 tostring to 在类中 

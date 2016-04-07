@@ -1,0 +1,1 @@
+do grid from top left down and bottom edge and finally right edge and node potentials do grid from top left down and bottom edge and finally right edge and node potentials add left right edges add grid edges add obs edges 

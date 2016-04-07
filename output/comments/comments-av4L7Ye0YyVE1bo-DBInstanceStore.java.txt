@@ -1,0 +1,1 @@
+supported types read data from regular expression for what constitutes a token this pattern includes unicode letters unicode numbers and the underscore character alternatives \\s+ \\ s+ anything not whitespace \\w+ a z a z 0 9 _ \\p{l}\\p{n}_ +| \\p{p} \\p{ p} + a group of only letters and numbers or o r a group of only punctuation marks tokenize raw strings 

@@ -1,0 +1,1 @@
+heuristically try to find a reasonable assignment not numerically 0 prob grossly inefficient 

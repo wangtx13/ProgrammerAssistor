@@ -1,0 +1,1 @@
+edu umass cs mallet base pipe serialpipe serial pipe trainers 0 = new naivebayestrainer naive bayes trainer trainers 2 = new decisiontreetrainer decision tree trainer out training set size = +lists 0 size out testing set size = +lists 1 size 

@@ -1,0 +1,1 @@
+if not add this feature if this token is the first mention matching tokentext are candidates for firstmention f i r s t m e n t i o n features matching features from the firstmention f i r s t m e n t i o n will be included if then exclude e x c l u d e feature names that match the pattern serialization 

@@ -1,0 +1,1 @@
+maintaining global projection caches this can get dangerous if variables are thrown away willy nilly as in test cases cas 

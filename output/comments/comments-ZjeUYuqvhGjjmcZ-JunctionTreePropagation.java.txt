@@ -1,0 +1,1 @@
+necessary if jt originally unnormalized /* hugin style propagation for junction trees */ bottom up pass top down pass / meesage m e e s a g e strategies s t r a t e g i e s / serialization err send message +from+ > +to serialization serialization 

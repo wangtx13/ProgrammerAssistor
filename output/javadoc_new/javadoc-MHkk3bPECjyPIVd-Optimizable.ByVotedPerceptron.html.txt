@@ -1,0 +1,1 @@
+optimizable byvotedperceptronextends by voted perceptronextends optimizable getnuminstances get num instances getvaluegradientforinstance get value gradient for instance instanceindex instance index bufffer 所有超级接口 optimizable 封闭接口 optimizable 

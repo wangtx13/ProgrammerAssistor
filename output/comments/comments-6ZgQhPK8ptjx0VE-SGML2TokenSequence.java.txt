@@ -1,0 +1,1 @@
+culotta changed from length 1 nexttag next tag = m group 0 m end one beyond index of last match char subtring does not include index end 				new sgml2tokensequence s g m l2 token sequence new charsequencelexer char sequence lexer pattern compile o serialization history 1 add save source 

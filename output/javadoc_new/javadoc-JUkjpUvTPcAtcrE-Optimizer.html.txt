@@ -1,0 +1,1 @@
+optimizer optimize optimize numiterations num iterations isconverged is converged optimizable getoptimizable get optimizable 所有已知实现类 agis a g i s conjugategradient conjugate gradient gradientascent gradient ascent limitedmemorybfgs limited memory b f g s orthantwiselimitedmemorybfgs orthant wise limited memory b f g s 

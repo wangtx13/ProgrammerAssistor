@@ -1,0 +1,1 @@
+xxx currently fails because grabbing the field span for howdy doody! grabs the </title> as well i think this is because getting the text subspan goes to the start of the next rather than the end of the last it seems like that should be changed but i'd need to think about the ikmplications for rexa before doing this 

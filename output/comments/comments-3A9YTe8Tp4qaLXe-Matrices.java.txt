@@ -1,0 +1,1 @@
+/* a diagonal matrix of the given dimensions it need not be square */ /* compute indices of diagonals */ /* a diagonal matrix of the given dimensions it need not be square */ 

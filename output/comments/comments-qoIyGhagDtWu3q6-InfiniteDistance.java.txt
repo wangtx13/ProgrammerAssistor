@@ -1,0 +1,1 @@
+we assume that features are sorted in ascending order we'll walk through the two feature lists in order checking whether the two features are the same pick up any additional features at the end of the two lists 

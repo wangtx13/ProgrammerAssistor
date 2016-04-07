@@ -1,0 +1,1 @@
+infinitedistanceextends infinite distanceextends objectimplements metric infinitedistance infinite distance distance sparsevector sparse vector a sparsevector sparse vector b 所有已实现的接口 metric 指定者 distance 在接口中 metric 

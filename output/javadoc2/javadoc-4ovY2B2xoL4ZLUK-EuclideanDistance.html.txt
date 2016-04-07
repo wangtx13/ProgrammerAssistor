@@ -1,0 +1,1 @@
+euclideandistanceextends euclidean distanceextends objectimplements metric euclideandistance euclidean distance distance sparsevector sparse vector a sparsevector sparse vector b 所有已实现的接口 metric 指定者 distance 在接口中 metric 

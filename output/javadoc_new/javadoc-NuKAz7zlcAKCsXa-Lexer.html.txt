@@ -1,0 +1,1 @@
+lexerextends iterator getstartoffset get start offset getendoffset get end offset gettokenstring get token hasnext has next next remove 所有超级接口 iterator 所有已知实现类 charsequencelexer char sequence lexer 指定者 hasnext has next 在接口中 iterator 指定者 next 在接口中 iterator 指定者 remove 在接口中 iterator 

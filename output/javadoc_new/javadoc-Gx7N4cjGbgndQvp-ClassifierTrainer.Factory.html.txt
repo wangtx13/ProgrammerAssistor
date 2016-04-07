@@ -1,0 +1,1 @@
+classifiertrainer classifier trainer factory factory ct c t newclassifiertrainer new classifier trainer classifier initialclassifier initial classifier ct c t newclassifiertrainer new classifier trainer tostring to 直接已知子类 decisiontreetrainer decision tree trainer factory naivebayestrainer naive bayes trainer factory 封闭类 classifiertrainer classifier trainer 覆盖 tostring to 在类中 

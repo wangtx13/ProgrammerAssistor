@@ -1,0 +1,1 @@
+colorutilsextends color utilsextends colorutils color utils rainbow n s b 参数 n number of equally spaced colors to s saturation of generated colors b brightness 返回 an of hex color names e g #0033ff #0033 f f 

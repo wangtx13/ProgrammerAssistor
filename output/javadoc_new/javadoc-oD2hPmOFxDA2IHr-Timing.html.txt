@@ -1,0 +1,1 @@
+timingextends timing tick msg elapsedtime elapsed time totalelapsedtime total elapsed time report msg 参数 msg prefix of printed with time 返回 number of elapsed milliseconds from tick or start 返回 number of elapsed milliseconds 

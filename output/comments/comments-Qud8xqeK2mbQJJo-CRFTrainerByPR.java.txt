@@ -1,0 +1,5 @@
+map between states in crf c r f fst f s t and labels train q /*
+ for j = 0 j < constraints size j++ {
+ constraints get j print 
+ }
+ */ use to train p stopping criteria from bfgs b f g s err convergence test + 2 0*math 0* math abs value oldvalue old value + <= + tolerance * math abs value +math + math abs oldvalue old value + 1e 5 

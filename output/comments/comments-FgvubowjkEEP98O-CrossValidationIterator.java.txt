@@ -1,0 +1,1 @@
+train on folds index index+numtrainfolds index+num train folds test on rest 

@@ -1,0 +1,13 @@
+/*
+	public clonearray clone cloneable arr 
+	{
+		 do this magic so that it can be cast to original type when done
+		object done
+		 anew a new = newinstance new instance arr getclass get getcomponenttype get component type arr length 
+		for i = 0 i < arr length i++ {
+			anew {
+			a new i = arr i clone 
+		}
+		return anew a new 
+	}
+*/ arrays 

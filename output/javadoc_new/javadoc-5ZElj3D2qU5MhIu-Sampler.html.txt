@@ -1,0 +1,1 @@
+sampler assignment sample factorgraph factor graph mdl n setrandom set random randoms r 所有已知实现类 exactsampler exact sampler gibbssampler gibbs sampler 参数 mdl model to sample from n number of samples to generate 返回 a list of assignments to the model 参数 r random to be used by this sampler 

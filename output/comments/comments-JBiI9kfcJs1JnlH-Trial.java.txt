@@ -1,0 +1,1 @@
+gdruck@cs umass edu when no examples are predicted to have this label we define precision to be 1 gdruck@cs umass edu when no examples have this label we define recall to be 1 gdruck@cs umass edu when both precision and recall are 0 f1 is 0 

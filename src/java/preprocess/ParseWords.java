@@ -118,7 +118,7 @@ public class ParseWords {
     }
 
     private String removeStopWords(String word) {
-        String stopList = "abstract array boolean br class code dd ddouble dl "
+        String stopList = "abstract array arg args boolean br class code dd ddouble dl "
                 + "don double dt error exception exist exists extends false file "
                 + "final float gt id implementation implemented import int "
                 + "integer interface interfaces invoke invokes java lead li long "
@@ -143,7 +143,9 @@ public class ParseWords {
         boolean general = ifGeneral;
         String stopList_draw = "javax swing awt org jhotdraw";
         boolean draw = libraryTypeCondition.get("Drawing");
-
+        String stopList_modeling = "cc grmm fst";
+        boolean modeling = libraryTypeCondition.get("Modeling");
+        
         if (general) {
             String[] stopwords = stopList_common.split(" ");
             for (String s : stopwords) {
@@ -156,6 +158,16 @@ public class ParseWords {
         
         if (draw && (word != null)) {
             String[] stopwords = stopList_draw.split(" ");
+            for (String s : stopwords) {
+                if (s.equals(word)) {
+                    word = null;
+                    break;
+                }
+            }
+        }
+        
+        if (modeling && (word != null)) {
+            String[] stopwords = stopList_modeling.split(" ");
             for (String s : stopwords) {
                 if (s.equals(word)) {
                     word = null;

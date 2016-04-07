@@ -1,0 +1,1 @@
+fieldcomparator field comparator matches fieldval1 field val1 fieldval2 field val2 所有已知实现类 exactmatchcomparator exact match comparator punctuationignoringcomparator punctuation ignoring comparator 

@@ -1,0 +1,1 @@
+arraysequenceextends sequenceextends objectimplements sequence arraysequence sequence arraylist list a arraysequence sequence e a copy arraysequence sequence e a arraysequence sequence sequence s copy e get index size tostring to 所有已实现的接口 sequence 指定者 get 在接口中 sequence 指定者 size 在接口中 sequence 覆盖 tostring to 在类中 

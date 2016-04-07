@@ -1,0 +1,1 @@
+confusionmatrixextends confusion matrixextends confusionmatrix confusion matrix trial t tostring to getprecision get precision predictedclassindex predicted index getconfusionbetween get confusion between class1 class2 getclassprior get prior classindex index 参数 t the trial to build matrix from 覆盖 tostring to 在类中 

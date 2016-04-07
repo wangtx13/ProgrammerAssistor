@@ -1,0 +1,1 @@
+clustererextends objectimplements io serializable clusterer pipe instancepipe instance pipe clustering cluster instancelist instance list trainingset training set pipe getpipe get pipe 所有已实现的接口 io serializable 直接已知子类 kbestclusterer k best clusterer kmeans k means 另请参阅 序列化表格 参数 instancepipe instance pipe pipe that created the instancelist instance list to be clustered 

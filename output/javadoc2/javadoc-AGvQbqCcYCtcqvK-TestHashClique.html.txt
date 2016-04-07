@@ -1,0 +1,1 @@
+testhashcliqueextends test hash cliqueextends testcase test case testhashclique test hash clique name testequalshashcode test equals hash testaddallordering test add all ordering testaddallordering2 test add all ordering2 testaddallordering3 test add all ordering3 test suite args throwable 抛出 throwable 

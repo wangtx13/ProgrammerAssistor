@@ -1,0 +1,1 @@
+statfunctionsextends stat functionsextends statfunctions stat functions cov univariate x univariate y corr univariate x univariate y ols univariate x univariate y qnorm p upper qnorm p upper mu sigma2 pnorm z upper pnorm x upper mu sigma2 qt p ndf lower_tail pt t df pchisq q df betainv x p q pf x df1 df2 

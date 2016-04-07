@@ -1,0 +1,18 @@
+todo t o d o add place where user can have general transducers to change crf c r f tokenization into labeledspans labeled spans todo t o d o add field for crf's c r f's labeled tokenization xxx nyi /*
+ document toxmldocument to xml document rooteltname root elt name namespace ns 
+ {
+ element element = new element rooteltname root elt name ns 
+ for i = 0 i < extractedspans extracted spans size i++ {
+ labeledspan labeled span span = labeledspan labeled span extractedspans extracted spans get i 
+ label tag = span getlabel get label 
+ if tag == backgroundtag background tag {
+ org jdom parent p = element addcontent add content span gettext get text 
+ } else {
+ element field = new element tag tostring to ns 
+ field settext set text span gettext get text 
+ element addcontent add content field 
+ }
+ }
+ new document element 
+ }
+ */ does not do non overlap sanity checking serialization garbage read 

@@ -1,0 +1,1 @@
+lineoptimizer line optimizer bygradient by gradient optimize line initialstep initial step 所有已知实现类 backtracklinesearch back track line search 封闭接口 lineoptimizer line optimizer 

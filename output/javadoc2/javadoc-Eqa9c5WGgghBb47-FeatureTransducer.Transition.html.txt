@@ -1,0 +1,1 @@
+featuretransducer feature transducer transitionextends transition input output weight featuretransducer feature transducer state sourcestate source state destinationname destination name featuretransducer feature transducer state getdestinationstate get destination state 封闭类 featuretransducer feature transducer 

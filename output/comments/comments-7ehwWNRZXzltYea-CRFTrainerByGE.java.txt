@@ -1,0 +1,1 @@
+default one to one state label map other maps can be set with setstatelabelmap set state label map map between states in crf c r f fst f s t and labels sometimes resetting the optimizer helps to find a better parameter setting shutdown threads 

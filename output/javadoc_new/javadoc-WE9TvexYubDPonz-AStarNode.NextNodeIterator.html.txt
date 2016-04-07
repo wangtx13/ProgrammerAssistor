@@ -1,0 +1,1 @@
+astarnode a star node nextnodeiteratorextends next node iteratorextends searchnode search node nextnodeiterator next node iterator nextnodeiterator next node iterator searchnode search node nextnode next node 所有已实现的接口 iterator 封闭类 astarnode a star node 覆盖 nextnode next node 在类中 searchnode search node nextnodeiterator next node iterator 返回 a new search tree node 

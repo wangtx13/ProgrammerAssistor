@@ -1,0 +1,1 @@
+			g setcolor set color firstitem first item color get color for this data series g setcolor set color temp 			g setcolor set color nextitem next item color 	g setcolor set color temp 

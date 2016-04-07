@@ -1,0 +1,1 @@
+you should just use iterator<instance> iterator< instance> directly this will be removed in the future sometimes as in an instancelist instance list used for adaboost ada boost instances may be weighted weights may also come from other raw input sources for instances in pipes 

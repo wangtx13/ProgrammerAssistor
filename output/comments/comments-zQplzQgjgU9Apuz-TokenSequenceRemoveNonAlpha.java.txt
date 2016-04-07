@@ -1,0 +1,1 @@
+xxx this doesn't seem so efficient perhaps have tokensequence token sequence use a linkedlist linked list and remove tokens from it? ? but a linkedlist linked list of tokensequence token sequence would be quite inefficient akm a k m serialization 

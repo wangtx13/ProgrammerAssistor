@@ -1,0 +1,13 @@
+/*
+ multiplyedgefactors multiply edge factors regionedge region edge edge discretepotential discrete potential product 
+ {
+ for iterator it = edge factorstosend factors to send iterator it hasnext has next {
+ discretepotential discrete potential ptl = discretepotential discrete potential it next 
+
+ if debug 
+ err message +edge+ multiplying by +ptl 
+
+ product multiplyby multiply by ptl 
+ }
+ }
+ */ debugging function debugging function 

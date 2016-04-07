@@ -1,0 +1,1 @@
+neighborextends objectimplements io serializable neighbor clustering original clustering modified clustering getoriginal get original clustering getmodified get modified tostring to 所有已实现的接口 io serializable 直接已知子类 agglomerativeneighbor agglomerative neighbor 从以下版本开始 1 0 另请参阅 序列化表格 返回 the original clustering 返回 the modified clustering 覆盖 tostring to 在类中 

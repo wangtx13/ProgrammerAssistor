@@ -1,0 +1,3 @@
+the input data in digested form e g a featurevector feature vector the output data in digested form e g a label a readable name of the source e g for ml m l analysis /* the input in a reproducable form e g enabling re print of
+																	 w/ pos p o s tags usually without target information 
+																	 e g an un annotated regionlist region list */ this test isn't strictly necessary but might catch some typos setting and getting properties serialization of instance 

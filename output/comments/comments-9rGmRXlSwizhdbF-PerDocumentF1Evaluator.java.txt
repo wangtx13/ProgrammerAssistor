@@ -1,0 +1,1 @@
+work around bug when wrapping out assumes that there are as many records as documents indexed by docs assumes that extractor at most one value calc precision we have an report if necessary xxx todo t o d o display name of supporting document calc 

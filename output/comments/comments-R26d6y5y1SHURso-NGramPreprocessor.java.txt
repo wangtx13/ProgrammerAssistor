@@ -1,0 +1,1 @@
+out input remove xml entities remove all non letter/number characters except dash and apostrophe reduce all blocks of whitespace to a single space out input no replacements were made so nothing has been output 

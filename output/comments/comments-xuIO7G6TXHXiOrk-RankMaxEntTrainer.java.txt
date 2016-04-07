@@ -1,0 +1,159 @@
+edu umass cs mallet users culotta cluster classify edu umass cs mallet base classify * 	maximizer optimize xxx x x x given the loop below this seems wrong run it again because in our and sam roweis' experience bfgs b f g s can still eke out more likelihood after first convergence by re running without being restricted by its gradient history progess messages are on one line move on xxx this won't work here must fix /*
+ classifier trainwithfeatureinduction train with feature induction instancelist instance list trainingdata training data 
+ instancelist instance list validationdata validation data 
+ instancelist instance list testingdata testing data 
+ classifierevaluating classifier evaluating evaluator 
+ maxent max ent maxent 
+
+ totaliterations total iterations 
+ numiterationsbetweenfeatureinductions num iterations between feature inductions 
+ numfeatureinductions num feature inductions 
+ numfeaturesperfeatureinduction num features per feature induction 
+ gainname gain name {
+
+ xxx x x x this ought to be a parameter except that setting it to can
+ crash training jump too small 
+ saveparametersduringfi save during f i = 
+ 
+ alphabet inputalphabet input alphabet = trainingdata training data getdataalphabet get data alphabet 
+ alphabet outputalphabet output alphabet = trainingdata training data gettargetalphabet get target alphabet 
+
+ if maxent == 
+ maxent = new rankmaxent rank max ent trainingdata training data getpipe get pipe 
+															new 1+inputalphabet 1+input alphabet size * outputalphabet output alphabet size 
+
+		
+		int trainingiteration training iteration = 0 
+		int numlabels num labels = outputalphabet output alphabet size 
+
+ initialize feature selection
+		featureselection selection
+		 feature selection globalfs global f s = trainingdata training data getfeatureselection get feature selection 
+		if globalfs global f s == {
+			 mask out all features some will be added later by featureinducer feature inducer inducefeaturesfor induce features for 
+			globalfs 
+			global f s = new featureselection feature selection trainingdata training data getdataalphabet get data alphabet 
+			trainingdata 
+			training data setfeatureselection set feature selection globalfs global f s 
+		}
+		if validationdata validation data != validationdata validation data setfeatureselection set feature selection globalfs global f s 
+		if testingdata testing data != testingdata testing data setfeatureselection set feature selection globalfs global f s 
+ maxent = new rankmaxent rank max ent maxent getinstancepipe get instance pipe maxent getparameters get globalfs global f s 
+		
+ run feature induction
+ for featureinductioniteration feature induction iteration = 0 
+ featureinductioniteration feature induction iteration < numfeatureinductions num feature inductions 
+ featureinductioniteration++ feature induction iteration++ {
+
+ print out some feature information
+			logger info feature induction iteration +featureinductioniteration +feature induction iteration 
+
+			 train the model a little bit we don't care whether it converges we
+ execute all feature induction iterations no matter what 
+			if featureinductioniteration feature induction iteration != 0 {
+				 don't train until we have added some features
+ setnumiterations set num iterations numiterationsbetweenfeatureinductions num iterations between feature inductions 
+				maxent = rankmaxent rank max ent this train trainingdata training data validationdata validation data testingdata testing data evaluator 
+																				 maxent 
+ }
+			trainingiteration }
+			training iteration += numiterationsbetweenfeatureinductions num iterations between feature inductions 
+
+			logger info starting feature induction with + 1+inputalphabet 1+input alphabet size +
+ features over +numlabels+ +num labels+ labels 
+			
+			 create the list of tokens
+ 			instancelist 			 instance list errorinstances instances = new instancelist instance list trainingdata training data getdataalphabet get data alphabet 
+			 trainingdata training data gettargetalphabet get target alphabet 
+			instancelist 
+			 instance list errorinstances instances = new instancelist instance list inputalphabet input alphabet outputalphabet output alphabet 
+			 this errorinstances instances featureselection feature selection will get examined by featureinducer feature inducer 
+			 so it can know how to add new singleton features
+			errorinstances features
+			error instances setfeatureselection set feature selection globalfs global f s 
+			list 
+			 list errorlabelvectors label vectors = new arraylist list these are length 1 vectors
+ for i = 0 i < trainingdata training data size i++ {
+				instance {
+				 instance inst = trainingdata training data get i 
+				
+ having trained using just the current features see how we classify
+ the training data now 
+ classification classification = maxent classify inst 
+ if !classification bestlabeliscorrect best label is correct {
+					instancelist {
+					 instance list il = instancelist instance list inst getdata get data 
+					instance 
+					 instance subinstance sub instance =
+						il get inst getlabeling get labeling getbestlabel get best label getentry get entry intvalue value 
+ errorinstances instances add subinstance sub instance 
+ errorlabelvectors label vectors add classification getlabelvector get label vector 
+ errorlabelvectors label vectors add createlabelvector create label vector subinstance sub instance classification 
+ }
+ }
+ logger info instance list size = +errorinstances +error instances size 
+ s = errorlabelvectors label vectors size 
+
+ labelvector label vector lvs = new labelvector label vector s 
+ for i = 0 i < s i++ {
+ lvs i = labelvector label vector errorlabelvectors label vectors get i 
+ }
+
+ rankedfeaturevector ranked feature vector factory gainfactory gain factory = 
+ if gainname gain name equals exp_gain 
+ gainfactory gain factory = new expgain exp gain factory lvs gaussianpriorvariance gaussian prior variance 
+ else if gainname gain name equals gradient_gain 
+ gainfactory gain factory =	new gradientgain gradient gain factory lvs 
+ else if gainname gain name equals information_gain 
+ gainfactory gain factory =	new infogain info gain factory 
+ else
+ throw new illegalargumentexception illegal argument unsupported gain name +gainname +gain name 
+ 
+ featureinducer feature inducer klfi =
+ new featureinducer feature inducer gainfactory gain factory 
+ errorinstances instances 
+ numfeaturesperfeatureinduction num features per feature induction 
+ 2*numfeaturesperfeatureinduction 2*num features per feature induction 
+ 2*numfeaturesperfeatureinduction 2*num features per feature induction 
+ 
+ note that this adds features globally but not on a per transition basis
+ klfi inducefeaturesfor induce features for trainingdata training data 
+ if testingdata testing data != klfi inducefeaturesfor induce features for testingdata testing data 
+ logger info maxent max ent featureselection feature selection now includes +globalfs +global f s cardinality + features 
+ klfi = 
+
+ newparameters new = new 1+inputalphabet 1+input alphabet size * outputalphabet output alphabet size 
+
+ xxx x x x executing this block often causes an during training i don't know why 
+ if saveparametersduringfi save during f i {
+ keep current parameter values
+ xxx x x x this relies on the detail that the most recent features
+ added to an alphabet get the highest indices 
+ 
+ count per output label
+ oldparamcount old count = maxent length / outputalphabet output alphabet size 
+ newparamcount new count = 1+inputalphabet 1+input alphabet size 
+ copy params into the proper locations
+ for i=0 i<outputalphabet i<output alphabet size i++ {
+ arraycopy maxent i*oldparamcount i*old count 
+ newparameters new i*newparamcount i*new count 
+ oldparamcount old count 
+ }
+ for i=0 i<oldparamcount i<old count i++ 
+ if maxent i != newparameters new i {
+ out maxent i + +newparameters +new i 
+ exit 0 
+ }
+ }
+ 
+ maxent = newparameters new 
+ maxent defaultfeatureindex default feature index = inputalphabet input alphabet size 
+ }
+ 
+ finished feature induction
+ logger info ended with +globalfs +global f s cardinality + features 
+ setnumiterations set num iterations totaliterations total iterations trainingiteration training iteration 
+ this train trainingdata training data validationdata validation data testingdata testing data 
+ evaluator maxent 
+ }
+ */ 	+ +maximizerclass +maximizer getname get name + a inner that wraps up a rankmaxent rank max ent classifier and its training data the result is a maximize maximizable function the expectations are temporarily stored in the cachedgradient cached gradient just for clarity don't fd stopgrowth stop growth because someone might want to do feature induction ld stopgrowth stop growth add one feature for the default feature assume underlying instances are binary this numlabels num labels = underlyinglabelalphabet underlying label alphabet size xxx add the default feature index to the selection xxx later change this to allow both to be set but select which one to use by a flag? initialize the constraints using only the constraints from the positive instance label of best instance in sublist sub list invalid instance xxx ensure dimensionality of constraints correct for the default feature whose weight is 1 0 assert !double ! isnan is na n bestindex best index is nan na n default constraints for positive instances xxx testmaximizable test maximizable testvalueandgradientcurrentparameters test value and gradient current this log probability of the training labels which here means the probability of the positive example being labeled as such we'll store the expectation values in cachedgradient cached gradient for now incorporate likelihood of data scores stores pr of sublist sub list i being positive instance labeling is a representation of an indicating which featurevector feature vector from the sublist sub list is the positive example					 if is proceed as usual else if is do not penalize scores for duplicate entries this improved accuracy in some expts hack to avoid invalid instances incorporate prior on maximize m a x i m i z e not n o t minimize m i n i m i z e gradient is constraint expectation parameters/gaussianpriorvariance parameters/gaussian prior variance this will fill in the cachedgradient cached gradient with the expectation incorporate prior on a parameter may be set to infinity by an external user we set gradient to 0 because the parameter's value can never change anyway and it will mess up future calculations on the matrix such as norm set to zero all the gradient dimensions that are not among the selected features serialization s e r i a l i z a t i o n 

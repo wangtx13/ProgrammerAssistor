@@ -1,0 +1,1 @@
+the entire set of instances given to the root node indices of instances at this node data vocabulary mininum number of instances allowed in this node serialization serialversionuid serial uid is overriden to prevent innocuous changes in this from making the serialization mechanism think the external format has changed 

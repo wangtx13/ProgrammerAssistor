@@ -1,0 +1,1 @@
+filename2charsequenceextends filename2 char sequenceextends pipeimplements io serializable filename2charsequence filename2 char sequence instance pipe instance carrier charsequence char sequence pipe io reader reader io ioexception i o 所有已实现的接口 alphabetcarrying alphabet carrying io serializable 另请参阅 序列化表格 覆盖 pipe 在类中 pipe 抛出 io ioexception i o 

@@ -1,0 +1,45 @@
+after training sets have been gathered in the states record which instancelist instance list we've gathers so we don't count instances gsc user is supposed to set the weights manually so this flag is not needed 	boolean usesparseweights use sparse weights = 	public memmtrainer m e m m trainer setusesparseweights set use sparse weights f { usesparseweights use sparse weights = f this } allocate space for the and place transition featurevectors feature vectors in per source state instancelists instance lists here gatheringtrainingsets gathering training sets will be and these will result in new instancelist's instance list's being created in each source state and the featurevectors feature vectors of their outgoing transitions to be added to them as the data field in the instances gsc the user has to set the weights manually 		if usesparseweights use sparse weights { 			memm setweightsdimensionasin set weights dimension as in training 		} else { 			memm setweightsdimensiondensely set weights dimension densely 		} /*
+		if {
+			 expectation based placement of training data would go here 
+			for i = 0 i < training size i++ {
+				instance {
+				 instance instance = training get i 
+				featurevectorsequence 
+				 feature vector sequence input = featurevectorsequence feature vector sequence instance getdata get data 
+				featuresequence 
+				 feature sequence output = featuresequence feature sequence instance gettarget get target 
+				 do it for the paths consistent with the labels 
+				gatheringconstraints 
+				gathering constraints = 
+				new sumlatticedefault sum lattice default this input output 
+				 and also do it for the paths selected by the current model so we will get some negative weights 
+				gatheringconstraints 
+				gathering constraints = 
+				if this sometrainingdone some training done 
+					 do this once some training is done 
+					new sumlatticedefault sum lattice default this input 
+			}
+			gatheringweightspresent 
+			}
+			gathering weights present = 
+			sparsevector 
+			 sparse vector newweights new weights = new sparsevector sparse vector weights length 
+			for i = 0 i < weights length i++ {
+				int numlocations num locations = weightspresent weights present i cardinality 
+				logger info crf c r f weights +weightalphabet +weight alphabet lookupobject lookup i + num features = +numlocations +num locations 
+				int indices = new numlocations num locations 
+				for j = 0 j < numlocations num locations j++ {
+					indices j = weightspresent weights present i nextsetbit next set bit j == 0 ? 0 indices j 1 +1 
+					 out crf4 c r f4 has index +indices j 
+				}
+				newweights 
+				}
+				new weights i = new indexedsparsevector indexed sparse vector indices new numlocations num locations 
+						numlocations 
+						num locations numlocations num locations 
+				newweights 
+				new weights i plusequalssparse plus equals sparse weights i 
+			}
+			weights = newweights new weights 
+		}
+		*/ gather the constraints 		boolean continuetraining continue training = it would be easy enough to support this just go through all the states and set trainingset training set to do it for the paths consistent with the labels create the source state's trainingset training set if it doesn't yet new instancelist instance list with a pipe because it doesn't do any processing of input todo t o d o we should make sure we don't add duplicates through a second call to setweightsdimenstion set weights dimenstion ! todo t o d o note that when the training data still allows ambiguous outgoing transitions this will add the same fv f v more than once to the source state's trainingset training set each with >1 0 weight not incorrect but inefficient 						system 						 out from +source getname get name + > +getoutput +get output + +getinput +get input if constraints=false log probability of the training labels instance values must either always or never be included in the total values we can't just sometimes skip a value because it is infinite this off the total values gsc advance the iterator 						state 						 state destination = memm m e m m state iter nextstate next state just to advance the iterator iter incrementcount increment count math exp weight * instweight inst weight xxx ????? infinitevalues infinite values set j force initial weight to 0 by making sure that whether factor refers to expectation or constraint they have the same value log probability of the training sequence labels and fill in expectations todo t o d o auto generated stub todo t o d o auto generated stub 

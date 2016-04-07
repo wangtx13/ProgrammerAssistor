@@ -1,0 +1,1 @@
+pipeexceptionextends pipe exceptionextends pipeexception pipe 所有已实现的接口 io serializable 另请参阅 序列化表格 

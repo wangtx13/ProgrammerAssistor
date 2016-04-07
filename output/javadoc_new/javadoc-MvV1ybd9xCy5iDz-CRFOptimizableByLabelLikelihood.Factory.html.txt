@@ -1,0 +1,1 @@
+crfoptimizablebylabellikelihood c r f optimizable by label likelihood factoryextends factory optimizable bygradientvalue by gradient value newcrfoptimizable new c r f optimizable crf c r f crf instancelist instance list trainingdata training data 封闭类 crfoptimizablebylabellikelihood c r f optimizable by label likelihood 

@@ -1,0 +1,1 @@
+/* maps from vars => indicies */ /* list of each represents one configuration */ compute sizes these could be cached expand all rows to change body of use | settings | templates todo think about the semantics of this in defaultreadobject default read out defaultwriteobject default write 

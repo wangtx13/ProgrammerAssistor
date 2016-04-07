@@ -1,0 +1,1 @@
+optimizable bygisupdateextends by g i s updateextends optimizable getvalue get value getgisupdate get g i s update buffer 所有超级接口 optimizable 封闭接口 optimizable 

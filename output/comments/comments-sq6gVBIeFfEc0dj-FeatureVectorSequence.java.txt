@@ -1,0 +1,1 @@
+sb append sequence i getclass get getname get name sb append ' ' serialization of instance 

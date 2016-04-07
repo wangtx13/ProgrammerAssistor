@@ -1,0 +1,1 @@
+tests finding a feasible initial assignment in a sparse model assert no 

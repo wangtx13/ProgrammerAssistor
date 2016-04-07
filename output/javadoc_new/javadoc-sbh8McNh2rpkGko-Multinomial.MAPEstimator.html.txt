@@ -1,0 +1,1 @@
+multinomial mapestimatorextends m a p estimatorextends multinomial estimator mapestimator m a p estimator dirichlet d multinomial estimate 所有已实现的接口 io serializable cloneable 封闭类 multinomial 另请参阅 序列化表格 指定者 estimate 在类中 multinomial estimator 

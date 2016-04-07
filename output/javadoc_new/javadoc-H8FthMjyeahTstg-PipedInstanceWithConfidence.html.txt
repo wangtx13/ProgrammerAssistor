@@ -1,0 +1,1 @@
+pipedinstancewithconfidenceextends piped instance with confidenceextends objectimplements comparable pipedinstancewithconfidence piped instance with confidence instance inst c correct compareto compare to o getconfidence get confidence instance getinstance get instance correct 所有已实现的接口 comparable 指定者 compareto compare to 在接口中 comparable 

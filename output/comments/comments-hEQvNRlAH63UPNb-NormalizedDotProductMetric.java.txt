@@ -1,0 +1,1 @@
+stores the self dot products used for normalization 		double ret = a dotproduct dot product b / 								 math sqrt a dotproduct dot product a * b dotproduct dot product b gmann twonorm two norm more efficient than a dotproduct dot product a 

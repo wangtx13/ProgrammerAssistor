@@ -1,0 +1,1 @@
+allpairsiteratorextends all pairs iteratorextends neighboriterator neighbor iterator allpairsiterator all pairs iterator clustering clustering hasnext has next instance next 所有已实现的接口 iterator 从以下版本开始 1 0 另请参阅 neighboriterator neighbor iterator 参数 clustering clustering 

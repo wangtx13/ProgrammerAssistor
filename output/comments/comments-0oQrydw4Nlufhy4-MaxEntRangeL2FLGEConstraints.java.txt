@@ -1,0 +1,1 @@
+maps between input feature indices and constraints cache of set of constrained features that fire at last featurevector feature vector provided in preprocess call count default feature for label regularization cache constrained input features default feature for label regularization value due to current constraint 

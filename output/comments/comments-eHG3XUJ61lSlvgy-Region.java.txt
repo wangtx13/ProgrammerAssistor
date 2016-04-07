@@ -1,0 +1,23 @@
+collection of discrete potentials giving the factors of this region list of parent regions list of child regions all variables in region cache for computing message passing strategy /* i think these were mistakes 
+
+ equals o 
+ {
+ if this == o 
+ if ! o instanceof region 
+
+ region region = region o 
+
+ if factors != ? !factors equals region factors region factors != 
+ if vars != ? !vars equals region vars region vars != 
+
+ 
+ }
+
+ hashcode hash 
+ {
+ result 
+ result = factors != ? factors hashcode hash 0 
+ result = 29 * result + vars != ? vars hashcode hash 0 
+ result 
+ }
+ */ no display of factors 

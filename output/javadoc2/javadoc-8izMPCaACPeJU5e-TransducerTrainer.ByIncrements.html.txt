@@ -1,0 +1,1 @@
+transducertrainer transducer trainer byincrementsextends by incrementsextends transducertrainer transducer trainer byincrements by increments trainincremental train incremental instancelist instance list incrementaltrainingset incremental training set 直接已知子类 transducertrainer transducer trainer byinstanceincrements by instance increments 封闭类 transducertrainer transducer trainer 

@@ -1,0 +1,1 @@
+higher value means higher confidence this sequence is correct 

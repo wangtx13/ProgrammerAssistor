@@ -1,0 +1,1 @@
+multinomial mlestimatorextends m l estimatorextends multinomial mestimator m estimator mlestimator m l estimator mlestimator m l estimator size mlestimator m l estimator alphabet dictionary 所有已实现的接口 io serializable cloneable 封闭类 multinomial 另请参阅 序列化表格 

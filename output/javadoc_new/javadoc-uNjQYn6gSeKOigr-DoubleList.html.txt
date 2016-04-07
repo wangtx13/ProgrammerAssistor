@@ -1,0 +1,1 @@
+doublelistextends listextends objectimplements io serializable doublelist list doublelist list capacity doublelist list size fillvalue fill value doublelist list initialvalues initial values size doublelist list initialvalues initial values doublelist list clonedoublelist clone list clone add value get index set index value 所有已实现的接口 io serializable 另请参阅 序列化表格 覆盖 clone 在类中 

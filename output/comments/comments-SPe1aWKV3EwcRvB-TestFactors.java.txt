@@ -1,0 +1,1 @@
+comparepotentials compare potentials ptl new { 1 098712293668443 0 916290731874155 0 4055651131084978 0 5108256237659907 } comparepotentials compare potentials actual new { math log 0 75 math log 0 2 } 0 4 0 3 = 0 1 

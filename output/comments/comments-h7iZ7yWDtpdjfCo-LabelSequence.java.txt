@@ -1,0 +1,1 @@
+??? get pos {	return getlabelatposition get label at position pos } serialization 

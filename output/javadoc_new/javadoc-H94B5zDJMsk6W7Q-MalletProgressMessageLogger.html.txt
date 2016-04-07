@@ -1,0 +1,1 @@
+malletprogressmessageloggerextends mallet progress message loggerextends malletlogger mallet logger malletprogressmessagelogger mallet progress message logger name resourcebundlename resource bundle name logging logger getlogger get logger name log logging logrecord log record logrecord log record 覆盖 log 在类中 logging logger 

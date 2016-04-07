@@ -1,0 +1,1 @@
+train supervised train semi supervised turn off the prior it already appears above! 

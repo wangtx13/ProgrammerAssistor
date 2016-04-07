@@ -1,0 +1,1 @@
+these are for using this from the command line run it again because in our and sam roweis' experience bfgs b f g s can still eke out more likelihood after first convergence by re running without being restricted by its gradient history progress messages are on one line move on 

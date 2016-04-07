@@ -1,0 +1,1 @@
+access using a single index efficient for dense matrices but not sparse move to densematrix? dense matrix? access by index into sparse efficient for sparse and dense matrices a singleindex single index 

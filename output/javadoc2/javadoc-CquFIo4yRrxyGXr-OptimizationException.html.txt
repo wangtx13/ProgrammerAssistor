@@ -1,0 +1,1 @@
+optimizationexceptionextends optimization exceptionextends runtimeexception runtime optimizationexception optimization optimizationexception optimization message optimizationexception optimization message throwable cause optimizationexception optimization throwable cause 所有已实现的接口 io serializable 直接已知子类 invalidoptimizableexception invalid optimizable 另请参阅 序列化表格 

@@ -1,0 +1,1 @@
+accuracycoverage accuracy coverage classificationcomparatorextends classification comparatorextends objectimplements comparator classificationcomparator classification comparator compare a b 所有已实现的接口 comparator 封闭类 accuracycoverage accuracy coverage 指定者 compare 在接口中 comparator 

@@ -1,0 +1,1 @@
+astarstateextends a star stateextends searchstate search state completioncost completion cost 所有超级接口 searchstate search state 返回 the cost 

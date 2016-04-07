@@ -1,0 +1,1 @@
+similartokenstemplate similar tokens template capwordsbinnerextends cap words binnerextends similartokenstemplate similar tokens template wordfeaturebinner word feature binner capwordsbinner cap words binner 所有已实现的接口 similartokenstemplate similar tokens template featurevectorbinner feature vector binner io serializable 封闭类 similartokenstemplate similar tokens template 另请参阅 序列化表格 

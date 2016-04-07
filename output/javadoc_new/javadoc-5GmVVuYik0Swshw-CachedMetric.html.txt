@@ -1,0 +1,1 @@
+cachedmetricextends cached metricextends metric distance sparsevector sparse vector a hashcodea hash a sparsevector sparse vector b hashcodeb hash b 所有超级接口 metric 所有已知实现类 normalizeddotproductmetric normalized dot product metric 

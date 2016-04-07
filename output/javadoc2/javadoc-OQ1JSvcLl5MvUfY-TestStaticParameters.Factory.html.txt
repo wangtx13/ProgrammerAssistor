@@ -1,0 +1,1 @@
+teststaticparameters test factoryextends gamma factory teststaticparameters test newtsp new t s p 封闭类 teststaticparameters test 

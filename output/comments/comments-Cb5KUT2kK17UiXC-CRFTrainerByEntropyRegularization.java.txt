@@ -1,0 +1,3 @@
+/* 
+ * this is not used because we require both labeled and unlabeled data 
+ */ train with log likelihood only first train with log likelihood + entropy regularization sometimes resetting the optimizer helps to find a better parameter setting 

@@ -1,0 +1,1 @@
+@deprecatedpublic @ deprecatedpublic optimizer bybatches by batches optimize numsamples num samples sampleassigments sample assigments optimize numiterations num iterations numsamples num samples sampleassignments sample assignments 所有已知实现类 stochasticmetaascent stochastic meta ascent 封闭接口 optimizer 

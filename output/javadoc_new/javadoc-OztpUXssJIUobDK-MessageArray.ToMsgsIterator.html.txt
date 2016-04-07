@@ -1,0 +1,1 @@
+messagearray message tomsgsiteratorextends to msgs iteratorextends hasnext has next factor next factor currentmessage current message currenttoidx current to idx 封闭类 messagearray message 

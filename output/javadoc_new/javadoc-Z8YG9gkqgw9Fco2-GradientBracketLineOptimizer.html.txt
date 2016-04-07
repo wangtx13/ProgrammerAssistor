@@ -1,0 +1,1 @@
+gradientbracketlineoptimizerextends gradient bracket line optimizerextends objectimplements lineoptimizer line optimizer gradientbracketlineoptimizer gradient bracket line optimizer optimizable bygradientvalue by gradient value function optimize line initialstep initial step 所有已实现的接口 lineoptimizer line optimizer 指定者 optimize 在接口中 lineoptimizer line optimizer 
