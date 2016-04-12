@@ -1,1 +1,0 @@
-how many tokens to merge for a match avoid setting features twice on reaching a new token test all strings with at least min tokens which end in the new token start by testing rightmost suffix and grow leftward take another token else prepend token on a match mark all participating tokens set feature on all tokens participating in any match 

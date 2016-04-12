@@ -1,1 +1,0 @@
-universeextends objectimplements io serializable universe default d e f a u l t universe resetuniverse reset universe add variable var variable get idx getindex get index variable var size tintobjecthashmap t hash map lookupprojectioncache lookup projection cache varset var set varset var set 所有已实现的接口 io serializable 另请参阅 序列化表格 

@@ -1,1 +1,0 @@
-gelattice g e lattice latticenodeextends lattice nodeextends lognumber log number alpha lognumber log number beta latticenode lattice node 封闭类 gelattice g e lattice 

@@ -1,1 +1,0 @@
-univariateextends five univariate data summary mean variance stdev se s e max min median quant q sort getdata get data size elementat element at index subset indices compare t between t1 t2 indexof index of element 

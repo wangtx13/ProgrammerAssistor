@@ -1,1 +1,0 @@
-exactmatchcomparatorextends exact match comparatorextends objectimplements fieldcomparator field comparator exactmatchcomparator exact match comparator matches fieldval1 field val1 fieldval2 field val2 所有已实现的接口 fieldcomparator field comparator 指定者 matches 在接口中 fieldcomparator field comparator 

@@ -1,1 +1,0 @@
-@deprecatedpublic @ deprecatedpublic pipeinputiteratorextends pipe input iteratorextends objectimplements iterator pipeinputiterator pipe input iterator instance next hasnext has next remove getweight get weight 所有已实现的接口 iterator 另请参阅 pipe instancelist instance list 指定者 next 在接口中 iterator 指定者 hasnext has next 在接口中 iterator 指定者 remove 在接口中 iterator 

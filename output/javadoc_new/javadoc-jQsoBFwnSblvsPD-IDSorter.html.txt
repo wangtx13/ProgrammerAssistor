@@ -1,1 +1,0 @@
-idsorterextends sorterextends objectimplements comparable idsorter sorter sortedids = new idsorter sorter n for i=0 i idsorter sorter p idsorter sorter p compareto compare to o2 getid getweight get weight set p 所有已实现的接口 comparable 指定者 compareto compare to 在接口中 comparable 

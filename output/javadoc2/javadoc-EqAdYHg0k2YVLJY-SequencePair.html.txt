@@ -1,1 +1,0 @@
-sequencepairextends sequence pairextends sequence input sequence output sequencepair sequence pair sequence input sequence output sequencepair sequence pair sequence input sequence output 直接已知子类 sequencepairalignment sequence pair alignment 

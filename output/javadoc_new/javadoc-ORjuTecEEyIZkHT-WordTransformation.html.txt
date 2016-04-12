@@ -1,1 +1,0 @@
-wordtransformationextends word transformationextends wordtransformation word transformation wordtransformation word transformation dospelling do spelling dodigitcollapses do digit collapses dodowncasing do downcasing token transformedtoken transformed token original 

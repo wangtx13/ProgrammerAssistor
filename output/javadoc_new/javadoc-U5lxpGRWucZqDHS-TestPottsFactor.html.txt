@@ -1,1 +1,0 @@
-testpottsfactorextends test potts factorextends testcase test case testpottsfactor test potts factor name testsuite test suite suite setup set up testslice test slice testsumgradlog test sum grad log testsumgradlog2 test sum grad log2 返回 a testsuite test suite 抛出 

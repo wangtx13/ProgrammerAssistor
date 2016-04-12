@@ -1,1 +1,0 @@
-all classifiers must have set of labels not all classifiers require a feature dictionary however todo t o d o change this name to getpipe get pipe todo t o d o make argument list<instance> list< instance> various evaluation 

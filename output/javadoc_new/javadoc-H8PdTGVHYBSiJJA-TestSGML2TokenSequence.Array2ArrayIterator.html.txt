@@ -1,1 +1,0 @@
-testsgml2tokensequence test s g m l2 token sequence array2arrayiteratorextends array2 iteratorextends pipe array2arrayiterator array2 iterator instance pipe instance carrier 所有已实现的接口 alphabetcarrying alphabet carrying io serializable 封闭类 testsgml2tokensequence test s g m l2 token sequence 另请参阅 序列化表格 覆盖 pipe 在类中 pipe 

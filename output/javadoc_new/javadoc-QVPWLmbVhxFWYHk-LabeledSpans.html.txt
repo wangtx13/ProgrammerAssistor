@@ -1,1 +1,0 @@
-labeledspansextends labeled spansextends arraylistsequence list sequence labeledspans labeled spans document getdocument get document label getlabel get label i span getspan get span i labeledspan labeled span getlabeledspan get labeled span i 所有已实现的接口 sequence io serializable cloneable iterable collection list randomaccess random access 另请参阅 序列化表格 

@@ -1,1 +1,0 @@
-charsequencereplaceextends char sequence replaceextends pipeimplements io serializable regex pattern skip_sgml regex pattern skip_header charsequencereplace char sequence replace regex pattern regex replacement instance pipe instance carrier 所有已实现的接口 alphabetcarrying alphabet carrying io serializable 另请参阅 序列化表格 覆盖 pipe 在类中 pipe 

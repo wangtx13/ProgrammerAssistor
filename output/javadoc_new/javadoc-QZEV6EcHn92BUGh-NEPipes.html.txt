@@ -1,1 +1,0 @@
-nepipesextends n e pipesextends serialpipes serial pipes nepipes n e pipes io placedir place dir 所有已实现的接口 alphabetcarrying alphabet carrying io serializable 另请参阅 序列化表格 

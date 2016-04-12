@@ -1,1 +1,0 @@
-progressmessagelogrecordextends progress message log recordextends logging logrecord log record progressmessagelogrecord progress message log record logging logrecord log record logrecord log record 所有已实现的接口 io serializable 另请参阅 序列化表格 

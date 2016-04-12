@@ -1,1 +1,0 @@
-for arbitrary properties numeric to turn into a featurevector feature vector xxx this may change in the future! if you really just want the text you should use token gettext get text instead serialization 

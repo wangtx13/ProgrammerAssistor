@@ -1,1 +1,0 @@
-fieldextends field labeledspan labeled span span label getname get name numvalues num values value i labeledspan labeled span span i addfiller add filler labeledspan labeled span span isvalue is value filler isvalue is value filler fieldcomparator field comparator comper tostring to 覆盖 tostring to 在类中 

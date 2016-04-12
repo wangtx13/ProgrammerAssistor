@@ -1,1 +1,0 @@
-testabstractbeliefpropagationextends test belief propagationextends testcase test case testabstractbeliefpropagation test belief propagation name testsuite test suite suite testbadvariable test bad variable 返回 a testsuite test suite 

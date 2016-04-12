@@ -1,1 +1,0 @@
-graph2extends graph graph2 title min max xlabel x label ylabel y label paint awt graphics g 所有已实现的接口 awt image imageobserver image observer awt menucontainer menu container io serializable javax accessibility accessible 另请参阅 序列化表格 覆盖 paint 在类中 graph 

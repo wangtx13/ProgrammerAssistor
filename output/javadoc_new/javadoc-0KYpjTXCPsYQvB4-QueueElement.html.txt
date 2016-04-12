@@ -1,1 +1,0 @@
-queueelement queue element getpriority get priority setpriority set priority priority getposition get position setposition set position pos 所有已知实现类 astarnode a star node searchnode search node 返回 the priority 参数 priority the element's new priority 返回 the current position 参数 pos the new position for the element 

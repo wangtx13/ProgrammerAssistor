@@ -1,1 +1,0 @@
-graph legendextends legend add name awt color color i name i size longeststring longest 封闭类 graph 

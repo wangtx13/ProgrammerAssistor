@@ -1,1 +1,0 @@
-assume the feature name has no spaces 

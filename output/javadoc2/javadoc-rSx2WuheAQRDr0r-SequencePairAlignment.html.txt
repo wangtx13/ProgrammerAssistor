@@ -1,1 +1,0 @@
-sequencepairalignmentextends sequence pair alignmentextends sequencepair sequence pair weight sequencepairalignment sequence pair alignment sequence input sequence output weight sequencepairalignment sequence pair alignment getweight get weight 

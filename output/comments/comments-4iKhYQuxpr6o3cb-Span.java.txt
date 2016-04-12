@@ -1,1 +1,0 @@
-rename to segment then also segmentation segmentsequence segment sequence segmentlist segment list alternatively think about names annotation annotationlist annotation list 

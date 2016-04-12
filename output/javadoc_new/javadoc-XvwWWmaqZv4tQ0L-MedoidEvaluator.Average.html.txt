@@ -1,1 +1,0 @@
-medoidevaluator medoid evaluator averageextends objectimplements medoidevaluator medoid evaluator combiningstrategy combining strategy average combine scores 所有已实现的接口 medoidevaluator medoid evaluator combiningstrategy combining strategy 封闭类 medoidevaluator medoid evaluator 指定者 combine 在接口中 medoidevaluator medoid evaluator combiningstrategy combining strategy 

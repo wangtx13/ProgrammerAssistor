@@ -1,1 +1,0 @@
-target2bioformatextends target2 b i o formatextends pipeimplements io serializable target2bioformat target2 b i o format target2bioformat target2 b i o format background instance pipe instance carrier 所有已实现的接口 alphabetcarrying alphabet carrying io serializable 另请参阅 序列化表格 参数 background represents tokens that are not part of a target segment 覆盖 pipe 在类中 pipe 

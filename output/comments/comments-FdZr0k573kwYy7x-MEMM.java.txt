@@ -1,1 +1,0 @@
-	private logger logger = malletlogger mallet logger getlogger get logger memm m e m m getname get name necessary because the crf4 c r f4 will crf4 c r f4 transitioniterator transition iterator normalize the next state costs so they are log probabilities this is the heart of the difference between the locally normalized memm m e m m and the globally normalized crf c r f 

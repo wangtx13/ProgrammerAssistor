@@ -1,1 +1,0 @@
-analogous to base classify classifier todo t o d o possibly in the future create document and corpus this would allow calling an extractor on multiple documents in a type safe manner 

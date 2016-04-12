@@ -1,1 +1,0 @@
-patternmatchiteratorextends pattern match iteratorextends objectimplements iterator patternmatchiterator pattern match iterator charsequence char sequence input regex pattern regexp getnextelement get next element instance next hasnext has next remove 所有已实现的接口 iterator 指定者 next 在接口中 iterator 指定者 hasnext has next 在接口中 iterator 指定者 remove 在接口中 iterator 

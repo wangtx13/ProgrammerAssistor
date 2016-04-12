@@ -1,1 +1,0 @@
-propertylist property list objectiteratorextends iteratorextends propertylist property list iteratorimplements io serializable objectiterator iterator propertylist property list pl 所有已实现的接口 io serializable iterator 封闭类 propertylist property list 另请参阅 序列化表格 

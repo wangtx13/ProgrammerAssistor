@@ -1,1 +1,0 @@
-2d vector one column for each series set xmin xmax based on item vector todo t o d o make this user defined draw the title draw the labels draw the max and min values draw the vertical and horizontal lines draw legend first item added 				colors add prevcolor prev color brighter halve alpha value init to shortest 

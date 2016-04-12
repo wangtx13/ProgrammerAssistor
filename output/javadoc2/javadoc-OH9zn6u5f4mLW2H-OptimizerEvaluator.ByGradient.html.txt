@@ -1,1 +1,0 @@
-optimizerevaluator optimizer evaluator bygradient by gradient evaluate optimizable bygradientvalue by gradient value maxable iter 封闭接口 optimizerevaluator optimizer evaluator 参数 maxable function that's being optimized iter number of just finished iteration 返回 if optimization should continue 

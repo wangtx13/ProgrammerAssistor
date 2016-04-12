@@ -1,1 +1,0 @@
-sort confidences by score here y = {incorrect = 0 correct = 1} x = confidence product of x and y num accuracies to sum for this value of cov 

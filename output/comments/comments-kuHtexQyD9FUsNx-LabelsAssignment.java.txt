@@ -1,1 +1,0 @@
-these are just for printing race conditions don't matter assumes that lblseq not ragged hack 

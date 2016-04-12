@@ -1,1 +1,0 @@
-we're not concerned with the precision variable handle the off diagonal intercept terms now do x'y the intercept term counts the instances l2 regularized regression aka ridge regression now multiply the matrix x'x^ x' x^ 1 by the vector x'y compute residuals and mean squared 

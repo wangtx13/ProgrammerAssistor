@@ -1,1 +1,0 @@
-process the command line options we're not saving the instance list just writing to the out 

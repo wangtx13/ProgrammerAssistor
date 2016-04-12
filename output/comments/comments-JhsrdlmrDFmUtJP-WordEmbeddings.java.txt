@@ -1,1 +1,0 @@
-are all the threads done? process the command line options 

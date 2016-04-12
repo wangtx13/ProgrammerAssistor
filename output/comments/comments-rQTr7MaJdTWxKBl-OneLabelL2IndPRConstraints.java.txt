@@ -1,1 +1,0 @@
-maps between input feature indices and constraints cache of set of constrained features that fire at last featurevector feature vector provided in preprocess call this will be set by the prtrainer p r trainer copy constraints cache constrained input features find examples that contain constrained input features count this will be incremented in the copy 

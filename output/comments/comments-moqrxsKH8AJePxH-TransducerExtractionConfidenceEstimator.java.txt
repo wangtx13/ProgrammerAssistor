@@ -1,1 +1,0 @@
-warning w a r n i n g input tokenization will likely already have many features appended from the last time it was passed through a featurepipe feature pipe to avoid a redundant calculation of features the caller may want to set this featurepipe feature pipe = tokensequence2featurevectorsequence token sequence2 feature vector sequence 

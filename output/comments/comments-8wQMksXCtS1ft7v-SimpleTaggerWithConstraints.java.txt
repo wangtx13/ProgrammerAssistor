@@ -1,9 +1,0 @@
-/*
- commandoption command option connectedoption connected option = new commandoption command option 
- semisupsimpletagger semi sup simple tagger fully connected true|false 
- include all allowed transitions even those not in training data 
- */ /*
- commandoption command option weightsoption weights option = new commandoption command option 
- semisupsimpletagger semi sup simple tagger weights sparse|some dense|dense some dense 
- use sparse some dense using a heuristic or dense features on transitions 
- */ connectedoption connected option weightsoption weights option 

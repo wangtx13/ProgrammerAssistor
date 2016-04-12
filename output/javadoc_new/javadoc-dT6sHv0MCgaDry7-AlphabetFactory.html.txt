@@ -1,1 +1,0 @@
-alphabetfactoryextends alphabet factoryextends alphabetfactory alphabet factory alphabet alphabetofsize alphabet of size n labelalphabet label alphabet labelalphabetofsize label alphabet of size n alphabet loadfromfile load from io alphabetfile alphabet io ioexception i o 抛出 io ioexception i o 

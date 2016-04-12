@@ -1,1 +1,0 @@
-tokensequence2tokeninstancesextends token sequence2 token instancesextends pipe tokensequence2tokeninstances token sequence2 token instances iterator newiteratorfrom new iterator from iterator source 所有已实现的接口 alphabetcarrying alphabet carrying io serializable 另请参阅 序列化表格 覆盖 newiteratorfrom new iterator from 在类中 pipe 

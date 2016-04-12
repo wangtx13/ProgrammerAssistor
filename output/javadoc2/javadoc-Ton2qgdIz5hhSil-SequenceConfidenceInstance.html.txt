@@ -1,1 +1,0 @@
-sequenceconfidenceinstanceextends sequence confidence instanceextends sequenceconfidenceinstance sequence confidence instance instance inst instance getinstance get instance propertylist property list getfeatures get features setfeaturevalue set feature value key value hasfeature has feature key getfeaturevalue get feature value key 

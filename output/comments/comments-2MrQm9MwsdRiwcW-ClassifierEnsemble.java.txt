@@ -1,1 +1,0 @@
-run each classifier on the instance summing each one's per score with a weight exponentiate and normalize scores 

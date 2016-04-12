@@ -1,5 +1,0 @@
-/* this doesn't belong here akm 11/2007
-	public sequence outputnbest output n best {return outputnbest output n best }
-	public costnbest cost n best {return costnbest cost n best }
-	public confidencenbest confidence n best {return confidencenbest confidence n best }
-	*/ 

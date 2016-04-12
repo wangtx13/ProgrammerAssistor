@@ -1,1 +1,0 @@
-singleinstanceiteratorextends single instance iteratorextends objectimplements iterator singleinstanceiterator single instance iterator instance inst hasnext has next instance next remove 所有已实现的接口 iterator 指定者 hasnext has next 在接口中 iterator 指定者 next 在接口中 iterator 指定者 remove 在接口中 iterator 

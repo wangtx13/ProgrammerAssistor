@@ -1,1 +1,0 @@
-testfeaturevectorextends test feature vectorextends testcase test case testfeaturevector test feature vector name setup set up testduplicatevaluefromfeaturesequence test duplicate value from feature sequence testsinglevaluefromfeaturesequence test single value from feature sequence testsizefromfeaturesequence test size from feature sequence test suite 

@@ -1,1 +1,0 @@
-pairwiseevaluator pairwise evaluator combiningstrategy combining strategy combine scores 所有已知实现类 pairwiseevaluator pairwise evaluator average pairwiseevaluator pairwise evaluator maximum pairwiseevaluator pairwise evaluator minimum 封闭类 pairwiseevaluator pairwise evaluator 从以下版本开始 1 0 

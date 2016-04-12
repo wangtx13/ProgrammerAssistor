@@ -1,1 +1,0 @@
-we can still have subsumed regions in the list if the smaller region was added first computing base regions 

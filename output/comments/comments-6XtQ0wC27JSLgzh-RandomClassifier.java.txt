@@ -1,5 +1,0 @@
-/* this is part of mallet m a l l e t machine m achine learning for language languag e toolkit 
- http www cs umass edu/~mccallum/mallet
- this software is provided under the terms of the common license 
- 1 0 as published by http www opensource org for further
- information see the `license' ` l i c e n s e' included with this distribution */ using a list instead of a set so that more frequent labels in the training data are more likely in classification 

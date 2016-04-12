@@ -1,5 +1,0 @@
-careful to set this properly in subclasses! consider removing akm 1/08 /* no it is fine if these can be set in the constructor only 
-	 * individual classifiertrainer classifier trainer subclasses could provide this if desired 
-	public c setinitialclassifier set initial classifier c initialclassifier initial classifier { }
-	public c getinitialclassifier get initial classifier { } 
-	*/ this is recommended but cannot be enforced in that subclasses implement classifier train instancelist instance list trainingset training set classifier train instancelist instance list trainingset training set instancelist instance list validationset validation set classifier train instancelist instance list trainingset training set instancelist instance list validationset validation set classifier initialclassifier initial classifier which call 

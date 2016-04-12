@@ -1,1 +1,0 @@
-dirichlet estimatorextends estimator estimator collection multinomialstraining multinomials training addmultinomial add multinomial multinomial m dirichlet estimate 直接已知子类 dirichlet methodofmomentsestimator of moments estimator 封闭类 dirichlet 

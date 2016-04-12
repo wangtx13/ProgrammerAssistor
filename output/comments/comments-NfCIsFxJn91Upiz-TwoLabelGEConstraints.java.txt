@@ -1,1 +1,0 @@
-count binary constraint features to avoid complications with the start state only consider transitions into states at position >= 1 binary constraint features 

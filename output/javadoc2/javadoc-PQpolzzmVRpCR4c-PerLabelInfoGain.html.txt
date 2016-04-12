@@ -1,1 +1,0 @@
-perlabelinfogainextends per label info gainextends perlabelinfogain per label info gain instancelist instance list ilist infogain info gain getinfogain get info gain classindex index getnumclasses get num classes calcperlabelinfogains calc per label info gains instancelist instance list ilist 

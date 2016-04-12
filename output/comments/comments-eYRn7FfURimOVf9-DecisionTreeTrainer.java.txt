@@ -1,8 +1,0 @@
-this is recommended but cannot be enforced in that subclasses implement classifier train instancelist instance list trainingset training set classifier train instancelist instance list trainingset training set instancelist instance list validationset validation set classifier train instancelist instance list trainingset training set instancelist instance list validationset validation set classifier initialclassifier initial classifier which call /*
-	public {
-		decisiontreetrainer {
-		 decision tree trainer factory dtf = new decisiontreetrainer decision tree trainer factory {{ maxdepth max depth = 6 }} 
-		decisiontreetrainer 
-		 decision tree trainer factory dtf = new decisiontreetrainer decision tree trainer factory setmaxdepth set max depth 6 setmininfogainsplit set min info gain split 2 
-	}
-	*/ 

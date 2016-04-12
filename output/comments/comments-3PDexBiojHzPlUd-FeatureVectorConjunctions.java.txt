@@ -1,1 +1,0 @@
-this does not insist on getting its own alphabet because it can rely on getting it from the featuresequence feature sequence input serialization 

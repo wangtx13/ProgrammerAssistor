@@ -1,1 +1,0 @@
-featuresequence2featurevectorextends feature sequence2 feature vectorextends pipeimplements io serializable featuresequence2featurevector feature sequence2 feature vector binary featuresequence2featurevector feature sequence2 feature vector instance pipe instance carrier 所有已实现的接口 alphabetcarrying alphabet carrying io serializable 另请参阅 序列化表格 覆盖 pipe 在类中 pipe 

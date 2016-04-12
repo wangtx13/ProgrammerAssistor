@@ -1,1 +1,0 @@
-*** general purpose regex single token multiple token *** regex for money a sample big number not eur notation *** regex for time *** regex for phone # *** regex for dates should be the last feature pipe 

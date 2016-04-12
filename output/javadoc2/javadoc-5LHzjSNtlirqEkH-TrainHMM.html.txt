@@ -1,1 +1,0 @@
-trainhmmextends train h m mextends trainhmm train h m m trainingfilename training filename testingfilename testing filename io ioexception i o args 抛出 io ioexception i o 抛出 

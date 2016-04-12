@@ -1,1 +1,0 @@
-progressmessagelogformatterextends progress message log formatterextends logging simpleformatter simple formatter progressmessagelogformatter progress message log formatter format logging logrecord log record record 覆盖 format 在类中 logging simpleformatter simple formatter 

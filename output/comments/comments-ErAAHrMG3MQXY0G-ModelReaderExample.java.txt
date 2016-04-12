@@ -1,1 +1,0 @@
-a simple example of the probably too simple modelreader model reader 

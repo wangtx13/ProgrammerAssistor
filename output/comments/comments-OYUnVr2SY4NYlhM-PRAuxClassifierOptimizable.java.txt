@@ -1,1 +1,0 @@
-sumlogp sum log p = 0 exp normalize increment expectations 

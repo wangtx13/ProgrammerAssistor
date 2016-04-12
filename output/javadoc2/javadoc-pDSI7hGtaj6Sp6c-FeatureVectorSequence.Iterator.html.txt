@@ -1,1 +1,0 @@
-featurevectorsequence feature vector sequence iteratorextends objectimplements iterator iterator featurevector feature vector next getindex get index hasnext has next remove 所有已实现的接口 iterator 封闭类 featurevectorsequence feature vector sequence 指定者 next 在接口中 iterator 指定者 hasnext has next 在接口中 iterator 指定者 remove 在接口中 iterator 

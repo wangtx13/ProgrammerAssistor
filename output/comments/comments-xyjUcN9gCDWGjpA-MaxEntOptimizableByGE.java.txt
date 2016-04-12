@@ -1,1 +1,0 @@
-pass 1 calculate model distribution skip if labeled compute value pass 2 determine per example gradient skip if labeled 

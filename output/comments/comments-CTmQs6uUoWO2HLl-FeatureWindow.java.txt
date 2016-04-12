@@ -1,1 +1,0 @@
-add to features of token i the features of token index 

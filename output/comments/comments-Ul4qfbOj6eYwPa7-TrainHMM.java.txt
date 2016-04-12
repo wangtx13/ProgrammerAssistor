@@ -1,1 +1,0 @@
-hmm addstatesforbilabelsconnectedasin add states for bi labels connected as in traininginstances training instances 
