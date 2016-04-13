@@ -142,6 +142,7 @@ public class PreProcessServlet extends HttpServlet {
             factory.setSizeThreshold(maxMemSize);
             // Location to save data that is larger than maxMemSize.
             factory.setRepository(new File("/Users/wangtianxia1/Documents/github/ProgrammerAssistor/temp"));
+//            factory.setRepository(new File("/Users/u/Documents/NetBeansProject/ProgrammerAssistor/temp"));
 
             // 创建一个新的文件上传处理程序
             ServletFileUpload upload = new ServletFileUpload(factory);

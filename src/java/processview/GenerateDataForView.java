@@ -49,6 +49,7 @@ public class GenerateDataForView {
 //            System.out.println("topics: ");
 //            System.out.println(System.getProperty("user.dir")); 
             String outputJsonPath = "/Users/wangtianxia1/Documents/github/ProgrammerAssistor/Web/topics.json";
+//            String outputJsonPath = "/Users/u/Documents/NetBeansProject/ProgrammerAssistor/Web/topics.json";
             File outputJson = new File(outputJsonPath);
             if (outputJson.createNewFile()) {
                 System.out.println(outputJson.getName() + " create successful...");
