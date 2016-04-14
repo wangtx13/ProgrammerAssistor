@@ -59,8 +59,8 @@ public class PreProcess {
         //Create a new folder
 //        System.out.println("lalala");
 //        System.out.println(System.getProperty("user.dir"));  
-        String folderPath = "/Users/wangtianxia1/Documents/github/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
-//        String folderPath = "/Users/u/Documents/NetBeansProject/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
+//        String folderPath = "/Users/wangtianxia1/Documents/github/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
+        String folderPath = "/Users/u/Documents/github/ProgrammerAssistor/output/PreProcess-" + timeStampStr + "/";
         createDir(folderPath);
            
         File inputRootFile = new File(inputRootFilePath);
